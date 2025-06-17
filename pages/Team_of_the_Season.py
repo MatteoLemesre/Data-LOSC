@@ -3,7 +3,7 @@ import pandas as pd
 import os
 import re
 
-DATA_PATH = ""
+DATA_PATH = "csv"
 NOTES_PLAYERS_PATH = os.path.join(DATA_PATH, "notes", "data_players.csv")
 NOTES_GOALS_PATH = os.path.join(DATA_PATH, "notes", "data_goals.csv")
 AGG_PLAYERS_PATH = os.path.join(DATA_PATH, "centiles", "data_players_aggregated.csv")

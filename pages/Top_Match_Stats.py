@@ -4,7 +4,7 @@ import os
 
 st.set_page_config(page_title="Top Matchs stats")
 
-path_folder = ""
+path_folder = "csv"
 
 match_path_template = os.path.join(path_folder, "leagues_games", "{}_games.csv")
 data_clean_players_path = os.path.join(path_folder, "clean", "data_players.csv")

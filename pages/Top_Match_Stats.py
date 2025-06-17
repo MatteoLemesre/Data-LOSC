@@ -99,7 +99,7 @@ if selected_positions and selected_stat and selected_leagues:
         [
             "Player",
             selected_stat,
-            "Rating",        
+            "Rate",        
             "Score",
             "Team",
             "Opponent",
@@ -110,6 +110,7 @@ if selected_positions and selected_stat and selected_leagues:
     ].rename(columns={
         selected_stat: "Value",
         "Team": "Club",
+        "Rate": "Rating",
         "Opponent": "Opponent",
         "Score": "Score",
         "League": "League",

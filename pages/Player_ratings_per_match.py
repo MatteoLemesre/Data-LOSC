@@ -59,12 +59,12 @@ for df in [df_home, df_away]:
     if "ID" in df.columns:
         df.drop(columns=["ID"], inplace=True)
 
-df_home_sorted = df_home.sort_values(by="Rating", ascending=False)
-df_away_sorted = df_away.sort_values(by="Rating", ascending=False)
+df_home_sorted = df_home.sort_values(by="Rate", ascending=False)
+df_away_sorted = df_away.sort_values(by="Rate", ascending=False)
 
 def add_average(df):
-    avg = round(df["Rating"].mean(), 2)
-    df_result = df[["Player", "Rating"]].copy()
+    avg = round(df["Rate"].mean(), 2)
+    df_result = df[["Player", "Rate"]].copy()
     df_result = df_result.set_index("Player")
     df_result.loc["Average"] = avg
     return df_result

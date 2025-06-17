@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import os
 
-DATA_PATH = ""
+DATA_PATH = "csv"
 LEAGUES_PATH = os.path.join(DATA_PATH, "leagues_games")
 NOTES_PLAYERS_PATH = os.path.join(DATA_PATH, "notes", "data_players.csv")
 NOTES_GOALS_PATH = os.path.join(DATA_PATH, "notes", "data_goals.csv")

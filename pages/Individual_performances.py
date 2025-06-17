@@ -23,7 +23,6 @@ def get_features_for_players(positions):
                 'Successful Take-Ons',
                 'Dribbles Challenged',
                 'Fouls Drawn',
-                'Touches in Attacking Penalty Area',
                 'Touches in Attacking Third'
             ])
         elif pos == 'MO':
@@ -46,10 +45,8 @@ def get_features_for_players(positions):
         elif pos == 'MF':
             features.update([
                 'Passes Completed',
-                'Passes Attempted',
                 'Progressive Passes',
                 'Interceptions',
-                'Tackles',
                 'Tackles Won',
                 'Blocks',
                 'Ball Recoveries',
@@ -57,9 +54,7 @@ def get_features_for_players(positions):
                 'Fouls Committed',
                 'Fouls Drawn',
                 'Yellow Cards',
-                'Red Cards',
-                'Touches in Middle Third',
-                'Touches in Defensive Third'
+                'Touches in Middle Third'
             ])
         elif pos == 'DF':
             features.update([
@@ -73,9 +68,7 @@ def get_features_for_players(positions):
                 'Errors Leading to Shot',
                 'Fouls Committed',
                 'Yellow Cards',
-                'Red Cards',
-                'Touches in Defensive Third',
-                'Touches in Defensive Penalty Area'
+                'Touches'
             ])
     return list(features)
 
@@ -87,13 +80,8 @@ def get_features_for_goalkeepers():
         'Save Efficiency',
         'Clean Sheets',
         'Completed Long Passes',
-        'Attempted Long Passes',
-        'Crosses Faced',
         'Crosses Stopped',
         'Defensive Actions Outside Penalty Area',
-        'Pass Length',
-        'Goal Kick Length',
-        'Distance of Defensive Actions'
     ]
 
 def get_features(positions):

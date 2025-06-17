@@ -4,7 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import os
 
-path_folder = ""
+path_folder = "csv"
 
 def get_features_for_players(positions):
     features = set()

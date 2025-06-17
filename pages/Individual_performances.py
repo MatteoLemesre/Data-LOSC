@@ -105,14 +105,14 @@ def get_average_scores(position):
     else:
         df_scores = pd.read_csv(os.path.join(path_folder, "ratings/data_players.csv"))
 
-    df_scores = df_scores.dropna(subset=['Rating', 'Minutes'])
-    df_scores['Rating'] = pd.to_numeric(df_scores['Rating'], errors='coerce')
+    df_scores = df_scores.dropna(subset=['Rate', 'Minutes'])
+    df_scores['Rate'] = pd.to_numeric(df_scores['Rate'], errors='coerce')
     df_scores['Minutes'] = pd.to_numeric(df_scores['Minutes'], errors='coerce')
 
     df_scores = df_scores[df_scores['Minutes'] > 0]
 
-    avg_simple = df_scores.groupby('Player')['Rating'].mean().reset_index()
-    avg_simple.rename(columns={'Rating': 'Average Rating'}, inplace=True)
+    avg_simple = df_scores.groupby('Player')['Rate'].mean().reset_index()
+    avg_simple.rename(columns={'Rate': 'Average Rating'}, inplace=True)
 
     return avg_simple
 

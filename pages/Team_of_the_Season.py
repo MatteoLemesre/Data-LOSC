@@ -12,7 +12,7 @@ AGG_GOALS_PATH = os.path.join(DATA_PATH, "centiles", "data_goals_aggregated.csv"
 df_players = pd.read_csv(NOTES_PLAYERS_PATH)
 df_goalkeepers = pd.read_csv(NOTES_GOALS_PATH)
 df_total = pd.concat([df_players, df_goalkeepers], ignore_index=True)
-df_total.dropna(subset=["Rating"], inplace=True)
+df_total.dropna(subset=["Rate"], inplace=True)
 
 def extract_matchday_num(j):
     match = re.match(r"J(\d+)", str(j))

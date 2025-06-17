@@ -119,8 +119,8 @@ def get_average_scores(position):
 st.set_page_config(page_title="Individual Performances")
 st.sidebar.title("Select Parameters")
 
-df_scores_1 = pd.read_csv(os.path.join(path_folder, "notes/data_players.csv"))
-df_scores_2 = pd.read_csv(os.path.join(path_folder, "notes/data_goals.csv"))
+df_scores_1 = pd.read_csv(os.path.join(path_folder, "ratings/data_players.csv"))
+df_scores_2 = pd.read_csv(os.path.join(path_folder, "ratings/data_goals.csv"))
 df_scores = pd.concat([df_scores_1, df_scores_2], ignore_index=True)
 
 positions = st.sidebar.multiselect("Positions", df_scores['Position'].unique())

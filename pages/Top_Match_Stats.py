@@ -2,83 +2,109 @@ import streamlit as st
 import pandas as pd
 import os
 
-st.set_page_config(page_title="Top Matchs stats")
+# --- Define stats by player position ---
+def get_player_stats(positions):
+    stats = set()
+    for pos in positions:
+        if pos == 'FW':
+            stats.update([
+                'Goals', 'Assists', 'Shots on Target', 'Expected Goals (xG)',
+                'Shot-Creating Actions (SCA)', 'Goal-Creating Actions (GCA)', 'Key Passes',
+                'Passes into Final Third', 'Passes into Penalty Area', 'Progressive Passes',
+                'Successful Take-Ons', 'Crosses', 'Expected Assists (xA)',
+                'Carries into Final Third', 'Carries into Penalty Area'
+            ])
+        elif pos == 'MF':
+            stats.update([
+                'Assists', 'Key Passes',
+                'Passes Completed (Short)', 'Passes Completed (Medium)', 'Passes Completed (Long)',
+                'Progressive Passes', 'Through Balls', 'Switches', 'Successful Take-Ons',
+                'Tackles Won', 'Interceptions', 'Blocks', 'Ball Recoveries', 'Carries', 'Progressive Carries'
+            ])
+        elif pos == 'DF':
+            stats.update([
+                'Clearances', 'Blocks', 'Interceptions', 'Tackles Won', 'Aerials Won',
+                'Ball Recoveries', 'Errors Leading to Shot',
+                'Passes Completed (Short)', 'Passes Completed (Medium)', 'Passes Completed (Long)',
+                'Progressive Passes', 'Tackles in Defensive Third', 'Dribblers Tackled',
+                'Shots Blocked', 'Passes Blocked'
+            ])
+    return list(stats)
 
-path_folder = "csv/csv24_25"
-
-match_path_template = os.path.join(path_folder, "leagues_games", "{}_games.csv")
-data_clean_players_path = os.path.join(path_folder, "clean", "data_players.csv")
-data_clean_goals_path = os.path.join(path_folder, "clean", "data_goals.csv")
-data_notes_players_path = os.path.join(path_folder, "ratings", "data_players.csv")
-data_notes_goals_path = os.path.join(path_folder, "ratings", "data_goals.csv")
-
-df_players = pd.read_csv(data_clean_players_path)
-df_goals = pd.read_csv(data_clean_goals_path)
-df_notes_players = pd.read_csv(data_notes_players_path)
-df_notes_goals = pd.read_csv(data_notes_goals_path)
-
-STATS_PLAYERS = [
-    col for col in df_players.columns if col not in [
-        "Player", "Game Week", "Team", "League", "Minutes", "Age", "Position", "Nationality"
+def get_goalkeeper_stats():
+    return [
+        'Goals Against', 'Saves', 'Save Efficiency', 'Completed Long Passes',
+        'Crosses Stopped', 'Defensive Actions Outside Penalty Area'
     ]
-]
 
-STATS_GOALS = [
-    col for col in df_goals.columns if col not in [
-        "Player", "Game Week", "Team", "League", "Minutes", "Age", "Nationality", "Position"
-    ]
-]
+# --- Streamlit page configuration ---
+st.set_page_config(page_title="Top Match Stats")
 
+# --- Load all file paths ---
+path_folder = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "csv", "csv24_25"))
+paths = {
+    "games": os.path.join(path_folder, "leagues_games", "{}_games.csv"),
+    "clean_players": os.path.join(path_folder, "clean", "data_players.csv"),
+    "clean_goals": os.path.join(path_folder, "clean", "data_goals.csv"),
+    "ratings_players": os.path.join(path_folder, "ratings", "data_players.csv"),
+    "ratings_goals": os.path.join(path_folder, "ratings", "data_goals.csv"),
+}
+
+# --- Load datasets ---
+df_players = pd.read_csv(paths["clean_players"])
+df_goals = pd.read_csv(paths["clean_goals"])
+df_notes_players = pd.read_csv(paths["ratings_players"])
+df_notes_goals = pd.read_csv(paths["ratings_goals"])
+
+# --- Combine player & goalkeeper data ---
 df_goals["Position"] = "GK"
-df_combined = pd.concat([df_players, df_goals], ignore_index=True)
+df_all = pd.concat([df_players, df_goals], ignore_index=True)
+df_notes = pd.concat([df_notes_players, df_notes_goals], ignore_index=True)
 
-df_notes_combined = pd.concat([df_notes_players, df_notes_goals], ignore_index=True)
+# --- Merge with ratings ---
+df = df_all.merge(df_notes, on=["Player", "Game Week", "Team", "League", "Minutes", "Position"], how="left")
 
-df = df_combined.merge(
-    df_notes_combined,
-    on=["Player", "Game Week", "Team", "League", "Minutes", "Position"],
-    how="left"
-)
-
+# --- Sidebar selections ---
 st.sidebar.title("Select Parameters")
+positions = st.sidebar.multiselect("Position", df_all["Position"].unique())
 
-selected_positions = st.sidebar.multiselect("Position", df_combined["Position"].unique())
-
-if set(selected_positions) == {"GK"}:
-    stats_available = STATS_GOALS
+# --- Filter stats by position ---
+if set(positions) == {"GK"}:
+    stats_list = get_goalkeeper_stats()
     df = df[df["Position"] == "GK"]
 else:
-    stats_available = STATS_PLAYERS
-    df = df[df["Position"].isin(selected_positions)]
+    stats_list = get_player_stats(positions)
+    df = df[df["Position"].isin(positions)]
 
-selected_stat = st.sidebar.selectbox("Statistic to display", sorted(stats_available))
+# --- Select stat and number of top players ---
+stat = st.sidebar.selectbox("Statistic to display", sorted(stats_list))
+n = st.sidebar.slider("Number of top performances to display", 5, 100, 20)
 
-num_players = st.sidebar.slider("Number of top performances to display", min_value=5, max_value=100, value=20)
-
-available_leagues = sorted(df["League"].dropna().unique())
+# --- Filter leagues ---
+leagues = sorted(df["League"].dropna().unique())
 all_leagues = st.sidebar.checkbox("All leagues", value=True)
-selected_leagues = available_leagues if all_leagues else [st.sidebar.selectbox("Choose a league", available_leagues)]
+selected_leagues = leagues if all_leagues else [st.sidebar.selectbox("Choose a league", leagues)]
 
 df = df[df["League"].isin(selected_leagues)]
-df = df[df[selected_stat].notna()]
+if stat and stat in df.columns:
+    df = df[df[stat].notna()]
 
-games_dfs = {}
-for league in df["League"].unique():
+# --- Load games by league ---
+games = {}
+for lg in df["League"].unique():
     try:
-        games_dfs[league] = pd.read_csv(match_path_template.format(league))
+        games[lg] = pd.read_csv(paths["games"].format(lg))
     except FileNotFoundError:
         continue
 
-def get_opponent_and_score(row):
-    league = row["League"]
-    game_week = row["Game Week"]
-    team = row["Team"]
-
-    df_games = games_dfs.get(league)
-    if df_games is None:
+# --- Get opponent and score for each match ---
+def get_opponent_score(row):
+    lg, gw, team = row["League"], row["Game Week"], row["Team"]
+    match_df = games.get(lg)
+    if match_df is None:
         return pd.Series(["Unknown", "N/A"])
 
-    match = df_games[df_games["Game Week"] == game_week]
+    match = match_df[match_df["Game Week"] == gw]
     for _, m in match.iterrows():
         if m["Home Team"] == team:
             return pd.Series([m["Away Team"], m["Score"]])
@@ -86,36 +112,22 @@ def get_opponent_and_score(row):
             return pd.Series([m["Home Team"], m["Score"]])
     return pd.Series(["Unknown", "N/A"])
 
+# --- Main display ---
 st.title("📈 Top Individual Performances")
 
-if selected_positions and selected_stat and selected_leagues:
-    df[["Opponent", "Score"]] = df.apply(get_opponent_and_score, axis=1)
+if positions and stat and selected_leagues:
+    df[["Opponent", "Score"]] = df.apply(get_opponent_score, axis=1)
+    df = df[df[stat].notna() & df["Score"].notna()]
+    df_top = df.sort_values(by=stat, ascending=False).head(n)
 
-    df = df[df[selected_stat].notna() & df["Score"].notna()]
-
-    df_sorted = df.sort_values(by=selected_stat, ascending=False).head(num_players)
-
-    df_display = df_sorted[
-        [
-            "Player",
-            selected_stat,
-            "Rating",        
-            "Score",
-            "Team",
-            "Opponent",
-            "League",
-            "Game Week",
-            "Minutes"
-        ]
-    ].rename(columns={
-        selected_stat: "Value",
+    df_display = df_top[[
+        "Player", stat, "Rating", "Score", "Team", "Opponent",
+        "League", "Game Week", "Minutes"
+    ]].rename(columns={
+        stat: "Value",
         "Team": "Club",
-        "Opponent": "Opponent",
-        "Score": "Score",
-        "League": "League",
         "Game Week": "Game Week",
         "Minutes": "Minutes Played"
     })
 
-    df_display = df_display.set_index("Player")
-    st.dataframe(df_display, use_container_width=True)
+    st.dataframe(df_display.set_index("Player"), use_container_width=True)

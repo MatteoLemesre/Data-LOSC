@@ -3,83 +3,85 @@ import pandas as pd
 import os
 import re
 
-DATA_PATH = "csv/csv24_25"
-NOTES_PLAYERS_PATH = os.path.join(DATA_PATH, "ratings", "data_players.csv")
-NOTES_GOALS_PATH = os.path.join(DATA_PATH, "ratings", "data_goals.csv")
-AGG_PLAYERS_PATH = os.path.join(DATA_PATH, "centiles", "data_players_aggregated.csv")
-AGG_GOALS_PATH = os.path.join(DATA_PATH, "centiles", "data_goals_aggregated.csv")
+# --- Define file paths ---
+path_folder = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "csv", "csv24_25"))
+ratings_players_path = os.path.join(path_folder, "ratings", "data_players.csv")
+ratings_goalkeepers_path = os.path.join(path_folder, "ratings", "data_goals.csv")
+agg_players_path = os.path.join(path_folder, "centiles", "data_players_aggregated.csv")
+agg_goalkeepers_path = os.path.join(path_folder, "centiles", "data_goals_aggregated.csv")
 
-df_players = pd.read_csv(NOTES_PLAYERS_PATH)
-df_goalkeepers = pd.read_csv(NOTES_GOALS_PATH)
-df_total = pd.concat([df_players, df_goalkeepers], ignore_index=True)
-df_total.dropna(subset=["Rating"], inplace=True)
+# --- Load and merge data ---
+df_players = pd.read_csv(ratings_players_path)
+df_goalkeepers = pd.read_csv(ratings_goalkeepers_path)
+df_all = pd.concat([df_players, df_goalkeepers], ignore_index=True)
+df_all.dropna(subset=["Rating"], inplace=True)
 
+# --- Helper to sort matchdays numerically ---
 def extract_matchday_num(j):
     match = re.match(r"J(\d+)", str(j))
     return int(match.group(1)) if match else -1
 
-available_matchdays = sorted(
-    df_total["Game Week"].dropna().unique(),
-    key=lambda x: extract_matchday_num(x)
-)
+matchdays = sorted(df_all["Game Week"].dropna().unique(), key=extract_matchday_num)
+
+# --- Streamlit page config ---
 st.set_page_config(page_title="Team of the Season")
 st.sidebar.title("Select Parameters")
 
-available_leagues = sorted(df_total["League"].unique())
+# --- Sidebar filters ---
+leagues = sorted(df_all["League"].unique())
 all_leagues = st.sidebar.checkbox("All leagues", value=True)
-selected_leagues = available_leagues if all_leagues else [st.sidebar.selectbox("Choose a league", available_leagues)]
+selected_leagues = leagues if all_leagues else [st.sidebar.selectbox("Choose a league", leagues)]
 
 all_matchdays = st.sidebar.checkbox("All matchdays", value=True)
-selected_matchdays = available_matchdays if all_matchdays else [st.sidebar.selectbox("Choose a matchday", available_matchdays)]
+selected_matchdays = matchdays if all_matchdays else [st.sidebar.selectbox("Choose a matchday", matchdays)]
 
-num_players = st.sidebar.slider("Number of players to display", min_value=5, max_value=100, value=40)
-min_matches = st.sidebar.slider("Minimum matches played", min_value=1, max_value=50, value=25)
-min_minutes_percentage = st.sidebar.slider("Minimum percentage of minutes played", min_value=0, max_value=100, value=70)
+top_n = st.sidebar.slider("Number of players to display", 5, 100, 40)
+min_matches = st.sidebar.slider("Minimum matches played", 1, 50, 25)
+min_minutes_pct = st.sidebar.slider("Minimum percentage of minutes played", 0, 100, 70)
 
-df_filtered = df_total[
-    (df_total["League"].isin(selected_leagues)) &
-    (df_total["Game Week"].isin(selected_matchdays))
+# --- Filter data by league and matchday ---
+df_filtered = df_all[
+    (df_all["League"].isin(selected_leagues)) &
+    (df_all["Game Week"].isin(selected_matchdays))
 ]
 
-df_grouped = df_filtered.groupby("Player", as_index=False).agg({
-    "Rate": "mean"
-}).rename(columns={"Rate": "Average Rating"})
+# --- Compute average ratings ---
+df_avg = df_filtered.groupby("Player", as_index=False)["Rating"].mean().rename(columns={"Rating": "Average Rating"})
 
-clubs_per_player = df_total.groupby("Player")["Team"].apply(lambda x: ", ".join(sorted(set(x)))).reset_index()
-leagues_per_player = df_total.groupby("Player")["League"].apply(lambda x: ", ".join(sorted(set(x)))).reset_index()
+# --- Add club and league info ---
+clubs = df_all.groupby("Player")["Team"].apply(lambda x: ", ".join(sorted(set(x)))).reset_index()
+leagues_info = df_all.groupby("Player")["League"].apply(lambda x: ", ".join(sorted(set(x)))).reset_index()
 
-df_grouped = df_grouped.merge(clubs_per_player, on="Player", how="left")
-df_grouped = df_grouped.merge(leagues_per_player, on="Player", how="left")
+df_avg = df_avg.merge(clubs, on="Player", how="left").merge(leagues_info, on="Player", how="left")
 
-df_agg_players = pd.read_csv(AGG_PLAYERS_PATH)[["Player", "Minutes", "Matches"]]
-df_agg_goalkeepers = pd.read_csv(AGG_GOALS_PATH)[["Player", "Minutes", "Matches"]]
-df_agg_total = pd.concat([df_agg_players, df_agg_goalkeepers], ignore_index=True)
+# --- Load minutes & matches played ---
+df_minutes = pd.read_csv(agg_players_path)[["Player", "Minutes", "Matches"]]
+df_minutes_gk = pd.read_csv(agg_goalkeepers_path)[["Player", "Minutes", "Matches"]]
+df_minutes_total = pd.concat([df_minutes, df_minutes_gk], ignore_index=True)
 
-df_agg_total = df_agg_total.groupby("Player", as_index=False).agg({
-    "Minutes": "sum",
-    "Matches": "sum"
-})
+df_minutes_total = df_minutes_total.groupby("Player", as_index=False).sum()
+df_avg = df_avg.merge(df_minutes_total, on="Player", how="left")
 
-df_grouped = df_grouped.merge(df_agg_total, on="Player", how="left")
+# --- Compute % minutes played ---
+df_avg["% Minutes Played"] = 100 * df_avg["Minutes"] / (df_avg["Matches"] * 90)
+df_avg["% Minutes Played"] = df_avg["% Minutes Played"].round(1)
 
-df_grouped["% Minutes Played"] = 100 * df_grouped["Minutes"] / (df_grouped["Matches"] * 90)
-df_grouped["% Minutes Played"] = df_grouped["% Minutes Played"].round(1)
-
-df_grouped = df_grouped[
-    (df_grouped["Matches"] >= min_matches) &
-    (df_grouped["% Minutes Played"] >= min_minutes_percentage)
+# --- Filter by participation thresholds ---
+df_avg = df_avg[
+    (df_avg["Matches"] >= min_matches) &
+    (df_avg["% Minutes Played"] >= min_minutes_pct)
 ]
 
-df_grouped["Average Rating"] = df_grouped["Average Rating"].round(2)
+# --- Round ratings and get top N ---
+df_avg["Average Rating"] = df_avg["Average Rating"].round(2)
+df_top = df_avg.sort_values(by="Average Rating", ascending=False).head(top_n)
 
-df_result = df_grouped.sort_values(by="Average Rating", ascending=False).head(num_players)
-
+# --- Display ---
 st.title("📊 Top Players")
-
-df_result.set_index("Player", inplace=True)
+df_top.set_index("Player", inplace=True)
 
 st.dataframe(
-    df_result[[
+    df_top[[
         "Average Rating", "Matches", "Minutes", "% Minutes Played", "Team", "League"
     ]].rename(columns={
         "Team": "Club(s)",

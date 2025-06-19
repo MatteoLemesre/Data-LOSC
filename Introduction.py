@@ -3,13 +3,10 @@ import streamlit as st
 
 st.set_page_config(page_title="Home - Data LOSC", page_icon="⚽")
 
-st.title("⚽ Data LOSC - Dashboard")
+st.title("⚽ Data LOSC")
 
-st.markdown("""
-# 👋 Welcome to the **Data LOSC Dashboard**
-
-I'm **Matteo LEMESRE**, 22 years old, currently in my final year at **Centrale Nantes**.  
-I'm passionate about **data analysis**, **data science**, and of course — **football**, especially as a dedicated **Lille OSC** supporter.
+st.markdown("""I'm **Matteo LEMESRE**, 22 years old, currently in my final year at **Centrale Nantes**.  
+I'm passionate about **data analysis**, **data science**, and **football**, especially as a dedicated **Lille OSC** supporter.
 
 ---
 
@@ -56,6 +53,13 @@ This dashboard brings together **statistics**, **visuals**, and **contextual ins
 > Find the **best individual performances** in a single match for any stat of your choice.
 
 📍 *Page: `Top Match Stats`*
+
+---
+
+### 🧮 **5. Top Season Stats**
+> Compare the **best stats** across all players, with the option to display **raw totals** or normalize stats **per 90 minutes**.
+
+📍 *Page: `Top Season Stats`*
 
 ---
 

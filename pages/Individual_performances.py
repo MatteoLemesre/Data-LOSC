@@ -20,13 +20,13 @@ def get_features_for_players(positions):
         elif pos == 'MF':
             features.update([
                 'Passes Completed', 'Progressive Passes', 'Interceptions', 'Tackles Won', 
-                'Blocks', 'Ball Recoveries', 'Errors Leading to Shot', 
+                'Blocks', 'Ball Recoveries', 'Key Passes', 
                 'Fouls Committed', 'Fouls Drawn', 'Touches in Middle Third'
             ])
         elif pos == 'DF':
             features.update([
                 'Clearances', 'Blocks', 'Interceptions', 'Tackles Won', 'Aerials Won', 
-                'Errors Leading to Shot', 'Fouls Committed', 'Passes Completed', 
+                'Touches', 'Fouls Committed', 'Passes Completed', 
                 'Progressive Passes', 'Ball Recoveries'
             ])
     return list(features)
@@ -34,7 +34,6 @@ def get_features_for_players(positions):
 def get_features_for_goalkeepers():
     return ['Goals Against', 'Saves', 'Save Efficiency', 'Clean Sheets', 'Completed Long Passes', 'Crosses Stopped', 
             'Defensive Actions Outside Penalty Area']
-
 
 def get_features(positions):
     if 'GK' in positions:
@@ -77,8 +76,8 @@ df_scores_players = pd.read_csv(os.path.join(path_folder, "ratings/data_players.
 df_scores_goalkeepers = pd.read_csv(os.path.join(path_folder, "ratings/data_goals.csv"))
 df_scores = pd.concat([df_scores_players, df_scores_goalkeepers], ignore_index=True)
 
+# --- Position selection ---
 positions = st.sidebar.multiselect("Positions", df_scores['Position'].unique())
-
 df_radar = get_df(positions) if positions else pd.DataFrame()
 selected_features = get_features(positions) if positions else []
 
@@ -102,16 +101,22 @@ st.subheader("📋 Global Player Statistics")
 # --- Display global stats for selected players ---
 if selected_players:
     df_global = df_global[df_global['Player'].isin(selected_players)]
+
+    df_global = df_global.groupby('Player', as_index=False).sum()
+
     df_averages = get_average_scores(positions)
     df_global = df_global.merge(df_averages, on='Player', how='left')
 
-    if 'GK' in positions:
-        cols_to_show = ['Player', 'Average Rating', 'Matches', 'Minutes', 'Goals Against', 'Clean Sheets']
+    if df_global.empty:
+        st.warning("Aucune donnée disponible pour les joueurs sélectionnés.")
     else:
-        cols_to_show = ['Player', 'Average Rating', 'Matches', 'Minutes', 'Goals', 'Assists', 'Yellow Cards', 'Red Cards']
+        if 'GK' in positions:
+            cols_to_show = ['Player', 'Average Rating', 'Matches', 'Minutes', 'Goals Against', 'Clean Sheets']
+        else:
+            cols_to_show = ['Player', 'Average Rating', 'Matches', 'Minutes', 'Goals', 'Assists', 'Yellow Cards', 'Red Cards']
 
-    df_display = df_global[cols_to_show].set_index('Player').sort_values('Average Rating', ascending=False).round(2)
-    st.dataframe(df_display, use_container_width=True)
+        df_display = df_global[cols_to_show].set_index('Player').sort_values('Average Rating', ascending=False).round(2)
+        st.dataframe(df_display, use_container_width=True)
 
 # --- Radar plot function ---
 def plot_radar(players_data, features, players):
@@ -141,6 +146,6 @@ st.subheader("📌 Player Radar Statistics")
 if selected_players and selected_features:
     plot_radar(df_radar, selected_features, selected_players)
     df_selected = df_radar[df_radar["Player"].isin(selected_players)][["Player"] + selected_features].set_index("Player")
-
+    
     st.subheader("📈 Player Percentiles")
     st.dataframe(df_selected.T)

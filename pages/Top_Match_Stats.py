@@ -3,33 +3,24 @@ import pandas as pd
 import os
 
 # --- Define stats by player position ---
-def get_player_stats(positions):
-    stats = set()
-    for pos in positions:
-        if pos == 'FW':
-            stats.update([
-                'Goals', 'Assists', 'Shots on Target', 'Expected Goals (xG)',
-                'Shot-Creating Actions (SCA)', 'Goal-Creating Actions (GCA)', 'Key Passes',
-                'Passes into Final Third', 'Passes into Penalty Area', 'Progressive Passes',
-                'Successful Take-Ons', 'Crosses', 'Expected Assists (xA)',
-                'Carries into Final Third', 'Carries into Penalty Area'
-            ])
-        elif pos == 'MF':
-            stats.update([
-                'Assists', 'Key Passes',
-                'Passes Completed (Short)', 'Passes Completed (Medium)', 'Passes Completed (Long)',
-                'Progressive Passes', 'Through Balls', 'Switches', 'Successful Take-Ons',
-                'Tackles Won', 'Interceptions', 'Blocks', 'Ball Recoveries', 'Carries', 'Progressive Carries'
-            ])
-        elif pos == 'DF':
-            stats.update([
-                'Clearances', 'Blocks', 'Interceptions', 'Tackles Won', 'Aerials Won',
-                'Ball Recoveries', 'Errors Leading to Shot',
-                'Passes Completed (Short)', 'Passes Completed (Medium)', 'Passes Completed (Long)',
-                'Progressive Passes', 'Tackles in Defensive Third', 'Dribblers Tackled',
-                'Shots Blocked', 'Passes Blocked'
-            ])
-    return list(stats)
+def get_player_stats():
+    return["Goals", "Assists", "Shots Total", "Shots on Target",
+            "Expected Goals (xG)", "Non-Penalty Expected Goals (npxG)",
+            "Shot-Creating Actions (SCA)", "Goal-Creating Actions (GCA)",
+            "Key Passes", "Passes into Final Third", "Passes into Penalty Area",
+            "Crosses into Penalty Area", "Crosses", "Expected Assists (xA)",
+            "Expected Assisted Goals (xAG)", "Passes Completed", 
+            "Progressive Passes", "Through Balls", "Switches", 
+            "Passes Offside",  "Passes Completed (Short)", 
+            "Passes Completed (Medium)", "Passes Completed (Long)", "Carries", "Progressive Carries",
+            "Carries into Final Third", "Carries into Penalty Area", "Successful Take-Ons", 
+            "Tackles Won", "Dribblers Tackled", "Interceptions", 
+            "Clearances", "Errors Leading to Shot", 
+            "Touches", "Touches in Defensive Penalty Area", "Touches in Defensive Third",
+            "Touches in Middle Third", "Touches in Attacking Third",
+            "Touches in Attacking Penalty Area", "Live-Ball Touches", "Fouls Drawn", "Offsides", "Own Goals",
+            "Aerials Won", 
+            ]
 
 def get_goalkeeper_stats():
     return [
@@ -73,7 +64,7 @@ if set(positions) == {"GK"}:
     stats_list = get_goalkeeper_stats()
     df = df[df["Position"] == "GK"]
 else:
-    stats_list = get_player_stats(positions)
+    stats_list = get_player_stats()
     df = df[df["Position"].isin(positions)]
 
 # --- Select stat and number of top players ---
@@ -121,10 +112,10 @@ if positions and stat and selected_leagues:
     df_top = df.sort_values(by=stat, ascending=False).head(n)
 
     df_display = df_top[[
-        "Player", stat, "Rating", "Score", "Team", "Opponent",
-        "League", "Game Week", "Minutes"
+        "Player", stat, "Rating", "Minutes", "Score", "Team", "Opponent",
+        "League", "Game Week"
     ]].rename(columns={
-        stat: "Value",
+        stat: stat,
         "Team": "Club",
         "Game Week": "Game Week",
         "Minutes": "Minutes Played"

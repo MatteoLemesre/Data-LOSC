@@ -1,3 +1,8 @@
+## Project Overview
+
+I'm **Matteo LEMESRE**, 22 years old, currently in my final year at **Centrale Nantes**.  
+I'm passionate about **data analysis**, **data science**, and **football**, especially as a dedicated **Lille OSC** supporter.
+
 This dashboard is a **personal data science project** built to **analyze, compare, and visualize football player performances**.
 
 It is the result of a complete **end-to-end workflow**, including:

@@ -103,10 +103,13 @@ else:
 df_grouped = df_grouped[df_grouped["Minutes"] >= min_minutes]
 
 # --- Ratings / Clubs / Leagues ---
-df_avg_rating = df_notes.groupby("Player", as_index=False)["Rating"].mean().rename(columns={"Rating": "Average Rating"})
+df_notes_filtered = df_notes[df_notes["League"].isin(selected_leagues)]
+
+df_avg_rating = df_notes_filtered.groupby("Player", as_index=False)["Rating"].mean().rename(columns={"Rating": "Average Rating"})
 df_avg_rating["Average Rating"] = df_avg_rating["Average Rating"].round(2)
-df_club = df_notes.groupby("Player")["Team"].apply(lambda x: ", ".join(sorted(set(x)))).reset_index()
-df_league = df_notes.groupby("Player")["League"].apply(lambda x: ", ".join(sorted(set(x)))).reset_index()
+
+df_club = df_notes_filtered.groupby("Player")["Team"].apply(lambda x: ", ".join(sorted(set(x)))).reset_index()
+df_league = df_notes_filtered.groupby("Player")["League"].apply(lambda x: ", ".join(sorted(set(x)))).reset_index()
 
 df_final = df_grouped.merge(df_avg_rating, on="Player", how="left") \
                      .merge(df_club, on="Player", how="left") \

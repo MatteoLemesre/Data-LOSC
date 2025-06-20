@@ -1,5 +1,3 @@
-## Project Overview
-
 I'm **Matteo LEMESRE**, 22 years old, currently in my final year at **Centrale Nantes**.  
 I'm passionate about **data analysis**, **data science**, and **football**, especially as a dedicated **Lille OSC** supporter.
 

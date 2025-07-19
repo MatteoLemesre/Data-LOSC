@@ -151,7 +151,6 @@ if season_code:
             if selected_players:
                 df_global = df_global[df_global['Player'].isin(selected_players)]
                 
-                # 👇 ADAPTATION OthersLeagues : conditionner les ratings
                 show_ratings = leagues_name == "TopLeagues"
 
                 if show_ratings:
@@ -177,7 +176,6 @@ if season_code:
                     df_display = df_global_agg[columns].set_index('Player').round(2)
                     st.dataframe(df_display, use_container_width=True)
 
-                # 👇 RADARS + Stats toujours affichés pour tous
                 st.subheader("📌 Player Radar Statistics")
                 if selected_players and selected_features:
                     plot_radar(df_radar, selected_features, selected_players)

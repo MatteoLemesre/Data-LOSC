@@ -1,0 +1,410 @@
+Player,Nation,Position,Squad,Age,Born,Matches Played,Starts,Minutes Played,Goals Against,Shots on Target Against,Saves,Clean Sheets,Penalty Kicks Attempted,Penalty Kicks Allowed,Penalty Kicks Saved,Penalty Kicks Missed,Post-Shot Expected Goals,Launched Passes Completed,Launched Passes Attempted,Passes Attempted (GK),Through Balls,Goal Kicks Attempted,Crosses Opposed,Crosses Stopped,Sweeper Actions
+Emil Audero,id IDN,GK,Como,27,1997,8,8,720,18,34,16,0,4,4,0,0,12.4,17,55,232,30,21,95,5,8
+Ben Alexander Voll,de GER,GK,St. Pauli,23,2000,2,1,91,2,5,3,0,0,0,0,0,2.4,7,28,37,5,13,15,0,0
+Adrián,es ESP,GK,Betis,37,1987,19,19,1710,27,76,49,3,1,1,0,0,26.0,58,178,507,91,109,257,14,16
+Dimitry Bertaud,cd COD,GK,Montpellier,26,1998,4,4,360,11,21,10,0,2,2,0,0,8.8,20,47,86,19,27,55,8,3
+Alisson,br BRA,GK,eng Liverpool,31,1992,6,6,570,3,27,24,3,0,0,0,0,6.6,34,87,222,25,21,63,4,7
+Sławomir Abramowicz,pl POL,GK,pl Jagiellonia,20,2004,12,12,1080,12,46,35,4,0,0,0,0,0,0,0,0,0,0,0,0,0
+Julen Agirrezabala,es ESP,GK,es Athletic Club,23,2000,13,13,1170,17,45,28,5,3,3,0,0,17.5,54,145,257,37,53,113,6,14
+Alisson,br BRA,GK,Liverpool,31,1992,28,28,2508,29,100,73,9,1,1,0,0,30.5,68,203,877,128,80,255,11,49
+Marco Bizot,nl NED,GK,Brest,33,1991,32,32,2880,54,128,74,10,10,8,1,1,46.2,218,522,902,134,216,459,33,53
+David von Ballmoos,ch SUI,GK,ch Young Boys,29,1994,4,4,360,15,29,13,0,1,0,1,0,9.5,23,67,127,9,23,59,1,4
+Brandon Austin,eng ENG,GK,eng Tottenham,25,1999,2,2,180,2,5,3,1,0,0,0,0,2.9,5,8,44,10,7,38,3,2
+Noah Atubolu,de GER,GK,Freiburg,22,2002,26,26,2307,37,120,81,10,2,0,2,0,37.0,159,414,1012,110,126,377,34,28
+Julen Agirrezabala,es ESP,GK,Athletic Club,23,2000,14,14,1206,9,34,24,5,2,1,1,0,10.5,57,178,341,51,66,143,20,17
+Adrián,es ESP,GK,es Betis,37,1987,7,7,630,9,25,16,2,1,1,0,0,0,0,0,0,0,0,0,0,0
+Alphonse Areola,fr FRA,GK,West Ham,31,1993,26,25,2260,41,115,77,5,0,0,0,0,35.4,135,384,788,119,196,394,15,30
+Jean Butez,fr FRA,GK,Como,29,1995,19,18,1666,20,68,48,5,2,2,0,0,20.1,90,235,709,92,43,190,22,51
+Marcin Bułka,pl POL,GK,Nice,24,1999,34,34,3060,41,161,120,8,3,2,1,0,43.0,112,272,948,173,162,470,39,33
+Oliver Baumann,de GER,GK,Hoffenheim,34,1990,28,28,2520,53,138,84,4,5,2,3,0,52.1,178,478,923,121,136,407,18,31
+Oliver Baumann,de GER,GK,de Hoffenheim,34,1990,7,7,630,11,29,18,2,0,0,0,0,10.3,19,79,211,22,26,79,4,5
+Lawrence Ati-Zigi,gh GHA,GK,ch St. Gallen,27,1996,6,6,540,18,50,33,0,1,1,0,0,0,0,0,0,0,0,0,0,0
+Augusto Batalla,ar ARG,GK,Rayo Vallecano,28,1996,32,32,2880,39,133,93,8,8,6,2,0,40.0,177,534,989,129,184,453,35,38
+Walter Benítez,ar ARG,GK,nl PSV Eindhoven,31,1993,11,11,1020,21,59,38,1,1,1,0,0,19.1,66,149,400,49,61,147,13,11
+Kepa Arrizabalaga,es ESP,GK,Bournemouth,29,1994,31,31,2790,39,134,95,8,4,4,0,0,41.0,132,365,831,122,192,367,22,54
+Elia Caprile,it ITA,GK,Napoli,22,2001,4,3,325,1,8,7,3,0,0,0,0,2.2,11,25,82,9,15,31,3,3
+Elia Caprile,it ITA,GK,Cagliari,22,2001,18,18,1620,22,66,44,5,1,1,0,0,23.5,132,332,546,93,159,266,18,23
+Justin Bijlow,nl NED,GK,nl Feyenoord,26,1998,2,2,125,1,8,7,1,0,0,0,0,2.8,9,29,39,2,18,40,3,0
+Patrik Carlgren,se SWE,GK,Nantes,32,1992,5,4,417,7,28,21,1,0,0,0,0,8.5,22,63,99,27,37,80,1,1
+Altay Bayındır,tr TUR,GK,eng Manchester Utd,26,1998,2,2,180,1,10,9,1,0,0,0,0,2.0,0,10,52,7,7,14,0,2
+Tiago Cardoso,lu LUX,GK,Gladbach,18,2006,5,4,380,3,23,20,2,0,0,0,0,4.7,23,62,148,22,31,96,14,1
+Dani Cárdenas,es ESP,GK,Rayo Vallecano,27,1997,6,6,540,6,20,14,2,0,0,0,0,5.6,26,106,132,21,46,79,2,1
+Vid Belec,si SVN,GK,cy APOEL,34,1990,8,8,720,9,38,28,1,1,0,1,0,0,0,0,0,0,0,0,0,0
+Brandon Austin,eng ENG,GK,Tottenham,25,1999,1,1,90,2,4,2,0,0,0,0,0,2.2,3,11,26,5,6,15,5,2
+Ognjen Čančarević,am ARM,GK,am FC Noah,34,1989,3,3,270,9,31,22,1,1,1,0,0,0,0,0,0,0,0,0,0,0
+Marco Carnesecchi,it ITA,GK,Atalanta,24,2000,34,34,3060,34,129,97,13,2,2,0,0,36.1,121,374,878,177,201,319,21,45
+Lucas Chevalier,fr FRA,GK,Lille,22,2001,34,34,3060,36,126,91,11,4,4,0,0,42.2,112,288,968,144,112,373,21,24
+Hendrik Bonmann,de GER,GK,bg Ludogorets,30,1994,4,4,360,4,24,20,2,0,0,0,0,6.6,27,79,167,20,33,77,7,3
+Finn Dahmen,de GER,GK,Augsburg,26,1998,19,19,1710,19,82,65,9,2,2,0,0,24.2,129,341,614,51,145,337,9,26
+Altay Bayındır,tr TUR,GK,Manchester Utd,26,1998,4,4,360,10,17,8,1,0,0,0,0,10.1,13,62,128,12,24,56,4,7
+Marco Bizot,nl NED,GK,fr Brest,33,1991,9,9,810,14,43,30,2,3,3,0,0,13.7,80,174,232,33,38,111,11,16
+Jasper Cillessen,nl NED,GK,Las Palmas,35,1989,27,27,2335,42,128,85,3,8,4,3,1,44.3,124,409,820,142,179,413,13,20
+Grégoire Coudert,fr FRA,GK,Brest,25,1999,2,2,180,5,13,9,0,0,0,0,0,2.8,6,20,60,7,8,30,1,3
+Daniel Bentley,eng ENG,GK,Wolves,31,1993,2,2,180,4,12,8,1,0,0,0,0,3.9,7,21,52,6,13,25,0,3
+Diego Conde,es ESP,GK,Villarreal,25,1998,22,22,1962,33,94,62,2,4,3,0,1,26.3,61,161,532,111,107,323,18,16
+Janis Blaswich,de GER,GK,at RB Salzburg,33,1991,5,4,382,14,25,11,0,0,0,0,0,10.0,14,44,105,13,27,48,1,6
+Thomas Dähne,de GER,GK,Holstein Kiel,30,1994,9,9,810,19,55,36,0,3,2,1,0,18.5,47,133,304,55,91,177,15,5
+Fabijan Buntić,hr CRO,GK,az Qarabağ,27,1997,2,2,180,5,10,5,0,0,0,0,0,4.4,1,6,31,7,6,17,1,2
+Leandro Chichizola,ar ARG,GK,Parma,34,1990,1,1,90,3,6,3,0,0,0,0,0,2.5,3,16,41,5,8,21,2,2
+Josip Condric,hr CRO,GK,kz Astana FK,30,1993,3,3,270,2,16,14,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+Maxime Delanghe,be BEL,GK,be Cercle Brugge,23,2001,7,6,599,10,29,19,2,3,1,0,2,0,0,0,0,0,0,0,0,0
+Patrick Drewes,de GER,GK,Bochum,31,1993,21,21,1890,46,99,51,2,5,3,2,0,42.3,218,484,681,65,177,285,12,33
+Heorhiy Bushchan,ua UKR,GK,ua Dynamo Kyiv,30,1994,5,5,450,14,44,29,0,1,0,1,0,14.5,25,76,167,28,19,70,3,4
+Théo De Percin,mq MTQ,GK,Auxerre,23,2001,2,2,180,3,9,5,1,2,1,1,0,3.5,8,31,46,5,12,38,3,3
+Giuseppe Ciocci,it ITA,GK,Cagliari,22,2002,1,0,9,0,0,0,0,0,0,0,0,0.0,0,0,1,0,0,0,0,1
+Martin Dúbravka,sk SVK,GK,Newcastle Utd,35,1989,10,10,900,12,41,29,5,0,0,0,0,12.9,18,80,273,54,59,127,10,11
+Fabian Bredlow,de GER,GK,de Stuttgart,29,1995,1,1,90,4,6,2,0,0,0,0,0,3.3,4,14,31,5,2,8,0,2
+Thibaut Courtois,be BEL,GK,Real Madrid,32,1992,30,30,2700,29,104,76,11,3,3,0,0,28.7,62,214,871,173,148,350,16,14
+Michele Di Gregorio,it ITA,GK,Juventus,27,1997,33,33,2970,32,103,71,14,5,5,0,0,28.1,128,333,848,126,146,469,29,30
+Deniz Dilmen,0,GK,tr Başakşehir,19,2005,2,2,180,7,13,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Ederson,br BRA,GK,Manchester City,30,1993,26,26,2320,26,78,53,10,2,2,0,0,30.0,72,165,846,108,77,224,13,49
+Rémy Descamps,fr FRA,GK,Lyon,28,1996,1,1,90,2,6,4,0,0,0,0,0,1.4,1,4,28,2,2,7,0,0
+Jack Butland,eng ENG,GK,sct Rangers,31,1993,10,10,930,13,37,25,2,0,0,0,0,11.6,66,175,262,36,80,166,7,4
+Frank Feller,de GER,GK,Heidenheim,20,2004,2,1,121,0,2,2,2,0,0,0,0,0.3,10,34,54,7,11,25,1,1
+Marco Carnesecchi,it ITA,GK,it Atalanta,24,2000,9,9,810,9,23,14,5,0,0,0,0,7.6,40,114,206,22,52,60,2,15
+Stole Dimitrievski,mk MKD,GK,Valencia,30,1993,4,4,360,6,12,6,0,2,1,0,1,4.5,15,72,113,25,20,51,3,16
+Łukasz Fabiański,pl POL,GK,West Ham,39,1985,14,13,1160,21,71,50,2,3,3,0,0,22.6,77,226,394,55,100,220,10,12
+Kamil Grabara,pl POL,GK,Wolfsburg,25,1999,29,29,2585,49,137,88,5,3,2,1,0,49.7,186,511,979,114,154,413,15,19
+Wladimiro Falcone,it ITA,GK,Lecce,29,1995,38,38,3420,58,181,125,9,10,8,1,1,53.8,220,656,1017,120,178,590,29,19
+Marcin Bułka,pl POL,GK,fr Nice,24,1999,6,6,540,14,36,23,0,1,1,0,0,11.7,17,42,174,30,32,66,7,17
+Arthur Desmas,fr FRA,GK,Le Havre,30,1994,18,18,1620,38,93,54,3,3,2,1,0,38.7,56,151,404,72,117,277,12,7
+Lucas Chevalier,fr FRA,GK,fr Lille,22,2001,10,10,900,13,45,32,1,2,2,0,0,15.4,44,125,303,34,36,112,5,3
+Bartłomiej Drągowski,pl POL,GK,gr Panathinaikos,26,1997,7,7,630,12,39,27,2,1,1,0,0,0,0,0,0,0,0,0,0,0
+Marko Dmitrović,rs SRB,GK,Leganés,32,1992,32,32,2880,49,150,103,10,8,7,0,1,50.2,201,765,743,112,303,579,49,53
+Aitor Fernández,es ESP,GK,Osasuna,33,1991,1,1,90,0,5,5,1,0,0,0,0,1.2,19,35,34,4,11,14,1,1
+Péter Gulácsi,hu HUN,GK,RB Leipzig,34,1990,30,30,2631,39,137,97,14,3,2,1,0,42.6,79,209,705,140,196,434,23,34
+David de Gea,es ESP,GK,Fiorentina,33,1990,34,34,3060,38,133,94,10,3,1,2,0,37.7,218,490,886,129,241,478,13,28
+İrfan Can Eğribayat,tr TUR,GK,tr Fenerbahçe,26,1998,6,6,570,7,35,28,3,0,0,0,0,12.5,34,98,165,27,43,96,12,9
+Grégoire Coudert,fr FRA,GK,fr Brest,25,1999,1,1,90,7,9,2,0,0,0,0,0,5.7,7,20,29,9,8,8,2,2
+Mark Flekken,nl NED,GK,Brentford,31,1993,37,37,3275,55,203,150,7,1,1,0,0,52.7,249,659,1498,122,212,581,46,34
+Vitus Eicher,de GER,GK,de Heidenheim,33,1990,1,1,90,3,6,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Yehvann Diouf,sn SEN,GK,Reims,24,1999,34,34,3060,47,179,131,7,5,4,1,0,61.6,154,477,993,153,220,554,31,42
+Thibaut Courtois,be BEL,GK,es Real Madrid,32,1992,12,12,1110,18,70,51,1,4,2,1,1,20.4,20,114,380,59,50,135,17,1
+Timo Horn,de GER,GK,Bochum,31,1993,13,13,1170,22,54,32,3,1,0,0,1,18.5,129,332,400,29,98,182,6,18
+Fabiano,br BRA,GK,cy AC Omonia,36,1988,7,7,630,9,33,23,2,1,0,1,0,0,0,0,0,0,0,0,0,0
+Colin Coosemans,be BEL,GK,be Anderlecht,31,1992,9,9,810,13,37,24,1,2,1,1,0,10.3,47,155,407,38,33,140,7,11
+Álvaro Fernández,es ESP,GK,Sevilla,26,1998,9,8,747,16,36,20,3,2,2,0,0,11.0,37,142,277,32,46,105,7,14
+Pierluigi Gollini,it ITA,GK,Genoa,29,1995,7,7,630,15,32,16,1,4,3,1,0,12.2,33,75,198,21,52,92,2,2
+Álex Domínguez,es ESP,GK,Toulouse,26,1998,1,0,19,0,0,0,1,0,0,0,0,0.0,2,5,8,1,3,7,0,0
+Fraser Forster,eng ENG,GK,Tottenham,36,1988,7,7,630,15,42,27,1,2,2,0,0,16.5,11,31,141,30,56,81,4,3
+Jesse Joronen,fi FIN,GK,Venezia,31,1993,8,7,703,15,40,27,2,3,3,0,0,12.6,20,84,260,46,41,125,6,5
+Gianluigi Donnarumma,it ITA,GK,Paris S-G,25,1999,24,24,2091,25,74,49,4,1,1,0,0,21.7,35,101,543,90,89,199,10,19
+Lukáš Hrádecký,fi FIN,GK,Leverkusen,34,1989,29,29,2610,38,118,83,6,4,4,0,0,35.8,123,306,774,110,135,296,12,39
+Diogo Costa,pt POR,GK,pt Porto,24,1999,10,10,900,15,38,23,3,0,0,0,0,12.3,50,128,374,39,51,146,9,13
+Dean Henderson,eng ENG,GK,Crystal Palace,27,1997,38,38,3420,51,150,101,11,2,1,1,0,51.2,157,600,942,115,273,559,30,40
+Frank Feller,de GER,GK,de Heidenheim,20,2004,2,2,210,4,12,8,0,1,1,0,0,0,0,0,0,0,0,0,0,0
+Michele Di Gregorio,it ITA,GK,it Juventus,27,1997,8,8,718,7,27,20,3,0,0,0,0,9.0,31,90,219,41,39,92,6,4
+André Ferreira,pt POR,GK,Valladolid,28,1996,6,6,540,20,39,19,0,3,3,0,0,15.3,30,83,138,26,56,92,4,3
+Gianluigi Donnarumma,it ITA,GK,fr Paris S-G,25,1999,15,15,1380,14,48,35,6,0,0,0,0,15.2,41,132,351,58,90,163,14,14
+Rohan Ferguson,sct SCO,GK,nir Larne FC,26,1997,6,6,540,12,34,23,1,1,1,0,0,0,0,0,0,0,0,0,0,0
+Mads Hermansen,dk DEN,GK,Leicester City,24,2000,27,27,2385,58,155,99,1,4,3,1,0,56.4,114,471,926,133,143,419,26,26
+Fran,es ESP,GK,Real Madrid,19,2005,1,1,90,2,2,0,0,0,0,0,0,0.9,1,2,16,3,4,5,1,1
+Johan Dahlin,se SWE,GK,se Malmö,37,1986,3,3,225,4,11,7,0,1,0,0,1,3.3,1,13,37,10,25,25,1,2
+Nicola Leali,it ITA,GK,Genoa,31,1993,29,29,2610,31,111,82,10,4,3,1,0,34.3,150,391,722,112,214,390,21,14
+Gregor Kobel,ch SUI,GK,Dortmund,26,1997,32,32,2880,47,129,82,7,4,4,0,0,47.4,112,336,1117,126,121,420,22,47
+Yahia Fofana,ci CIV,GK,Angers,23,2000,33,33,2970,51,186,135,7,4,3,0,1,63.5,144,435,751,180,261,531,48,20
+Vitezslav Jaros,cz CZE,GK,Liverpool,23,2001,1,0,12,0,1,1,1,0,0,0,0,0.0,5,7,7,2,1,2,0,0
+Joel Drommel,nl NED,GK,nl PSV Eindhoven,27,1996,1,1,90,3,6,3,0,0,0,0,0,3.3,7,14,40,4,5,11,0,0
+David de Gea,es ESP,GK,it Fiorentina,33,1990,5,5,480,8,25,17,0,2,2,0,0,0,0,0,0,0,0,0,0,0
+Mike Maignan,fr FRA,GK,Milan,29,1995,37,37,3294,41,136,97,12,2,1,1,0,36.8,118,306,1355,174,194,447,26,68
+Rémy Descamps,fr FRA,GK,fr Lyon,28,1996,1,1,90,2,11,9,0,0,0,0,0,2.1,4,14,37,5,4,21,0,2
+Matej Kovar,cz CZE,GK,Leverkusen,24,2000,5,5,450,5,16,12,3,0,0,0,0,3.5,12,32,131,16,15,52,2,6
+Joan García,es ESP,GK,Espanyol,23,2001,38,38,3420,51,192,140,8,6,4,2,0,57.7,194,526,1040,197,216,670,64,35
+Gauthier Gallon,fr FRA,GK,Rennes,31,1993,1,0,45,0,0,0,0,0,0,0,0,0.0,0,3,15,2,4,2,0,1
+Ersin Destanoğlu,tr TUR,GK,tr Beşiktaş,23,2001,3,3,270,5,17,12,1,1,1,0,0,4.7,7,35,80,20,26,39,4,1
+Paulo Gazzaniga,ar ARG,GK,Girona,32,1992,36,36,3195,51,143,90,8,5,2,3,0,45.4,93,298,1026,137,180,419,36,33
+Ederson,br BRA,GK,eng Manchester City,30,1993,8,8,720,20,47,27,1,2,2,0,0,16.6,18,42,218,33,29,55,4,17
+Mathieu Gorgelin,fr FRA,GK,Le Havre,33,1990,16,16,1440,33,82,50,1,3,3,0,0,34.2,79,183,435,75,99,269,21,8
+Craig Gordon,sct SCO,GK,sct Hearts,41,1982,6,6,540,9,23,14,1,2,2,0,0,0,0,0,0,0,0,0,0,0
+Nediljko Labrović,hr CRO,GK,Augsburg,24,1999,15,15,1350,32,74,42,2,3,3,0,0,25.9,83,220,397,72,105,217,12,18
+Sam Johnstone,eng ENG,GK,Wolves,31,1993,7,7,630,17,39,23,0,2,2,0,0,13.0,52,129,252,28,25,104,8,11
+Christos Mandas,gr GRE,GK,Lazio,22,2001,9,9,810,7,27,20,4,0,0,0,0,7.9,42,124,308,36,25,130,20,22
+Josep Martinez,es ESP,GK,Inter,26,1998,5,5,450,3,14,11,3,0,0,0,0,4.1,23,51,216,15,25,81,3,3
+Alexander Meyer,de GER,GK,Dortmund,33,1991,2,2,180,4,11,7,0,0,0,0,0,4.0,8,33,76,3,7,24,1,2
+Niklas Hedl,at AUT,GK,at Rapid Wien,23,2001,10,10,960,11,43,32,4,2,2,0,0,0,0,0,0,0,0,0,0,0
+Dominik Greif,sk SVK,GK,Mallorca,27,1997,31,31,2790,34,116,83,7,2,2,0,0,33.9,191,475,847,126,193,511,15,21
+Filip Jørgensen,dk DEN,GK,Chelsea,22,2002,6,6,540,9,28,19,1,1,1,0,0,9.3,7,33,171,19,18,53,2,2
+Paulo Gazzaniga,ar ARG,GK,es Girona,32,1992,7,7,630,11,38,30,1,2,1,1,0,11.6,20,66,205,24,44,74,3,2
+Kjetil Haug,no NOR,GK,Toulouse,26,1998,6,5,498,7,16,9,1,0,0,0,0,6.6,16,60,95,13,35,72,5,3
+Dénes Dibusz,hu HUN,GK,hu Ferencváros,33,1990,7,7,572,10,31,21,2,3,3,0,0,11.1,27,59,167,24,29,79,1,7
+Florian Müller,de GER,GK,Freiburg,26,1997,9,8,753,16,30,15,1,2,2,0,0,11.6,54,166,267,28,57,104,6,9
+Caoimhín Kelleher,ie IRL,GK,Liverpool,25,1998,10,10,900,12,37,24,4,1,0,1,0,11.6,29,115,364,49,18,113,6,9
+Vicente Guaita,es ESP,GK,Celta Vigo,37,1987,34,34,3060,48,127,79,8,3,3,0,0,40.6,66,220,740,195,230,436,26,44
+Veljko Ilic,rs SRB,GK,rs TSC,21,2003,8,8,720,19,44,26,0,1,1,0,0,0,0,0,0,0,0,0,0,0
+Maxime Dupé,fr FRA,GK,fr Nice,31,1993,2,2,180,2,8,6,0,0,0,0,0,2.2,4,7,52,12,13,19,1,1
+Karl-Johan Johnsson,se SWE,GK,Strasbourg,34,1990,3,3,270,6,22,16,0,1,1,0,0,6.7,6,22,122,21,7,48,2,3
+Omri Glazer,il ISR,GK,rs Red Star,28,1996,3,3,270,9,15,6,0,1,1,0,0,5.2,11,22,70,9,20,35,1,0
+Andrea Mazza,it ITA,GK,Monza,20,2004,1,0,8,0,0,0,0,0,0,0,0,0.0,1,2,5,1,2,1,0,0
+Fraser Forster,eng ENG,GK,eng Tottenham,36,1988,4,4,360,6,24,18,1,0,0,0,0,7.0,6,22,126,23,30,71,5,6
+Tom King,wls WAL,GK,Wolves,29,1995,1,0,1,0,0,0,0,0,0,0,0,0.0,0,0,1,1,0,1,0,0
+Sergio Herrera,es ESP,GK,Osasuna,31,1993,37,37,3330,52,182,131,8,7,7,0,0,56.2,277,614,966,139,276,524,32,85
+Péter Gulácsi,hu HUN,GK,de RB Leipzig,34,1990,6,6,540,13,32,20,0,0,0,0,0,10.2,10,37,191,31,55,88,5,0
+Ivica Ivušić,hr CRO,GK,cy Pafos FC,29,1995,9,9,810,10,24,14,3,3,2,1,0,0,0,0,0,0,0,0,0,0
+Hervé Koffi,bf BFA,GK,Lens,27,1996,5,5,450,8,26,18,0,2,2,0,0,11.1,14,42,115,22,19,53,4,2
+Alex Meret,it ITA,GK,Napoli,27,1997,34,34,3005,25,84,59,16,4,1,2,1,25.3,88,214,1041,117,181,378,21,47
+Kevin Müller,de GER,GK,Heidenheim,33,1991,33,33,2939,64,169,105,7,6,6,0,0,59.3,152,428,1031,153,271,453,21,20
+Marius Müller,de GER,GK,Wolfsburg,31,1993,6,5,475,5,23,18,1,0,0,0,0,7.6,37,97,184,29,34,99,9,3
+Vanja Milinković-Savić,rs SRB,GK,Torino,27,1997,37,37,3330,42,173,129,10,7,3,4,0,51.4,223,702,1352,191,271,585,37,46
+Dinko Horkaš,hr CRO,GK,Las Palmas,25,1999,13,11,1085,19,54,35,1,2,1,1,0,19.4,69,175,475,53,47,148,9,16
+Antonín Kinský,cz CZE,GK,Tottenham,21,2003,6,6,540,11,32,23,1,0,0,0,0,10.5,17,58,186,37,30,112,10,9
+Jay Gorter,nl NED,GK,nl Ajax,24,2000,1,0,67,2,3,1,0,0,0,0,0,1.0,3,6,27,3,2,6,0,0
+Ivan Guteša,rs SRB,GK,rs Red Star,22,2002,3,3,270,3,15,12,1,0,0,0,0,4.8,20,52,62,12,30,38,1,1
+Oscar Jansson,se SWE,GK,se Djurgården,33,1990,2,2,180,3,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Philipp Köhn,ch SUI,GK,Monaco,26,1998,19,19,1710,19,63,44,8,1,1,0,0,17.2,50,157,447,70,99,225,16,20
+Manuel Neuer,de GER,GK,Bayern Munich,38,1986,22,22,1980,15,45,30,13,2,1,0,1,15.0,92,194,867,81,56,162,6,40
+Lorenzo Montipò,it ITA,GK,Hellas Verona,28,1996,36,36,3240,64,161,97,8,4,2,1,1,50.8,210,720,760,91,298,498,30,23
+Ingvar Jónsson,is ISL,GK,is KV,34,1989,8,8,720,11,38,27,2,1,1,0,0,0,0,0,0,0,0,0,0,0
+Dávid Gróf,hu HUN,GK,hu Ferencváros,35,1989,2,2,180,3,9,6,1,0,0,0,0,2.4,10,32,47,4,7,33,2,1
+Alban Lafont,fr FRA,GK,Nantes,25,1999,12,12,1080,19,49,32,2,3,3,0,0,16.8,40,143,309,56,57,200,16,6
+Bernd Leno,de GER,GK,Fulham,32,1992,38,38,3420,54,159,106,5,4,3,1,0,48.9,141,367,1231,167,172,507,23,33
+Lukáš Hrádecký,fi FIN,GK,de Leverkusen,34,1989,4,4,360,6,21,15,2,0,0,0,0,6.7,10,37,114,15,21,43,1,7
+Karl Jakob Hein,ee EST,GK,Valladolid,22,2002,31,31,2790,68,163,96,5,4,4,0,0,58.8,165,452,941,136,224,474,34,34
+Juan Musso,ar ARG,GK,Atalanta,30,1994,1,1,90,0,4,4,1,0,0,0,0,0.7,4,20,19,4,14,15,0,1
+Mert Günok,tr TUR,GK,tr Beşiktaş,35,1989,5,5,450,10,32,22,0,0,0,0,0,13.3,18,61,131,27,34,70,3,1
+Marko Ilić,rs SRB,GK,rs Red Star,26,1998,2,2,180,10,17,7,0,0,0,0,0,8.7,12,45,37,6,25,29,2,0
+Lukas Jungwirth,at AUT,GK,at LASK,20,2004,3,2,262,10,19,10,0,2,2,0,0,0,0,0,0,0,0,0,0,0
+Luiz Lúcio Reis Júnior,br BRA,GK,Villarreal,23,2001,17,16,1458,18,66,48,5,4,4,0,0,18.1,61,178,392,96,99,256,16,20
+Joe Lumley,eng ENG,GK,Southampton,29,1995,3,3,270,7,20,13,0,0,0,0,0,7.7,15,50,135,14,15,56,2,7
+Gautier Larsonneur,fr FRA,GK,Saint-Étienne,27,1997,34,34,3060,77,209,132,5,15,13,2,0,73.5,131,486,978,145,205,510,24,33
+Moritz Nicolas,de GER,GK,Gladbach,26,1997,19,19,1639,25,92,69,4,5,5,0,0,29.9,95,199,734,88,60,319,18,14
+Emiliano Martínez,ar ARG,GK,Aston Villa,31,1992,37,37,3194,45,142,96,8,2,1,1,0,45.8,162,420,1208,132,172,498,56,35
+Maduka Okoye,ng NGA,GK,Udinese,24,1999,25,25,2250,40,110,73,4,5,4,0,1,37.0,120,292,776,80,99,315,14,23
+Franco Israel,uy URU,GK,pt Sporting CP,24,2000,8,8,720,12,39,28,2,2,1,0,1,13.0,19,59,201,30,59,76,3,3
+Günay Güvenç,0,GK,tr Galatasaray,33,1991,4,4,360,8,25,17,0,1,1,0,0,9.7,14,25,128,15,17,36,2,6
+Pau López,es ESP,GK,Girona,29,1994,1,0,45,2,3,1,0,0,0,0,0,1.3,4,9,17,2,7,17,3,1
+Benjamin Lecomte,fr FRA,GK,Montpellier,33,1991,30,30,2700,68,173,107,1,7,6,1,0,57.3,177,449,814,115,184,408,20,26
+Filip Jørgensen,dk DEN,GK,eng Chelsea,22,2002,12,12,1080,9,49,40,5,1,1,0,0,0,0,0,0,0,0,0,0,0
+Alexander Nübel,de GER,GK,Stuttgart,27,1996,34,34,3060,53,136,83,7,3,2,1,0,44.8,157,410,1183,137,122,415,21,57
+Andriy Lunin,ua UKR,GK,Real Madrid,25,1999,7,7,630,7,20,13,4,0,0,0,0,6.4,21,42,155,29,45,61,2,12
+Nikita Haikin,ru RUS,GK,no Bodø/Glimt,29,1995,16,16,1500,25,87,62,3,3,2,1,0,29.1,79,224,638,76,86,294,14,23
+Caoimhín Kelleher,ie IRL,GK,eng Liverpool,25,1998,4,4,360,3,17,13,3,1,0,1,0,5.9,11,33,134,12,18,41,2,7
+Daniele Padelli,it ITA,GK,Udinese,38,1985,1,1,90,0,3,3,1,0,0,0,0,0.8,3,7,18,2,2,11,1,0
+Alex McCarthy,eng ENG,GK,Southampton,34,1989,5,5,450,13,37,24,0,2,2,0,0,12.6,24,52,132,29,23,74,8,0
+Jacob Karlstrom,no NOR,GK,no Molde,27,1997,4,4,420,5,16,11,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+Donovan Léon,gf GUF,GK,Auxerre,31,1992,32,32,2880,48,164,118,9,6,5,1,0,55.8,213,649,935,173,195,518,28,39
+Jonas Omlin,ch SUI,GK,Gladbach,30,1994,12,11,978,26,72,45,1,3,2,1,0,23.8,68,190,453,46,57,166,3,13
+Anthony Lopes,pt POR,GK,Nantes,33,1990,18,18,1563,26,71,46,3,5,4,0,1,25.6,89,257,451,56,96,308,16,8
+Marvin Keller,ch SUI,GK,ch Young Boys,22,2002,4,4,360,9,24,16,0,1,0,1,0,7.7,12,53,165,19,11,76,0,2
+Alberto Paleari,it ITA,GK,Torino,31,1992,1,1,90,3,7,4,0,0,0,0,0,2.2,8,12,26,5,6,12,0,5
+Lukáš Horníček,cz CZE,GK,pt Braga,22,2002,4,3,291,4,16,12,1,0,0,0,0,5.0,12,41,91,13,16,53,2,9
+Giorgi Mamardashvili,ge GEO,GK,Valencia,23,2000,34,34,3060,48,136,89,8,7,5,2,0,46.1,141,449,859,134,219,472,33,38
+Gabriel Kobylak,pl POL,GK,pl Legia Warsaw,22,2002,4,4,360,5,23,18,2,0,0,0,0,0,0,0,0,0,0,0,0,0
+Arijanet Muric,xk KVX,GK,Ipswich Town,25,1998,18,18,1620,33,100,67,1,3,3,0,0,31.4,76,229,534,94,94,249,39,20
+Daniel Peretz,il ISR,GK,Bayern Munich,24,2000,3,3,270,5,7,2,0,0,0,0,0,4.0,5,25,96,5,7,17,0,8
+Vladan Kovačević,ba BIH,GK,pl Legia Warsaw,26,1998,2,2,180,4,14,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Daniil Khudiakov,ru RUS,GK,at Sturm Graz,20,2004,2,2,180,3,10,7,1,0,0,0,0,2.7,9,39,61,9,11,32,4,1
+Rui Patrício,pt POR,GK,Atalanta,36,1988,3,3,270,3,14,11,1,0,0,0,0,4.2,8,19,83,12,18,29,0,10
+Luca Philipp,de GER,GK,Hoffenheim,23,2000,6,6,540,15,35,21,0,1,1,0,0,12.3,30,97,157,22,36,84,3,4
+Radosław Majecki,pl POL,GK,Monaco,24,1999,15,15,1350,22,65,43,3,2,2,0,0,21.1,27,112,320,76,87,154,14,18
+Martin Jedlička,cz CZE,GK,cz Viktoria Plzeň,26,1998,12,12,1080,16,59,42,3,1,0,1,0,20.4,71,203,292,32,68,176,10,13
+Neto,br BRA,GK,Bournemouth,35,1989,2,2,180,2,13,11,0,0,0,0,0,4.3,9,27,46,7,15,30,2,3
+Unai Marrero,es ESP,GK,Real Sociedad,22,2001,2,2,180,3,12,8,0,1,0,1,0,3.5,7,16,41,11,15,21,1,3
+Robin Olsen,se SWE,GK,Aston Villa,34,1990,4,1,226,6,14,8,1,1,1,0,0,6.3,19,54,75,1,26,40,3,0
+Steve Mandanda,fr FRA,GK,Rennes,39,1985,18,17,1486,23,51,29,6,3,2,1,0,17.0,61,180,426,66,73,175,7,21
+Gregor Kobel,ch SUI,GK,de Dortmund,26,1997,13,13,1170,19,57,39,4,0,0,0,0,17.7,40,119,408,59,47,124,6,20
+Simone Perilli,it ITA,GK,Hellas Verona,29,1995,2,2,180,2,11,9,0,0,0,0,0,3.0,7,41,34,2,14,46,2,3
+Fyodor Lapoukhov,by BLR,GK,by Dinamo Minsk,21,2003,6,6,540,13,30,16,1,4,2,2,0,0,0,0,0,0,0,0,0,0
+Juan Musso,ar ARG,GK,Atlético Madrid,30,1994,2,2,180,0,2,2,2,0,0,0,0,0.1,1,9,46,11,13,23,2,0
+Liam Kelly,sct SCO,GK,sct Rangers,28,1996,2,2,180,2,6,3,1,2,1,1,0,3.1,11,42,53,8,19,49,4,4
+Lasse Rieß,de GER,GK,Mainz 05,23,2001,2,2,180,2,8,6,0,0,0,0,0,2.2,13,43,72,7,12,23,2,8
+Lucas Perri,br BRA,GK,Lyon,26,1997,33,33,2970,44,160,116,10,3,3,0,0,47.8,101,310,884,183,152,415,26,29
+Frederik Rønnow,dk DEN,GK,Union Berlin,31,1992,28,28,2520,37,111,71,8,5,1,4,0,39.3,143,395,734,135,161,483,40,35
+Yuri Lodygin,ru RUS,GK,gr Panathinaikos,34,1990,3,3,270,2,8,6,2,0,0,0,0,0,0,0,0,0,0,0,0,0
+André Onana,cm CMR,GK,Manchester Utd,28,1996,34,34,3060,44,132,88,9,4,3,1,0,44.0,118,440,1152,136,149,399,22,23
+Philipp Köhn,ch SUI,GK,fr Monaco,26,1998,2,2,180,3,4,1,0,0,0,0,0,1.3,3,8,30,8,8,17,1,2
+Mattia Perin,it ITA,GK,Juventus,31,1992,5,5,450,3,16,13,3,0,0,0,0,3.7,11,44,170,30,12,50,3,3
+Ørjan Nyland,no NOR,GK,Sevilla,33,1990,30,30,2673,39,112,73,7,4,3,1,0,37.1,118,445,836,114,166,408,20,29
+Mads Kikkenborg,dk DEN,GK,be Anderlecht,24,1999,1,1,90,4,5,2,0,0,0,0,0,2.5,5,9,27,2,5,8,0,1
+Matej Kovar,cz CZE,GK,de Leverkusen,24,2000,6,6,540,6,13,7,3,1,1,0,0,5.4,30,60,163,21,29,57,5,3
+Antonín Kinský,cz CZE,GK,cz Slavia Prague,21,2003,6,6,540,7,16,9,1,1,1,0,0,5.8,30,63,223,20,20,43,2,9
+Đorđe Petrović,rs SRB,GK,Strasbourg,24,1999,31,31,2790,38,147,110,10,8,7,1,0,45.9,117,361,1438,127,107,491,41,47
+Semuel Pizzignacco,it ITA,GK,Monza,22,2001,9,8,736,17,38,22,1,0,0,0,0,12.4,39,113,273,30,49,119,4,7
+Kauã Santos,br BRA,GK,Eint Frankfurt,21,2003,9,8,765,12,46,35,3,1,1,0,0,14.3,40,116,248,34,44,137,16,18
+Jan Oblak,si SVN,GK,Atlético Madrid,31,1993,36,36,3240,30,114,86,15,5,5,0,0,25.6,109,277,670,183,277,488,28,28
+Filip Manojlović,rs SRB,GK,ba Borac Banja Luka,28,1996,9,9,840,9,39,29,4,1,0,1,0,0,0,0,0,0,0,0,0,0
+Stefan Ortega,de GER,GK,Manchester City,31,1992,13,12,1100,18,50,33,3,2,2,0,0,16.3,40,104,409,55,49,133,6,12
+Jesús Owono,gq EQG,GK,Alavés,23,2001,6,5,487,7,14,7,0,1,1,0,0,5.4,46,105,126,12,36,66,6,2
+Ricardo Manuel Silva,pt POR,GK,si NK Celje,25,1999,6,6,570,11,27,16,2,1,1,0,0,0,0,0,0,0,0,0,0,0
+Mateusz Kochalski,pl POL,GK,az Qarabağ,24,2000,6,6,540,15,43,28,0,1,1,0,0,16.9,22,83,191,21,30,67,3,6
+Pau López,es ESP,GK,es Girona,29,1994,1,1,90,2,6,3,0,2,1,1,0,2.0,2,7,39,5,1,22,2,0
+Alex Palmer,eng ENG,GK,Ipswich Town,27,1996,13,13,1170,30,71,43,0,1,1,0,0,25.1,71,186,329,55,94,249,20,13
+Ivan Provedel,it ITA,GK,Lazio,30,1994,29,29,2610,42,92,52,5,4,4,0,0,31.5,146,374,1009,96,106,366,29,32
+Guillaume Restes,fr FRA,GK,Toulouse,19,2005,29,29,2543,36,92,58,8,2,1,1,0,27.9,80,286,675,83,135,360,5,34
+Alexander Schwolow,de GER,GK,Union Berlin,32,1992,6,6,540,13,28,15,0,1,1,0,0,9.7,28,73,166,26,40,85,0,4
+Ionuț Radu,ro ROU,GK,Venezia,27,1997,15,15,1350,18,65,47,4,3,3,0,0,19.2,67,275,470,61,73,215,13,3
+Tobias Sippel,de GER,GK,Gladbach,36,1988,1,0,59,3,4,1,0,0,0,0,0,1.2,9,22,22,2,12,13,0,0
+Tommaso Martinelli,it ITA,GK,it Fiorentina,18,2006,1,1,90,0,3,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+Alex Padilla,es ESP,GK,Athletic Club,20,2003,5,3,321,6,17,12,0,1,1,0,0,4.8,27,78,98,15,22,57,2,3
+Jordan Pickford,eng ENG,GK,Everton,30,1994,38,38,3420,44,163,117,12,2,0,2,0,48.8,304,806,1355,161,231,558,31,57
+Andriy Lunin,ua UKR,GK,es Real Madrid,25,1999,2,2,180,4,12,8,0,1,1,0,0,4.8,2,4,31,11,3,17,4,3
+Gerónimo Rulli,ar ARG,GK,Marseille,32,1992,34,34,3060,47,135,87,5,6,3,3,0,47.5,92,202,1097,133,105,309,28,59
+Dominik Kotarski,hr CRO,GK,gr PAOK,24,2000,10,10,900,14,45,32,3,0,0,0,0,16.8,38,132,349,34,42,135,3,8
+Federico Ravaglia,it ITA,GK,Bologna,24,1999,12,11,1056,14,24,10,4,1,1,0,0,11.7,48,138,426,45,47,97,11,9
+Ed McGinty,ie IRL,GK,ie Shamrock Rov,24,1999,2,2,210,1,5,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+Dominik Livaković,hr CRO,GK,tr Fenerbahçe,29,1995,6,6,540,9,34,24,0,1,0,1,0,10.0,35,107,225,32,26,73,3,6
+Mathew Ryan,au AUS,GK,Lens,32,1992,14,14,1260,17,62,44,6,3,2,1,0,19.5,46,135,342,79,66,176,20,10
+Iñaki Peña,es ESP,GK,Barcelona,25,1999,16,15,1396,18,53,35,4,2,2,0,0,16.7,23,78,546,80,84,143,3,89
+Kevin Trapp,de GER,GK,Eint Frankfurt,34,1990,26,26,2295,34,117,82,6,2,0,2,0,34.9,89,312,813,123,130,394,24,28
+Nick Pope,eng ENG,GK,Newcastle Utd,32,1992,28,28,2520,35,120,86,8,2,1,1,0,34.8,72,257,595,192,187,359,39,64
+Mike Maignan,fr FRA,GK,it Milan,29,1995,10,10,860,12,49,37,1,1,1,0,0,10.6,26,71,309,37,44,96,7,17
+Arnau Rafús,es ESP,GK,Valladolid,21,2003,1,1,90,2,2,0,0,0,0,0,0,0.5,7,15,38,5,5,14,1,1
+Jonas Lössl,dk DEN,GK,dk Midtjylland,35,1989,5,4,380,9,24,15,1,2,2,0,0,8.2,37,80,143,13,30,56,3,5
+Sven Ulreich,de GER,GK,Bayern Munich,35,1988,1,1,90,0,0,0,1,0,0,0,0,0.0,3,8,29,4,1,7,1,1
+Hákon Rafn Valdimarsson,is ISL,GK,Brentford,22,2001,2,1,145,2,4,3,1,0,0,0,0,0.6,15,38,54,7,16,16,2,0
+Matvei Safonov,ru RUS,GK,Paris S-G,25,1999,10,9,879,9,25,17,3,2,2,0,0,7.2,36,83,262,46,48,94,5,14
+Pepe Reina,es ESP,GK,Como,41,1982,12,12,1034,14,41,27,2,1,1,0,0,12.1,43,115,330,41,34,148,2,6
+Radosław Majecki,pl POL,GK,fr Monaco,24,1999,8,8,720,14,45,31,2,3,3,0,0,17.1,15,79,195,54,61,88,6,1
+Neofytos Michael,cy CYP,GK,cy Pafos FC,30,1993,1,1,90,2,5,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Aaron Ramsdale,eng ENG,GK,Southampton,26,1998,30,30,2700,66,188,120,3,7,5,2,0,63.5,196,605,1026,129,190,457,25,20
+Christos Mandas,gr GRE,GK,it Lazio,22,2001,9,9,840,8,34,26,2,0,0,0,0,11.6,52,121,289,35,34,77,8,12
+Razvan Sava,ro ROU,GK,Udinese,22,2002,12,12,1080,16,51,37,4,3,3,0,0,14.5,44,148,337,26,55,202,4,13
+Jonas Urbig,de GER,GK,Bayern Munich,20,2003,8,8,720,12,28,16,2,0,0,0,0,10.3,30,79,263,33,23,81,5,21
+Álex Remiro,es ESP,GK,Real Sociedad,29,1995,36,36,3240,43,130,86,13,6,5,1,0,38.0,180,477,1053,111,234,446,29,40
+Emiliano Martínez,ar ARG,GK,eng Aston Villa,31,1992,12,12,1080,12,60,48,5,1,1,0,0,15.9,52,126,426,41,41,114,13,8
+Kevin Müller,de GER,GK,de Heidenheim,33,1991,5,5,450,4,21,17,2,0,0,0,0,0,0,0,0,0,0,0,0,0
+Brice Samba,fr FRA,GK,Rennes,30,1994,17,17,1529,27,87,58,5,3,1,2,0,29.2,58,178,569,64,102,225,16,15
+Thijmen Nijhuis,nl NED,GK,fi HJK,26,1998,6,6,540,9,33,25,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+David Raya,es ESP,GK,Arsenal,28,1995,38,38,3420,34,120,86,13,3,3,0,0,35.1,149,478,1263,178,147,402,53,66
+Simone Scuffet,it ITA,GK,Napoli,28,1996,1,1,90,1,4,3,0,0,0,0,0,1.6,3,12,35,5,9,29,1,0
+Maarten Vandevoordt,be BEL,GK,RB Leipzig,22,2002,6,4,429,9,21,12,0,0,0,0,0,7.3,19,52,139,27,35,78,7,11
+Aleš Mandous,cz CZE,GK,cz Slavia Prague,32,1992,2,2,180,4,14,9,0,2,1,1,0,4.7,7,18,72,11,7,19,1,2
+Adrian Rodriguez,es ESP,GK,Alavés,23,2000,2,1,122,2,6,4,1,1,1,0,0,1.5,18,48,26,0,24,33,0,0
+Josep Martinez,es ESP,GK,it Inter,26,1998,1,1,90,0,5,5,1,0,0,0,0,0.2,3,6,45,7,3,15,1,0
+Brice Samba,fr FRA,GK,Lens,30,1994,15,15,1350,14,54,40,7,4,4,0,0,17.5,82,163,435,61,76,152,17,22
+Arnau Tenas,es ESP,GK,Paris S-G,23,2001,1,1,90,1,4,3,0,0,0,0,0,1.5,3,4,30,4,2,5,1,1
+José Sá,pt POR,GK,Wolves,31,1993,29,29,2609,48,117,69,7,7,5,2,0,42.8,94,382,771,121,150,432,32,43
+Malkolm Nilsson,se SWE,GK,se Djurgården,30,1993,2,2,165,1,7,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Unai Marrero,es ESP,GK,es Real Sociedad,22,2001,3,3,270,2,10,8,1,0,0,0,0,3.0,4,18,62,9,13,31,1,3
+Nikola Vasilj,ba BIH,GK,St. Pauli,28,1995,33,33,2969,39,135,93,9,5,1,4,0,47.4,164,493,1267,107,134,411,24,27
+Leo Román,es ESP,GK,Mallorca,24,2000,7,7,630,10,49,39,2,1,1,0,0,13.5,48,139,188,18,52,127,8,6
+Simone Scuffet,it ITA,GK,Cagliari,28,1996,13,13,1170,23,56,33,1,5,5,0,0,20.4,71,181,305,50,99,189,6,7
+Alexander Meyer,de GER,GK,de Dortmund,33,1991,1,1,90,0,1,1,1,0,0,0,0,0.1,3,9,45,5,4,9,2,1
+Robert Sánchez,es ESP,GK,Chelsea,26,1997,32,32,2880,34,127,92,10,5,4,1,0,35.7,98,424,1160,190,82,370,47,57
+Rui Silva,pt POR,GK,Betis,30,1994,15,15,1350,18,54,37,4,3,3,0,0,18.4,45,144,446,70,76,194,10,31
+Jacopo Seghetti,it ITA,GK,Empoli,19,2005,1,1,90,3,6,3,0,0,0,0,0,1.9,3,9,16,5,5,4,0,1
+Aleksei Ploshchadnyi,ru RUS,GK,am FC Noah,20,2004,3,3,270,7,18,10,1,1,0,1,0,0,0,0,0,0,0,0,0,0
+Timon Weiner,de GER,GK,Holstein Kiel,25,1999,25,25,2250,61,140,81,2,4,4,0,0,47.2,167,444,789,116,198,491,27,18
+Melvin Zinga,fr FRA,GK,Angers,22,2002,1,1,90,2,4,2,0,1,1,0,0,2.4,2,11,22,4,11,20,1,2
+Simon Mignolet,be BEL,GK,be Club Brugge,36,1988,12,12,1080,19,53,35,3,3,2,1,0,17.8,58,129,406,39,50,148,12,8
+Roei Mashpati,il ISR,GK,il Maccabi Tel Aviv,31,1992,7,7,630,16,42,24,0,4,2,2,0,18.7,30,91,234,38,31,95,3,4
+Léon-Maurice Pöhls,de GER,GK,ie Shamrock Rov,27,1997,6,6,540,9,23,14,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+Matheus,br BRA,GK,pt Braga,32,1992,5,5,427,8,23,15,1,1,1,0,0,5.6,14,41,165,16,32,70,4,13
+Unai Simón,es ESP,GK,Athletic Club,27,1997,21,21,1890,14,62,47,10,2,1,1,0,16.3,106,284,533,91,117,249,19,28
+Alen Sherri,al ALB,GK,Cagliari,26,1997,7,7,621,11,31,20,1,0,0,0,0,10.9,29,84,168,22,57,85,4,5
+Robin Zentner,de GER,GK,Mainz 05,29,1994,32,32,2880,41,142,100,9,5,4,1,0,45.0,175,567,977,132,179,524,45,58
+Neto,br BRA,GK,eng Arsenal,35,1989,1,1,90,1,3,2,0,0,0,0,0,0.4,4,12,36,7,2,8,2,5
+Matz Sels,be BEL,GK,Nott'ham Forest,32,1992,38,38,3420,46,165,119,13,3,3,0,0,49.1,244,698,715,83,270,710,19,12
+Manuel Neuer,de GER,GK,de Bayern Munich,38,1986,10,10,822,11,21,10,2,1,1,0,0,8.7,46,89,367,44,25,48,1,28
+Benjamin Siegrist,ch SUI,GK,Genoa,32,1992,2,2,152,2,12,10,0,0,0,0,0,2.4,6,30,54,9,19,26,1,1
+Albert Posiadala,pl POL,GK,no Molde,21,2003,6,6,540,11,19,8,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+Michael Zetterer,de GER,GK,Werder Bremen,29,1995,34,34,3060,57,156,102,10,3,3,0,0,52.9,134,370,1204,188,107,464,35,34
+Jason Steele,eng ENG,GK,Brighton,33,1990,2,2,180,1,4,3,1,0,0,0,0,0.5,7,16,110,7,2,22,2,3
+Antonio Sivera,es ESP,GK,Alavés,27,1996,32,32,2810,39,112,75,8,9,9,0,0,39.0,297,724,735,70,229,453,30,29
+Matheus,br BRA,GK,nl Ajax,32,1992,1,1,90,4,9,5,0,0,0,0,0,4.4,2,7,43,5,3,15,0,2
+Anthony Moris,lu LUX,GK,be Union SG,34,1990,10,10,930,11,37,27,2,1,1,0,0,12.6,76,176,311,26,34,114,8,5
+Diant Ramaj,de GER,GK,dk FC Copenhagen,22,2001,4,4,390,6,20,14,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+David Soria,es ESP,GK,Getafe,31,1993,38,38,3420,39,126,86,9,9,8,1,0,42.0,300,799,719,68,304,479,25,39
+Marco Silvestri,it ITA,GK,Empoli,33,1991,5,5,450,11,27,17,0,0,0,0,0,8.0,35,85,135,16,13,62,1,4
+Jakub Stolarczyk,pl POL,GK,Leicester City,23,2000,10,10,900,16,44,28,2,0,0,0,0,15.4,57,195,328,36,58,169,10,8
+Ivan Nevistić,hr CRO,GK,hr Dinamo Zagreb,26,1998,5,5,450,15,34,19,1,4,4,0,0,14.9,26,78,132,13,34,75,1,0
+Alexander Nübel,de GER,GK,de Stuttgart,27,1996,7,7,630,13,26,13,1,0,0,0,0,7.9,27,70,264,25,17,60,5,3
+Juan Soriano,es ESP,GK,Leganés,26,1997,6,6,540,7,25,19,1,0,0,0,0,8.8,36,120,131,20,54,130,7,0
+Łukasz Skorupski,pl POL,GK,Bologna,33,1991,27,27,2364,33,82,50,8,2,1,1,0,28.7,123,329,1005,113,95,215,18,23
+Fernando Muslera,uy URU,GK,tr Galatasaray,38,1986,6,6,540,14,29,15,0,1,1,0,0,13.8,25,61,168,25,25,63,5,6
+Mark Travers,ie IRL,GK,Bournemouth,25,1999,5,5,450,5,25,20,1,0,0,0,0,9.5,33,73,103,29,39,63,1,5
+Jacob Rinne,se SWE,GK,se Djurgården,31,1993,9,8,765,11,29,20,2,0,0,0,0,0,0,0,0,0,0,0,0,0
+Connor Roberts,wls WAL,GK,wls The New Saints,31,1992,6,6,540,10,41,31,1,1,1,0,0,0,0,0,0,0,0,0,0,0
+Jan Oblak,si SVN,GK,es Atlético Madrid,31,1993,10,10,930,14,46,32,2,5,4,0,1,14.7,27,76,172,49,53,108,14,5
+Bart Verbruggen,nl NED,GK,Brighton,21,2002,36,36,3240,58,143,87,7,9,9,0,0,51.0,122,386,1226,122,83,414,27,47
+Wojciech Szczęsny,pl POL,GK,Barcelona,34,1990,15,15,1350,12,33,21,8,1,1,0,0,12.0,24,63,398,61,54,130,7,56
+Ruslan Neshcheret,ua UKR,GK,ua Dynamo Kyiv,22,2002,3,3,270,4,14,10,1,2,2,0,0,4.8,7,34,97,15,20,60,0,3
+Daniele Sommariva,it ITA,GK,Genoa,27,1997,1,0,28,1,3,2,0,0,0,0,0,0.9,1,10,9,0,6,19,0,0
+Marc-André ter Stegen,de GER,GK,Barcelona,32,1992,8,8,674,9,22,13,1,1,1,0,0,6.4,15,31,224,40,27,83,5,13
+Davy Roef,be BEL,GK,be Gent,30,1994,7,7,630,9,37,28,3,0,0,0,0,0,0,0,0,0,0,0,0,0
+Yann Sommer,ch SUI,GK,Inter,35,1988,32,32,2880,29,110,81,13,4,3,1,0,31.7,91,226,1199,136,126,356,14,14
+André Onana,cm CMR,GK,eng Manchester Utd,28,1996,13,13,1200,18,48,30,2,3,3,0,0,16.6,56,151,385,43,49,149,8,13
+Guglielmo Vicario,it ITA,GK,Tottenham,27,1996,24,24,2160,37,102,67,4,1,1,0,0,37.4,28,95,809,120,65,312,30,31
+Stefan Ortega,de GER,GK,eng Manchester City,31,1992,2,2,180,0,1,1,2,0,0,0,0,0.1,0,3,41,3,5,9,1,2
+Fabrice Ondoa,cm CMR,GK,lv FK Rīgas FS,28,1995,8,8,720,13,40,27,1,0,0,0,0,11.1,33,110,194,30,41,129,6,4
+Christian Walton,eng ENG,GK,Ipswich Town,28,1995,7,7,630,19,39,20,1,2,2,0,0,17.1,42,116,204,35,51,111,12,2
+Fran Vieites,es ESP,GK,Betis,25,1999,4,4,360,5,11,6,0,0,0,0,0,4.7,12,54,90,16,29,65,6,4
+Rui Patrício,pt POR,GK,it Atalanta,36,1988,1,1,90,2,4,2,0,1,1,0,0,1.0,6,10,33,6,9,8,0,0
+Marco Sportiello,it ITA,GK,Milan,32,1992,2,1,126,2,6,4,1,0,0,0,0,2.2,5,13,46,8,14,15,1,3
+Matjaž Rozman,si SVN,GK,si NK Celje,37,1987,4,4,360,8,20,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Filip Stankovic,rs SRB,GK,Venezia,22,2002,16,16,1367,23,83,60,0,5,4,1,0,25.2,48,161,439,51,73,249,12,13
+Amir Saipi,xk KVX,GK,ch Lugano,24,2000,8,8,750,12,38,26,3,2,1,1,0,0,0,0,0,0,0,0,0,0
+Iñaki Peña,es ESP,GK,es Barcelona,25,1999,5,5,450,5,8,3,2,1,1,0,0,4.1,5,25,144,14,18,45,2,15
+Danny Ward,wls WAL,GK,Leicester City,31,1993,2,1,135,6,10,4,0,0,0,0,0,2.8,10,22,46,9,7,11,0,2
+Rome-Jayden Owusu-Oduro,nl NED,GK,nl AZ Alkmaar,20,2004,11,11,990,18,46,27,2,3,2,1,0,14.0,44,161,269,38,61,142,15,7
+Iván Villar,es ESP,GK,Celta Vigo,27,1997,4,4,360,9,18,10,0,1,0,1,0,8.2,3,22,82,15,35,65,1,5
+Zion Suzuki,jp JPN,GK,Parma,21,2002,36,36,3240,53,150,99,7,5,5,0,0,51.4,204,669,1272,184,223,614,64,38
+Daniel Peretz,il ISR,GK,de Bayern Munich,24,2000,1,1,90,1,4,3,0,0,0,0,0,1.1,4,7,26,0,5,4,0,0
+Robert Sánchez,es ESP,GK,eng Chelsea,26,1997,1,1,90,1,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Sergio Padt,nl NED,GK,bg Ludogorets,34,1990,4,4,360,7,27,20,0,0,0,0,0,9.0,21,71,123,12,34,72,2,4
+Krapyvtsov Vladyslav,ua UKR,GK,Girona,19,2005,2,2,180,7,18,11,0,1,1,0,0,6.3,10,21,63,13,7,27,1,1
+Mile Svilar,rs SRB,GK,Roma,24,1999,38,38,3420,35,151,117,16,4,4,0,0,42.5,124,413,1258,170,200,495,30,33
+Theo Sander,dk DEN,GK,dk FC Copenhagen,19,2005,1,1,90,1,4,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Remko Pasveer,nl NED,GK,nl Ajax,40,1983,11,11,953,10,47,37,4,1,1,0,0,14.1,60,181,385,38,40,171,15,7
+Mattia Perin,it ITA,GK,it Juventus,31,1992,3,2,211,4,21,16,0,2,1,1,0,7.0,8,19,73,17,11,41,2,1
+Daniel Schmidt,jp JPN,GK,be Gent,32,1992,1,1,90,2,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Pietro Terracciano,it ITA,GK,Fiorentina,34,1990,3,3,270,3,13,10,1,0,0,0,0,3.1,8,25,78,14,11,20,1,3
+Lucas Perri,br BRA,GK,fr Lyon,26,1997,11,11,1020,14,48,34,3,2,2,0,0,17.1,36,129,339,43,59,130,11,5
+Federico Ravaglia,it ITA,GK,it Bologna,24,1999,1,1,90,1,5,4,0,0,0,0,0,0.7,5,16,45,6,2,7,0,0
+Stefano Turati,it ITA,GK,Monza,22,2001,30,30,2676,52,145,93,2,4,2,2,0,47.4,177,442,942,126,131,414,22,26
+Joakim Persson,se SWE,GK,se Malmö,17,2007,1,1,90,2,5,3,0,0,0,0,0,1.2,4,14,24,6,5,14,1,0
+Muhammed Şengezer,tr TUR,GK,tr Başakşehir,27,1997,4,4,360,5,23,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+David Raya,es ESP,GK,eng Arsenal,28,1995,13,13,1170,9,39,28,6,4,2,2,0,13.9,70,183,383,50,59,136,14,18
+Devis Vásquez,co COL,GK,Empoli,26,1998,32,32,2880,45,125,79,6,3,1,1,1,40.2,161,560,953,104,150,490,36,15
+Dmytro Riznyk,ua UKR,GK,ua Shakhtar,25,1999,8,8,720,16,52,36,2,2,1,1,0,17.2,46,131,311,34,54,141,16,4
+Isak Pettersson,se SWE,GK,se Elfsborg,27,1997,8,8,720,14,46,34,3,1,1,0,0,14.0,39,182,212,32,68,174,9,5
+Mukhammedzhan Seysen,kz KAZ,GK,kz Astana FK,25,1999,2,2,180,4,25,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Matvei Safonov,ru RUS,GK,fr Paris S-G,25,1999,2,2,180,1,8,7,1,0,0,0,0,2.0,5,28,50,5,10,15,2,4
+Jörg Siebenhandl,at AUT,GK,at LASK,34,1990,4,4,276,4,11,7,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+Luca Philipp,de GER,GK,de Hoffenheim,23,2000,1,1,90,3,6,3,0,0,0,0,0,1.2,7,20,25,3,9,24,1,1
+Kjell Scherpen,nl NED,GK,at Sturm Graz,24,2000,6,6,540,11,35,24,1,0,0,0,0,12.6,28,93,161,19,40,105,8,4
+Ivan Provedel,it ITA,GK,it Lazio,30,1994,3,3,270,2,14,12,1,0,0,0,0,3.4,18,53,102,13,15,48,2,1
+Damjan Šiškovski,mk MKD,GK,ba Borac Banja Luka,29,1995,1,1,90,1,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Silviu Șmalenea,md MDA,GK,md Petrocub,21,2002,6,6,540,13,34,21,0,1,1,0,0,0,0,0,0,0,0,0,0,0
+Elías Rafn Ólafsson,is ISL,GK,dk Midtjylland,24,2000,6,6,520,7,30,23,2,1,1,0,0,7.3,25,96,156,32,49,62,5,12
+Alexander Schlager,at AUT,GK,at RB Salzburg,28,1996,4,4,335,13,31,18,0,1,1,0,0,10.6,14,49,95,14,22,57,4,11
+Kasper Schmeichel,dk DEN,GK,sct Celtic,37,1986,10,10,900,17,54,38,3,3,2,0,1,17.3,24,59,332,43,66,156,2,5
+Álex Remiro,es ESP,GK,es Real Sociedad,29,1995,9,9,810,15,38,22,2,4,3,1,0,11.4,45,128,275,33,51,117,8,12
+Lovro Štubljar,si SVN,GK,si NK Celje,19,2004,2,2,180,5,12,6,0,1,0,1,0,0,0,0,0,0,0,0,0,0
+Rui Silva,pt POR,GK,pt Sporting CP,30,1994,2,2,180,3,12,8,1,1,0,1,0,4.5,3,14,64,11,10,40,4,3
+Ricardo,br BRA,GK,se Malmö,31,1993,5,4,405,11,21,10,0,3,3,0,0,8.0,8,52,99,14,26,73,4,2
+Pietro Terracciano,it ITA,GK,it Fiorentina,34,1990,6,6,540,10,21,11,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+Łukasz Skorupski,pl POL,GK,it Bologna,33,1991,7,7,630,8,29,20,2,2,1,1,0,11.4,17,56,215,35,25,69,7,10
+Kauã Santos,br BRA,GK,de Eint Frankfurt,21,2003,5,5,450,7,31,23,0,2,1,1,0,7.6,21,69,157,24,25,72,12,3
+Kacper Tobiasz,pl POL,GK,pl Legia Warsaw,21,2002,4,4,390,3,18,14,3,1,0,1,0,0,0,0,0,0,0,0,0,0
+Unai Simón,es ESP,GK,es Athletic Club,27,1997,1,1,90,0,0,0,1,0,0,0,0,0.0,1,2,18,3,3,3,1,2
+Matouš Trmal,cz CZE,GK,cz Mladá Boleslav,25,1998,6,6,540,10,39,30,1,1,1,0,0,0,0,0,0,0,0,0,0,0
+Yann Sommer,ch SUI,GK,it Inter,35,1988,14,14,1290,16,66,51,7,1,1,0,0,18.0,64,153,563,60,72,218,13,3
+Simon Sluga,hr CRO,GK,il Maccabi Tel Aviv,31,1993,1,1,90,1,3,2,0,0,0,0,0,1.0,4,7,42,3,5,11,0,0
+Nathan Trott,eng ENG,GK,dk FC Copenhagen,25,1998,5,5,450,8,21,13,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+Wojciech Szczęsny,pl POL,GK,es Barcelona,34,1990,8,8,750,17,43,27,2,3,3,0,0,17.6,17,70,277,37,32,90,8,31
+Mile Svilar,rs SRB,GK,it Roma,24,1999,12,12,1080,13,39,27,3,2,2,0,0,13.8,54,140,374,54,80,167,14,13
+Francis Uzoho,ng NGA,GK,cy AC Omonia,25,1998,1,1,90,1,4,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Dominik Takáč,sk SVK,GK,sk Slovan Bratislava,25,1999,8,8,720,27,64,36,0,2,1,1,0,23.6,34,101,157,39,80,163,11,0
+Bruno Varela,cv CPV,GK,pt Vitória,29,1994,8,8,720,12,32,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Marc-André ter Stegen,de GER,GK,es Barcelona,32,1992,1,1,90,2,8,6,0,0,0,0,0,2.1,4,13,50,12,6,16,4,9
+Stefan Târnovanu,ro ROU,GK,ro FCSB,24,2000,11,11,990,13,44,32,5,0,0,0,0,12.8,60,162,252,32,97,174,11,6
+Lorenzo Torriani,it ITA,GK,it Milan,19,2005,1,0,40,1,4,3,0,0,0,0,0,1.4,0,2,12,1,3,4,0,0
+Matevž Vidovšek,si SVN,GK,si Olimpija,24,1999,8,8,720,7,34,25,5,2,0,2,0,0,0,0,0,0,0,0,0,0
+Kevin Trapp,de GER,GK,de Eint Frankfurt,34,1990,7,7,630,7,20,14,3,0,0,0,0,6.6,21,62,185,23,48,120,5,6
+Anatolii Trubin,ua UKR,GK,pt Benfica,22,2001,12,12,1080,19,60,41,4,2,2,0,0,14.0,21,94,271,67,65,173,8,8
+Przemysław Tytoń,pl POL,GK,nl Twente,37,1987,2,1,167,4,9,5,0,0,0,0,0,4.5,21,46,68,7,12,31,1,2
+Fran Vieites,es ESP,GK,es Betis,25,1999,8,8,750,7,15,8,3,0,0,0,0,0,0,0,0,0,0,0,0,0
+Warleson,br BRA,GK,be Cercle Brugge,27,1996,2,2,121,0,2,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+Sven Ulreich,de GER,GK,de Bayern Munich,35,1988,1,0,45,2,3,1,0,0,0,0,0,0.8,0,0,14,1,0,1,0,2
+Kostas Tzolakis,gr GRE,GK,gr Olympiacos,21,2002,10,10,897,7,34,27,6,1,0,1,0,10.1,56,169,222,45,44,81,11,34
+Aleksandr Zarutskiy,kz KAZ,GK,kz Astana FK,30,1993,1,1,90,2,6,4,0,1,1,0,0,0,0,0,0,0,0,0,0,0
+Lars Unnerstall,de GER,GK,nl Twente,34,1990,9,9,760,11,36,26,2,2,1,1,0,10.0,37,115,240,32,41,104,4,11
+Jonas Urbig,de GER,GK,de Bayern Munich,20,2003,4,3,303,4,12,8,2,0,0,0,0,3.1,10,47,113,8,4,42,0,6
+Ádám Varga,hu HUN,GK,hu Ferencváros,25,1999,2,1,148,5,9,4,0,0,0,0,0,3.5,17,35,44,2,18,15,1,0
+Maarten Vandevoordt,be BEL,GK,de RB Leipzig,22,2002,2,2,180,2,7,5,0,0,0,0,0,1.5,4,14,53,7,12,24,1,5
+Guglielmo Vicario,it ITA,GK,eng Tottenham,27,1996,9,9,810,5,30,26,4,1,0,0,1,6.7,27,81,229,34,50,126,12,6
+Peter Vindahl Jensen,dk DEN,GK,cz Sparta Prague,26,1998,8,8,720,21,61,41,1,1,1,0,0,17.0,42,148,243,38,52,120,7,7
+Lukáš Zima,cz CZE,GK,ro FCSB,30,1994,1,1,90,4,6,2,0,0,0,0,0,3.2,2,6,19,5,6,10,0,0
+Timon Wellenreuther,de GER,GK,nl Feyenoord,28,1995,11,10,955,25,63,40,1,5,2,2,1,23.5,39,127,398,43,32,134,8,8
+Jeroen Zoet,nl NED,GK,nl AZ Alkmaar,33,1991,1,1,90,1,5,4,0,0,0,0,0,2.6,5,22,25,5,10,25,2,0
+Danijel Zagorac,hr CRO,GK,hr Dinamo Zagreb,37,1987,3,3,270,4,12,8,1,0,0,0,0,4.4,18,52,70,6,33,56,2,3

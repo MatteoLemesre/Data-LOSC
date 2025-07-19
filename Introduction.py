@@ -5,8 +5,7 @@ st.set_page_config(page_title="Home - Data LOSC", page_icon="⚽")
 
 st.title("⚽ Data LOSC")
 
-st.markdown("""I'm **Matteo LEMESRE**, 22 years old, currently in my final year at **Centrale Nantes**.  
-I'm passionate about **data analysis**, **data science**, and **football**, especially as a dedicated **Lille OSC** supporter.
+st.markdown("""I'm passionate about **data analysis**, **data science**, and **football**, especially as a dedicated **Lille OSC** supporter.
 
 ---
 
@@ -28,24 +27,24 @@ This dashboard brings together **statistics**, **visuals**, and **contextual ins
 
 ## 📁 Available Pages
 
-### 🔢 **1. Player Rating per Match**
+### 📊 **1. Percentiles**
+> Explore in-depth season stats for any player, including **radar charts** and performance profiles.
+
+📍 *Page: `Percentiles`*
+
+---
+
+### 🔢 **2. Player Rating per Match**
 > View player ratings for every match based on individual statistical performances and the custom algorithm.
 
 📍 *Page: `Player Rating per Match`*
 
 ---
 
-### 🏆 **2. Teams of the Season**
+### 🏆 **3. Teams of the Season**
 > Discover the top players by position over a full season, automatically selected based on average ratings.
 
 📍 *Page: `Teams of the Season`*
-
----
-
-### 📊 **3. Individual Performances**
-> Explore in-depth season stats for any player, including **radar charts** and performance profiles.
-
-📍 *Page: `Individual Performance`*
 
 ---
 
@@ -53,13 +52,6 @@ This dashboard brings together **statistics**, **visuals**, and **contextual ins
 > Find the **best individual performances** in a single match for any stat of your choice.
 
 📍 *Page: `Top Match Stats`*
-
----
-
-### 🧮 **5. Top Season Stats**
-> Compare the **best stats** across all players, with the option to display **raw totals** or normalize stats **per 90 minutes**.
-
-📍 *Page: `Top Season Stats`*
 
 ---
 

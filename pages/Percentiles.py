@@ -150,9 +150,11 @@ if season_code:
 
             if selected_players:
                 df_global = df_global[df_global['Player'].isin(selected_players)]
-                if df_global.empty:
-                    st.warning("No data available for the selected players.")
-                else:
+                
+                # 👇 ADAPTATION OthersLeagues : conditionner les ratings
+                show_ratings = leagues_name == "TopLeagues"
+
+                if show_ratings:
                     df_global_agg = df_global.groupby('Player', as_index=False).sum()
                     df_averages = get_average_scores(positions, path_folder)
                     df_global = df_global.merge(df_averages, on='Player', how='left')
@@ -164,16 +166,26 @@ if season_code:
 
                     df_display = df_global[columns].set_index('Player').sort_values('Average Rating', ascending=False).round(2)
                     st.dataframe(df_display, use_container_width=True)
+                else:
+                    df_global_agg = df_global.groupby('Player', as_index=False).sum()
 
+                    if 'GK' in positions:
+                        columns = ['Player', 'Matches Played', 'Minutes Played', 'Goals Against', 'Clean Sheets']
+                    else:
+                        columns = ['Player', 'Matches Played', 'Minutes Played', 'Goals', 'Assists', 'Yellow Cards', 'Red Cards']
+
+                    df_display = df_global_agg[columns].set_index('Player').round(2)
+                    st.dataframe(df_display, use_container_width=True)
+
+                # 👇 RADARS + Stats toujours affichés pour tous
                 st.subheader("📌 Player Radar Statistics")
                 if selected_players and selected_features:
                     plot_radar(df_radar, selected_features, selected_players)
                     df_selected = df_radar[df_radar["Player"].isin(selected_players)][["Player"] + selected_features].set_index("Player")
                     st.subheader("📈 Player Percentiles")
                     st.dataframe(df_selected.T)
-                    
-                    st.subheader("🧮 Adjusted Stats + Percentiles (All Features)")
 
+                    st.subheader("🧮 Adjusted Stats + Percentiles (All Features)")
                     for player in selected_players:
                         file_name = f"{leagues_name}_adjusted_gk.csv" if 'GK' in positions else f"{leagues_name}_adjusted.csv"
                         df_adj_path = os.path.join(path_folder, f"centiles/{file_name}")
@@ -183,7 +195,7 @@ if season_code:
 
                         common_stats = [col for col in stats_percentiles.columns if col in stats_absolute.columns and col not in ['Player', 'Position']]
                         deleted_stats = ['Matches Played', 'Minutes Played', 'Age', 'Nation', 'Progressive Passes.1']
-                        
+
                         valid_stats = []
                         for stat in common_stats:
                             if stat not in deleted_stats:
@@ -194,7 +206,7 @@ if season_code:
                             "Stat": valid_stats,
                             "Per 90 min": [stats_absolute[stat].values[0] for stat in valid_stats],
                             "Percentile": [stats_percentiles[stat].values[0] for stat in valid_stats]
-                            }).set_index("Stat")
+                        }).set_index("Stat")
 
                         st.markdown(f"### 🔎 {player}")
                         st.dataframe(df_combined.sort_index(), use_container_width=True)

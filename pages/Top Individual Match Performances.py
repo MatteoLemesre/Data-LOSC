@@ -2,26 +2,26 @@ import streamlit as st
 import pandas as pd
 import os
 
-# ---------------------- Utility Functions ----------------------
+# ------------------------- Functions -------------------------
 def get_player_stats():
     return [
         "Goals", "Assists", "Shots Total", "Shots on Target",
-        "Expected Goals (xG)", "Non-Penalty Expected Goals (npxG)",
+        "Expected Goals (xG)",
         "Shot-Creating Actions (SCA)", "Goal-Creating Actions (GCA)",
         "Key Passes", "Passes into Final Third", "Passes into Penalty Area",
         "Crosses into Penalty Area", "Crosses", "Expected Assists (xA)",
-        "Expected Assisted Goals (xAG)", "Passes Completed", 
+        "Passes Completed", 
         "Progressive Passes", "Through Balls", "Switches", 
-        "Passes Offside",  "Passes Completed (Short)", 
+        "Passes Completed (Short)", 
         "Passes Completed (Medium)", "Passes Completed (Long)",
         "Carries", "Progressive Carries", "Carries into Final Third",
         "Carries into Penalty Area", "Successful Take-Ons", 
         "Tackles Won", "Dribblers Tackled", "Interceptions", 
-        "Clearances", "Errors Leading to Shot", 
+        "Clearances",
         "Touches", "Touches in Defensive Penalty Area", "Touches in Defensive Third",
         "Touches in Middle Third", "Touches in Attacking Third",
-        "Touches in Attacking Penalty Area", "Live-Ball Touches",
-        "Fouls Drawn", "Offsides", "Own Goals", "Aerials Won"
+        "Touches in Attacking Penalty Area",
+        "Fouls Drawn", "Offsides", "Aerials Won"
     ]
 
 def get_goalkeeper_stats():
@@ -48,13 +48,21 @@ def get_opponent_score(row):
     
     return pd.Series(["Unknown", "N/A"])
 
-# ---------------------- Streamlit Config ----------------------
-st.set_page_config(page_title="Top Match Stats")
-st.title("📈 Top Individual Performances")
+# ------------------------- Streamlit App -------------------------
+st.set_page_config(page_title="Top Individual Match Performances")
+st.title("📈 Top Individual Match Performances")
+st.markdown("""
+Explore the **top Individual Match Performances** across all leagues and positions.
+
+- Start by selecting one or several **positions**.
+- Then choose a **statistic** (e.g. assists, interceptions, saves) to rank players by.
+- You can filter by **league** and display the **top N performances** based on that stat.
+- The table shows each player's value for the selected stat, their **rating**, **minutes played**, **opponent**, and **match score**.
+""")
+
 st.sidebar.title("Select Parameters")
 
-# ---------------------- Season Selection ----------------------
-selected_season = st.sidebar.selectbox("Season", ["2024 2025", "2025 2026"], index=0)
+selected_season = st.sidebar.selectbox("Season", ["2025 2026", "2024 2025"], index=1)
 season_code = None
 if selected_season == "2024 2025":
     season_code = "24_25"
@@ -63,7 +71,6 @@ elif selected_season == "2025 2026":
 
 path_folder = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "csv", f"csv{season_code}"))
 
-# ---------------------- File Paths ----------------------
 paths = {
     "games": os.path.join(path_folder, "leagues_games", "{}_games.csv"),
     "clean_players": os.path.join(path_folder, "clean", "data_players.csv"),
@@ -72,7 +79,6 @@ paths = {
     "ratings_goals": os.path.join(path_folder, "ratings", "data_goals.csv"),
 }
 
-# ---------------------- Load Data ----------------------
 df_players = pd.read_csv(paths["clean_players"])
 df_goalkeepers = pd.read_csv(paths["clean_goals"])
 df_ratings_players = pd.read_csv(paths["ratings_players"])
@@ -88,7 +94,6 @@ df = df_all.merge(
     how="left"
 )
 
-# ---------------------- Sidebar Filters ----------------------
 positions = st.sidebar.multiselect("Position", df_all["Position"].unique())
 if not positions:
     st.stop()
@@ -111,7 +116,6 @@ df = df[df["League"].isin(selected_leagues)]
 if stat and stat in df.columns:
     df = df[df[stat].notna()]
 
-# ---------------------- Load Game Data (per league) ----------------------
 games = {}
 for lg in df["League"].unique():
     try:
@@ -119,7 +123,6 @@ for lg in df["League"].unique():
     except FileNotFoundError:
         continue
 
-# ---------------------- Data Processing ----------------------
 if positions and stat and selected_leagues:
     df[["Opponent", "Score"]] = df.apply(get_opponent_score, axis=1)
 
@@ -137,5 +140,4 @@ if positions and stat and selected_leagues:
         "Minutes": "Minutes Played"
     })
 
-    # ---------------------- Display ----------------------
     st.dataframe(df_display.set_index("Player"), use_container_width=True)

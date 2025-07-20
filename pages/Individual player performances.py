@@ -4,10 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import os
 
-# streamlit run "/Users/matteolemesre/Desktop/Data LOSC/Github/pages/Percentiles.py"
-
-# --- Functions ---
-
+# ------------------------- Functions -------------------------
 def get_features_for_players(positions):
     features = set()
     for pos in positions:
@@ -96,20 +93,24 @@ def plot_radar(players_data, features, players):
     ax.legend(loc="upper right", bbox_to_anchor=(1.3, 1.1))
     st.pyplot(fig)
 
-# --- Streamlit setup ---
-
-st.set_page_config(page_title="Individual Performances")
+# ------------------------- Streamlit App -------------------------
+st.set_page_config(page_title="Individual player performances")
 st.sidebar.title("Select Parameters")
 
-st.title("⚽ Individual Performances")
-st.subheader("📋 Global Player Statistics")
+st.title("⚽ Individual player performances")
+st.markdown("""
+This page allows you to explore individual player performances from various leagues.  
 
-selected_seasons = st.sidebar.selectbox("Season", ["2024 2025", "2025 2026"], index=0)
+- Select one or more players from the **Big 5 Leagues, UCL, UEL, or UECL** to view detailed stats, including a **percentile radar chart** based on their position and **average match rating**.  
+- You can also choose players from **Other Leagues** such as the Argentine Primera, Brazilian Série A, Dutch Eredivisie, MLS, Portuguese Primeira Liga, Copa Libertadores, English Championship, Italian Serie B, Liga MX, and Belgian Pro League. For players from these other leagues, only the performance stats will be shown — **no match rating is available**.
+""")
+
+selected_season = st.sidebar.selectbox("Season", ["2025 2026", "2024 2025"], index=1)
 
 season = None
-if selected_seasons == "2024 2025":
+if selected_season == "2024 2025":
     season_code = "24_25"
-elif selected_seasons == "2025 2026":
+elif selected_season == "2025 2026":
     season_code = "25_26"
 
 if season_code:
@@ -151,7 +152,6 @@ if season_code:
             if selected_players:
                 df_global = df_global[df_global['Player'].isin(selected_players)]
                 
-                # 👇 ADAPTATION OthersLeagues : conditionner les ratings
                 show_ratings = leagues_name == "TopLeagues"
 
                 if show_ratings:
@@ -164,6 +164,7 @@ if season_code:
                     else:
                         columns = ['Player', 'Average Rating', 'Matches Played', 'Minutes Played', 'Goals', 'Assists', 'Yellow Cards', 'Red Cards']
 
+                    st.subheader("📋 Global Player Statistics")
                     df_display = df_global[columns].set_index('Player').sort_values('Average Rating', ascending=False).round(2)
                     st.dataframe(df_display, use_container_width=True)
                 else:
@@ -177,7 +178,6 @@ if season_code:
                     df_display = df_global_agg[columns].set_index('Player').round(2)
                     st.dataframe(df_display, use_container_width=True)
 
-                # 👇 RADARS + Stats toujours affichés pour tous
                 st.subheader("📌 Player Radar Statistics")
                 if selected_players and selected_features:
                     plot_radar(df_radar, selected_features, selected_players)
@@ -210,6 +210,3 @@ if season_code:
 
                         st.markdown(f"### 🔎 {player}")
                         st.dataframe(df_combined.sort_index(), use_container_width=True)
-
-
-

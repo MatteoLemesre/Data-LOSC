@@ -38,7 +38,7 @@ This page lets you explore **individual player ratings** for selected matches ac
 
 st.sidebar.title("🎯 Select Parameters")
 
-selected_season = st.sidebar.selectbox("Season", ["2024 2025", "2025 2026"])
+selected_season = st.sidebar.selectbox("Season", ["2025 2026", "2024 2025"], index=1)
 season_code = get_season_code(selected_season)
 
 base_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "csv", f"csv{season_code}"))

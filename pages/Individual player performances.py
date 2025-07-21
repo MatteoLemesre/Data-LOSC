@@ -194,7 +194,7 @@ if season_code:
                         stats_percentiles = df_radar[df_radar["Player"] == player].copy()
 
                         common_stats = [col for col in stats_percentiles.columns if col in stats_absolute.columns and col not in ['Player', 'Position']]
-                        deleted_stats = ['Matches Played', 'Minutes Played', 'Age', 'Nation', 'Progressive Passes.1']
+                        deleted_stats = ['Matches Played', 'Minutes Played', 'Age', 'Nation', 'Born', 'Squad', 'Team', 'Starts']
 
                         valid_stats = []
                         for stat in common_stats:
@@ -204,7 +204,7 @@ if season_code:
 
                         df_combined = pd.DataFrame({
                             "Stat": valid_stats,
-                            "Per 90 min": [stats_absolute[stat].values[0] for stat in valid_stats],
+                            "Per 90 min or Percentage": [stats_absolute[stat].values[0] for stat in valid_stats],
                             "Percentile": [stats_percentiles[stat].values[0] for stat in valid_stats]
                         }).set_index("Stat")
 

@@ -98,8 +98,7 @@ st.set_page_config(page_title="Individual player performances")
 st.sidebar.title("Select Parameters")
 
 st.title("⚽ Individual player performances")
-st.markdown("""
-This page allows you to explore individual player performances from various leagues.  
+st.markdown("""This page allows you to explore individual player performances from various leagues.  
 
 - Select one or more players from the **Big 5 Leagues, UCL, UEL, or UECL** to view detailed stats, including a **percentile radar chart** based on their position and **average match rating**.  
 - You can also choose players from **Other Leagues** such as the Argentine Primera, Brazilian Série A, Dutch Eredivisie, MLS, Portuguese Primeira Liga, Copa Libertadores, English Championship, Italian Serie B, Liga MX, and Belgian Pro League. For players from these other leagues, only the performance stats will be shown — **no match rating is available**.

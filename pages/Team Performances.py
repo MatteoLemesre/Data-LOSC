@@ -46,7 +46,7 @@ st.sidebar.title("Select Parameters")
 st.title("🏟️ Team Performance Explorer")
 st.markdown("""This page allows you to explore **team-level performances** from various leagues.  
 
-- Select one or more teams from the **Big 5 Leagues, UCL, UEL, or UECL** to view their **aggregated stats** based on the performances of all players who featured during the season.  
+- Select one or more teams from the **Big 5 Leagues, UCL, UEL, or UECL** to view detailed stats, including a **percentile radar chart**.  
 - You can also view team stats from **Other Leagues** such as the Argentine Primera, Brazilian Série A, Dutch Eredivisie, MLS, Portuguese Primeira Liga, Copa Libertadores, English Championship, Italian Serie B, Liga MX, and Belgian Pro League.
 """)
 

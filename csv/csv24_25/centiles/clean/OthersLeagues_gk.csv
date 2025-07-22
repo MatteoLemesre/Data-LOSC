@@ -1,4 +1,4 @@
-Player,Nation,Position,Squad,Age,Born,Matches Played,Starts,Minutes Played,Goals Against,Shots on Target Against,Saves,Clean Sheets,Penalty Kicks Attempted,Penalty Kicks Allowed,Penalty Kicks Saved,Penalty Kicks Missed,Post-Shot Expected Goals,Launched Passes Completed,Launched Passes Attempted,Passes Attempted (GK),Through Balls,Goal Kicks Attempted,Crosses Opposed,Crosses Stopped,Sweeper Actions
+Player,Nation,Position,Team,Age,Born,Matches Played,Starts,Minutes Played,Goals Against,Shots on Target Against,Saves,Clean Sheets,Penalty Kicks Attempted,Penalty Kicks Allowed,Penalty Kicks Saved,Penalty Kicks Missed,Post-Shot Expected Goals,Launched Passes Completed,Launched Passes Attempted,Passes Attempted (GK),Through Balls,Goal Kicks Attempted,Crosses Opposed,Crosses Stopped,Sweeper Actions
 Lucas Acosta,ar ARG,GK,Sarmiento,30-129,1995,17,17,1530,21,87,68,4,2,1,0,1,26.8,92,258,358,39,130,302,14,17
 Plamen Andreev,bg BUL,GK,Feyenoord,19,2004,1,1,90,2,4,2,0,1,1,0,0,1.4,5,11,36,3,2,6,1,6
 Luis Barraza,us USA,GK,D.C. United,28-253,1996,16,16,1440,26,80,55,3,1,1,0,0,25.0,75,273,424,76,117,195,14,18

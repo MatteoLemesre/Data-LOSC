@@ -94,20 +94,22 @@ def plot_radar(players_data, features, players):
     st.pyplot(fig)
 
 # ------------------------- Streamlit App -------------------------
-st.set_page_config(page_title="Individual player performances")
+st.set_page_config(page_title="Individual Player Performances")
 st.sidebar.title("Select Parameters")
 
-st.title("⚽ Individual player performances")
+st.title("⚽ Individual Player Performances")
 st.markdown("""This page allows you to explore individual player performances from various leagues.  
 
 - Select one or more players from the **Big 5 Leagues, UCL, UEL, or UECL** to view detailed stats, including a **percentile radar chart** based on their position and **average match rating**.  
 - You can also choose players from **Other Leagues** such as the Argentine Primera, Brazilian Série A, Dutch Eredivisie, MLS, Portuguese Primeira Liga, Copa Libertadores, English Championship, Italian Serie B, Liga MX, and Belgian Pro League. For players from these other leagues, only the performance stats will be shown — **no match rating is available**.
 """)
 
-selected_season = st.sidebar.selectbox("Season", ["2025 2026", "2024 2025"], index=1)
+selected_season = st.sidebar.selectbox("Season", ["2025 2026", "2024 2025", "2023 2024"], index=1)
 
 season = None
-if selected_season == "2024 2025":
+if selected_season == "2023 2024":
+    season_code = "23_24"
+elif selected_season == "2024 2025":
     season_code = "24_25"
 elif selected_season == "2025 2026":
     season_code = "25_26"

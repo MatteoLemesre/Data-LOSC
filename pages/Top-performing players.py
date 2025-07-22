@@ -34,12 +34,15 @@ def enrich_with_team_and_league(df_ratings, df_all, leagues, all_leagues):
     return df_ratings.merge(clubs, on="Player", how="left").merge(leagues_info, on="Player", how="left")
 
 # ------------------------- Streamlit App -------------------------
-st.set_page_config(page_title="Top-performing players")
+st.set_page_config(page_title="Top-Performing Players")
 st.sidebar.title("Select Parameters")
 
-selected_season = st.sidebar.selectbox("Season", ["2025 2026", "2024 2025"], index=1)
-season_code = None
-if selected_season == "2024 2025":
+selected_season = st.sidebar.selectbox("Season", ["2025 2026", "2024 2025", "2023 2024"], index=1)
+
+season = None
+if selected_season == "2023 2024":
+    season_code = "23_24"
+elif selected_season == "2024 2025":
     season_code = "24_25"
 elif selected_season == "2025 2026":
     season_code = "25_26"
@@ -101,7 +104,7 @@ df_avg["Average Rating"] = df_avg["Average Rating"].round(2)
 df_top = df_avg.sort_values(by="Average Rating", ascending=False).head(top_n)
 df_top.set_index("Player", inplace=True)
 
-st.title("📊 Top-performing players")
+st.title("📊 Top-Performing Players")
 st.markdown("""
 This page displays the **top-performing players** based on their average match ratings.
 
@@ -113,10 +116,10 @@ This page displays the **top-performing players** based on their average match r
 
 if all_leagues or len(selected_leagues) > 1:
     cols_to_display = ["Average Rating", "Matches Played", "Minutes Played", "Team", "League"]
-    rename_cols = {"Team": "Club(s)", "League": "League(s)"}
+    rename_cols = {"Team": "Team(s)", "League": "League(s)"}
 else:
     cols_to_display = ["Average Rating", "Matches Played", "Minutes Played", "Team"]
-    rename_cols = {"Team": "Club(s)"}
+    rename_cols = {"Team": "Team(s)"}
 
 st.dataframe(
     df_top[cols_to_display].rename(columns=rename_cols),

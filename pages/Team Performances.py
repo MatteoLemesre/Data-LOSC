@@ -41,18 +41,25 @@ def plot_team_radar(df, features, selected_teams):
     st.pyplot(fig)
 
 # ------------------------- Streamlit App -------------------------
-st.set_page_config(page_title="📊 Team Performances")
-st.sidebar.title("Select Parameters")
-st.title("🏟️ Team Performance Explorer")
+st.set_page_config(page_title="Team Performances")
+st.title("🏟️ Team Performances")
 st.markdown("""This page allows you to explore **team-level performances** from various leagues.  
 
 - Select one or more teams from the **Big 5 Leagues, UCL, UEL, or UECL** to view detailed stats, including a **percentile radar chart**.  
 - You can also view team stats from **Other Leagues** such as the Argentine Primera, Brazilian Série A, Dutch Eredivisie, MLS, Portuguese Primeira Liga, Copa Libertadores, English Championship, Italian Serie B, Liga MX, and Belgian Pro League.
 """)
 
+st.sidebar.title("Select Parameters")
+selected_season = st.sidebar.selectbox("Season", ["2025 2026", "2024 2025", "2023 2024"], index=1)
 
-selected_season = st.sidebar.selectbox("Season", ["2025 2026", "2024 2025"], index=1)
-season_code = "24_25" if selected_season == "2024 2025" else "25_26"
+season = None
+if selected_season == "2023 2024":
+    season_code = "23_24"
+elif selected_season == "2024 2025":
+    season_code = "24_25"
+elif selected_season == "2025 2026":
+    season_code = "25_26"
+    
 path_folder = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "csv", f"csv{season_code}"))
 
 selected_leagues = st.sidebar.multiselect("Which Leagues", ["Big 5 + UCL + UEL + UECL", "Others Leagues"])
@@ -96,7 +103,7 @@ if leagues_name:
             df_pct = df_centiles[df_centiles["Team"] == team]
 
             common_stats = [col for col in df_pct.columns if col in df_abs.columns and col not in ['Team', 'Matches Played']]
-            deleted = ['Age', 'Nation', 'Yellow Cards', 'Red Cards']  # optionally exclude cards
+            deleted = ['Age', 'Nation', 'Yellow Cards', 'Red Cards'] 
             valid_stats = [stat for stat in common_stats if stat not in deleted]
 
             df_combined = pd.DataFrame({

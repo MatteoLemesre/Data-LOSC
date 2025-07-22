@@ -1,0 +1,381 @@
+Game Week,Home Team,Away Team,Score,Attendance,Venue,Referee,Date,URL
+J1,Empoli,Hellas Verona,0–1,"7,940",Stadio Carlo Castellani,Luca Massimi,2023-08-19,https://fbref.com/en/matches/b787871d/Empoli-Hellas-Verona-August-19-2023-Serie-A
+J1,Frosinone,Napoli,1–3,"15,822",Stadio Benito Stirpe,Matteo Marcenaro,2023-08-19,https://fbref.com/en/matches/305afcf5/Frosinone-Napoli-August-19-2023-Serie-A
+J1,Genoa,Fiorentina,1–4,"33,045",Stadio Comunale Luigi Ferraris,Giovanni Ayroldi,2023-08-19,https://fbref.com/en/matches/8260e428/Genoa-Fiorentina-August-19-2023-Serie-A
+J1,Inter,Monza,2–0,"72,509",Stadio Giuseppe Meazza,Andrea Colombo,2023-08-19,https://fbref.com/en/matches/254420f7/Internazionale-Monza-August-19-2023-Serie-A
+J1,Roma,Salernitana,2–2,"62,050",Stadio Olimpico,Ermanno Feliciani,2023-08-20,https://fbref.com/en/matches/9191f715/Roma-Salernitana-August-20-2023-Serie-A
+J1,Sassuolo,Atalanta,0–2,"12,298",Mapei Stadium - Città del Tricolore,Matteo Marchetti,2023-08-20,https://fbref.com/en/matches/32dc37db/Sassuolo-Atalanta-August-20-2023-Serie-A
+J1,Lecce,Lazio,2–1,"29,081",Stadio Comunale Via Del Mare,Federico Dionisi,2023-08-20,https://fbref.com/en/matches/3e38d727/Lecce-Lazio-August-20-2023-Serie-A
+J1,Udinese,Juventus,0–3,"24,911",Bluenergy Stadium,Antonio Rapuano,2023-08-20,https://fbref.com/en/matches/8b6e8a62/Udinese-Juventus-August-20-2023-Serie-A
+J1,Torino,Cagliari,0–0,"20,296",Stadio Olimpico di Torino,Francesco Cosso,2023-08-21,https://fbref.com/en/matches/fdc03e7f/Torino-Cagliari-August-21-2023-Serie-A
+J1,Bologna,Milan,0–2,"30,203",Stadio Renato Dall'Ara,Luca Pairetto,2023-08-21,https://fbref.com/en/matches/93dccf6e/Bologna-Milan-August-21-2023-Serie-A
+J2,Frosinone,Atalanta,2–1,"13,426",Stadio Benito Stirpe,Juan Sacchi,2023-08-26,https://fbref.com/en/matches/0b355cdd/Frosinone-Atalanta-August-26-2023-Serie-A
+J2,Monza,Empoli,2–0,"8,155",U-Power Stadium,Gianluca Aureliano,2023-08-26,https://fbref.com/en/matches/3d880bc3/Monza-Empoli-August-26-2023-Serie-A
+J2,Hellas Verona,Roma,2–1,"23,147",Stadio Marc'Antonio Bentegodi,Daniele Doveri,2023-08-26,https://fbref.com/en/matches/3c6a9d3d/Hellas-Verona-Roma-August-26-2023-Serie-A
+J2,Milan,Torino,4–1,"72,013",Stadio Giuseppe Meazza,Maurizio Mariani,2023-08-26,https://fbref.com/en/matches/4cc2731e/Milan-Torino-August-26-2023-Serie-A
+J2,Fiorentina,Lecce,2–2,"34,604",Stadio Artemio Franchi,Maria Sole Ferrieri Caputi,2023-08-27,https://fbref.com/en/matches/d179c57a/Fiorentina-Lecce-August-27-2023-Serie-A
+J2,Juventus,Bologna,1–1,"36,107",Allianz Stadium,Marco Di Bello,2023-08-27,https://fbref.com/en/matches/6992283e/Juventus-Bologna-August-27-2023-Serie-A
+J2,Napoli,Sassuolo,2–0,"46,925",Stadio Diego Armando Maradona,Antonio Giua,2023-08-27,https://fbref.com/en/matches/4401df22/Napoli-Sassuolo-August-27-2023-Serie-A
+J2,Lazio,Genoa,0–1,"40,000",Stadio Olimpico,Livio Marinelli,2023-08-27,https://fbref.com/en/matches/e7878318/Lazio-Genoa-August-27-2023-Serie-A
+J2,Salernitana,Udinese,1–1,"20,000",Stadio Arechi,Davide Massa,2023-08-28,https://fbref.com/en/matches/767c80b3/Salernitana-Udinese-August-28-2023-Serie-A
+J2,Cagliari,Inter,0–2,"16,412",Unipol Domus,Michael Fabbri,2023-08-28,https://fbref.com/en/matches/631e94b3/Cagliari-Internazionale-August-28-2023-Serie-A
+J3,Sassuolo,Hellas Verona,3–1,"10,356",Mapei Stadium - Città del Tricolore,Marco Piccinini,2023-09-01,https://fbref.com/en/matches/ebe46174/Sassuolo-Hellas-Verona-September-1-2023-Serie-A
+J3,Roma,Milan,1–2,"61,690",Stadio Olimpico,Antonio Rapuano,2023-09-01,https://fbref.com/en/matches/03e9b7f3/Roma-Milan-September-1-2023-Serie-A
+J3,Udinese,Frosinone,0–0,"20,116",Bluenergy Stadium,Marco Guida,2023-09-02,https://fbref.com/en/matches/6a639449/Udinese-Frosinone-September-2-2023-Serie-A
+J3,Bologna,Cagliari,2–1,"22,818",Stadio Renato Dall'Ara,Daniele Orsato,2023-09-02,https://fbref.com/en/matches/1b8aeae3/Bologna-Cagliari-September-2-2023-Serie-A
+J3,Napoli,Lazio,1–2,"42,000",Stadio Diego Armando Maradona,Andrea Colombo,2023-09-02,https://fbref.com/en/matches/2c2145a0/Napoli-Lazio-September-2-2023-Serie-A
+J3,Atalanta,Monza,3–0,"14,985",Gewiss Stadium,Matteo Marcenaro,2023-09-02,https://fbref.com/en/matches/6e72c38b/Atalanta-Monza-September-2-2023-Serie-A
+J3,Torino,Genoa,1–0,"24,433",Stadio Olimpico di Torino,Daniele Chiffi,2023-09-03,https://fbref.com/en/matches/83d4ffcd/Torino-Genoa-September-3-2023-Serie-A
+J3,Inter,Fiorentina,4–0,"72,739",Stadio Giuseppe Meazza,Matteo Marchetti,2023-09-03,https://fbref.com/en/matches/c59bb445/Internazionale-Fiorentina-September-3-2023-Serie-A
+J3,Lecce,Salernitana,2–0,"28,052",Stadio Comunale Via Del Mare,Luca Massimi,2023-09-03,https://fbref.com/en/matches/79dc2417/Lecce-Salernitana-September-3-2023-Serie-A
+J3,Empoli,Juventus,0–2,"15,702",Stadio Carlo Castellani,Giovanni Ayroldi,2023-09-03,https://fbref.com/en/matches/b14694a6/Empoli-Juventus-September-3-2023-Serie-A
+J4,Juventus,Lazio,3–1,"40,652",Allianz Stadium,Fabio Maresca,2023-09-16,https://fbref.com/en/matches/b3226234/Juventus-Lazio-September-16-2023-Serie-A
+J4,Inter,Milan,5–1,"75,571",Stadio Giuseppe Meazza,Simone Sozza,2023-09-16,https://fbref.com/en/matches/10a39d69/Derby-della-Madonnina-Internazionale-Milan-September-16-2023-Serie-A
+J4,Genoa,Napoli,2–2,"33,275",Stadio Comunale Luigi Ferraris,Michael Fabbri,2023-09-16,https://fbref.com/en/matches/528f1128/Genoa-Napoli-September-16-2023-Serie-A
+J4,Cagliari,Udinese,0–0,"15,121",Unipol Domus,Daniele Doveri,2023-09-17,https://fbref.com/en/matches/3ac89aa7/Cagliari-Udinese-September-17-2023-Serie-A
+J4,Monza,Lecce,1–1,"13,074",U-Power Stadium,Livio Marinelli,2023-09-17,https://fbref.com/en/matches/3cf257a0/Monza-Lecce-September-17-2023-Serie-A
+J4,Frosinone,Sassuolo,4–2,"13,133",Stadio Benito Stirpe,Alessandro Prontera,2023-09-17,https://fbref.com/en/matches/f3fd4b8a/Frosinone-Sassuolo-September-17-2023-Serie-A
+J4,Fiorentina,Atalanta,3–2,"32,100",Stadio Artemio Franchi,Luca Pairetto,2023-09-17,https://fbref.com/en/matches/2a18afe9/Fiorentina-Atalanta-September-17-2023-Serie-A
+J4,Roma,Empoli,7–0,"61,443",Stadio Olimpico,Juan Sacchi,2023-09-17,https://fbref.com/en/matches/f164bc78/Roma-Empoli-September-17-2023-Serie-A
+J4,Salernitana,Torino,0–3,"15,480",Stadio Arechi,Antonio Giua,2023-09-18,https://fbref.com/en/matches/a9334418/Salernitana-Torino-September-18-2023-Serie-A
+J4,Hellas Verona,Bologna,0–0,"18,863",Stadio Marc'Antonio Bentegodi,Federico La Penna,2023-09-18,https://fbref.com/en/matches/2e114c4b/Hellas-Verona-Bologna-September-18-2023-Serie-A
+J5,Salernitana,Frosinone,1–1,"16,217",Stadio Arechi,Marco Piccinini,2023-09-22,https://fbref.com/en/matches/da7586b5/Salernitana-Frosinone-September-22-2023-Serie-A
+J5,Lecce,Genoa,1–0,"27,000",Stadio Comunale Via Del Mare,Antonio Rapuano,2023-09-22,https://fbref.com/en/matches/c66e200a/Lecce-Genoa-September-22-2023-Serie-A
+J5,Milan,Hellas Verona,1–0,"71,070",Stadio Giuseppe Meazza,Fabio Maresca,2023-09-23,https://fbref.com/en/matches/bbc5eb68/Milan-Hellas-Verona-September-23-2023-Serie-A
+J5,Sassuolo,Juventus,4–2,"20,141",Mapei Stadium - Città del Tricolore,Andrea Colombo,2023-09-23,https://fbref.com/en/matches/14cf8fd1/Sassuolo-Juventus-September-23-2023-Serie-A
+J5,Lazio,Monza,1–1,"36,000",Stadio Olimpico,Rosario Abisso,2023-09-23,https://fbref.com/en/matches/5778b5c6/Lazio-Monza-September-23-2023-Serie-A
+J5,Empoli,Inter,0–1,"15,651",Stadio Carlo Castellani,Matteo Marcenaro,2023-09-24,https://fbref.com/en/matches/8d6212de/Empoli-Internazionale-September-24-2023-Serie-A
+J5,Atalanta,Cagliari,2–0,"14,739",Gewiss Stadium,Ermanno Feliciani,2023-09-24,https://fbref.com/en/matches/915c6bb6/Atalanta-Cagliari-September-24-2023-Serie-A
+J5,Udinese,Fiorentina,0–2,"21,229",Bluenergy Stadium,Daniele Chiffi,2023-09-24,https://fbref.com/en/matches/a7ffc8e0/Udinese-Fiorentina-September-24-2023-Serie-A
+J5,Bologna,Napoli,0–0,"26,621",Stadio Renato Dall'Ara,Giovanni Ayroldi,2023-09-24,https://fbref.com/en/matches/17137b70/Bologna-Napoli-September-24-2023-Serie-A
+J5,Torino,Roma,1–1,"23,299",Stadio Olimpico di Torino,Marco Guida,2023-09-24,https://fbref.com/en/matches/fdd625ef/Torino-Roma-September-24-2023-Serie-A
+J6,Juventus,Lecce,1–0,"37,498",Allianz Stadium,Antonio Giua,2023-09-26,https://fbref.com/en/matches/eb1af48a/Juventus-Lecce-September-26-2023-Serie-A
+J6,Empoli,Salernitana,1–0,"7,979",Stadio Carlo Castellani,Antonio Rapuano,2023-09-27,https://fbref.com/en/matches/46a8983c/Empoli-Salernitana-September-27-2023-Serie-A
+J6,Hellas Verona,Atalanta,0–1,"15,936",Stadio Marc'Antonio Bentegodi,Federico Dionisi,2023-09-27,https://fbref.com/en/matches/3e492e66/Hellas-Verona-Atalanta-September-27-2023-Serie-A
+J6,Cagliari,Milan,1–3,"16,348",Unipol Domus,Federico La Penna,2023-09-27,https://fbref.com/en/matches/520c6833/Cagliari-Milan-September-27-2023-Serie-A
+J6,Napoli,Udinese,4–1,"45,305",Stadio Diego Armando Maradona,Gianluca Manganiello,2023-09-27,https://fbref.com/en/matches/464aa9ae/Napoli-Udinese-September-27-2023-Serie-A
+J6,Lazio,Torino,2–0,"35,100",Stadio Olimpico,Michael Fabbri,2023-09-27,https://fbref.com/en/matches/69d105e3/Lazio-Torino-September-27-2023-Serie-A
+J6,Inter,Sassuolo,1–2,"70,864",Stadio Giuseppe Meazza,Luca Massimi,2023-09-27,https://fbref.com/en/matches/e70ac4b1/Internazionale-Sassuolo-September-27-2023-Serie-A
+J6,Monza,Bologna,0–0,"8,930",U-Power Stadium,Ivan Pezzuto,2023-09-28,https://fbref.com/en/matches/9a8e6c44/Monza-Bologna-September-28-2023-Serie-A
+J6,Frosinone,Fiorentina,1–1,"14,755",Stadio Benito Stirpe,Francesco Fourneau,2023-09-28,https://fbref.com/en/matches/c8e4b03a/Frosinone-Fiorentina-September-28-2023-Serie-A
+J6,Genoa,Roma,4–1,"32,961",Stadio Comunale Luigi Ferraris,Daniele Orsato,2023-09-28,https://fbref.com/en/matches/44c33847/Genoa-Roma-September-28-2023-Serie-A
+J7,Lecce,Napoli,0–4,"27,588",Stadio Comunale Via Del Mare,Luca Pairetto,2023-09-30,https://fbref.com/en/matches/4c10f199/Lecce-Napoli-September-30-2023-Serie-A
+J7,Milan,Lazio,2–0,"72,035",Stadio Giuseppe Meazza,Davide Massa,2023-09-30,https://fbref.com/en/matches/a315e1cc/Milan-Lazio-September-30-2023-Serie-A
+J7,Salernitana,Inter,0–4,"28,085",Stadio Arechi,Rosario Abisso,2023-09-30,https://fbref.com/en/matches/276d542d/Salernitana-Internazionale-September-30-2023-Serie-A
+J7,Bologna,Empoli,3–0,"23,689",Stadio Renato Dall'Ara,Fabio Maresca,2023-10-01,https://fbref.com/en/matches/8f129029/Bologna-Empoli-October-1-2023-Serie-A
+J7,Udinese,Genoa,2–2,"20,805",Bluenergy Stadium,Maurizio Mariani,2023-10-01,https://fbref.com/en/matches/507d7e86/Udinese-Genoa-October-1-2023-Serie-A
+J7,Atalanta,Juventus,0–0,"14,811",Gewiss Stadium,Daniele Chiffi,2023-10-01,https://fbref.com/en/matches/13a50e02/Atalanta-Juventus-October-1-2023-Serie-A
+J7,Roma,Frosinone,2–0,"62,638",Stadio Olimpico,Matteo Marchetti,2023-10-01,https://fbref.com/en/matches/0133f321/Roma-Frosinone-October-1-2023-Serie-A
+J7,Torino,Hellas Verona,0–0,"19,419",Stadio Olimpico di Torino,Ermanno Feliciani,2023-10-02,https://fbref.com/en/matches/ea8ff4b0/Torino-Hellas-Verona-October-2-2023-Serie-A
+J7,Sassuolo,Monza,0–1,"10,165",Mapei Stadium - Città del Tricolore,Luca Zufferli,2023-10-02,https://fbref.com/en/matches/13b84a7a/Sassuolo-Monza-October-2-2023-Serie-A
+J7,Fiorentina,Cagliari,3–0,"27,309",Stadio Artemio Franchi,Marco Di Bello,2023-10-02,https://fbref.com/en/matches/7dd8d98a/Fiorentina-Cagliari-October-2-2023-Serie-A
+J8,Empoli,Udinese,0–0,"7,128",Stadio Carlo Castellani,Michael Fabbri,2023-10-06,https://fbref.com/en/matches/2397e099/Empoli-Udinese-October-6-2023-Serie-A
+J8,Lecce,Sassuolo,1–1,"26,160",Stadio Comunale Via Del Mare,Juan Sacchi,2023-10-06,https://fbref.com/en/matches/26509ebd/Lecce-Sassuolo-October-6-2023-Serie-A
+J8,Inter,Bologna,2–2,"74,072",Stadio Giuseppe Meazza,Marco Guida,2023-10-07,https://fbref.com/en/matches/b46d0026/Internazionale-Bologna-October-7-2023-Serie-A
+J8,Juventus,Torino,2–0,"38,858",Allianz Stadium,Davide Massa,2023-10-07,https://fbref.com/en/matches/1d1f902c/Juventus-Torino-October-7-2023-Serie-A
+J8,Genoa,Milan,0–1,"33,157",Stadio Comunale Luigi Ferraris,Marco Piccinini,2023-10-07,https://fbref.com/en/matches/3bd415eb/Genoa-Milan-October-7-2023-Serie-A
+J8,Monza,Salernitana,3–0,"12,494",U-Power Stadium,Luca Massimi,2023-10-08,https://fbref.com/en/matches/d0fdea52/Monza-Salernitana-October-8-2023-Serie-A
+J8,Frosinone,Hellas Verona,2–1,"13,034",Stadio Benito Stirpe,Maria Sole Ferrieri Caputi,2023-10-08,https://fbref.com/en/matches/ea945c75/Frosinone-Hellas-Verona-October-8-2023-Serie-A
+J8,Lazio,Atalanta,3–2,"41,000",Stadio Olimpico,Daniele Orsato,2023-10-08,https://fbref.com/en/matches/c0603b97/Lazio-Atalanta-October-8-2023-Serie-A
+J8,Cagliari,Roma,1–4,"16,307",Unipol Domus,Simone Sozza,2023-10-08,https://fbref.com/en/matches/604ceaa0/Cagliari-Roma-October-8-2023-Serie-A
+J8,Napoli,Fiorentina,1–3,"45,000",Stadio Diego Armando Maradona,Federico La Penna,2023-10-08,https://fbref.com/en/matches/2cc7a7ed/Napoli-Fiorentina-October-8-2023-Serie-A
+J9,Hellas Verona,Napoli,1–3,"20,549",Stadio Marc'Antonio Bentegodi,Rosario Abisso,2023-10-21,https://fbref.com/en/matches/a4d889b8/Hellas-Verona-Napoli-October-21-2023-Serie-A
+J9,Torino,Inter,0–3,"26,193",Stadio Olimpico di Torino,Matteo Marchetti,2023-10-21,https://fbref.com/en/matches/e8141133/Torino-Internazionale-October-21-2023-Serie-A
+J9,Sassuolo,Lazio,0–2,"15,597",Mapei Stadium - Città del Tricolore,Marco Di Bello,2023-10-21,https://fbref.com/en/matches/b756439f/Sassuolo-Lazio-October-21-2023-Serie-A
+J9,Roma,Monza,1–0,"62,022",Stadio Olimpico,Giovanni Ayroldi,2023-10-22,https://fbref.com/en/matches/87563b45/Roma-Monza-October-22-2023-Serie-A
+J9,Salernitana,Cagliari,2–2,"17,409",Stadio Arechi,Daniele Chiffi,2023-10-22,https://fbref.com/en/matches/6635e569/Salernitana-Cagliari-October-22-2023-Serie-A
+J9,Bologna,Frosinone,2–1,"26,729",Stadio Renato Dall'Ara,Daniele Doveri,2023-10-22,https://fbref.com/en/matches/04811e11/Bologna-Frosinone-October-22-2023-Serie-A
+J9,Atalanta,Genoa,2–0,"14,848",Gewiss Stadium,Livio Marinelli,2023-10-22,https://fbref.com/en/matches/045aca2a/Atalanta-Genoa-October-22-2023-Serie-A
+J9,Milan,Juventus,0–1,"75,676",Stadio Giuseppe Meazza,Maurizio Mariani,2023-10-22,https://fbref.com/en/matches/bea57463/Milan-Juventus-October-22-2023-Serie-A
+J9,Udinese,Lecce,1–1,"20,113",Bluenergy Stadium,Paride Tremolada,2023-10-23,https://fbref.com/en/matches/cd802be7/Udinese-Lecce-October-23-2023-Serie-A
+J9,Fiorentina,Empoli,0–2,"43,147",Stadio Artemio Franchi,Federico Dionisi,2023-10-23,https://fbref.com/en/matches/e961a763/Fiorentina-Empoli-October-23-2023-Serie-A
+J10,Genoa,Salernitana,1–0,"31,904",Stadio Comunale Luigi Ferraris,Davide Massa,2023-10-27,https://fbref.com/en/matches/7f1d09c9/Genoa-Salernitana-October-27-2023-Serie-A
+J10,Sassuolo,Bologna,1–1,"16,931",Mapei Stadium - Città del Tricolore,Antonio Giua,2023-10-28,https://fbref.com/en/matches/4f7ed7cb/Sassuolo-Bologna-October-28-2023-Serie-A
+J10,Lecce,Torino,0–1,"26,123",Stadio Comunale Via Del Mare,Gianluca Aureliano,2023-10-28,https://fbref.com/en/matches/8fe12227/Lecce-Torino-October-28-2023-Serie-A
+J10,Juventus,Hellas Verona,1–0,"39,429",Allianz Stadium,Ermanno Feliciani,2023-10-28,https://fbref.com/en/matches/0c01fc2f/Juventus-Hellas-Verona-October-28-2023-Serie-A
+J10,Cagliari,Frosinone,4–3,"15,946",Unipol Domus,Luca Pairetto,2023-10-29,https://fbref.com/en/matches/0272be62/Cagliari-Frosinone-October-29-2023-Serie-A
+J10,Monza,Udinese,1–1,"10,311",U-Power Stadium,Alessandro Prontera,2023-10-29,https://fbref.com/en/matches/70a51fa4/Monza-Udinese-October-29-2023-Serie-A
+J10,Inter,Roma,1–0,"75,573",Stadio Giuseppe Meazza,Fabio Maresca,2023-10-29,https://fbref.com/en/matches/027a1ba2/Internazionale-Roma-October-29-2023-Serie-A
+J10,Napoli,Milan,2–2,"54,000",Stadio Diego Armando Maradona,Daniele Orsato,2023-10-29,https://fbref.com/en/matches/ede9d5b8/Napoli-Milan-October-29-2023-Serie-A
+J10,Empoli,Atalanta,0–3,"7,825",Stadio Carlo Castellani,Luca Massimi,2023-10-30,https://fbref.com/en/matches/6e46ce92/Empoli-Atalanta-October-30-2023-Serie-A
+J10,Lazio,Fiorentina,1–0,"35,000",Stadio Olimpico,Matteo Marcenaro,2023-10-30,https://fbref.com/en/matches/624e865d/Lazio-Fiorentina-October-30-2023-Serie-A
+J11,Bologna,Lazio,1–0,"24,178",Stadio Renato Dall'Ara,Federico La Penna,2023-11-03,https://fbref.com/en/matches/f1f6882a/Bologna-Lazio-November-3-2023-Serie-A
+J11,Salernitana,Napoli,0–2,"16,812",Stadio Arechi,Antonio Rapuano,2023-11-04,https://fbref.com/en/matches/ab7a7fcd/Salernitana-Napoli-November-4-2023-Serie-A
+J11,Atalanta,Inter,1–2,"14,945",Gewiss Stadium,Simone Sozza,2023-11-04,https://fbref.com/en/matches/c8fcbfaf/Atalanta-Internazionale-November-4-2023-Serie-A
+J11,Milan,Udinese,0–1,"71,018",Stadio Giuseppe Meazza,Juan Sacchi,2023-11-04,https://fbref.com/en/matches/8a7a42ac/Milan-Udinese-November-4-2023-Serie-A
+J11,Hellas Verona,Monza,1–3,"17,505",Stadio Marc'Antonio Bentegodi,Giuseppe Collu,2023-11-05,https://fbref.com/en/matches/128aed93/Hellas-Verona-Monza-November-5-2023-Serie-A
+J11,Cagliari,Genoa,2–1,"16,412",Unipol Domus,Marco Guida,2023-11-05,https://fbref.com/en/matches/56068b2c/Cagliari-Genoa-November-5-2023-Serie-A
+J11,Roma,Lecce,2–1,"64,790",Stadio Olimpico,Andrea Colombo,2023-11-05,https://fbref.com/en/matches/4c1693f0/Roma-Lecce-November-5-2023-Serie-A
+J11,Fiorentina,Juventus,0–1,"38,225",Stadio Artemio Franchi,Daniele Chiffi,2023-11-05,https://fbref.com/en/matches/8603814f/Fiorentina-Juventus-November-5-2023-Serie-A
+J11,Frosinone,Empoli,2–1,"13,229",Stadio Benito Stirpe,Gianluca Manganiello,2023-11-06,https://fbref.com/en/matches/5dfc2507/Frosinone-Empoli-November-6-2023-Serie-A
+J11,Torino,Sassuolo,2–1,"18,000",Stadio Olimpico di Torino,Maria Sole Ferrieri Caputi,2023-11-06,https://fbref.com/en/matches/d9d399b5/Torino-Sassuolo-November-6-2023-Serie-A
+J12,Sassuolo,Salernitana,2–2,"10,945",Mapei Stadium - Città del Tricolore,Davide Ghersini,2023-11-10,https://fbref.com/en/matches/3de0d6e2/Sassuolo-Salernitana-November-10-2023-Serie-A
+J12,Genoa,Hellas Verona,1–0,"30,421",Stadio Comunale Luigi Ferraris,Daniele Orsato,2023-11-10,https://fbref.com/en/matches/1aa2417e/Genoa-Hellas-Verona-November-10-2023-Serie-A
+J12,Lecce,Milan,2–2,"26,480",Stadio Comunale Via Del Mare,Rosario Abisso,2023-11-11,https://fbref.com/en/matches/26587ad3/Lecce-Milan-November-11-2023-Serie-A
+J12,Juventus,Cagliari,2–1,"39,892",Allianz Stadium,Marco Piccinini,2023-11-11,https://fbref.com/en/matches/30bc4996/Juventus-Cagliari-November-11-2023-Serie-A
+J12,Monza,Torino,1–1,"11,777",U-Power Stadium,Daniele Doveri,2023-11-11,https://fbref.com/en/matches/2f8d44e3/Monza-Torino-November-11-2023-Serie-A
+J12,Napoli,Empoli,0–1,"50,500",Stadio Diego Armando Maradona,Alessandro Prontera,2023-11-12,https://fbref.com/en/matches/c54b9d5c/Napoli-Empoli-November-12-2023-Serie-A
+J12,Fiorentina,Bologna,2–1,"29,750",Stadio Artemio Franchi,Fabio Maresca,2023-11-12,https://fbref.com/en/matches/0bdc5ea4/Derby-dellAppennino-Fiorentina-Bologna-November-12-2023-Serie-A
+J12,Udinese,Atalanta,1–1,"23,100",Bluenergy Stadium,Gianluca Aureliano,2023-11-12,https://fbref.com/en/matches/df8d2100/Udinese-Atalanta-November-12-2023-Serie-A
+J12,Lazio,Roma,0–0,"63,000",Stadio Olimpico,Davide Massa,2023-11-12,https://fbref.com/en/matches/1c159031/Lazio-Roma-November-12-2023-Serie-A
+J12,Inter,Frosinone,2–0,"70,816",Stadio Giuseppe Meazza,Federico Dionisi,2023-11-12,https://fbref.com/en/matches/93b6cf24/Internazionale-Frosinone-November-12-2023-Serie-A
+J13,Salernitana,Lazio,2–1,"16,700",Stadio Arechi,Alessandro Prontera,2023-11-25,https://fbref.com/en/matches/0084ffeb/Salernitana-Lazio-November-25-2023-Serie-A
+J13,Atalanta,Napoli,1–2,"14,743",Gewiss Stadium,Maurizio Mariani,2023-11-25,https://fbref.com/en/matches/67af3925/Atalanta-Napoli-November-25-2023-Serie-A
+J13,Milan,Fiorentina,1–0,"73,074",Stadio Giuseppe Meazza,Marco Di Bello,2023-11-25,https://fbref.com/en/matches/875da0ea/Milan-Fiorentina-November-25-2023-Serie-A
+J13,Cagliari,Monza,1–1,"16,291",Unipol Domus,Matteo Marchetti,2023-11-26,https://fbref.com/en/matches/47ec2cb2/Cagliari-Monza-November-26-2023-Serie-A
+J13,Empoli,Sassuolo,3–4,"9,954",Stadio Carlo Castellani,Simone Sozza,2023-11-26,https://fbref.com/en/matches/ff49299b/Empoli-Sassuolo-November-26-2023-Serie-A
+J13,Frosinone,Genoa,2–1,"14,018",Stadio Benito Stirpe,Luca Zufferli,2023-11-26,https://fbref.com/en/matches/1860d133/Frosinone-Genoa-November-26-2023-Serie-A
+J13,Roma,Udinese,3–1,"61,015",Stadio Olimpico,Luca Massimi,2023-11-26,https://fbref.com/en/matches/2b8b1d61/Roma-Udinese-November-26-2023-Serie-A
+J13,Juventus,Inter,1–1,"41,507",Allianz Stadium,Marco Guida,2023-11-26,https://fbref.com/en/matches/5d1039da/Derby-dItalia-Juventus-Internazionale-November-26-2023-Serie-A
+J13,Hellas Verona,Lecce,2–2,"16,730",Stadio Marc'Antonio Bentegodi,Federico La Penna,2023-11-27,https://fbref.com/en/matches/d50d93be/Hellas-Verona-Lecce-November-27-2023-Serie-A
+J13,Bologna,Torino,2–0,"20,705",Stadio Renato Dall'Ara,Andrea Colombo,2023-11-27,https://fbref.com/en/matches/a564e4e1/Bologna-Torino-November-27-2023-Serie-A
+J14,Monza,Juventus,1–2,"15,148",U-Power Stadium,Michael Fabbri,2023-12-01,https://fbref.com/en/matches/54baa72c/Monza-Juventus-December-1-2023-Serie-A
+J14,Genoa,Empoli,1–1,"30,747",Stadio Comunale Luigi Ferraris,Gianluca Aureliano,2023-12-02,https://fbref.com/en/matches/0780d7e3/Genoa-Empoli-December-2-2023-Serie-A
+J14,Lazio,Cagliari,1–0,"37,000",Stadio Olimpico,Federico Dionisi,2023-12-02,https://fbref.com/en/matches/e8ae600f/Lazio-Cagliari-December-2-2023-Serie-A
+J14,Milan,Frosinone,3–1,"68,684",Stadio Giuseppe Meazza,Matteo Marchetti,2023-12-02,https://fbref.com/en/matches/c2a7440f/Milan-Frosinone-December-2-2023-Serie-A
+J14,Lecce,Bologna,1–1,"24,326",Stadio Comunale Via Del Mare,Daniele Doveri,2023-12-03,https://fbref.com/en/matches/5e47db9d/Lecce-Bologna-December-3-2023-Serie-A
+J14,Udinese,Hellas Verona,3–3,"22,294",Bluenergy Stadium,Fabio Maresca,2023-12-03,https://fbref.com/en/matches/18868f08/Udinese-Hellas-Verona-December-3-2023-Serie-A
+J14,Fiorentina,Salernitana,3–0,"26,286",Stadio Artemio Franchi,Paride Tremolada,2023-12-03,https://fbref.com/en/matches/d152da0e/Fiorentina-Salernitana-December-3-2023-Serie-A
+J14,Sassuolo,Roma,1–2,"19,113",Mapei Stadium - Città del Tricolore,Matteo Marcenaro,2023-12-03,https://fbref.com/en/matches/78393dd6/Sassuolo-Roma-December-3-2023-Serie-A
+J14,Napoli,Inter,0–3,"55,000",Stadio Diego Armando Maradona,Davide Massa,2023-12-03,https://fbref.com/en/matches/60106a8e/Napoli-Internazionale-December-3-2023-Serie-A
+J14,Torino,Atalanta,3–0,"18,507",Stadio Olimpico di Torino,Marco Piccinini,2023-12-04,https://fbref.com/en/matches/426a05d8/Torino-Atalanta-December-4-2023-Serie-A
+J15,Juventus,Napoli,1–0,"41,400",Allianz Stadium,Daniele Orsato,2023-12-08,https://fbref.com/en/matches/f2ffde12/Juventus-Napoli-December-8-2023-Serie-A
+J15,Hellas Verona,Lazio,1–1,"28,311",Stadio Marc'Antonio Bentegodi,Giovanni Ayroldi,2023-12-09,https://fbref.com/en/matches/5325a9b6/Hellas-Verona-Lazio-December-9-2023-Serie-A
+J15,Atalanta,Milan,3–2,"14,907",Gewiss Stadium,Federico La Penna,2023-12-09,https://fbref.com/en/matches/0c234040/Atalanta-Milan-December-9-2023-Serie-A
+J15,Inter,Udinese,4–0,"71,874",Stadio Giuseppe Meazza,Marco Di Bello,2023-12-09,https://fbref.com/en/matches/26772f25/Internazionale-Udinese-December-9-2023-Serie-A
+J15,Frosinone,Torino,0–0,"13,807",Stadio Benito Stirpe,Luca Massimi,2023-12-10,https://fbref.com/en/matches/5f74c6e7/Frosinone-Torino-December-10-2023-Serie-A
+J15,Monza,Genoa,1–0,"13,283",U-Power Stadium,Giuseppe Collu,2023-12-10,https://fbref.com/en/matches/c46b68ad/Monza-Genoa-December-10-2023-Serie-A
+J15,Salernitana,Bologna,1–2,"16,700",Stadio Arechi,Simone Sozza,2023-12-10,https://fbref.com/en/matches/1935ee01/Salernitana-Bologna-December-10-2023-Serie-A
+J15,Roma,Fiorentina,1–1,"60,932",Stadio Olimpico,Antonio Rapuano,2023-12-10,https://fbref.com/en/matches/ebfc4b5d/Roma-Fiorentina-December-10-2023-Serie-A
+J15,Empoli,Lecce,1–1,"7,152",Stadio Carlo Castellani,Andrea Colombo,2023-12-11,https://fbref.com/en/matches/a83df9d0/Empoli-Lecce-December-11-2023-Serie-A
+J15,Cagliari,Sassuolo,2–1,"15,769",Unipol Domus,Maurizio Mariani,2023-12-11,https://fbref.com/en/matches/9d5df4d8/Cagliari-Sassuolo-December-11-2023-Serie-A
+J16,Genoa,Juventus,1–1,"33,232",Stadio Comunale Luigi Ferraris,Davide Massa,2023-12-15,https://fbref.com/en/matches/c95a31e6/Genoa-Juventus-December-15-2023-Serie-A
+J16,Lecce,Frosinone,2–1,"23,645",Stadio Comunale Via Del Mare,Luca Zufferli,2023-12-16,https://fbref.com/en/matches/9ca90d35/Lecce-Frosinone-December-16-2023-Serie-A
+J16,Napoli,Cagliari,2–1,"45,000",Stadio Diego Armando Maradona,Matteo Marcenaro,2023-12-16,https://fbref.com/en/matches/1b1b2ce1/Napoli-Cagliari-December-16-2023-Serie-A
+J16,Torino,Empoli,1–0,"17,815",Stadio Olimpico di Torino,Livio Marinelli,2023-12-16,https://fbref.com/en/matches/d64c7b97/Torino-Empoli-December-16-2023-Serie-A
+J16,Milan,Monza,3–0,"70,538",Stadio Giuseppe Meazza,Gianluca Aureliano,2023-12-17,https://fbref.com/en/matches/5c1fc7a4/Milan-Monza-December-17-2023-Serie-A
+J16,Udinese,Sassuolo,2–2,"20,490",Bluenergy Stadium,Gianluca Manganiello,2023-12-17,https://fbref.com/en/matches/2e9fcf23/Udinese-Sassuolo-December-17-2023-Serie-A
+J16,Fiorentina,Hellas Verona,1–0,"26,311",Stadio Artemio Franchi,Maria Sole Ferrieri Caputi,2023-12-17,https://fbref.com/en/matches/182d1f9b/Fiorentina-Hellas-Verona-December-17-2023-Serie-A
+J16,Bologna,Roma,2–0,"25,579",Stadio Renato Dall'Ara,Marco Guida,2023-12-17,https://fbref.com/en/matches/0562758e/Bologna-Roma-December-17-2023-Serie-A
+J16,Lazio,Inter,0–2,"59,000",Stadio Olimpico,Fabio Maresca,2023-12-17,https://fbref.com/en/matches/ebcc474c/Lazio-Internazionale-December-17-2023-Serie-A
+J16,Atalanta,Salernitana,4–1,"14,264",Gewiss Stadium,Ermanno Feliciani,2023-12-18,https://fbref.com/en/matches/09971293/Atalanta-Salernitana-December-18-2023-Serie-A
+J17,Empoli,Lazio,0–2,"8,800",Stadio Carlo Castellani,Matteo Marchetti,2023-12-22,https://fbref.com/en/matches/ff7b7785/Empoli-Lazio-December-22-2023-Serie-A
+J17,Sassuolo,Genoa,1–2,"11,745",Mapei Stadium - Città del Tricolore,Marco Guida,2023-12-22,https://fbref.com/en/matches/fc3e6bb7/Sassuolo-Genoa-December-22-2023-Serie-A
+J17,Monza,Fiorentina,0–1,"10,120",U-Power Stadium,Juan Sacchi,2023-12-22,https://fbref.com/en/matches/9c0fc917/Monza-Fiorentina-December-22-2023-Serie-A
+J17,Salernitana,Milan,2–2,"23,467",Stadio Arechi,Daniele Doveri,2023-12-22,https://fbref.com/en/matches/bdb5f23c/Salernitana-Milan-December-22-2023-Serie-A
+J17,Frosinone,Juventus,1–2,"38,225",Stadio Benito Stirpe,Maurizio Mariani,2023-12-23,https://fbref.com/en/matches/44fc849f/Frosinone-Juventus-December-23-2023-Serie-A
+J17,Torino,Udinese,1–1,"23,546",Stadio Olimpico di Torino,Michael Fabbri,2023-12-23,https://fbref.com/en/matches/325f62dc/Torino-Udinese-December-23-2023-Serie-A
+J17,Bologna,Atalanta,1–0,"28,082",Stadio Renato Dall'Ara,Antonio Rapuano,2023-12-23,https://fbref.com/en/matches/bf3695d0/Bologna-Atalanta-December-23-2023-Serie-A
+J17,Inter,Lecce,2–0,"72,723",Stadio Giuseppe Meazza,Matteo Marcenaro,2023-12-23,https://fbref.com/en/matches/a4100b39/Internazionale-Lecce-December-23-2023-Serie-A
+J17,Hellas Verona,Cagliari,2–0,"16,716",Stadio Marc'Antonio Bentegodi,Daniele Orsato,2023-12-23,https://fbref.com/en/matches/bd8f8dc3/Hellas-Verona-Cagliari-December-23-2023-Serie-A
+J17,Roma,Napoli,2–0,"62,141",Stadio Olimpico,Andrea Colombo,2023-12-23,https://fbref.com/en/matches/b532dc3c/Derby-del-Sole-Roma-Napoli-December-23-2023-Serie-A
+J18,Fiorentina,Torino,1–0,"32,915",Stadio Artemio Franchi,Federico La Penna,2023-12-29,https://fbref.com/en/matches/af10add0/Fiorentina-Torino-December-29-2023-Serie-A
+J18,Napoli,Monza,0–0,"32,915",Stadio Diego Armando Maradona,Marco Di Bello,2023-12-29,https://fbref.com/en/matches/247f8cd7/Napoli-Monza-December-29-2023-Serie-A
+J18,Genoa,Inter,1–1,"33,249",Stadio Comunale Luigi Ferraris,Daniele Doveri,2023-12-29,https://fbref.com/en/matches/ce6440ec/Genoa-Internazionale-December-29-2023-Serie-A
+J18,Lazio,Frosinone,3–1,"40,000",Stadio Olimpico,Ermanno Feliciani,2023-12-29,https://fbref.com/en/matches/0127e76f/Lazio-Frosinone-December-29-2023-Serie-A
+J18,Atalanta,Lecce,1–0,"14,864",Gewiss Stadium,Gianluca Manganiello,2023-12-30,https://fbref.com/en/matches/65cf973f/Atalanta-Lecce-December-30-2023-Serie-A
+J18,Cagliari,Empoli,0–0,"16,125",Unipol Domus,Fabio Maresca,2023-12-30,https://fbref.com/en/matches/9baa497e/Cagliari-Empoli-December-30-2023-Serie-A
+J18,Udinese,Bologna,3–0,"24,786",Bluenergy Stadium,Daniele Orsato,2023-12-30,https://fbref.com/en/matches/9577ee17/Udinese-Bologna-December-30-2023-Serie-A
+J18,Milan,Sassuolo,1–0,"70,385",Stadio Giuseppe Meazza,Livio Marinelli,2023-12-30,https://fbref.com/en/matches/2441721c/Milan-Sassuolo-December-30-2023-Serie-A
+J18,Hellas Verona,Salernitana,0–1,"18,181",Stadio Marc'Antonio Bentegodi,Maurizio Mariani,2023-12-30,https://fbref.com/en/matches/c3c1ffd2/Hellas-Verona-Salernitana-December-30-2023-Serie-A
+J18,Juventus,Roma,1–0,"41,503",Allianz Stadium,Simone Sozza,2023-12-30,https://fbref.com/en/matches/d034386f/Juventus-Roma-December-30-2023-Serie-A
+J19,Bologna,Genoa,1–1,"25,095",Stadio Renato Dall'Ara,Andrea Colombo,2024-01-05,https://fbref.com/en/matches/430b16c5/Bologna-Genoa-January-5-2024-Serie-A
+J19,Inter,Hellas Verona,2–1,"71,691",Stadio Giuseppe Meazza,Michael Fabbri,2024-01-06,https://fbref.com/en/matches/d238abdd/Internazionale-Hellas-Verona-January-6-2024-Serie-A
+J19,Frosinone,Monza,2–3,"13,146",Stadio Benito Stirpe,Maria Sole Ferrieri Caputi,2024-01-06,https://fbref.com/en/matches/79f61c8a/Frosinone-Monza-January-6-2024-Serie-A
+J19,Lecce,Cagliari,1–1,"25,203",Stadio Comunale Via Del Mare,Davide Massa,2024-01-06,https://fbref.com/en/matches/77d540ef/Lecce-Cagliari-January-6-2024-Serie-A
+J19,Sassuolo,Fiorentina,1–0,"15,759",Mapei Stadium - Città del Tricolore,Rosario Abisso,2024-01-06,https://fbref.com/en/matches/729b1cb3/Sassuolo-Fiorentina-January-6-2024-Serie-A
+J19,Empoli,Milan,0–3,"15,009",Stadio Carlo Castellani,Federico La Penna,2024-01-07,https://fbref.com/en/matches/84fd252a/Empoli-Milan-January-7-2024-Serie-A
+J19,Torino,Napoli,3–0,"23,960",Stadio Olimpico di Torino,Maurizio Mariani,2024-01-07,https://fbref.com/en/matches/6dd86ed1/Torino-Napoli-January-7-2024-Serie-A
+J19,Udinese,Lazio,1–2,"23,033",Bluenergy Stadium,Juan Sacchi,2024-01-07,https://fbref.com/en/matches/65d51821/Udinese-Lazio-January-7-2024-Serie-A
+J19,Salernitana,Juventus,1–2,"40,548",Stadio Arechi,Marco Guida,2024-01-07,https://fbref.com/en/matches/e74d3589/Salernitana-Juventus-January-7-2024-Serie-A
+J19,Roma,Atalanta,1–1,"60,022",Stadio Olimpico,Gianluca Aureliano,2024-01-07,https://fbref.com/en/matches/6d865e81/Roma-Atalanta-January-7-2024-Serie-A
+J20,Genoa,Torino,0–0,"33,019",Stadio Comunale Luigi Ferraris,Antonio Giua,2024-01-13,https://fbref.com/en/matches/6b9bc82f/Genoa-Torino-January-13-2024-Serie-A
+J20,Napoli,Salernitana,2–1,"35,000",Stadio Diego Armando Maradona,Livio Marinelli,2024-01-13,https://fbref.com/en/matches/4481a44c/Napoli-Salernitana-January-13-2024-Serie-A
+J20,Hellas Verona,Empoli,2–1,"28,723",Stadio Marc'Antonio Bentegodi,Daniele Doveri,2024-01-13,https://fbref.com/en/matches/1e1a6ee6/Hellas-Verona-Empoli-January-13-2024-Serie-A
+J20,Monza,Inter,1–5,"14,670",U-Power Stadium,Antonio Rapuano,2024-01-13,https://fbref.com/en/matches/f42d4375/Monza-Internazionale-January-13-2024-Serie-A
+J20,Lazio,Lecce,1–0,"40,000",Stadio Olimpico,Maria Sole Ferrieri Caputi,2024-01-14,https://fbref.com/en/matches/945c196b/Lazio-Lecce-January-14-2024-Serie-A
+J20,Cagliari,Bologna,2–1,"15,980",Unipol Domus,Gianluca Manganiello,2024-01-14,https://fbref.com/en/matches/91852b28/Cagliari-Bologna-January-14-2024-Serie-A
+J20,Fiorentina,Udinese,2–2,"23,686",Stadio Artemio Franchi,Luca Pairetto,2024-01-14,https://fbref.com/en/matches/b52c1e88/Fiorentina-Udinese-January-14-2024-Serie-A
+J20,Milan,Roma,3–1,"74,198",Stadio Giuseppe Meazza,Marco Guida,2024-01-14,https://fbref.com/en/matches/3877f7ac/Milan-Roma-January-14-2024-Serie-A
+J20,Atalanta,Frosinone,5–0,"14,195",Gewiss Stadium,Alessandro Prontera,2024-01-15,https://fbref.com/en/matches/fb9c9cdb/Atalanta-Frosinone-January-15-2024-Serie-A
+J20,Juventus,Sassuolo,3–0,"39,005",Allianz Stadium,Marco Piccinini,2024-01-16,https://fbref.com/en/matches/a5520dc8/Juventus-Sassuolo-January-16-2024-Serie-A
+J21,Roma,Hellas Verona,2–1,"61,857",Stadio Olimpico,Juan Sacchi,2024-01-20,https://fbref.com/en/matches/4979e519/Roma-Hellas-Verona-January-20-2024-Serie-A
+J21,Udinese,Milan,2–3,"24,591",Bluenergy Stadium,Fabio Maresca,2024-01-20,https://fbref.com/en/matches/5bfc3571/Udinese-Milan-January-20-2024-Serie-A
+J21,Frosinone,Cagliari,3–1,"13,925",Stadio Benito Stirpe,Federico Dionisi,2024-01-21,https://fbref.com/en/matches/b6ac3781/Frosinone-Cagliari-January-21-2024-Serie-A
+J21,Empoli,Monza,3–0,"7,650",Stadio Carlo Castellani,Antonio Giua,2024-01-21,https://fbref.com/en/matches/57d1e07a/Empoli-Monza-January-21-2024-Serie-A
+J21,Salernitana,Genoa,1–2,"17,440",Stadio Arechi,Daniele Orsato,2024-01-21,https://fbref.com/en/matches/9513979f/Salernitana-Genoa-January-21-2024-Serie-A
+J21,Lecce,Juventus,0–3,"28,074",Stadio Comunale Via Del Mare,Daniele Doveri,2024-01-21,https://fbref.com/en/matches/5faf15cc/Lecce-Juventus-January-21-2024-Serie-A
+J22,Cagliari,Torino,1–2,"16,196",Unipol Domus,Andrea Colombo,2024-01-26,https://fbref.com/en/matches/94279bcd/Cagliari-Torino-January-26-2024-Serie-A
+J22,Atalanta,Udinese,2–0,"14,716",Gewiss Stadium,Marco Piccinini,2024-01-27,https://fbref.com/en/matches/8d8d45e1/Atalanta-Udinese-January-27-2024-Serie-A
+J22,Juventus,Empoli,1–1,"39,518",Allianz Stadium,Livio Marinelli,2024-01-27,https://fbref.com/en/matches/ae33c4fb/Juventus-Empoli-January-27-2024-Serie-A
+J22,Milan,Bologna,2–2,"71,334",Stadio Giuseppe Meazza,Davide Massa,2024-01-27,https://fbref.com/en/matches/0956366b/Milan-Bologna-January-27-2024-Serie-A
+J22,Genoa,Lecce,2–1,"32,152",Stadio Comunale Luigi Ferraris,Luca Pairetto,2024-01-28,https://fbref.com/en/matches/73b5dbc0/Genoa-Lecce-January-28-2024-Serie-A
+J22,Monza,Sassuolo,1–0,"9,882",U-Power Stadium,Gianluca Manganiello,2024-01-28,https://fbref.com/en/matches/16c39caa/Monza-Sassuolo-January-28-2024-Serie-A
+J22,Hellas Verona,Frosinone,1–1,"17,529",Stadio Marc'Antonio Bentegodi,Federico La Penna,2024-01-28,https://fbref.com/en/matches/4d9bfc36/Hellas-Verona-Frosinone-January-28-2024-Serie-A
+J22,Lazio,Napoli,0–0,"30,000",Stadio Olimpico,Daniele Orsato,2024-01-28,https://fbref.com/en/matches/5f2e86f8/Lazio-Napoli-January-28-2024-Serie-A
+J22,Fiorentina,Inter,0–1,"35,084",Stadio Artemio Franchi,Gianluca Aureliano,2024-01-28,https://fbref.com/en/matches/102c1e1a/Fiorentina-Internazionale-January-28-2024-Serie-A
+J22,Salernitana,Roma,1–2,"18,038",Stadio Arechi,Marco Di Bello,2024-01-29,https://fbref.com/en/matches/d0918b41/Salernitana-Roma-January-29-2024-Serie-A
+J23,Lecce,Fiorentina,3–2,"24,778",Stadio Comunale Via Del Mare,Antonio Giua,2024-02-02,https://fbref.com/en/matches/28d15df1/Lecce-Fiorentina-February-2-2024-Serie-A
+J23,Empoli,Genoa,0–0,"10,374",Stadio Carlo Castellani,Ermanno Feliciani,2024-02-03,https://fbref.com/en/matches/fdc54c79/Empoli-Genoa-February-3-2024-Serie-A
+J23,Udinese,Monza,0–0,"11,373",Bluenergy Stadium,Alessandro Prontera,2024-02-03,https://fbref.com/en/matches/31094073/Udinese-Monza-February-3-2024-Serie-A
+J23,Frosinone,Milan,2–3,"16,050",Stadio Benito Stirpe,Luca Pairetto,2024-02-03,https://fbref.com/en/matches/14c72d2c/Frosinone-Milan-February-3-2024-Serie-A
+J23,Bologna,Sassuolo,4–2,"20,932",Stadio Renato Dall'Ara,Juan Sacchi,2024-02-03,https://fbref.com/en/matches/6b5e4d06/Bologna-Sassuolo-February-3-2024-Serie-A
+J23,Torino,Salernitana,0–0,"24,461",Stadio Olimpico di Torino,Daniele Chiffi,2024-02-04,https://fbref.com/en/matches/0aa345fd/Torino-Salernitana-February-4-2024-Serie-A
+J23,Napoli,Hellas Verona,2–1,"44,000",Stadio Diego Armando Maradona,Marco Piccinini,2024-02-04,https://fbref.com/en/matches/9333828d/Napoli-Hellas-Verona-February-4-2024-Serie-A
+J23,Atalanta,Lazio,3–1,"14,492",Gewiss Stadium,Marco Guida,2024-02-04,https://fbref.com/en/matches/839bed1a/Atalanta-Lazio-February-4-2024-Serie-A
+J23,Inter,Juventus,1–0,"75,547",Stadio Giuseppe Meazza,Fabio Maresca,2024-02-04,https://fbref.com/en/matches/df2030e2/Derby-dItalia-Internazionale-Juventus-February-4-2024-Serie-A
+J23,Roma,Cagliari,4–0,"61,755",Stadio Olimpico,Matteo Marcenaro,2024-02-05,https://fbref.com/en/matches/798802e2/Roma-Cagliari-February-5-2024-Serie-A
+J24,Salernitana,Empoli,1–3,"18,511",Stadio Arechi,Maurizio Mariani,2024-02-09,https://fbref.com/en/matches/41f47040/Salernitana-Empoli-February-9-2024-Serie-A
+J24,Cagliari,Lazio,1–3,"16,155",Unipol Domus,Marco Di Bello,2024-02-10,https://fbref.com/en/matches/c058cdf4/Cagliari-Lazio-February-10-2024-Serie-A
+J24,Roma,Inter,2–4,"65,044",Stadio Olimpico,Marco Guida,2024-02-10,https://fbref.com/en/matches/7d4cb549/Roma-Internazionale-February-10-2024-Serie-A
+J24,Sassuolo,Torino,1–1,"10,955",Mapei Stadium - Città del Tricolore,Daniele Orsato,2024-02-10,https://fbref.com/en/matches/44120e9d/Sassuolo-Torino-February-10-2024-Serie-A
+J24,Fiorentina,Frosinone,5–1,"25,397",Stadio Artemio Franchi,Ermanno Feliciani,2024-02-11,https://fbref.com/en/matches/6d37f665/Fiorentina-Frosinone-February-11-2024-Serie-A
+J24,Monza,Hellas Verona,0–0,"10,855",U-Power Stadium,Davide Massa,2024-02-11,https://fbref.com/en/matches/5cba7c58/Monza-Hellas-Verona-February-11-2024-Serie-A
+J24,Bologna,Lecce,4–0,"24,658",Stadio Renato Dall'Ara,Gianluca Manganiello,2024-02-11,https://fbref.com/en/matches/50fb8ad3/Bologna-Lecce-February-11-2024-Serie-A
+J24,Genoa,Atalanta,1–4,"31,201",Stadio Comunale Luigi Ferraris,Andrea Colombo,2024-02-11,https://fbref.com/en/matches/af2e9e84/Genoa-Atalanta-February-11-2024-Serie-A
+J24,Milan,Napoli,1–0,"73,891",Stadio Giuseppe Meazza,Daniele Doveri,2024-02-11,https://fbref.com/en/matches/07524327/Milan-Napoli-February-11-2024-Serie-A
+J24,Juventus,Udinese,0–1,"38,856",Allianz Stadium,Rosario Abisso,2024-02-12,https://fbref.com/en/matches/70d80153/Juventus-Udinese-February-12-2024-Serie-A
+J21,Bologna,Fiorentina,2–0,"25,684",Stadio Renato Dall'Ara,Daniele Chiffi,2024-02-14,https://fbref.com/en/matches/218232ce/Derby-dellAppennino-Bologna-Fiorentina-February-14-2024-Serie-A
+J25,Torino,Lecce,2–0,"22,457",Stadio Olimpico di Torino,Giovanni Ayroldi,2024-02-16,https://fbref.com/en/matches/adbef025/Torino-Lecce-February-16-2024-Serie-A
+J25,Inter,Salernitana,4–0,"72,609",Stadio Giuseppe Meazza,Marco Piccinini,2024-02-16,https://fbref.com/en/matches/19a73f2f/Internazionale-Salernitana-February-16-2024-Serie-A
+J25,Napoli,Genoa,1–1,"47,000",Stadio Diego Armando Maradona,Juan Sacchi,2024-02-17,https://fbref.com/en/matches/bf05bb55/Napoli-Genoa-February-17-2024-Serie-A
+J25,Hellas Verona,Juventus,2–2,"26,000",Stadio Marc'Antonio Bentegodi,Marco Di Bello,2024-02-17,https://fbref.com/en/matches/b690885f/Hellas-Verona-Juventus-February-17-2024-Serie-A
+J25,Atalanta,Sassuolo,3–0,"14,474",Gewiss Stadium,Alessandro Prontera,2024-02-17,https://fbref.com/en/matches/1e203a3e/Atalanta-Sassuolo-February-17-2024-Serie-A
+J25,Lazio,Bologna,1–2,"37,000",Stadio Olimpico,Fabio Maresca,2024-02-18,https://fbref.com/en/matches/c79de8a0/Lazio-Bologna-February-18-2024-Serie-A
+J25,Empoli,Fiorentina,1–1,"12,490",Stadio Carlo Castellani,Luca Pairetto,2024-02-18,https://fbref.com/en/matches/802e40b2/Empoli-Fiorentina-February-18-2024-Serie-A
+J25,Udinese,Cagliari,1–1,"15,445",Bluenergy Stadium,Maurizio Mariani,2024-02-18,https://fbref.com/en/matches/8b73e145/Udinese-Cagliari-February-18-2024-Serie-A
+J25,Frosinone,Roma,0–3,"16,056",Stadio Benito Stirpe,Antonio Giua,2024-02-18,https://fbref.com/en/matches/ea07d8c6/Frosinone-Roma-February-18-2024-Serie-A
+J25,Monza,Milan,4–2,"14,319",U-Power Stadium,Andrea Colombo,2024-02-18,https://fbref.com/en/matches/c735ea6b/Monza-Milan-February-18-2024-Serie-A
+J21,Torino,Lazio,0–2,"22,742",Stadio Olimpico di Torino,Federico La Penna,2024-02-22,https://fbref.com/en/matches/e7598003/Torino-Lazio-February-22-2024-Serie-A
+J26,Bologna,Hellas Verona,2–0,"26,033",Stadio Renato Dall'Ara,Rosario Abisso,2024-02-23,https://fbref.com/en/matches/35d4984a/Bologna-Hellas-Verona-February-23-2024-Serie-A
+J26,Sassuolo,Empoli,2–3,,Mapei Stadium - Città del Tricolore,Gianluca Aureliano,2024-02-24,https://fbref.com/en/matches/fd1c0d24/Sassuolo-Empoli-February-24-2024-Serie-A
+J26,Salernitana,Monza,0–2,"18,560",Stadio Arechi,Michael Fabbri,2024-02-24,https://fbref.com/en/matches/9eb1114c/Salernitana-Monza-February-24-2024-Serie-A
+J26,Genoa,Udinese,2–0,"31,126",Stadio Comunale Luigi Ferraris,Francesco Fourneau,2024-02-24,https://fbref.com/en/matches/e0b0bdc5/Genoa-Udinese-February-24-2024-Serie-A
+J26,Juventus,Frosinone,3–2,"40,719",Allianz Stadium,Antonio Rapuano,2024-02-25,https://fbref.com/en/matches/21134622/Juventus-Frosinone-February-25-2024-Serie-A
+J26,Cagliari,Napoli,1–1,"16,382",Unipol Domus,Luca Pairetto,2024-02-25,https://fbref.com/en/matches/9809e688/Cagliari-Napoli-February-25-2024-Serie-A
+J26,Lecce,Inter,0–4,"27,910",Stadio Comunale Via Del Mare,Daniele Doveri,2024-02-25,https://fbref.com/en/matches/e65f6ac6/Lecce-Internazionale-February-25-2024-Serie-A
+J26,Milan,Atalanta,1–1,"71,264",Stadio Giuseppe Meazza,Daniele Orsato,2024-02-25,https://fbref.com/en/matches/030a751b/Milan-Atalanta-February-25-2024-Serie-A
+J26,Roma,Torino,3–2,"61,595",Stadio Olimpico,Juan Sacchi,2024-02-26,https://fbref.com/en/matches/60c4d8af/Roma-Torino-February-26-2024-Serie-A
+J26,Fiorentina,Lazio,2–1,"25,190",Stadio Artemio Franchi,Marco Guida,2024-02-26,https://fbref.com/en/matches/76d3d638/Fiorentina-Lazio-February-26-2024-Serie-A
+J21,Sassuolo,Napoli,1–6,"17,085",Mapei Stadium - Città del Tricolore,Daniele Chiffi,2024-02-28,https://fbref.com/en/matches/3019b840/Sassuolo-Napoli-February-28-2024-Serie-A
+J21,Inter,Atalanta,4–0,"71,422",Stadio Giuseppe Meazza,Andrea Colombo,2024-02-28,https://fbref.com/en/matches/70446f62/Internazionale-Atalanta-February-28-2024-Serie-A
+J27,Lazio,Milan,0–1,"48,000",Stadio Olimpico,Marco Di Bello,2024-03-01,https://fbref.com/en/matches/2c7b2e0f/Lazio-Milan-March-1-2024-Serie-A
+J27,Udinese,Salernitana,1–1,"20,189",Bluenergy Stadium,Gianluca Manganiello,2024-03-02,https://fbref.com/en/matches/9b628018/Udinese-Salernitana-March-2-2024-Serie-A
+J27,Monza,Roma,1–4,"14,188",U-Power Stadium,Marco Piccinini,2024-03-02,https://fbref.com/en/matches/d4ae6c82/Monza-Roma-March-2-2024-Serie-A
+J27,Torino,Fiorentina,0–0,"22,845",Stadio Olimpico di Torino,Matteo Marchetti,2024-03-02,https://fbref.com/en/matches/576d1e86/Torino-Fiorentina-March-2-2024-Serie-A
+J27,Hellas Verona,Sassuolo,1–0,"19,338",Stadio Marc'Antonio Bentegodi,Fabio Maresca,2024-03-03,https://fbref.com/en/matches/90141069/Hellas-Verona-Sassuolo-March-3-2024-Serie-A
+J27,Empoli,Cagliari,0–1,"11,223",Stadio Carlo Castellani,Antonio Rapuano,2024-03-03,https://fbref.com/en/matches/af92650d/Empoli-Cagliari-March-3-2024-Serie-A
+J27,Frosinone,Lecce,1–1,"15,334",Stadio Benito Stirpe,Marco Guida,2024-03-03,https://fbref.com/en/matches/0960e2c8/Frosinone-Lecce-March-3-2024-Serie-A
+J27,Atalanta,Bologna,1–2,"14,931",Gewiss Stadium,Federico La Penna,2024-03-03,https://fbref.com/en/matches/27aab55a/Atalanta-Bologna-March-3-2024-Serie-A
+J27,Napoli,Juventus,2–1,"52,000",Stadio Diego Armando Maradona,Maurizio Mariani,2024-03-03,https://fbref.com/en/matches/51db492f/Napoli-Juventus-March-3-2024-Serie-A
+J27,Inter,Genoa,2–1,"75,421",Stadio Giuseppe Meazza,Giovanni Ayroldi,2024-03-04,https://fbref.com/en/matches/c4577218/Internazionale-Genoa-March-4-2024-Serie-A
+J28,Napoli,Torino,1–1,"42,000",Stadio Diego Armando Maradona,Daniele Orsato,2024-03-08,https://fbref.com/en/matches/9d189799/Napoli-Torino-March-8-2024-Serie-A
+J28,Cagliari,Salernitana,4–2,"16,118",Unipol Domus,Francesco Fourneau,2024-03-09,https://fbref.com/en/matches/446ec5e0/Cagliari-Salernitana-March-9-2024-Serie-A
+J28,Sassuolo,Frosinone,1–0,"11,189",Mapei Stadium - Città del Tricolore,Federico La Penna,2024-03-09,https://fbref.com/en/matches/def050b8/Sassuolo-Frosinone-March-9-2024-Serie-A
+J28,Bologna,Inter,0–1,"30,204",Stadio Renato Dall'Ara,Luca Pairetto,2024-03-09,https://fbref.com/en/matches/de22618d/Bologna-Internazionale-March-9-2024-Serie-A
+J28,Genoa,Monza,2–3,,Stadio Comunale Luigi Ferraris,Ermanno Feliciani,2024-03-09,https://fbref.com/en/matches/f8dba673/Genoa-Monza-March-9-2024-Serie-A
+J28,Lecce,Hellas Verona,0–1,"25,222",Stadio Comunale Via Del Mare,Daniele Chiffi,2024-03-10,https://fbref.com/en/matches/d48f5312/Lecce-Hellas-Verona-March-10-2024-Serie-A
+J28,Milan,Empoli,1–0,"70,343",Stadio Giuseppe Meazza,Juan Sacchi,2024-03-10,https://fbref.com/en/matches/11b229fa/Milan-Empoli-March-10-2024-Serie-A
+J28,Juventus,Atalanta,2–2,"39,206",Allianz Stadium,Marco Guida,2024-03-10,https://fbref.com/en/matches/b18f50f9/Juventus-Atalanta-March-10-2024-Serie-A
+J28,Fiorentina,Roma,2–2,"30,438",Stadio Artemio Franchi,Davide Massa,2024-03-10,https://fbref.com/en/matches/363812cb/Fiorentina-Roma-March-10-2024-Serie-A
+J28,Lazio,Udinese,1–2,"34,000",Stadio Olimpico,Gianluca Aureliano,2024-03-11,https://fbref.com/en/matches/b33bb354/Lazio-Udinese-March-11-2024-Serie-A
+J29,Empoli,Bologna,0–1,"16,000",Stadio Carlo Castellani,Michael Fabbri,2024-03-15,https://fbref.com/en/matches/241bbdd3/Empoli-Bologna-March-15-2024-Serie-A
+J29,Udinese,Torino,0–2,"21,223",Bluenergy Stadium,Andrea Colombo,2024-03-16,https://fbref.com/en/matches/6309f668/Udinese-Torino-March-16-2024-Serie-A
+J29,Monza,Cagliari,1–0,"14,145",U-Power Stadium,Matteo Marcenaro,2024-03-16,https://fbref.com/en/matches/d2087228/Monza-Cagliari-March-16-2024-Serie-A
+J29,Salernitana,Lecce,0–1,"15,376",Stadio Arechi,Fabio Maresca,2024-03-16,https://fbref.com/en/matches/4a8236bd/Salernitana-Lecce-March-16-2024-Serie-A
+J29,Frosinone,Lazio,2–3,"15,780",Stadio Benito Stirpe,Antonio Rapuano,2024-03-16,https://fbref.com/en/matches/8ec58037/Frosinone-Lazio-March-16-2024-Serie-A
+J29,Juventus,Genoa,0–0,"40,098",Allianz Stadium,Antonio Giua,2024-03-17,https://fbref.com/en/matches/4406f8bc/Juventus-Genoa-March-17-2024-Serie-A
+J29,Hellas Verona,Milan,1–3,"26,165",Stadio Marc'Antonio Bentegodi,Maurizio Mariani,2024-03-17,https://fbref.com/en/matches/73d4a95b/Hellas-Verona-Milan-March-17-2024-Serie-A
+J29,Roma,Sassuolo,1–0,"66,871",Stadio Olimpico,Gianluca Manganiello,2024-03-17,https://fbref.com/en/matches/a59ffc20/Roma-Sassuolo-March-17-2024-Serie-A
+J29,Inter,Napoli,1–1,"71,551",Stadio Giuseppe Meazza,Federico La Penna,2024-03-17,https://fbref.com/en/matches/3ea9e35f/Internazionale-Napoli-March-17-2024-Serie-A
+J30,Napoli,Atalanta,0–3,"50,000",Stadio Diego Armando Maradona,Luca Pairetto,2024-03-30,https://fbref.com/en/matches/45e6d215/Napoli-Atalanta-March-30-2024-Serie-A
+J30,Torino,Monza,1–0,"24,286",Stadio Olimpico di Torino,Gianluca Aureliano,2024-03-30,https://fbref.com/en/matches/a797c77d/Torino-Monza-March-30-2024-Serie-A
+J30,Genoa,Frosinone,1–1,"31,462",Stadio Comunale Luigi Ferraris,Juan Sacchi,2024-03-30,https://fbref.com/en/matches/949865c6/Genoa-Frosinone-March-30-2024-Serie-A
+J30,Lazio,Juventus,1–0,"53,000",Stadio Olimpico,Andrea Colombo,2024-03-30,https://fbref.com/en/matches/2b4a58d1/Lazio-Juventus-March-30-2024-Serie-A
+J30,Fiorentina,Milan,1–2,"34,273",Stadio Artemio Franchi,Fabio Maresca,2024-03-30,https://fbref.com/en/matches/a9ac1dd4/Fiorentina-Milan-March-30-2024-Serie-A
+J30,Bologna,Salernitana,3–0,"27,255",Stadio Renato Dall'Ara,Ermanno Feliciani,2024-04-01,https://fbref.com/en/matches/b2dfb23d/Bologna-Salernitana-April-1-2024-Serie-A
+J30,Sassuolo,Udinese,1–1,"11,512",Mapei Stadium - Città del Tricolore,Michael Fabbri,2024-04-01,https://fbref.com/en/matches/f6e582c5/Sassuolo-Udinese-April-1-2024-Serie-A
+J30,Cagliari,Hellas Verona,1–1,"16,285",Unipol Domus,Daniele Doveri,2024-04-01,https://fbref.com/en/matches/f7d8a40e/Cagliari-Hellas-Verona-April-1-2024-Serie-A
+J30,Lecce,Roma,0–0,"29,031",Stadio Comunale Via Del Mare,Matteo Marcenaro,2024-04-01,https://fbref.com/en/matches/e48fdc60/Lecce-Roma-April-1-2024-Serie-A
+J30,Inter,Empoli,2–0,"71,551",Stadio Giuseppe Meazza,Federico Dionisi,2024-04-01,https://fbref.com/en/matches/58bfb9d7/Internazionale-Empoli-April-1-2024-Serie-A
+J31,Salernitana,Sassuolo,2–2,"14,036",Stadio Arechi,Simone Sozza,2024-04-05,https://fbref.com/en/matches/093991c7/Salernitana-Sassuolo-April-5-2024-Serie-A
+J31,Milan,Lecce,3–0,"71,576",Stadio Giuseppe Meazza,Luca Massimi,2024-04-06,https://fbref.com/en/matches/43765d2c/Milan-Lecce-April-6-2024-Serie-A
+J31,Roma,Lazio,1–0,"64,513",Stadio Olimpico,Marco Guida,2024-04-06,https://fbref.com/en/matches/c6904d7c/Roma-Lazio-April-6-2024-Serie-A
+J31,Empoli,Torino,3–2,"8,374",Stadio Carlo Castellani,Davide Massa,2024-04-06,https://fbref.com/en/matches/4b35fb0d/Empoli-Torino-April-6-2024-Serie-A
+J31,Frosinone,Bologna,0–0,"14,986",Stadio Benito Stirpe,Daniele Orsato,2024-04-07,https://fbref.com/en/matches/9e8b48ec/Frosinone-Bologna-April-7-2024-Serie-A
+J31,Monza,Napoli,2–4,"13,169",U-Power Stadium,Daniele Doveri,2024-04-07,https://fbref.com/en/matches/9bd21fb8/Monza-Napoli-April-7-2024-Serie-A
+J31,Hellas Verona,Genoa,1–2,"20,342",Stadio Marc'Antonio Bentegodi,Gianluca Manganiello,2024-04-07,https://fbref.com/en/matches/b266d1c5/Hellas-Verona-Genoa-April-7-2024-Serie-A
+J31,Cagliari,Atalanta,2–1,"16,342",Unipol Domus,Antonio Rapuano,2024-04-07,https://fbref.com/en/matches/3a4f86ae/Cagliari-Atalanta-April-7-2024-Serie-A
+J31,Juventus,Fiorentina,1–0,"37,994",Allianz Stadium,Federico La Penna,2024-04-07,https://fbref.com/en/matches/186d535c/Juventus-Fiorentina-April-7-2024-Serie-A
+J31,Udinese,Inter,1–2,"24,993",Bluenergy Stadium,Marco Piccinini,2024-04-08,https://fbref.com/en/matches/13a593d3/Udinese-Internazionale-April-8-2024-Serie-A
+J32,Lazio,Salernitana,4–1,"34,000",Stadio Olimpico,Luca Zufferli,2024-04-12,https://fbref.com/en/matches/500cf804/Lazio-Salernitana-April-12-2024-Serie-A
+J32,Lecce,Empoli,1–0,"25,957",Stadio Comunale Via Del Mare,Maurizio Mariani,2024-04-13,https://fbref.com/en/matches/e1660e90/Lecce-Empoli-April-13-2024-Serie-A
+J32,Torino,Juventus,0–0,"27,788",Stadio Olimpico di Torino,Fabio Maresca,2024-04-13,https://fbref.com/en/matches/df4af29b/Torino-Juventus-April-13-2024-Serie-A
+J32,Bologna,Monza,0–0,"26,903",Stadio Renato Dall'Ara,Federico La Penna,2024-04-13,https://fbref.com/en/matches/7ae9f1cb/Bologna-Monza-April-13-2024-Serie-A
+J32,Napoli,Frosinone,2–2,"51,177",Stadio Diego Armando Maradona,Michael Fabbri,2024-04-14,https://fbref.com/en/matches/4cd52f7a/Napoli-Frosinone-April-14-2024-Serie-A
+J32,Sassuolo,Milan,3–3,"19,199",Mapei Stadium - Città del Tricolore,Davide Massa,2024-04-14,https://fbref.com/en/matches/55d35708/Sassuolo-Milan-April-14-2024-Serie-A
+J32,Inter,Cagliari,2–2,"72,559",Stadio Giuseppe Meazza,Francesco Fourneau,2024-04-14,https://fbref.com/en/matches/6fa3136b/Internazionale-Cagliari-April-14-2024-Serie-A
+J32,Fiorentina,Genoa,1–1,"25,120",Stadio Artemio Franchi,Davide Di Marco,2024-04-15,https://fbref.com/en/matches/f4f2aa58/Fiorentina-Genoa-April-15-2024-Serie-A
+J32,Atalanta,Hellas Verona,2–2,"14,666",Gewiss Stadium,Juan Sacchi,2024-04-15,https://fbref.com/en/matches/6a69ffd2/Atalanta-Hellas-Verona-April-15-2024-Serie-A
+J33,Genoa,Lazio,0–1,"30,697",Stadio Comunale Luigi Ferraris,Ermanno Feliciani,2024-04-19,https://fbref.com/en/matches/a83ed0d9/Genoa-Lazio-April-19-2024-Serie-A
+J33,Cagliari,Juventus,2–2,"16,179",Unipol Domus,Marco Piccinini,2024-04-19,https://fbref.com/en/matches/9886fa0c/Cagliari-Juventus-April-19-2024-Serie-A
+J33,Empoli,Napoli,1–0,"12,500",Stadio Carlo Castellani,Gianluca Manganiello,2024-04-20,https://fbref.com/en/matches/08b10a76/Empoli-Napoli-April-20-2024-Serie-A
+J33,Hellas Verona,Udinese,1–0,"27,662",Stadio Marc'Antonio Bentegodi,Marco Guida,2024-04-20,https://fbref.com/en/matches/e1ddfae8/Hellas-Verona-Udinese-April-20-2024-Serie-A
+J33,Sassuolo,Lecce,0–3,"16,210",Mapei Stadium - Città del Tricolore,Daniele Doveri,2024-04-21,https://fbref.com/en/matches/d1e0f970/Sassuolo-Lecce-April-21-2024-Serie-A
+J33,Torino,Frosinone,0–0,"23,728",Stadio Olimpico di Torino,Antonio Rapuano,2024-04-21,https://fbref.com/en/matches/ee365788/Torino-Frosinone-April-21-2024-Serie-A
+J33,Salernitana,Fiorentina,0–2,"14,597",Stadio Arechi,Matteo Marchetti,2024-04-21,https://fbref.com/en/matches/fcfc5c95/Salernitana-Fiorentina-April-21-2024-Serie-A
+J33,Monza,Atalanta,1–2,"13,983",U-Power Stadium,Antonio Giua,2024-04-21,https://fbref.com/en/matches/8959e7b1/Monza-Atalanta-April-21-2024-Serie-A
+J33,Roma,Bologna,1–3,"63,850",Stadio Olimpico,Fabio Maresca,2024-04-22,https://fbref.com/en/matches/483d3341/Roma-Bologna-April-22-2024-Serie-A
+J33,Milan,Inter,1–2,"75,554",Stadio Giuseppe Meazza,Andrea Colombo,2024-04-22,https://fbref.com/en/matches/f8a1cbc3/Derby-della-Madonnina-Milan-Internazionale-April-22-2024-Serie-A
+J32,Udinese,Roma,1–2,"24,947",Bluenergy Stadium,Luca Pairetto,2024-04-25,https://fbref.com/en/matches/bca64d25/Udinese-Roma-April-25-2024-Serie-A
+J34,Frosinone,Salernitana,3–0,"13,728",Stadio Benito Stirpe,Francesco Fourneau,2024-04-26,https://fbref.com/en/matches/4fefb5fb/Frosinone-Salernitana-April-26-2024-Serie-A
+J34,Lecce,Monza,1–1,"27,167",Stadio Comunale Via Del Mare,Alberto Santoro,2024-04-27,https://fbref.com/en/matches/04472974/Lecce-Monza-April-27-2024-Serie-A
+J34,Juventus,Milan,0–0,"39,845",Allianz Stadium,Maurizio Mariani,2024-04-27,https://fbref.com/en/matches/023acbca/Juventus-Milan-April-27-2024-Serie-A
+J34,Lazio,Hellas Verona,1–0,"39,000",Stadio Olimpico,Davide Massa,2024-04-27,https://fbref.com/en/matches/730f4d2a/Lazio-Hellas-Verona-April-27-2024-Serie-A
+J34,Inter,Torino,2–0,"71,686",Stadio Giuseppe Meazza,Maria Sole Ferrieri Caputi,2024-04-28,https://fbref.com/en/matches/dbd84631/Internazionale-Torino-April-28-2024-Serie-A
+J34,Bologna,Udinese,1–1,"27,396",Stadio Renato Dall'Ara,Juan Sacchi,2024-04-28,https://fbref.com/en/matches/e7aba6c2/Bologna-Udinese-April-28-2024-Serie-A
+J34,Napoli,Roma,2–2,"45,000",Stadio Diego Armando Maradona,Simone Sozza,2024-04-28,https://fbref.com/en/matches/5820452a/Derby-del-Sole-Napoli-Roma-April-28-2024-Serie-A
+J34,Atalanta,Empoli,2–0,"14,614",Gewiss Stadium,Michael Fabbri,2024-04-28,https://fbref.com/en/matches/526fed3e/Atalanta-Empoli-April-28-2024-Serie-A
+J34,Fiorentina,Sassuolo,5–1,"22,575",Stadio Artemio Franchi,Matteo Marcenaro,2024-04-28,https://fbref.com/en/matches/a325ac75/Fiorentina-Sassuolo-April-28-2024-Serie-A
+J34,Genoa,Cagliari,3–0,"17,257",Stadio Comunale Luigi Ferraris,Federico Dionisi,2024-04-29,https://fbref.com/en/matches/29911872/Genoa-Cagliari-April-29-2024-Serie-A
+J35,Torino,Bologna,0–0,"23,895",Stadio Olimpico di Torino,Simone Sozza,2024-05-03,https://fbref.com/en/matches/b1ee8734/Torino-Bologna-May-3-2024-Serie-A
+J35,Monza,Lazio,2–2,"10,454",U-Power Stadium,Luca Pairetto,2024-05-04,https://fbref.com/en/matches/4a66cc9f/Monza-Lazio-May-4-2024-Serie-A
+J35,Sassuolo,Inter,1–0,"19,454",Mapei Stadium - Città del Tricolore,Matteo Marchetti,2024-05-04,https://fbref.com/en/matches/ed10c7dd/Sassuolo-Internazionale-May-4-2024-Serie-A
+J35,Cagliari,Lecce,1–1,"16,407",Unipol Domus,Matteo Marcenaro,2024-05-05,https://fbref.com/en/matches/37175126/Cagliari-Lecce-May-5-2024-Serie-A
+J35,Hellas Verona,Fiorentina,2–1,"27,821",Stadio Marc'Antonio Bentegodi,Antonio Rapuano,2024-05-05,https://fbref.com/en/matches/f7dadfce/Hellas-Verona-Fiorentina-May-5-2024-Serie-A
+J35,Empoli,Frosinone,0–0,"13,110",Stadio Carlo Castellani,Daniele Doveri,2024-05-05,https://fbref.com/en/matches/8e717098/Empoli-Frosinone-May-5-2024-Serie-A
+J35,Milan,Genoa,3–3,"73,901",Stadio Giuseppe Meazza,Alessandro Prontera,2024-05-05,https://fbref.com/en/matches/a1381aec/Milan-Genoa-May-5-2024-Serie-A
+J35,Roma,Juventus,1–1,"63,996",Stadio Olimpico,Andrea Colombo,2024-05-05,https://fbref.com/en/matches/f1a8a603/Roma-Juventus-May-5-2024-Serie-A
+J35,Salernitana,Atalanta,1–2,"12,980",Stadio Arechi,Ermanno Feliciani,2024-05-06,https://fbref.com/en/matches/4d799b02/Salernitana-Atalanta-May-6-2024-Serie-A
+J35,Udinese,Napoli,1–1,"20,872",Bluenergy Stadium,Gianluca Aureliano,2024-05-06,https://fbref.com/en/matches/03676818/Udinese-Napoli-May-6-2024-Serie-A
+J36,Frosinone,Inter,0–5,"16,021",Stadio Benito Stirpe,Antonio Giua,2024-05-10,https://fbref.com/en/matches/74782a23/Frosinone-Internazionale-May-10-2024-Serie-A
+J36,Napoli,Bologna,0–2,"43,000",Stadio Diego Armando Maradona,Luca Pairetto,2024-05-11,https://fbref.com/en/matches/faae1fb0/Napoli-Bologna-May-11-2024-Serie-A
+J36,Milan,Cagliari,5–1,"70,612",Stadio Giuseppe Meazza,Simone Sozza,2024-05-11,https://fbref.com/en/matches/dec7c7ae/Milan-Cagliari-May-11-2024-Serie-A
+J36,Lazio,Empoli,2–0,"54,000",Stadio Olimpico,Gianluca Aureliano,2024-05-12,https://fbref.com/en/matches/f6279636/Lazio-Empoli-May-12-2024-Serie-A
+J36,Hellas Verona,Torino,1–2,"25,964",Stadio Marc'Antonio Bentegodi,Livio Marinelli,2024-05-12,https://fbref.com/en/matches/cee937fb/Hellas-Verona-Torino-May-12-2024-Serie-A
+J36,Genoa,Sassuolo,2–1,"31,412",Stadio Comunale Luigi Ferraris,Maurizio Mariani,2024-05-12,https://fbref.com/en/matches/4e7774b9/Genoa-Sassuolo-May-12-2024-Serie-A
+J36,Juventus,Salernitana,1–1,"37,470",Allianz Stadium,Alberto Santoro,2024-05-12,https://fbref.com/en/matches/8724a3c4/Juventus-Salernitana-May-12-2024-Serie-A
+J36,Atalanta,Roma,2–1,"14,895",Gewiss Stadium,Marco Guida,2024-05-12,https://fbref.com/en/matches/9eba4ff1/Atalanta-Roma-May-12-2024-Serie-A
+J36,Lecce,Udinese,0–2,"28,041",Stadio Comunale Via Del Mare,Davide Massa,2024-05-13,https://fbref.com/en/matches/515646b5/Lecce-Udinese-May-13-2024-Serie-A
+J36,Fiorentina,Monza,2–1,"24,376",Stadio Artemio Franchi,Luca Zufferli,2024-05-13,https://fbref.com/en/matches/10f0c822/Fiorentina-Monza-May-13-2024-Serie-A
+J37,Fiorentina,Napoli,2–2,"32,100",Stadio Artemio Franchi,Matteo Marchetti,2024-05-17,https://fbref.com/en/matches/b2fbe157/Fiorentina-Napoli-May-17-2024-Serie-A
+J37,Lecce,Atalanta,0–2,"26,354",Stadio Comunale Via Del Mare,Antonio Rapuano,2024-05-18,https://fbref.com/en/matches/d63c561d/Lecce-Atalanta-May-18-2024-Serie-A
+J37,Torino,Milan,3–1,"24,638",Stadio Olimpico di Torino,Ermanno Feliciani,2024-05-18,https://fbref.com/en/matches/a6891295/Torino-Milan-May-18-2024-Serie-A
+J37,Sassuolo,Cagliari,0–2,"15,548",Mapei Stadium - Città del Tricolore,Daniele Doveri,2024-05-19,https://fbref.com/en/matches/fdf3012f/Sassuolo-Cagliari-May-19-2024-Serie-A
+J37,Monza,Frosinone,0–1,"12,306",U-Power Stadium,Michael Fabbri,2024-05-19,https://fbref.com/en/matches/ab8f65b4/Monza-Frosinone-May-19-2024-Serie-A
+J37,Udinese,Empoli,1–1,"24,686",Bluenergy Stadium,Daniele Orsato,2024-05-19,https://fbref.com/en/matches/bcf20196/Udinese-Empoli-May-19-2024-Serie-A
+J37,Inter,Lazio,1–1,"73,148",Stadio Giuseppe Meazza,Juan Sacchi,2024-05-19,https://fbref.com/en/matches/d6135ea2/Internazionale-Lazio-May-19-2024-Serie-A
+J37,Roma,Genoa,1–0,"67,334",Stadio Olimpico,Gianluca Manganiello,2024-05-19,https://fbref.com/en/matches/44d3d4bd/Roma-Genoa-May-19-2024-Serie-A
+J37,Salernitana,Hellas Verona,1–2,"15,998",Stadio Arechi,Marco Di Bello,2024-05-20,https://fbref.com/en/matches/59f4da77/Salernitana-Hellas-Verona-May-20-2024-Serie-A
+J37,Bologna,Juventus,3–3,"29,603",Stadio Renato Dall'Ara,Giovanni Ayroldi,2024-05-20,https://fbref.com/en/matches/f98081f6/Bologna-Juventus-May-20-2024-Serie-A
+J38,Cagliari,Fiorentina,2–3,"16,412",Unipol Domus,Alessandro Prontera,2024-05-23,https://fbref.com/en/matches/833bac38/Cagliari-Fiorentina-May-23-2024-Serie-A
+J38,Genoa,Bologna,2–0,"32,255",Stadio Comunale Luigi Ferraris,Alberto Santoro,2024-05-24,https://fbref.com/en/matches/0411cef1/Genoa-Bologna-May-24-2024-Serie-A
+J38,Juventus,Monza,2–0,"15,148",Allianz Stadium,Maria Sole Ferrieri Caputi,2024-05-25,https://fbref.com/en/matches/b0036fc8/Juventus-Monza-May-25-2024-Serie-A
+J38,Milan,Salernitana,3–3,"70,831",Stadio Giuseppe Meazza,Davide Di Marco,2024-05-25,https://fbref.com/en/matches/9492fa68/Milan-Salernitana-May-25-2024-Serie-A
+J38,Napoli,Lecce,0–0,"41,000",Stadio Diego Armando Maradona,Federico Dionisi,2024-05-26,https://fbref.com/en/matches/c234b266/Napoli-Lecce-May-26-2024-Serie-A
+J38,Atalanta,Torino,3–0,"14,839",Gewiss Stadium,Simone Sozza,2024-05-26,https://fbref.com/en/matches/a2652733/Atalanta-Torino-May-26-2024-Serie-A
+J38,Frosinone,Udinese,0–1,"16,190",Stadio Benito Stirpe,Daniele Doveri,2024-05-26,https://fbref.com/en/matches/65f327b4/Frosinone-Udinese-May-26-2024-Serie-A
+J38,Hellas Verona,Inter,2–2,"22,447",Stadio Marc'Antonio Bentegodi,Luca Zufferli,2024-05-26,https://fbref.com/en/matches/d97ac2fa/Hellas-Verona-Internazionale-May-26-2024-Serie-A
+J38,Empoli,Roma,2–1,"15,896",Stadio Carlo Castellani,Davide Massa,2024-05-26,https://fbref.com/en/matches/2ee9be16/Empoli-Roma-May-26-2024-Serie-A
+J38,Lazio,Sassuolo,1–1,"56,000",Stadio Olimpico,Paride Tremolada,2024-05-26,https://fbref.com/en/matches/2b4865cf/Lazio-Sassuolo-May-26-2024-Serie-A
+J29,Atalanta,Fiorentina,2–3,"14,851",Gewiss Stadium,Daniele Orsato,2024-06-02,https://fbref.com/en/matches/ceb127e3/Atalanta-Fiorentina-June-2-2024-Serie-A

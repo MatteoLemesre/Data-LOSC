@@ -10,9 +10,6 @@ def add_average(df):
     df_result.loc["Average"] = avg
     return df_result
 
-def get_season_code(season):
-    return {"2024 2025": "24_25", "2025 2026": "25_26"}.get(season)
-
 def load_league_file(path, league):
     file_path = os.path.join(path, f"{league}_games.csv")
     if not os.path.exists(file_path):
@@ -25,8 +22,8 @@ def get_match_info(df, home, away):
     return match.iloc[0] if not match.empty else {}
 
 # ------------------------- Streamlit App -------------------------
-st.set_page_config(page_title="Individual player ratings")
-st.title("📊 Individual player ratings")
+st.set_page_config(page_title="Individual Player Ratings")
+st.title("📊 Individual Player Ratings")
 st.markdown("""
 This page lets you explore **individual player ratings** for selected matches across different leagues and matchdays.
 
@@ -38,8 +35,15 @@ This page lets you explore **individual player ratings** for selected matches ac
 
 st.sidebar.title("🎯 Select Parameters")
 
-selected_season = st.sidebar.selectbox("Season", ["2025 2026", "2024 2025"], index=1)
-season_code = get_season_code(selected_season)
+selected_season = st.sidebar.selectbox("Season", ["2025 2026", "2024 2025", "2023 2024"], index=1)
+
+season = None
+if selected_season == "2023 2024":
+    season_code = "23_24"
+elif selected_season == "2024 2025":
+    season_code = "24_25"
+elif selected_season == "2025 2026":
+    season_code = "25_26"
 
 base_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "csv", f"csv{season_code}"))
 path_players = os.path.join(base_path, "ratings", "data_players.csv")

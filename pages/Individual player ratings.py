@@ -33,7 +33,7 @@ This page lets you explore **individual player ratings** for selected matches ac
 - For the competitions concerned, the Final is on J17, the Second Leg of the Semi-final is on J16, the First Leg of the Semi-final is on J15...
 """)
 
-st.sidebar.title("🎯 Select Parameters")
+st.sidebar.title("Select Parameters")
 
 selected_season = st.sidebar.selectbox("Season", ["2025 2026", "2024 2025", "2023 2024"], index=1)
 

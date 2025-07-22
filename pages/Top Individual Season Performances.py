@@ -60,7 +60,7 @@ Explore the **top Individual Season Performances** across all leagues and positi
 - Then choose a **statistic** (e.g. assists, interceptions, saves) to rank players by.
 - You can filter results by **minimum minutes played** and adjust whether stats are shown as **totals** or **per 90 minutes**.
 - You can also choose players from Other Leagues such as the Argentine Primera, Brazilian Série A, Dutch Eredivisie, MLS, Portuguese Primeira Liga, Copa Libertadores, English Championship, Italian Serie B, Liga MX, and Belgian Pro League.
-- **Note:** Percentage-based statistics are **not available per 90 minutes**, which may result in missing or inconsistent values when that option is selected.
+- **Note:** Percentage-based statistics are **only available on a per-90-minute basis**, which may lead to missing or inconsistent values when another option is selected.
 """)
 
 # ----------------------- Sidebar ------------------------

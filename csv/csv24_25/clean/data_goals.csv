@@ -1,51 +1,10 @@
 Player,Game Week,Team,League,Nationality,Age,Minutes,Shots on Target Against,Goals Against,Saves,Post-Shot Expected Goals (PSxG),Save Efficiency,Clean Sheets,Completed Long Passes,Attempted Long Passes,Attempted Passes (excluding GK),Attempted Throws,Pass Length (Total),Attempted Goal Kicks,Goal Kick Length (Total),Crosses Faced,Crosses Stopped,Defensive Actions Outside Penalty Area,Distance of Defensive Actions (Total)
 Pierluigi Gollini,J1,Genoa,Italian Serie A,it ITA,29-152,90,7.0,2.0,5.0,2.9,0.9,False,6.0,19.0,26.0,3.0,1040.0,7.0,422.8,17.0,1.0,0.0,0.0
 Yann Sommer,J1,Inter,Italian Serie A,ch SUI,35-244,90,7.0,2.0,4.0,2.1,0.1,False,0.0,1.0,26.0,4.0,522.6,4.0,120.0,11.0,0.0,1.0,21.5
-Michele Di Gregorio,J1,Juventus,Italian Serie A,it ITA,27-023,90,0.0,0.0,0.0,0.0,0.0,True,4.0,6.0,21.0,4.0,518.7,7.0,261.1,10.0,1.0,0.0,0.0
-Pepe Reina,J1,Como,Italian Serie A,es ESP,41-354,90,6.0,3.0,3.0,2.3,-0.7,False,2.0,9.0,26.0,3.0,813.8,2.0,35.0,9.0,0.0,2.0,32.0
 Federico Ravaglia,J11,Bologna,Italian Serie A,it ITA,24-357,90,0.0,0.0,0.0,0.0,0.0,True,1.0,1.0,19.0,4.0,402.8,3.0,51.9,4.0,1.0,0.0,0.0
 Wladimiro Falcone,J11,Lecce,Italian Serie A,it ITA,29-204,90,4.0,1.0,3.0,1.1,0.1,False,16.0,37.0,21.0,1.0,1050.0,21.0,1308.3,28.0,0.0,2.0,34.6
-Robert Sánchez,J1,Chelsea,English Premier League,es ESP,26-274,90,5.0,2.0,3.0,0.8,-1.2,False,1.0,5.0,23.0,4.0,673.9,6.0,85.8,6.0,1.0,0.0,0.0
-Ederson,J1,Manchester City,English Premier League,br BRA,31-001,90,3.0,0.0,3.0,0.7,0.7,True,4.0,9.0,37.0,5.0,1091.5,2.0,94.0,12.0,1.0,0.0,0.0
-Mads Hermansen,J1,Leicester City,English Premier League,dk DEN,24-039,90,6.0,1.0,5.0,1.9,0.9,False,3.0,15.0,23.0,5.0,979.8,4.0,249.2,23.0,0.0,0.0,0.0
-Guglielmo Vicario,J1,Tottenham,English Premier League,it ITA,27-317,90,3.0,1.0,2.0,1.3,0.3,False,0.0,1.0,43.0,6.0,791.2,2.0,24.0,12.0,1.0,8.0,226.4
-Jason Steele,J2,Brighton,English Premier League,eng ENG,34-006,90,3.0,1.0,2.0,0.4,-0.6,False,6.0,10.0,50.0,6.0,1410.0,0.0,0.0,9.0,2.0,2.0,33.4
-André Onana,J2,Manchester Utd,English Premier League,cm CMR,28-144,90,4.0,2.0,2.0,2.5,0.5,False,9.0,13.0,57.0,9.0,1493.4,1.0,10.0,9.0,0.0,1.0,14.6
-Ederson,J2,Manchester City,English Premier League,br BRA,31-007,90,1.0,1.0,0.0,0.3,-0.7,False,1.0,1.0,24.0,1.0,578.4,0.0,0.0,5.0,0.0,1.0,19.5
-Arijanet Muric,J2,Ipswich Town,English Premier League,xk KVX,25-291,90,5.0,4.0,1.0,3.5,-0.5,False,3.0,10.0,30.0,4.0,846.0,6.0,264.0,15.0,0.0,3.0,60.0
-Alex McCarthy,J2,Southampton,English Premier League,eng ENG,34-265,90,8.0,1.0,7.0,1.6,0.6,False,1.0,3.0,29.0,8.0,611.9,2.0,53.0,14.0,1.0,0.0,0.0
-Matz Sels,J2,Nott'ham Forest,English Premier League,be BEL,32-180,90,1.0,0.0,1.0,0.0,0.0,True,4.0,14.0,16.0,0.0,804.8,2.0,127.0,10.0,2.0,0.0,0.0
-Guglielmo Vicario,J2,Tottenham,English Premier League,it ITA,27-322,90,1.0,0.0,1.0,0.1,0.1,True,0.0,0.0,43.0,10.0,700.9,2.0,31.0,9.0,1.0,0.0,0.0
-Jordan Pickford,J2,Everton,English Premier League,eng ENG,30-170,90,7.0,4.0,3.0,2.6,-1.4,False,10.0,20.0,27.0,2.0,1152.9,6.0,289.2,14.0,0.0,2.0,29.6
-Bernd Leno,J2,Fulham,English Premier League,de GER,32-173,90,4.0,1.0,3.0,1.7,0.7,False,5.0,12.0,37.0,2.0,1195.1,1.0,89.0,11.0,2.0,2.0,25.6
-Mads Hermansen,J2,Leicester City,English Premier League,dk DEN,24-044,90,6.0,2.0,4.0,1.9,-0.1,False,1.0,8.0,38.0,8.0,1037.4,9.0,246.6,19.0,2.0,0.0,0.0
-Dean Henderson,J2,Crystal Palace,English Premier League,eng ENG,27-165,90,3.0,2.0,1.0,0.9,-1.1,False,1.0,12.0,22.0,4.0,869.0,10.0,216.0,8.0,0.0,0.0,0.0
-Alphonse Areola,J2,West Ham,English Premier League,fr FRA,31-179,90,2.0,0.0,2.0,0.3,0.3,True,8.0,22.0,32.0,3.0,1081.6,13.0,687.7,15.0,1.0,1.0,16.8
-Emiliano Martínez,J2,Aston Villa,English Premier League,ar ARG,31-357,90,4.0,2.0,2.0,0.9,-1.1,False,4.0,10.0,33.0,5.0,933.9,7.0,209.3,8.0,1.0,0.0,0.0
-David Raya,J2,Arsenal,English Premier League,es ESP,28-344,90,3.0,0.0,3.0,1.0,1.0,True,3.0,7.0,26.0,4.0,657.8,3.0,135.9,6.0,0.0,1.0,9.7
-José Sá,J2,Wolves,English Premier League,pt POR,31-221,90,8.0,6.0,2.0,3.0,-3.0,False,6.0,14.0,28.0,2.0,1058.4,2.0,61.0,8.0,0.0,3.0,63.6
-Robert Sánchez,J2,Chelsea,English Premier League,es ESP,26-281,90,4.0,2.0,2.0,0.8,-1.2,False,3.0,10.0,41.0,5.0,1041.4,7.0,301.7,8.0,2.0,2.0,31.4
 Maduka Okoye,J11,Udinese,Italian Serie A,ng NGA,25-066,90,5.0,2.0,4.0,2.4,0.4,False,7.0,10.0,33.0,4.0,983.4,1.0,55.0,8.0,2.0,0.0,0.0
 Michele Di Gregorio,J11,Juventus,Italian Serie A,it ITA,27-098,90,2.0,0.0,2.0,0.4,0.4,True,2.0,13.0,31.0,3.0,1109.8,3.0,186.9,21.0,3.0,0.0,0.0
-Neto,J2,Bournemouth,English Premier League,br BRA,35-037,90,5.0,1.0,4.0,2.6,1.6,False,9.0,19.0,19.0,1.0,834.1,9.0,504.9,19.0,2.0,0.0,0.0
-Nick Pope,J2,Newcastle Utd,English Premier League,eng ENG,32-128,90,4.0,1.0,3.0,1.1,0.1,False,5.0,11.0,27.0,6.0,731.7,9.0,444.6,14.0,1.0,6.0,115.2
-Alisson,J2,Liverpool,English Premier League,br BRA,31-328,90,2.0,0.0,2.0,0.8,0.8,True,5.0,12.0,34.0,2.0,1071.0,3.0,135.0,6.0,0.0,0.0,0.0
-Mark Flekken,J2,Brentford,English Premier League,nl NED,31-073,90,8.0,2.0,6.0,2.8,0.8,False,8.0,18.0,50.0,3.0,1745.0,4.0,244.0,14.0,0.0,2.0,35.0
-David Raya,J3,Arsenal,English Premier League,es ESP,28-351,90,4.0,1.0,3.0,0.6,-0.4,False,9.0,30.0,30.0,3.0,1308.0,10.0,609.0,18.0,5.0,0.0,0.0
-Bart Verbruggen,J3,Brighton,English Premier League,nl NED,22-013,90,7.0,1.0,6.0,2.4,1.4,False,5.0,10.0,32.0,6.0,988.8,2.0,59.0,6.0,0.0,2.0,50.0
-Arijanet Muric,J3,Ipswich Town,English Premier League,xk KVX,25-298,90,4.0,1.0,3.0,1.1,0.1,False,2.0,9.0,36.0,6.0,889.2,4.0,235.2,21.0,1.0,1.0,13.5
-Bernd Leno,J3,Fulham,English Premier League,de GER,32-180,90,4.0,1.0,3.0,0.4,-0.6,False,2.0,10.0,40.0,2.0,1008.0,5.0,297.0,12.0,1.0,1.0,12.3
-Matz Sels,J3,Nott'ham Forest,English Premier League,be BEL,32-187,90,2.0,1.0,1.0,0.6,-0.4,False,4.0,15.0,19.0,1.0,931.0,2.0,26.0,6.0,0.0,0.0,0.0
-Sam Johnstone,J3,Wolves,English Premier League,eng ENG,31-159,90,5.0,1.0,4.0,1.7,0.7,False,5.0,19.0,31.0,0.0,1286.5,1.0,20.0,17.0,1.0,1.0,11.0
-Mark Flekken,J3,Brentford,English Premier League,nl NED,31-079,90,6.0,1.0,5.0,0.7,-0.3,False,7.0,12.0,35.0,4.0,1092.0,2.0,109.0,14.0,0.0,1.0,17.0
-Aaron Ramsdale,J3,Southampton,English Premier League,eng ENG,26-109,90,7.0,3.0,4.0,3.2,0.2,False,2.0,13.0,39.0,8.0,1220.7,2.0,33.0,8.0,1.0,0.0,0.0
-Mads Hermansen,J3,Leicester City,English Premier League,dk DEN,24-051,90,5.0,2.0,3.0,2.3,0.3,False,2.0,2.0,26.0,5.0,592.8,2.0,30.0,9.0,0.0,5.0,100.0
-Emiliano Martínez,J3,Aston Villa,English Premier League,ar ARG,31-364,90,3.0,1.0,2.0,0.4,-0.6,False,11.0,17.0,30.0,2.0,1005.0,8.0,452.0,13.0,2.0,2.0,25.8
-Jordan Pickford,J3,Everton,English Premier League,eng ENG,30-177,90,7.0,3.0,4.0,2.5,-0.5,False,11.0,32.0,31.0,1.0,1757.7,6.0,354.0,20.0,0.0,4.0,89.2
-Kepa Arrizabalaga,J3,Bournemouth,English Premier League,es ESP,29-333,90,8.0,2.0,6.0,1.5,-0.5,False,2.0,6.0,18.0,4.0,435.6,14.0,432.6,18.0,0.0,0.0,0.0
-Alphonse Areola,J3,West Ham,English Premier League,fr FRA,31-186,45,5.0,2.0,3.0,1.7,-0.3,False,4.0,7.0,13.0,3.0,456.3,6.0,190.8,9.0,1.0,0.0,0.0
-Łukasz Fabiański,J3,West Ham,English Premier League,pl POL,39-135,45,3.0,1.0,2.0,1.2,0.2,False,1.0,4.0,6.0,3.0,225.0,2.0,153.0,6.0,0.0,0.0,0.0
-Ederson,J3,Manchester City,English Premier League,br BRA,31-014,90,2.0,1.0,2.0,0.2,-0.8,False,3.0,7.0,33.0,2.0,904.2,5.0,124.0,10.0,0.0,2.0,48.0
 Nick Pope,J3,Newcastle Utd,English Premier League,eng ENG,32-135,90,6.0,1.0,6.0,1.5,0.5,False,4.0,21.0,22.0,5.0,1049.4,9.0,480.6,22.0,1.0,2.0,31.4
 Guglielmo Vicario,J3,Tottenham,English Premier League,it ITA,27-330,90,3.0,2.0,1.0,2.1,0.1,False,0.0,5.0,22.0,6.0,638.0,1.0,13.0,10.0,1.0,0.0,0.0
 Stefano Turati,J11,Monza,Italian Serie A,it ITA,23-058,90,7.0,1.0,6.0,2.1,1.1,False,6.0,11.0,22.0,8.0,715.0,6.0,217.2,15.0,0.0,0.0,0.0
@@ -1491,14 +1450,8 @@ Michele Di Gregorio,J17,Juventus,Italian Serie A,it ITA,27-148,90,5.0,1.0,4.0,1.
 Vicente Guaita,J29,Celta Vigo,Spanish La Liga,es ESP,38-080,90,2.0,1.0,1.0,0.6,-0.4,False,0.0,0.0,14.0,1.0,243.6,3.0,84.9,4.0,0.0,2.0,22.0
 Jasper Cillessen,J29,Las Palmas,Spanish La Liga,nl NED,35-343,26,1.0,0.0,1.0,0.1,0.0,False,4.0,5.0,0.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0
 Dinko Horkaš,J29,Las Palmas,Spanish La Liga,hr CRO,26-021,64,5.0,1.0,4.0,1.7,0.7,False,8.0,16.0,29.0,4.0,1209.3,3.0,93.9,8.0,1.0,0.0,0.0
-Augusto Batalla,J30,Rayo Vallecano,Spanish La Liga,ar ARG,28-339,90,7.0,4.0,3.0,3.3,-0.7,False,5.0,9.0,25.0,5.0,740.0,10.0,432.0,12.0,0.0,4.0,82.0
-Joan García,J30,Espanyol,Spanish La Liga,es ESP,23-335,90,5.0,0.0,5.0,1.0,1.0,True,4.0,20.0,27.0,5.0,1304.1,5.0,347.0,33.0,3.0,0.0,0.0
 Paulo Gazzaniga,J30,Girona,Spanish La Liga,ar ARG,33-093,90,4.0,1.0,3.0,1.3,0.3,False,3.0,3.0,25.0,7.0,670.0,5.0,82.0,12.0,1.0,0.0,0.0
 Antonio Sivera,J30,Alavés,Spanish La Liga,es ESP,28-237,90,1.0,0.0,1.0,0.5,0.5,True,6.0,24.0,10.0,0.0,588.0,15.0,1030.5,24.0,0.0,0.0,0.0
-Fran,J30,Real Madrid,Spanish La Liga,es ESP,19-285,90,2.0,2.0,0.0,0.9,-1.1,False,1.0,2.0,16.0,3.0,384.0,4.0,59.2,5.0,1.0,1.0,12.0
-Giorgi Mamardashvili,J30,Valencia,Spanish La Liga,ge GEO,24-188,90,9.0,1.0,7.0,3.2,2.2,False,6.0,25.0,26.0,6.0,1224.6,13.0,725.4,21.0,0.0,0.0,0.0
-Dominik Greif,J30,Mallorca,Spanish La Liga,sk SVK,27-364,90,4.0,2.0,2.0,1.7,-0.3,False,8.0,17.0,26.0,5.0,962.0,3.0,189.9,10.0,0.0,0.0,0.0
-Vicente Guaita,J30,Celta Vigo,Spanish La Liga,es ESP,38-085,90,2.0,1.0,1.0,0.8,-0.2,False,3.0,6.0,26.0,4.0,668.2,8.0,362.4,9.0,0.0,3.0,39.9
 Wojciech Szczęsny,J30,Barcelona,Spanish La Liga,pl POL,34-352,90,2.0,1.0,1.0,0.2,-0.8,False,0.0,0.0,21.0,1.0,428.4,4.0,69.2,3.0,0.0,4.0,98.8
 Adrián,J30,Betis,Spanish La Liga,es ESP,38-092,90,5.0,1.0,4.0,1.3,0.3,False,3.0,19.0,27.0,7.0,1047.6,8.0,379.2,23.0,2.0,0.0,0.0
 Dinko Horkaš,J30,Las Palmas,Spanish La Liga,hr CRO,26-027,90,8.0,3.0,5.0,2.4,-0.6,False,10.0,28.0,37.0,3.0,1698.3,10.0,401.0,8.0,0.0,1.0,13.5
@@ -1513,16 +1466,6 @@ David de Gea,J17,Fiorentina,Italian Serie A,es ESP,34-046,90,4.0,2.0,2.0,1.3,-0.
 Razvan Sava,J17,Udinese,Italian Serie A,ro ROU,22-185,90,3.0,1.0,2.0,1.2,0.2,False,10.0,19.0,30.0,1.0,1080.0,7.0,380.8,23.0,0.0,3.0,60.6
 Marko Dmitrović,J30,Leganés,Spanish La Liga,rs SRB,33-073,90,6.0,1.0,5.0,2.0,1.0,False,4.0,18.0,17.0,3.0,754.8,10.0,578.0,14.0,1.0,3.0,42.0
 Sergio Herrera,J30,Osasuna,Spanish La Liga,es ESP,31-306,90,7.0,1.0,6.0,2.7,1.7,False,8.0,18.0,21.0,2.0,716.1,11.0,598.4,14.0,0.0,2.0,39.4
-Giorgi Mamardashvili,J31,Valencia,Spanish La Liga,ge GEO,24-194,90,5.0,0.0,5.0,0.8,0.8,True,3.0,17.0,35.0,4.0,1151.5,9.0,434.7,11.0,2.0,3.0,47.1
-Ørjan Nyland,J31,Sevilla,Spanish La Liga,no NOR,34-213,90,6.0,1.0,5.0,2.2,1.2,False,2.0,5.0,23.0,1.0,660.1,1.0,71.0,14.0,0.0,4.0,82.8
-Álex Remiro,J31,Real Sociedad,Spanish La Liga,es ESP,30-019,90,3.0,2.0,1.0,0.2,-1.8,False,1.0,5.0,11.0,3.0,342.1,5.0,101.0,7.0,1.0,0.0,0.0
-Dominik Greif,J31,Mallorca,Spanish La Liga,sk SVK,28-006,90,4.0,0.0,4.0,0.8,0.8,True,7.0,28.0,27.0,5.0,1242.0,10.0,602.0,23.0,2.0,0.0,0.0
-David Soria,J31,Getafe,Spanish La Liga,es ESP,32-008,90,5.0,3.0,2.0,1.9,-1.1,False,6.0,20.0,22.0,7.0,917.4,9.0,633.6,12.0,0.0,0.0,0.0
-Dinko Horkaš,J31,Las Palmas,Spanish La Liga,hr CRO,26-033,90,6.0,1.0,5.0,1.9,0.9,False,7.0,15.0,33.0,7.0,1145.1,5.0,314.0,9.0,0.0,0.0,0.0
-Vicente Guaita,J31,Celta Vigo,Spanish La Liga,es ESP,38-092,90,3.0,2.0,1.0,1.9,-0.1,False,1.0,1.0,15.0,4.0,282.0,2.0,24.0,7.0,0.0,0.0,0.0
-Joan García,J31,Espanyol,Spanish La Liga,es ESP,23-343,90,6.0,0.0,6.0,1.0,1.0,True,3.0,13.0,31.0,3.0,954.8,8.0,296.8,22.0,2.0,0.0,0.0
-Marko Dmitrović,J31,Leganés,Spanish La Liga,rs SRB,33-078,90,3.0,1.0,3.0,0.5,-0.5,False,4.0,27.0,28.0,7.0,1251.6,10.0,700.0,18.0,2.0,2.0,26.6
-Wojciech Szczęsny,J31,Barcelona,Spanish La Liga,pl POL,34-359,90,1.0,0.0,1.0,0.1,0.1,True,2.0,5.0,23.0,4.0,634.8,4.0,101.2,12.0,0.0,5.0,108.5
 Sergio Herrera,J31,Osasuna,Spanish La Liga,es ESP,31-312,90,8.0,1.0,7.0,0.9,-0.1,False,8.0,19.0,18.0,3.0,822.6,8.0,455.2,19.0,1.0,0.0,0.0
 Paulo Gazzaniga,J31,Girona,Spanish La Liga,ar ARG,33-101,90,6.0,2.0,4.0,1.5,-0.5,False,5.0,7.0,30.0,5.0,756.0,5.0,196.0,18.0,0.0,1.0,21.0
 Jesús Owono,J31,Alavés,Spanish La Liga,gq EQG,24-043,90,3.0,1.0,2.0,0.9,-0.1,False,4.0,10.0,20.0,1.0,732.0,2.0,129.0,5.0,0.0,1.0,14.0
@@ -1571,8 +1514,6 @@ David Soria,J33,Getafe,Spanish La Liga,es ESP,32-019,90,6.0,1.0,5.0,1.3,0.3,Fals
 Thibaut Courtois,J33,Real Madrid,Spanish La Liga,be BEL,32-347,90,6.0,0.0,6.0,1.4,1.4,True,3.0,14.0,35.0,9.0,1256.5,8.0,368.0,14.0,2.0,0.0,0.0
 Sergio Herrera,J33,Osasuna,Spanish La Liga,es ESP,31-323,90,3.0,0.0,3.0,0.7,0.7,True,2.0,6.0,24.0,10.0,676.8,5.0,190.0,15.0,2.0,3.0,56.4
 Ørjan Nyland,J33,Sevilla,Spanish La Liga,no NOR,34-226,90,2.0,1.0,1.0,0.6,-0.4,False,4.0,13.0,11.0,0.0,407.0,10.0,576.0,14.0,0.0,0.0,0.0
-Marko Dmitrović,J33,Leganés,Spanish La Liga,rs SRB,33-090,90,2.0,1.0,1.0,0.8,-0.2,False,6.0,26.0,21.0,3.0,1150.8,8.0,604.8,18.0,1.0,0.0,0.0
-Paulo Gazzaniga,J33,Girona,Spanish La Liga,ar ARG,33-112,90,1.0,1.0,0.0,0.8,-0.2,False,3.0,12.0,23.0,4.0,662.4,12.0,579.6,11.0,2.0,0.0,0.0
 Jan Oblak,J33,Atlético Madrid,Spanish La Liga,si SVN,32-107,90,5.0,0.0,5.0,1.7,1.7,True,1.0,8.0,23.0,7.0,637.1,6.0,286.2,16.0,0.0,0.0,0.0
 Augusto Batalla,J33,Rayo Vallecano,Spanish La Liga,ar ARG,28-359,90,6.0,3.0,3.0,3.1,0.1,False,2.0,7.0,36.0,7.0,972.0,2.0,42.0,16.0,1.0,7.0,149.8
 Alex Meret,J2,Napoli,Italian Serie A,it ITA,27-156,90,2.0,0.0,2.0,0.4,0.4,True,2.0,11.0,28.0,5.0,890.4,10.0,333.0,14.0,0.0,1.0,23.0
@@ -1585,8 +1526,6 @@ Luiz Lúcio Reis Júnior,J26,Villarreal,Spanish La Liga,br BRA,24-103,90,1.0,0.0
 Joan García,J26,Espanyol,Spanish La Liga,es ESP,23-358,90,5.0,1.0,4.0,1.7,0.7,False,2.0,6.0,34.0,5.0,887.4,5.0,140.0,18.0,3.0,1.0,10.1
 Dani Cárdenas,J34,Rayo Vallecano,Spanish La Liga,es ESP,28-035,90,1.0,0.0,1.0,0.1,0.1,True,3.0,22.0,32.0,6.0,1366.4,7.0,343.7,10.0,1.0,0.0,0.0
 David Soria,J34,Getafe,Spanish La Liga,es ESP,32-028,90,8.0,1.0,7.0,1.3,0.3,False,6.0,27.0,18.0,0.0,1189.8,9.0,635.4,9.0,0.0,2.0,39.4
-Antonio Sivera,J34,Alavés,Spanish La Liga,es ESP,28-265,90,2.0,0.0,2.0,0.6,0.6,True,7.0,26.0,19.0,0.0,1103.9,8.0,586.4,20.0,3.0,0.0,0.0
-Jan Oblak,J34,Atlético Madrid,Spanish La Liga,si SVN,32-116,90,2.0,0.0,2.0,0.2,0.2,True,4.0,7.0,22.0,7.0,635.8,7.0,268.1,13.0,1.0,0.0,0.0
 Luiz Lúcio Reis Júnior,J34,Villarreal,Spanish La Liga,br BRA,24-109,90,4.0,2.0,2.0,1.4,-0.6,False,1.0,11.0,25.0,6.0,790.0,5.0,365.0,26.0,1.0,0.0,0.0
 Sergio Herrera,J34,Osasuna,Spanish La Liga,es ESP,31-332,90,5.0,4.0,1.0,2.3,-1.7,False,9.0,12.0,12.0,2.0,458.4,11.0,513.7,5.0,0.0,2.0,44.0
 Dinko Horkaš,J34,Las Palmas,Spanish La Liga,hr CRO,26-054,90,5.0,3.0,3.0,2.8,-0.2,False,7.0,13.0,31.0,2.0,1100.5,4.0,218.0,12.0,0.0,1.0,9.6
@@ -1605,10 +1544,6 @@ Yann Sommer,J18,Inter,Italian Serie A,ch SUI,36-011,90,1.0,0.0,1.0,0.1,0.1,True,
 Unai Simón,J34,Athletic Club,Spanish La Liga,es ESP,27-327,90,3.0,0.0,3.0,0.6,0.6,True,10.0,28.0,45.0,3.0,1890.0,5.0,336.0,12.0,1.0,0.0,0.0
 Paulo Gazzaniga,J34,Girona,Spanish La Liga,ar ARG,33-123,90,1.0,0.0,1.0,0.1,0.1,True,6.0,16.0,25.0,0.0,790.0,9.0,613.8,14.0,0.0,1.0,11.3
 Dominik Greif,J34,Mallorca,Spanish La Liga,sk SVK,28-029,90,6.0,1.0,5.0,1.5,0.5,False,0.0,6.0,23.0,4.0,664.7,7.0,175.7,8.0,0.0,0.0,0.0
-Dinko Horkaš,J35,Las Palmas,Spanish La Liga,hr CRO,26-060,90,5.0,1.0,4.0,1.3,0.3,False,4.0,19.0,31.0,6.0,1202.8,2.0,108.0,15.0,1.0,1.0,12.0
-Augusto Batalla,J35,Rayo Vallecano,Spanish La Liga,ar ARG,29-009,90,2.0,0.0,2.0,0.5,0.5,True,5.0,17.0,31.0,3.0,1106.7,7.0,345.8,23.0,1.0,0.0,0.0
-Giorgi Mamardashvili,J35,Valencia,Spanish La Liga,ge GEO,24-223,90,3.0,0.0,3.0,1.1,1.1,True,6.0,12.0,26.0,2.0,863.2,6.0,241.2,22.0,4.0,0.0,0.0
-David Soria,J35,Getafe,Spanish La Liga,es ESP,32-036,90,6.0,3.0,3.0,2.7,-0.3,False,14.0,20.0,16.0,2.0,780.8,7.0,457.8,8.0,1.0,3.0,79.2
 Vicente Guaita,J35,Celta Vigo,Spanish La Liga,es ESP,38-120,90,10.0,2.0,8.0,2.5,0.5,False,6.0,16.0,19.0,2.0,647.9,8.0,488.8,20.0,0.0,0.0,0.0
 Ørjan Nyland,J35,Sevilla,Spanish La Liga,no NOR,34-242,90,4.0,3.0,1.0,1.6,-1.4,False,5.0,12.0,22.0,5.0,798.6,4.0,139.2,6.0,0.0,1.0,21.0
 Dominik Greif,J35,Mallorca,Spanish La Liga,sk SVK,28-034,90,7.0,1.0,6.0,3.1,2.1,False,12.0,18.0,22.0,4.0,873.4,7.0,417.9,19.0,0.0,2.0,38.6
@@ -1707,10 +1642,6 @@ Alisson,J1,Liverpool,UEFA Champions League,br BRA,31-351,90,2.0,1.0,1.0,0.6,-0.4
 Manuel Neuer,J1,Bayern Munich,UEFA Champions League,de GER,38-174,45,0.0,0.0,0.0,0.0,0.0,False,3.0,3.0,22.0,3.0,536.8,2.0,29.0,2.0,0.0,3.0,102.0
 Sven Ulreich,J1,Bayern Munich,UEFA Champions League,de GER,36-045,45,3.0,2.0,1.0,0.8,-1.2,False,0.0,0.0,14.0,1.0,236.6,0.0,0.0,1.0,0.0,2.0,48.6
 Ivan Nevistić,J1,Dinamo Zagreb,UEFA Champions League,hr CRO,26-048,90,19.0,9.0,10.0,8.1,-0.9,False,4.0,16.0,39.0,5.0,1310.4,0.0,0.0,14.0,0.0,0.0,0.0
-Peter Vindahl Jensen,J1,Sparta Prague,UEFA Champions League,dk DEN,26-215,90,1.0,0.0,1.0,0.0,0.0,True,5.0,20.0,22.0,3.0,990.0,7.0,452.9,5.0,1.0,0.0,0.0
-Janis Blaswich,J1,RB Salzburg,UEFA Champions League,de GER,33-139,90,6.0,3.0,3.0,2.9,-0.1,False,4.0,14.0,38.0,5.0,1151.4,5.0,165.0,9.0,0.0,2.0,33.4
-Łukasz Skorupski,J1,Bologna,UEFA Champions League,pl POL,33-136,90,1.0,0.0,0.0,0.8,0.8,True,4.0,7.0,24.0,4.0,667.2,4.0,98.0,6.0,2.0,0.0,0.0
-Dmytro Riznyk,J1,Shakhtar,UEFA Champions League,ua UKR,25-232,90,4.0,0.0,4.0,0.9,0.9,True,5.0,24.0,68.0,6.0,2162.4,4.0,212.0,19.0,2.0,0.0,0.0
 Mike Maignan,J18,Milan,Italian Serie A,fr FRA,29-179,90,5.0,1.0,4.0,1.0,0.0,False,3.0,8.0,24.0,2.0,756.0,4.0,180.0,12.0,0.0,0.0,0.0
 Mile Svilar,J18,Roma,Italian Serie A,rs SRB,25-124,90,7.0,1.0,6.0,0.7,-0.3,False,3.0,3.0,29.0,6.0,748.2,5.0,116.0,13.0,0.0,1.0,19.0
 Kasper Schmeichel,J1,Celtic,UEFA Champions League,dk DEN,37-318,90,2.0,1.0,1.0,0.7,-0.3,False,0.0,2.0,25.0,4.0,545.0,4.0,73.2,8.0,1.0,2.0,34.6
@@ -1737,12 +1668,8 @@ Pepe Reina,J18,Como,Italian Serie A,es ESP,42-121,90,1.0,0.0,1.0,0.1,0.1,True,3.
 Wladimiro Falcone,J18,Lecce,Italian Serie A,it ITA,29-262,90,7.0,2.0,4.0,2.9,0.9,False,1.0,13.0,22.0,5.0,891.0,2.0,130.0,10.0,1.0,2.0,30.0
 Alexander Nübel,J2,Stuttgart,UEFA Champions League,de GER,28-001,90,3.0,1.0,2.0,0.4,-0.6,False,2.0,11.0,35.0,6.0,920.5,4.0,119.2,3.0,0.0,1.0,23.5
 Peter Vindahl Jensen,J2,Sparta Prague,UEFA Champions League,dk DEN,26-228,90,10.0,1.0,9.0,2.1,1.1,False,4.0,24.0,24.0,4.0,1233.6,8.0,476.0,26.0,0.0,0.0,0.0
-Janis Blaswich,J2,RB Salzburg,UEFA Champions League,de GER,33-152,90,6.0,4.0,2.0,2.7,-1.3,False,3.0,5.0,22.0,4.0,514.8,6.0,139.2,9.0,0.0,0.0,0.0
-Marco Bizot,J2,Brest,UEFA Champions League,nl NED,33-205,90,7.0,0.0,7.0,2.9,2.9,True,17.0,29.0,33.0,3.0,1537.8,6.0,408.0,14.0,2.0,1.0,10.6
 David Raya,J2,Arsenal,UEFA Champions League,es ESP,29-016,90,2.0,0.0,2.0,0.1,0.1,True,9.0,20.0,32.0,3.0,1200.0,6.0,282.0,14.0,1.0,2.0,36.6
 Gianluigi Donnarumma,J2,Paris S-G,UEFA Champions League,it ITA,25-219,90,5.0,2.0,3.0,1.6,-0.4,False,4.0,7.0,30.0,5.0,669.0,8.0,175.2,4.0,2.0,0.0,0.0
-Iñaki Peña,J2,Barcelona,UEFA Champions League,es ESP,25-213,90,1.0,0.0,1.0,0.3,0.3,True,0.0,2.0,22.0,3.0,400.4,2.0,90.0,4.0,0.0,1.0,9.4
-Marvin Keller,J2,Young Boys,UEFA Champions League,ch SUI,22-090,90,8.0,5.0,4.0,3.7,-1.3,False,3.0,14.0,37.0,8.0,1295.0,2.0,99.0,20.0,0.0,0.0,0.0
 Gregor Kobel,J2,Dortmund,UEFA Champions League,ch SUI,26-300,90,2.0,1.0,1.0,1.5,0.5,False,2.0,4.0,31.0,5.0,694.4,3.0,108.9,10.0,0.0,4.0,59.2
 Kasper Schmeichel,J2,Celtic,UEFA Champions League,dk DEN,37-331,90,13.0,7.0,6.0,5.8,-1.2,False,2.0,4.0,28.0,4.0,716.8,3.0,48.9,11.0,0.0,0.0,0.0
 Yann Sommer,J2,Inter,UEFA Champions League,ch SUI,35-289,90,3.0,0.0,3.0,0.3,0.3,True,1.0,2.0,18.0,4.0,432.0,8.0,188.8,12.0,0.0,0.0,0.0
@@ -1800,8 +1727,6 @@ Marco Carnesecchi,J3,Atalanta,UEFA Champions League,it ITA,24-114,90,2.0,0.0,2.0
 Kasper Schmeichel,J3,Celtic,UEFA Champions League,dk DEN,37-353,90,6.0,0.0,6.0,1.1,1.1,True,7.0,17.0,35.0,6.0,1260.0,13.0,496.6,45.0,0.0,0.0,0.0
 Anatolii Trubin,J3,Benfica,UEFA Champions League,ua UKR,23-083,90,6.0,3.0,3.0,1.7,-1.3,False,1.0,3.0,14.0,2.0,343.0,7.0,168.0,6.0,0.0,0.0,0.0
 Timon Wellenreuther,J3,Feyenoord,UEFA Champions League,de GER,28-325,90,8.0,1.0,7.0,1.6,0.6,False,3.0,18.0,39.0,5.0,1450.8,4.0,212.0,15.0,1.0,0.0,0.0
-Mile Svilar,J2,Roma,Italian Serie A,rs SRB,24-364,90,4.0,2.0,2.0,2.0,0.0,False,0.0,0.0,32.0,0.0,681.6,1.0,14.0,7.0,0.0,0.0,0.0
-Devis Vásquez,J2,Empoli,Italian Serie A,co COL,26-105,90,7.0,1.0,6.0,1.5,0.5,False,7.0,22.0,33.0,4.0,1412.4,4.0,254.0,26.0,2.0,0.0,0.0
 David de Gea,J19,Fiorentina,Italian Serie A,es ESP,34-058,90,4.0,3.0,1.0,1.7,-1.3,False,3.0,12.0,9.0,0.0,374.4,10.0,476.0,10.0,0.0,3.0,66.9
 Alex Meret,J19,Napoli,Italian Serie A,it ITA,27-288,90,2.0,0.0,2.0,0.5,0.5,True,7.0,7.0,25.0,1.0,720.0,5.0,196.0,15.0,0.0,0.0,0.0
 Stefan Ortega,J3,Manchester City,UEFA Champions League,de GER,31-352,90,1.0,0.0,1.0,0.1,0.1,True,0.0,3.0,24.0,2.0,588.0,3.0,78.0,5.0,0.0,0.0,0.0
@@ -1823,8 +1748,6 @@ Walter Benítez,J4,PSV Eindhoven,UEFA Champions League,ar ARG,31-291,90,3.0,0.0,
 Paulo Gazzaniga,J4,Girona,UEFA Champions League,ar ARG,32-308,90,12.0,4.0,9.0,3.3,-0.7,False,7.0,18.0,35.0,4.0,1218.0,5.0,304.0,15.0,0.0,0.0,0.0
 Franco Israel,J4,Sporting CP,UEFA Champions League,uy URU,24-197,90,5.0,1.0,4.0,0.7,-0.3,False,7.0,19.0,22.0,4.0,781.0,12.0,654.0,15.0,2.0,0.0,0.0
 Ederson,J4,Manchester City,UEFA Champions League,br BRA,31-080,90,6.0,4.0,2.0,2.5,-1.5,False,0.0,2.0,20.0,4.0,454.0,3.0,72.0,1.0,0.0,2.0,38.0
-Caoimhín Kelleher,J4,Liverpool,UEFA Champions League,ie IRL,25-348,90,4.0,0.0,4.0,0.7,0.7,True,4.0,11.0,31.0,2.0,1013.7,5.0,189.0,9.0,1.0,2.0,41.4
-Lukáš Hrádecký,J4,Leverkusen,UEFA Champions League,fi FIN,34-347,90,8.0,4.0,4.0,4.0,0.0,False,1.0,9.0,25.0,6.0,790.0,5.0,198.0,7.0,1.0,0.0,0.0
 Lorenzo Montipò,J19,Hellas Verona,Italian Serie A,it ITA,28-319,90,6.0,0.0,6.0,1.3,1.3,True,6.0,31.0,34.0,2.0,1472.2,11.0,609.4,15.0,2.0,0.0,0.0
 Razvan Sava,J19,Udinese,Italian Serie A,ro ROU,22-197,90,3.0,0.0,3.0,0.3,0.3,True,4.0,8.0,27.0,3.0,799.2,3.0,75.0,12.0,0.0,3.0,51.6
 Kasper Schmeichel,J4,Celtic,UEFA Champions League,dk DEN,38-000,90,3.0,1.0,2.0,1.1,0.1,False,1.0,4.0,35.0,4.0,913.5,5.0,101.0,19.0,0.0,0.0,0.0
@@ -1881,8 +1804,6 @@ Ivan Guteša,J5,Red Star,UEFA Champions League,rs SRB,22-237,90,2.0,1.0,1.0,1.1,
 Alexander Nübel,J5,Stuttgart,UEFA Champions League,de GER,28-058,90,7.0,5.0,2.0,3.3,-1.7,False,2.0,3.0,30.0,6.0,657.0,5.0,121.0,8.0,0.0,1.0,15.2
 Daniil Khudiakov,J5,Sturm Graz,UEFA Champions League,ru RUS,20-323,90,1.0,0.0,1.0,0.1,0.1,True,4.0,20.0,29.0,2.0,1171.6,6.0,387.0,20.0,2.0,0.0,0.0
 Paulo Gazzaniga,J5,Girona,UEFA Champions League,ar ARG,32-330,90,5.0,1.0,4.0,1.2,0.2,False,0.0,1.0,18.0,5.0,351.0,7.0,217.0,8.0,0.0,0.0,0.0
-Emiliano Martínez,J5,Aston Villa,UEFA Champions League,ar ARG,32-086,90,2.0,0.0,2.0,0.4,0.4,True,1.0,2.0,29.0,3.0,687.3,1.0,26.0,10.0,1.0,2.0,41.4
-Michele Di Gregorio,J5,Juventus,UEFA Champions League,it ITA,27-123,90,2.0,0.0,2.0,0.9,0.9,True,0.0,9.0,30.0,4.0,861.0,6.0,319.8,11.0,2.0,0.0,0.0
 Caoimhín Kelleher,J5,Liverpool,UEFA Champions League,ie IRL,26-004,90,3.0,0.0,2.0,1.8,1.8,True,1.0,2.0,28.0,3.0,607.6,5.0,97.0,8.0,0.0,0.0,0.0
 Thibaut Courtois,J5,Real Madrid,UEFA Champions League,be BEL,32-200,90,7.0,2.0,5.0,2.3,0.3,False,0.0,9.0,20.0,2.0,712.0,5.0,146.0,12.0,1.0,0.0,0.0
 Kasper Schmeichel,J5,Celtic,UEFA Champions League,dk DEN,38-022,90,3.0,1.0,3.0,0.3,-0.7,False,3.0,3.0,41.0,8.0,930.7,8.0,164.8,9.0,0.0,0.0,0.0
@@ -1893,16 +1814,10 @@ Dmytro Riznyk,J5,Shakhtar,UEFA Champions League,ua UKR,25-302,90,18.0,3.0,15.0,4
 Lucas Chevalier,J5,Lille,UEFA Champions League,fr FRA,23-021,90,6.0,1.0,5.0,1.6,0.6,False,4.0,13.0,30.0,2.0,1077.0,2.0,85.0,10.0,0.0,0.0,0.0
 Vanja Milinković-Savić,J19,Torino,Italian Serie A,rs SRB,27-320,90,3.0,0.0,3.0,0.1,0.1,True,4.0,9.0,34.0,7.0,938.4,5.0,202.0,9.0,1.0,2.0,27.6
 Zion Suzuki,J19,Parma,Italian Serie A,jp JPN,22-137,90,4.0,0.0,4.0,1.8,1.8,True,4.0,20.0,38.0,5.0,1561.8,2.0,94.0,26.0,4.0,3.0,38.4
-Danijel Zagorac,J5,Dinamo Zagreb,UEFA Champions League,hr CRO,37-294,90,6.0,3.0,3.0,2.9,-0.1,False,8.0,25.0,22.0,1.0,913.0,12.0,783.6,18.0,0.0,0.0,0.0
-Gregor Kobel,J5,Dortmund,UEFA Champions League,ch SUI,26-357,90,1.0,0.0,1.0,0.5,0.5,True,0.0,1.0,25.0,3.0,540.0,3.0,71.1,4.0,0.0,2.0,37.0
-Radosław Majecki,J5,Monaco,UEFA Champions League,pl POL,25-011,90,8.0,3.0,5.0,4.4,1.4,False,1.0,9.0,25.0,6.0,750.0,5.0,282.0,18.0,1.0,0.0,0.0
-Anatolii Trubin,J5,Benfica,UEFA Champions League,ua UKR,23-118,90,5.0,2.0,3.0,1.6,-0.4,False,2.0,6.0,20.0,3.0,604.0,3.0,80.1,10.0,0.0,3.0,57.3
 Danijel Zagorac,J6,Dinamo Zagreb,UEFA Champions League,hr CRO,37-307,90,1.0,0.0,1.0,0.2,0.2,True,7.0,18.0,24.0,0.0,921.6,13.0,570.7,14.0,1.0,2.0,28.0
 Kasper Schmeichel,J6,Celtic,UEFA Champions League,dk DEN,38-035,90,2.0,0.0,2.0,0.2,0.2,True,0.0,0.0,34.0,3.0,639.2,8.0,200.8,11.0,0.0,1.0,16.3
 Paulo Gazzaniga,J6,Girona,UEFA Champions League,ar ARG,32-343,90,7.0,1.0,6.0,1.5,0.5,False,3.0,8.0,33.0,5.0,950.4,5.0,144.0,15.0,2.0,0.0,0.0
 Alisson,J6,Liverpool,UEFA Champions League,br BRA,32-069,90,5.0,0.0,5.0,0.7,0.7,True,3.0,6.0,31.0,5.0,793.6,3.0,74.1,13.0,1.0,2.0,30.4
-Matej Kovar,J6,Leverkusen,UEFA Champions League,cz CZE,24-207,90,0.0,0.0,0.0,0.0,0.0,True,3.0,7.0,33.0,1.0,927.3,2.0,98.0,9.0,1.0,0.0,0.0
-Yann Sommer,J6,Inter,UEFA Champions League,ch SUI,35-359,90,5.0,1.0,4.0,0.5,-0.5,False,1.0,4.0,39.0,10.0,932.1,2.0,48.0,14.0,3.0,0.0,0.0
 Marco Bizot,J6,Brest,UEFA Champions League,nl NED,33-275,90,5.0,0.0,5.0,1.0,1.0,True,5.0,23.0,22.0,2.0,1093.4,8.0,472.8,16.0,1.0,1.0,9.5
 Walter Benítez,J6,PSV Eindhoven,UEFA Champions League,ar ARG,31-326,90,4.0,1.0,3.0,1.6,0.6,False,3.0,4.0,29.0,4.0,762.7,6.0,142.8,12.0,1.0,4.0,74.0
 Simon Mignolet,J6,Club Brugge,UEFA Champions League,be BEL,36-279,90,2.0,1.0,1.0,1.2,0.2,False,3.0,10.0,21.0,0.0,819.0,6.0,148.8,14.0,1.0,1.0,16.0
@@ -1913,8 +1828,6 @@ Péter Gulácsi,J6,RB Leipzig,UEFA Champions League,hu HUN,34-218,90,8.0,3.0,5.0
 Emiliano Martínez,J6,Aston Villa,UEFA Champions League,ar ARG,32-099,90,6.0,2.0,4.0,3.0,1.0,False,4.0,7.0,20.0,3.0,564.0,6.0,259.8,9.0,2.0,0.0,0.0
 Marco Carnesecchi,J6,Atalanta,UEFA Champions League,it ITA,24-162,90,6.0,3.0,3.0,1.9,-1.1,False,2.0,6.0,10.0,1.0,347.0,4.0,195.2,2.0,0.0,2.0,32.0
 Thibaut Courtois,J6,Real Madrid,UEFA Champions League,be BEL,32-213,90,9.0,2.0,7.0,2.3,0.3,False,2.0,16.0,47.0,5.0,1541.6,3.0,159.0,18.0,1.0,0.0,0.0
-Mile Svilar,J19,Roma,Italian Serie A,rs SRB,25-131,90,6.0,0.0,6.0,0.8,0.8,True,5.0,14.0,30.0,5.0,1083.0,6.0,325.2,34.0,1.0,0.0,0.0
-Ivan Provedel,J19,Lazio,Italian Serie A,it ITA,30-294,90,5.0,2.0,3.0,1.6,-0.4,False,2.0,3.0,22.0,4.0,627.0,2.0,50.0,7.0,2.0,2.0,38.0
 Dmytro Riznyk,J6,Shakhtar,UEFA Champions League,ua UKR,25-315,90,8.0,5.0,3.0,3.5,-1.5,False,7.0,16.0,43.0,3.0,1251.3,6.0,283.2,12.0,1.0,0.0,0.0
 Daniel Peretz,J6,Bayern Munich,UEFA Champions League,il ISR,24-153,90,4.0,1.0,3.0,1.1,0.1,False,4.0,7.0,26.0,0.0,691.6,5.0,125.0,4.0,0.0,0.0,0.0
 Lucas Chevalier,J6,Lille,UEFA Champions League,fr FRA,23-035,90,4.0,2.0,2.0,1.0,-1.0,False,2.0,3.0,20.0,3.0,570.0,4.0,103.2,8.0,0.0,0.0,0.0
@@ -1929,8 +1842,6 @@ Mike Maignan,J6,Milan,UEFA Champions League,fr FRA,29-161,90,4.0,1.0,3.0,1.0,0.0
 Ivan Guteša,J6,Red Star,UEFA Champions League,rs SRB,22-251,90,10.0,2.0,8.0,3.4,1.4,False,4.0,13.0,19.0,6.0,687.8,11.0,363.0,5.0,1.0,1.0,14.8
 Michele Di Gregorio,J6,Juventus,UEFA Champions League,it ITA,27-137,90,3.0,0.0,3.0,0.9,0.9,True,6.0,13.0,25.0,3.0,950.0,3.0,135.0,14.0,1.0,0.0,0.0
 Ederson,J6,Manchester City,UEFA Champions League,br BRA,31-116,90,5.0,2.0,3.0,1.3,-0.7,False,4.0,6.0,29.0,4.0,783.0,4.0,77.2,9.0,1.0,0.0,0.0
-Alexander Nübel,J6,Stuttgart,UEFA Champions League,de GER,28-072,90,1.0,1.0,0.0,0.1,-0.9,False,4.0,14.0,55.0,1.0,1507.0,0.0,0.0,3.0,1.0,1.0,16.8
-David von Ballmoos,J6,Young Boys,UEFA Champions League,ch SUI,29-347,90,6.0,5.0,1.0,2.4,-2.6,False,6.0,18.0,32.0,3.0,1094.4,7.0,347.9,17.0,0.0,3.0,68.4
 Gregor Kobel,J6,Dortmund,UEFA Champions League,ch SUI,27-005,90,8.0,3.0,5.0,2.4,-0.6,False,1.0,4.0,35.0,5.0,777.0,4.0,99.2,8.0,1.0,1.0,8.5
 Iñaki Peña,J6,Barcelona,UEFA Champions League,es ESP,25-284,90,2.0,2.0,0.0,1.9,-0.1,False,1.0,7.0,28.0,4.0,758.8,7.0,212.1,16.0,1.0,6.0,143.4
 Timon Wellenreuther,J6,Feyenoord,UEFA Champions League,de GER,29-008,90,5.0,2.0,4.0,0.6,-1.4,False,2.0,14.0,37.0,2.0,1254.3,3.0,188.1,14.0,1.0,1.0,15.5
@@ -1955,8 +1866,6 @@ Dominik Takáč,J7,Slovan Bratislava,UEFA Champions League,sk SVK,26-009,90,7.0,
 Alexander Nübel,J7,Stuttgart,UEFA Champions League,de GER,28-113,90,2.0,1.0,1.0,0.3,-0.7,False,4.0,12.0,30.0,4.0,975.0,2.0,117.0,7.0,2.0,0.0,0.0
 Jan Oblak,J7,Atlético Madrid,UEFA Champions League,si SVN,32-014,90,4.0,1.0,3.0,1.1,0.1,False,3.0,19.0,21.0,4.0,894.6,9.0,532.8,16.0,4.0,0.0,0.0
 Matej Kovar,J7,Leverkusen,UEFA Champions League,cz CZE,24-249,90,2.0,2.0,0.0,1.7,-0.3,False,1.0,3.0,13.0,2.0,317.2,4.0,100.0,4.0,0.0,1.0,16.7
-Maarten Vandevoordt,J7,RB Leipzig,UEFA Champions League,be BEL,22-331,90,2.0,1.0,1.0,0.3,-0.7,False,2.0,9.0,31.0,5.0,868.0,5.0,147.0,20.0,1.0,4.0,88.8
-Franco Israel,J7,Sporting CP,UEFA Champions League,uy URU,24-275,90,6.0,2.0,4.0,2.3,0.3,False,2.0,6.0,17.0,3.0,639.2,4.0,154.0,3.0,0.0,0.0,0.0
 Jacopo Seghetti,J20,Empoli,Italian Serie A,it ITA,19-329,90,6.0,3.0,3.0,1.9,-1.1,False,3.0,9.0,16.0,5.0,540.8,5.0,195.0,4.0,0.0,1.0,26.0
 Wladimiro Falcone,J20,Lecce,Italian Serie A,it ITA,29-274,90,5.0,1.0,4.0,1.8,0.8,False,9.0,25.0,26.0,2.0,1120.6,9.0,459.0,19.0,0.0,0.0,0.0
 Dmytro Riznyk,J7,Shakhtar,UEFA Champions League,ua UKR,25-358,90,4.0,0.0,4.0,0.5,0.5,True,5.0,14.0,27.0,4.0,918.0,8.0,423.2,18.0,1.0,0.0,0.0
@@ -1991,10 +1900,6 @@ Wojciech Szczęsny,J8,Barcelona,UEFA Champions League,pl POL,34-286,90,4.0,2.0,2
 Marco Carnesecchi,J8,Atalanta,UEFA Champions League,it ITA,24-212,90,7.0,2.0,5.0,2.6,0.6,False,6.0,18.0,18.0,0.0,831.6,7.0,459.9,12.0,0.0,3.0,47.1
 Gregor Kobel,J8,Dortmund,UEFA Champions League,ch SUI,27-054,90,2.0,1.0,1.0,0.7,-0.3,False,2.0,9.0,20.0,1.0,616.0,2.0,104.0,7.0,0.0,0.0,0.0
 Dmytro Riznyk,J8,Shakhtar,UEFA Champions League,ua UKR,25-365,90,7.0,3.0,4.0,2.4,-0.6,False,3.0,6.0,33.0,4.0,831.6,4.0,91.2,15.0,2.0,2.0,22.6
-Marco Bizot,J8,Brest,UEFA Champions League,nl NED,33-325,90,6.0,3.0,3.0,1.9,-1.1,False,5.0,12.0,25.0,2.0,905.0,6.0,238.8,8.0,0.0,3.0,71.4
-Thibaut Courtois,J8,Real Madrid,UEFA Champions League,be BEL,32-263,90,5.0,0.0,5.0,1.2,1.2,True,0.0,6.0,36.0,4.0,1101.6,7.0,137.9,15.0,1.0,0.0,0.0
-Walter Benítez,J8,PSV Eindhoven,UEFA Champions League,ar ARG,32-010,90,5.0,2.0,3.0,1.6,-0.4,False,5.0,11.0,41.0,5.0,1160.3,2.0,84.0,9.0,2.0,2.0,32.4
-Caoimhín Kelleher,J8,Liverpool,UEFA Champions League,ie IRL,26-067,90,4.0,3.0,1.0,2.2,-0.8,False,2.0,9.0,37.0,5.0,913.9,4.0,146.0,12.0,0.0,1.0,21.0
 Yann Sommer,J8,Inter,UEFA Champions League,ch SUI,36-043,90,0.0,0.0,0.0,0.0,0.0,True,3.0,4.0,26.0,2.0,592.8,1.0,22.0,4.0,0.0,1.0,15.2
 Radosław Majecki,J8,Monaco,UEFA Champions League,pl POL,25-074,90,7.0,3.0,4.0,2.2,-0.8,False,3.0,17.0,25.0,5.0,760.0,15.0,736.5,12.0,0.0,0.0,0.0
 Matej Kovar,J8,Leverkusen,UEFA Champions League,cz CZE,24-257,90,1.0,0.0,1.0,0.0,0.0,True,4.0,6.0,31.0,3.0,905.2,3.0,66.0,7.0,0.0,1.0,24.5
@@ -2005,19 +1910,10 @@ Vanja Milinković-Savić,J20,Torino,Italian Serie A,rs SRB,27-326,90,9.0,1.0,8.0
 Michele Di Gregorio,J20,Juventus,Italian Serie A,it ITA,27-168,90,2.0,1.0,1.0,0.3,-0.7,False,2.0,10.0,31.0,4.0,936.2,3.0,99.9,23.0,2.0,1.0,17.3
 Fabian Bredlow,J8,Stuttgart,UEFA Champions League,de GER,29-333,90,6.0,4.0,2.0,3.3,-0.7,False,4.0,14.0,31.0,5.0,1181.1,2.0,25.0,8.0,0.0,2.0,47.4
 Gianluigi Donnarumma,J8,Paris S-G,UEFA Champions League,it ITA,25-339,90,2.0,1.0,2.0,1.1,0.1,False,4.0,13.0,31.0,6.0,886.6,4.0,191.2,8.0,1.0,1.0,13.8
-Lucas Chevalier,J8,Lille,UEFA Champions League,fr FRA,23-084,90,3.0,1.0,2.0,1.0,0.0,False,2.0,6.0,24.0,0.0,696.0,2.0,74.0,10.0,0.0,0.0,0.0
-Justin Bijlow,J8,Feyenoord,UEFA Champions League,nl NED,27-007,35,2.0,1.0,1.0,1.2,0.2,False,0.0,1.0,7.0,1.0,118.3,4.0,161.2,5.0,1.0,0.0,0.0
-Timon Wellenreuther,J8,Feyenoord,UEFA Champions League,de GER,29-057,55,3.0,5.0,0.0,2.1,-2.9,False,5.0,12.0,23.0,1.0,834.9,2.0,126.0,5.0,0.0,0.0,0.0
 Kjell Scherpen,J8,Sturm Graz,UEFA Champions League,nl NED,25-006,90,5.0,0.0,5.0,0.5,0.5,True,6.0,25.0,26.0,2.0,1190.8,8.0,460.0,21.0,2.0,0.0,0.0
 Maarten Vandevoordt,J8,RB Leipzig,UEFA Champions League,be BEL,22-338,90,5.0,1.0,4.0,1.2,0.2,False,2.0,5.0,22.0,2.0,558.8,7.0,251.3,4.0,0.0,1.0,19.0
-Marvin Keller,J8,Young Boys,UEFA Champions League,ch SUI,22-210,90,3.0,1.0,2.0,0.7,-0.3,False,3.0,7.0,33.0,5.0,970.2,2.0,89.0,26.0,0.0,2.0,30.6
-Ivan Guteša,J8,Red Star,UEFA Champions League,rs SRB,22-300,90,3.0,0.0,3.0,0.4,0.4,True,9.0,17.0,21.0,3.0,722.4,12.0,668.4,17.0,0.0,0.0,0.0
-Pau López,J8,Girona,UEFA Champions League,es ESP,30-047,90,6.0,2.0,3.0,2.0,0.0,False,2.0,7.0,39.0,5.0,1158.3,1.0,19.0,22.0,2.0,0.0,0.0
-Neto,J8,Arsenal,UEFA Champions League,br BRA,35-194,90,3.0,1.0,2.0,0.4,-0.6,False,4.0,12.0,36.0,7.0,1137.6,2.0,79.0,8.0,2.0,5.0,90.5
 Ivan Nevistić,J8,Dinamo Zagreb,UEFA Champions League,hr CRO,26-182,90,5.0,1.0,4.0,1.8,0.8,False,3.0,15.0,23.0,2.0,867.1,8.0,230.4,11.0,1.0,0.0,0.0
 Mike Maignan,J8,Milan,UEFA Champions League,fr FRA,29-210,90,5.0,2.0,3.0,1.2,-0.8,False,5.0,6.0,34.0,4.0,788.8,4.0,160.0,7.0,0.0,0.0,0.0
-Marco Bizot,J9,Brest,UEFA Champions League,nl NED,33-338,90,7.0,3.0,4.0,2.2,-0.8,False,15.0,22.0,24.0,3.0,1015.2,6.0,232.8,8.0,0.0,2.0,41.6
-Gianluigi Donnarumma,J9,Paris S-G,UEFA Champions League,it ITA,25-352,90,2.0,0.0,2.0,0.1,0.1,True,3.0,9.0,20.0,6.0,562.0,5.0,252.0,19.0,3.0,0.0,0.0
 Rui Silva,J9,Sporting CP,UEFA Champions League,pt POR,31-004,90,7.0,3.0,4.0,2.8,-0.2,False,2.0,6.0,24.0,6.0,602.4,3.0,107.1,21.0,2.0,2.0,36.0
 Gregor Kobel,J9,Dortmund,UEFA Champions League,ch SUI,27-067,90,6.0,0.0,6.0,0.4,0.4,True,4.0,8.0,28.0,7.0,767.2,5.0,145.0,11.0,0.0,1.0,35.0
 Ederson,J9,Manchester City,UEFA Champions League,br BRA,31-178,90,7.0,3.0,4.0,3.1,0.1,False,1.0,2.0,36.0,6.0,853.2,3.0,116.1,7.0,1.0,3.0,72.9
@@ -2026,8 +1922,6 @@ Michele Di Gregorio,J9,Juventus,UEFA Champions League,it ITA,27-199,90,2.0,1.0,1
 Walter Benítez,J9,PSV Eindhoven,UEFA Champions League,ar ARG,32-023,90,7.0,2.0,5.0,2.2,0.2,False,8.0,19.0,59.0,6.0,1911.6,2.0,79.0,16.0,0.0,0.0,0.0
 Simone Scuffet,J2,Cagliari,Italian Serie A,it ITA,28-087,90,4.0,1.0,3.0,1.1,0.1,False,2.0,5.0,30.0,12.0,807.0,4.0,128.0,17.0,0.0,2.0,30.8
 Pepe Reina,J2,Como,Italian Serie A,es ESP,41-361,90,5.0,1.0,4.0,1.4,0.4,False,6.0,19.0,36.0,5.0,1335.6,3.0,123.0,18.0,1.0,0.0,0.0
-Mike Maignan,J20,Milan,Italian Serie A,fr FRA,29-192,90,2.0,1.0,1.0,0.4,-0.6,False,1.0,1.0,17.0,4.0,353.6,7.0,196.7,8.0,1.0,4.0,83.6
-Elia Caprile,J20,Cagliari,Italian Serie A,it ITA,23-139,90,11.0,1.0,10.0,1.9,0.9,False,12.0,37.0,33.0,6.0,1478.4,20.0,1054.0,22.0,1.0,0.0,0.0
 Simon Mignolet,J9,Club Brugge,UEFA Champions League,be BEL,36-343,90,5.0,1.0,4.0,1.5,0.5,False,10.0,22.0,68.0,3.0,2121.6,2.0,133.0,11.0,0.0,1.0,20.0
 Rui Patrício,J9,Atalanta,UEFA Champions League,pt POR,36-363,90,4.0,2.0,2.0,1.0,-1.0,False,6.0,10.0,33.0,6.0,1032.9,9.0,261.9,8.0,0.0,0.0,0.0
 Kasper Schmeichel,J9,Celtic,UEFA Champions League,dk DEN,38-099,90,5.0,2.0,3.0,1.1,-0.9,False,1.0,3.0,39.0,6.0,900.9,5.0,121.0,15.0,0.0,0.0,0.0
@@ -2066,13 +1960,8 @@ Timon Wellenreuther,J11,Feyenoord,UEFA Champions League,de GER,29-092,90,7.0,2.0
 Josep Martinez,J11,Inter,UEFA Champions League,es ESP,26-282,90,5.0,0.0,5.0,0.2,0.2,True,3.0,6.0,45.0,7.0,1156.5,3.0,111.9,15.0,1.0,0.0,0.0
 Anatolii Trubin,J11,Benfica,UEFA Champions League,ua UKR,23-216,90,5.0,1.0,4.0,1.3,0.3,False,0.0,5.0,27.0,11.0,723.6,5.0,145.0,9.0,1.0,2.0,35.2
 Wojciech Szczęsny,J11,Barcelona,UEFA Champions League,pl POL,34-321,90,8.0,0.0,8.0,1.2,1.2,True,7.0,27.0,39.0,2.0,1517.1,11.0,598.4,28.0,2.0,5.0,83.5
-Manuel Neuer,J11,Bayern Munich,UEFA Champions League,de GER,38-343,57,1.0,0.0,1.0,0.4,0.0,False,4.0,14.0,20.0,0.0,874.0,2.0,72.0,3.0,0.0,1.0,28.0
-Jonas Urbig,J11,Bayern Munich,UEFA Champions League,de GER,21-209,33,0.0,0.0,0.0,0.0,0.0,True,1.0,2.0,7.0,1.0,212.8,0.0,0.0,0.0,0.0,1.0,32.0
-Matej Kovar,J11,Leverkusen,UEFA Champions League,cz CZE,24-292,90,5.0,3.0,2.0,2.9,-0.1,False,14.0,33.0,30.0,2.0,1365.0,12.0,777.6,16.0,1.0,0.0,0.0
 Gianluigi Donnarumma,J11,Paris S-G,UEFA Champions League,it ITA,26-008,90,1.0,1.0,0.0,0.2,-0.8,False,1.0,1.0,17.0,5.0,363.8,3.0,15.9,3.0,1.0,0.0,0.0
 Alisson,J11,Liverpool,UEFA Champions League,br BRA,32-154,90,9.0,0.0,9.0,2.3,2.3,True,10.0,19.0,28.0,3.0,1204.0,3.0,132.9,16.0,0.0,0.0,0.0
-Filip Stankovic,J20,Venezia,Italian Serie A,rs SRB,22-322,90,6.0,1.0,5.0,2.0,1.0,False,3.0,9.0,29.0,4.0,864.2,9.0,209.7,13.0,0.0,0.0,0.0
-Yann Sommer,J20,Inter,Italian Serie A,ch SUI,36-026,90,2.0,0.0,2.0,0.1,0.1,True,3.0,8.0,28.0,3.0,828.8,2.0,95.0,7.0,0.0,0.0,0.0
 Wojciech Szczęsny,J12,Barcelona,UEFA Champions League,pl POL,34-327,90,2.0,1.0,1.0,0.8,-0.2,False,2.0,7.0,37.0,3.0,980.5,4.0,108.0,7.0,1.0,1.0,21.0
 Anatolii Trubin,J12,Benfica,UEFA Champions League,ua UKR,23-222,90,6.0,3.0,3.0,1.8,-1.2,False,1.0,9.0,22.0,6.0,688.6,8.0,154.4,8.0,1.0,1.0,11.0
 Alisson,J12,Liverpool,UEFA Champions League,br BRA,32-160,90,8.0,1.0,7.0,2.1,1.1,False,10.0,26.0,46.0,11.0,1807.8,4.0,222.0,7.0,2.0,1.0,10.8
@@ -2083,10 +1972,6 @@ Yann Sommer,J12,Inter,UEFA Champions League,ch SUI,36-084,90,4.0,1.0,3.0,0.9,-0.
 Timon Wellenreuther,J12,Feyenoord,UEFA Champions League,de GER,29-098,90,5.0,2.0,3.0,2.1,0.1,False,6.0,10.0,37.0,3.0,1224.7,4.0,118.0,10.0,1.0,1.0,14.3
 Lucas Chevalier,J12,Lille,UEFA Champions League,fr FRA,23-126,90,6.0,2.0,4.0,2.3,0.3,False,10.0,22.0,34.0,4.0,1271.6,5.0,300.0,14.0,1.0,0.0,0.0
 Gregor Kobel,J12,Dortmund,UEFA Champions League,ch SUI,27-096,90,4.0,1.0,3.0,1.6,0.6,False,7.0,18.0,24.0,0.0,1063.2,3.0,132.9,11.0,0.0,2.0,33.0
-David Raya,J12,Arsenal,UEFA Champions League,es ESP,29-178,90,5.0,2.0,3.0,2.2,0.2,False,5.0,11.0,34.0,4.0,1105.0,3.0,90.0,7.0,0.0,2.0,57.0
-Walter Benítez,J12,PSV Eindhoven,UEFA Champions League,ar ARG,32-052,90,7.0,2.0,5.0,1.8,-0.2,False,3.0,12.0,47.0,7.0,1367.7,2.0,125.0,11.0,2.0,0.0,0.0
-Emiliano Martínez,J12,Aston Villa,UEFA Champions League,ar ARG,32-191,90,1.0,0.0,1.0,0.2,0.2,True,3.0,5.0,36.0,3.0,860.4,2.0,75.0,7.0,0.0,0.0,0.0
-Simon Mignolet,J12,Club Brugge,UEFA Champions League,be BEL,37-006,90,10.0,3.0,7.0,4.0,1.0,False,5.0,9.0,37.0,4.0,991.6,3.0,141.9,4.0,0.0,0.0,0.0
 Jan Oblak,J12,Atlético Madrid,UEFA Champions League,si SVN,32-064,90,3.0,0.0,3.0,0.2,0.2,True,5.0,11.0,23.0,10.0,736.0,8.0,403.2,22.0,3.0,0.0,0.0
 Thibaut Courtois,J12,Real Madrid,UEFA Champions League,be BEL,32-305,90,8.0,1.0,7.0,1.8,0.8,False,0.0,8.0,28.0,11.0,758.8,9.0,186.3,22.0,3.0,1.0,9.6
 David Raya,J13,Arsenal,UEFA Champions League,es ESP,29-205,90,3.0,0.0,3.0,0.2,0.2,True,2.0,6.0,30.0,6.0,837.0,4.0,78.0,5.0,2.0,1.0,12.3
@@ -2095,16 +1980,12 @@ Jonas Urbig,J13,Bayern Munich,UEFA Champions League,de GER,21-243,90,4.0,2.0,2.0
 Yann Sommer,J13,Inter,UEFA Champions League,ch SUI,36-112,90,7.0,1.0,6.0,1.5,0.5,False,4.0,16.0,63.0,8.0,1675.8,9.0,451.8,17.0,3.0,1.0,7.6
 Łukasz Skorupski,J20,Bologna,Italian Serie A,pl POL,33-252,90,4.0,2.0,2.0,1.4,-0.6,False,4.0,13.0,38.0,5.0,1292.0,2.0,27.0,15.0,1.0,1.0,11.0
 Mile Svilar,J20,Roma,Italian Serie A,rs SRB,25-138,90,8.0,2.0,6.0,2.2,0.2,False,3.0,8.0,62.0,12.0,1463.2,0.0,0.0,14.0,1.0,1.0,13.5
-Wojciech Szczęsny,J13,Barcelona,UEFA Champions League,pl POL,34-356,90,3.0,0.0,3.0,0.9,0.9,True,1.0,6.0,32.0,4.0,851.2,5.0,259.0,9.0,1.0,6.0,142.8
-Gregor Kobel,J13,Dortmund,UEFA Champions League,ch SUI,27-124,90,9.0,4.0,5.0,3.4,-0.6,False,3.0,8.0,27.0,7.0,785.7,6.0,273.0,6.0,0.0,0.0,0.0
 Gianluigi Donnarumma,J13,Paris S-G,UEFA Champions League,it ITA,26-043,90,2.0,1.0,1.0,0.8,-0.2,False,1.0,1.0,8.0,3.0,190.4,6.0,79.2,4.0,0.0,0.0,0.0
 Emiliano Martínez,J13,Aston Villa,UEFA Champions League,ar ARG,32-219,90,10.0,3.0,7.0,2.1,-0.9,False,8.0,18.0,27.0,5.0,1034.1,6.0,348.0,12.0,0.0,0.0,0.0
 Emiliano Martínez,J14,Aston Villa,UEFA Champions League,ar ARG,32-225,90,7.0,2.0,5.0,2.6,0.6,False,1.0,10.0,28.0,4.0,890.4,3.0,108.9,2.0,0.0,2.0,34.0
 Gianluigi Donnarumma,J14,Paris S-G,UEFA Champions League,it ITA,26-049,90,8.0,3.0,5.0,3.0,0.0,False,3.0,12.0,24.0,2.0,753.6,8.0,460.8,13.0,0.0,0.0,0.0
 Gregor Kobel,J14,Dortmund,UEFA Champions League,ch SUI,27-130,90,2.0,1.0,2.0,0.2,-0.8,False,1.0,6.0,42.0,9.0,1083.6,5.0,75.0,9.0,1.0,1.0,18.1
 Wojciech Szczęsny,J14,Barcelona,UEFA Champions League,pl POL,34-362,90,11.0,3.0,8.0,3.8,0.8,False,3.0,13.0,31.0,7.0,1066.4,3.0,173.1,18.0,2.0,2.0,28.4
-Yann Sommer,J14,Inter,UEFA Champions League,ch SUI,36-120,90,6.0,2.0,4.0,1.7,-0.3,False,7.0,18.0,39.0,4.0,1427.4,3.0,105.0,22.0,1.0,0.0,0.0
-Jonas Urbig,J14,Bayern Munich,UEFA Champions League,de GER,21-251,90,5.0,2.0,3.0,1.2,-0.8,False,2.0,14.0,38.0,3.0,1368.0,1.0,61.0,8.0,0.0,2.0,28.4
 Thibaut Courtois,J14,Real Madrid,UEFA Champions League,be BEL,32-340,90,6.0,2.0,3.0,1.9,-0.1,False,2.0,10.0,28.0,6.0,887.6,5.0,119.0,8.0,1.0,0.0,0.0
 David Raya,J14,Arsenal,UEFA Champions League,es ESP,29-213,90,3.0,1.0,2.0,1.4,0.4,False,7.0,23.0,26.0,4.0,1170.0,9.0,558.0,31.0,2.0,0.0,0.0
 David Raya,J15,Arsenal,UEFA Champions League,es ESP,29-226,90,4.0,1.0,3.0,1.0,0.0,False,8.0,18.0,44.0,5.0,1478.4,5.0,110.0,2.0,0.0,0.0,0.0
@@ -2208,12 +2089,8 @@ Yann Sommer,J19,Inter,Italian Serie A,ch SUI,36-029,90,6.0,2.0,4.0,1.1,-0.9,Fals
 Łukasz Skorupski,J19,Bologna,Italian Serie A,pl POL,33-255,90,6.0,2.0,4.0,1.4,-0.6,False,9.0,19.0,37.0,2.0,1239.5,8.0,427.2,9.0,1.0,0.0,0.0
 Dénes Dibusz,J3,Ferencváros,UEFA Europa League,hu HUN,33-343,90,4.0,0.0,4.0,1.3,1.3,True,6.0,14.0,34.0,8.0,1101.6,5.0,243.0,19.0,0.0,1.0,12.0
 Marcin Bułka,J3,Nice,UEFA Europa League,pl POL,25-020,90,5.0,1.0,5.0,0.5,-0.5,False,1.0,6.0,33.0,7.0,887.7,6.0,240.0,9.0,1.0,2.0,28.4
-Mile Svilar,J3,Roma,UEFA Europa League,rs SRB,25-058,90,2.0,0.0,2.0,0.3,0.3,True,4.0,13.0,25.0,2.0,860.0,4.0,254.0,8.0,0.0,0.0,0.0
-Ruslan Neshcheret,J3,Dynamo Kyiv,UEFA Europa League,ua UKR,22-276,90,5.0,1.0,4.0,1.3,0.3,False,5.0,18.0,36.0,5.0,1418.4,7.0,319.9,18.0,0.0,0.0,0.0
 Elías Rafn Ólafsson,J3,Midtjylland,UEFA Europa League,is ISL,24-227,90,7.0,0.0,7.0,0.5,0.5,True,5.0,19.0,33.0,7.0,1366.2,4.0,216.0,12.0,0.0,2.0,46.0
 Anthony Moris,J3,Union SG,UEFA Europa League,lu LUX,34-178,90,5.0,1.0,4.0,1.7,0.7,False,7.0,13.0,34.0,3.0,1091.4,8.0,187.2,18.0,2.0,0.0,0.0
-Roei Mashpati,J3,Maccabi Tel Aviv,UEFA Europa League,il ISR,31-336,90,5.0,2.0,3.0,2.1,0.1,False,3.0,10.0,27.0,6.0,874.8,6.0,156.0,15.0,1.0,0.0,0.0
-Unai Marrero,J3,Real Sociedad,UEFA Europa League,es ESP,23-015,90,3.0,1.0,2.0,0.9,-0.1,False,2.0,7.0,31.0,2.0,663.4,8.0,212.0,10.0,0.0,1.0,11.0
 Dominik Kotarski,J3,PAOK,UEFA Europa League,hr CRO,24-257,90,6.0,2.0,4.0,2.6,0.6,False,5.0,18.0,46.0,0.0,1642.2,6.0,237.0,8.0,1.0,1.0,12.8
 Martin Jedlička,J3,Viktoria Plzeň,UEFA Europa League,cz CZE,26-274,90,8.0,2.0,6.0,3.0,1.0,False,7.0,26.0,22.0,3.0,1190.2,9.0,641.7,21.0,3.0,0.0,0.0
 Diogo Costa,J3,Porto,UEFA Europa League,pt POR,25-035,90,1.0,0.0,1.0,0.0,0.0,True,10.0,17.0,25.0,3.0,927.5,10.0,478.0,18.0,1.0,5.0,126.5
@@ -2237,8 +2114,6 @@ Przemysław Tytoń,J3,Twente,UEFA Europa League,pl POL,37-294,77,6.0,2.0,4.0,2.6
 Christos Mandas,J3,Lazio,UEFA Europa League,gr GRE,23-037,90,2.0,0.0,2.0,1.1,1.1,True,3.0,9.0,40.0,4.0,1224.0,2.0,32.0,6.0,1.0,1.0,18.5
 Julen Agirrezabala,J3,Athletic Club,UEFA Europa League,es ESP,23-303,90,6.0,0.0,6.0,1.1,1.1,True,8.0,15.0,24.0,3.0,811.2,10.0,517.0,19.0,1.0,0.0,0.0
 Antonín Kinský,J3,Slavia Prague,UEFA Europa League,cz CZE,21-225,90,3.0,1.0,2.0,0.4,-0.6,False,3.0,6.0,48.0,7.0,1300.8,2.0,52.0,4.0,0.0,0.0,0.0
-Dominik Livaković,J3,Fenerbahçe,UEFA Europa League,hr CRO,29-289,90,5.0,1.0,4.0,1.1,0.1,False,3.0,10.0,26.0,3.0,837.2,2.0,102.0,4.0,1.0,2.0,33.0
-André Onana,J3,Manchester Utd,UEFA Europa League,cm CMR,28-205,90,4.0,1.0,3.0,1.0,0.0,False,5.0,18.0,40.0,5.0,1304.0,4.0,197.2,14.0,0.0,0.0,0.0
 Mert Günok,J4,Beşiktaş,UEFA Europa League,tr TUR,35-250,90,7.0,1.0,6.0,3.1,2.1,False,3.0,8.0,18.0,5.0,565.2,2.0,122.0,10.0,1.0,0.0,0.0
 Ricardo,J4,Malmö,UEFA Europa League,br BRA,31-262,90,5.0,2.0,3.0,1.2,-0.8,False,3.0,12.0,20.0,3.0,588.0,9.0,412.2,7.0,1.0,1.0,18.5
 Nikita Haikin,J4,Bodø/Glimt,UEFA Europa League,ru RUS,29-119,90,6.0,2.0,4.0,1.2,-0.8,False,3.0,12.0,45.0,5.0,1440.0,6.0,130.2,7.0,1.0,4.0,70.4
@@ -2293,8 +2168,6 @@ Jeroen Zoet,J5,AZ Alkmaar,UEFA Europa League,nl NED,33-327,90,5.0,1.0,4.0,2.6,1.
 Fernando Muslera,J5,Galatasaray,UEFA Europa League,uy URU,38-165,90,5.0,1.0,4.0,1.0,0.0,False,1.0,7.0,29.0,2.0,745.3,5.0,151.0,7.0,0.0,0.0,0.0
 Colin Coosemans,J5,Anderlecht,UEFA Europa League,be BEL,32-117,90,5.0,2.0,3.0,1.3,-0.7,False,5.0,20.0,57.0,4.0,1749.9,4.0,205.2,12.0,2.0,1.0,11.2
 Diogo Costa,J5,Porto,UEFA Europa League,pt POR,25-070,90,5.0,2.0,3.0,1.1,-0.9,False,3.0,11.0,31.0,4.0,1023.0,4.0,219.2,12.0,2.0,1.0,10.3
-Fabrice Ondoa,J5,FK Rīgas FS,UEFA Europa League,cm CMR,28-340,90,5.0,2.0,3.0,1.7,-0.3,False,4.0,9.0,33.0,5.0,970.2,6.0,193.8,7.0,1.0,0.0,0.0
-Dominik Kotarski,J5,PAOK,UEFA Europa League,hr CRO,24-292,90,3.0,0.0,3.0,0.5,0.5,True,5.0,12.0,36.0,5.0,1198.8,6.0,238.2,18.0,0.0,0.0,0.0
 André Onana,J5,Manchester Utd,UEFA Europa League,cm CMR,28-240,90,4.0,2.0,2.0,0.9,-1.1,False,2.0,2.0,36.0,4.0,835.2,1.0,17.0,2.0,0.0,7.0,205.8
 Nikita Haikin,J5,Bodø/Glimt,UEFA Europa League,ru RUS,29-140,90,6.0,3.0,3.0,3.1,0.1,False,4.0,15.0,31.0,6.0,1001.3,6.0,255.0,12.0,2.0,0.0,0.0
 Marco Carnesecchi,J21,Atalanta,Italian Serie A,it ITA,24-201,90,3.0,3.0,0.0,1.4,-1.6,False,6.0,14.0,34.0,5.0,1043.8,5.0,262.0,7.0,0.0,2.0,44.0
@@ -2305,8 +2178,6 @@ Fraser Forster,J5,Tottenham,UEFA Europa League,eng ENG,36-256,90,7.0,2.0,5.0,2.1
 Mile Svilar,J5,Roma,UEFA Europa League,rs SRB,25-093,90,11.0,2.0,9.0,4.4,2.4,False,11.0,23.0,30.0,9.0,1089.0,11.0,607.2,15.0,2.0,4.0,53.6
 Mert Günok,J5,Beşiktaş,UEFA Europa League,tr TUR,35-272,90,10.0,3.0,7.0,3.8,0.8,False,2.0,6.0,27.0,6.0,810.0,6.0,109.2,10.0,0.0,0.0,0.0
 Roei Mashpati,J5,Maccabi Tel Aviv,UEFA Europa League,il ISR,32-005,90,3.0,1.0,1.0,1.8,0.8,False,8.0,21.0,31.0,5.0,1171.8,4.0,213.2,4.0,1.0,0.0,0.0
-Lars Unnerstall,J5,Twente,UEFA Europa League,de GER,34-131,90,9.0,1.0,8.0,1.2,0.2,False,7.0,22.0,47.0,6.0,1569.8,7.0,147.0,13.0,1.0,4.0,55.6
-Anthony Moris,J5,Union SG,UEFA Europa League,lu LUX,34-213,90,3.0,0.0,3.0,0.4,0.4,True,7.0,17.0,23.0,1.0,1092.5,4.0,177.2,20.0,1.0,0.0,0.0
 Dénes Dibusz,J5,Ferencváros,UEFA Europa League,hu HUN,34-012,90,4.0,1.0,3.0,1.6,0.6,False,5.0,13.0,28.0,1.0,926.8,5.0,219.0,14.0,0.0,1.0,19.0
 Ricardo,J5,Malmö,UEFA Europa League,br BRA,31-284,90,6.0,4.0,2.0,2.9,-1.1,False,0.0,3.0,12.0,2.0,285.6,3.0,156.0,4.0,0.0,0.0,0.0
 Elías Rafn Ólafsson,J5,Midtjylland,UEFA Europa League,is ISL,24-262,90,6.0,2.0,4.0,1.9,-0.1,False,5.0,18.0,27.0,6.0,1074.6,7.0,356.3,15.0,1.0,1.0,13.6
@@ -2334,8 +2205,6 @@ Joakim Persson,J6,Malmö,UEFA Europa League,se SWE,17-298,90,5.0,2.0,3.0,1.2,-0.
 Fernando Muslera,J6,Galatasaray,UEFA Europa League,uy URU,38-179,90,4.0,2.0,2.0,2.1,0.1,False,5.0,12.0,33.0,6.0,1108.8,5.0,195.0,17.0,1.0,0.0,0.0
 Martin Jedlička,J6,Viktoria Plzeň,UEFA Europa League,cz CZE,26-323,90,8.0,2.0,6.0,2.8,0.8,False,6.0,21.0,21.0,1.0,970.2,6.0,382.2,10.0,0.0,2.0,61.0
 André Onana,J6,Manchester Utd,UEFA Europa League,cm CMR,28-254,90,2.0,1.0,1.0,1.4,0.4,False,3.0,9.0,36.0,2.0,1036.8,1.0,35.0,9.0,2.0,0.0,0.0
-Anthony Moris,J6,Union SG,UEFA Europa League,lu LUX,34-227,90,2.0,1.0,1.0,1.5,0.5,False,7.0,26.0,38.0,4.0,1607.4,3.0,162.9,14.0,2.0,0.0,0.0
-Marcin Bułka,J6,Nice,UEFA Europa League,pl POL,25-069,90,10.0,2.0,8.0,3.3,1.3,False,9.0,19.0,32.0,4.0,1209.6,7.0,329.7,18.0,2.0,5.0,85.0
 Sergio Padt,J6,Ludogorets,UEFA Europa League,nl NED,34-189,90,7.0,2.0,5.0,3.1,1.1,False,11.0,23.0,37.0,3.0,1254.3,9.0,522.0,18.0,2.0,1.0,8.7
 Rome-Jayden Owusu-Oduro,J6,AZ Alkmaar,UEFA Europa League,nl NED,20-163,90,3.0,2.0,1.0,0.7,-1.3,False,4.0,13.0,21.0,5.0,686.7,7.0,497.0,16.0,1.0,0.0,0.0
 Kostas Tzolakis,J6,Olympiacos,UEFA Europa League,gr GRE,22-034,90,2.0,0.0,1.0,0.9,0.9,True,7.0,22.0,28.0,6.0,1226.4,2.0,124.0,4.0,1.0,4.0,61.6
@@ -2355,10 +2224,6 @@ Isak Pettersson,J6,Elfsborg,UEFA Europa League,se SWE,27-189,90,2.0,0.0,2.0,0.5,
 Mateusz Kochalski,J6,Qarabağ,UEFA Europa League,pl POL,24-140,90,3.0,1.0,2.0,1.2,0.2,False,2.0,4.0,37.0,4.0,928.7,2.0,35.0,5.0,0.0,1.0,21.5
 Nikita Haikin,J6,Bodø/Glimt,UEFA Europa League,ru RUS,29-154,90,3.0,1.0,2.0,1.1,0.1,False,2.0,4.0,23.0,4.0,572.7,5.0,103.0,10.0,0.0,0.0,0.0
 Ersin Destanoğlu,J6,Beşiktaş,UEFA Europa League,tr TUR,23-346,90,4.0,2.0,2.0,1.6,-0.4,False,4.0,13.0,30.0,8.0,996.0,11.0,432.3,17.0,4.0,0.0,0.0
-Lucas Perri,J6,Lyon,UEFA Europa League,br BRA,27-002,90,5.0,2.0,3.0,2.1,0.1,False,10.0,27.0,41.0,4.0,1672.8,4.0,180.0,5.0,2.0,0.0,0.0
-Kevin Trapp,J6,Eint Frankfurt,UEFA Europa League,de GER,34-157,90,6.0,3.0,3.0,2.2,-0.8,False,3.0,9.0,30.0,6.0,882.0,6.0,136.2,16.0,1.0,0.0,0.0
-Remko Pasveer,J6,Ajax,UEFA Europa League,nl NED,41-034,90,6.0,3.0,3.0,2.3,-0.7,False,8.0,14.0,37.0,3.0,1095.2,3.0,107.1,4.0,0.0,2.0,37.2
-Christos Mandas,J6,Lazio,UEFA Europa League,gr GRE,23-086,90,5.0,1.0,4.0,2.5,1.5,False,11.0,24.0,52.0,2.0,1908.4,7.0,315.0,12.0,1.0,0.0,0.0
 Roei Mashpati,J6,Maccabi Tel Aviv,UEFA Europa League,il ISR,32-019,90,4.0,1.0,2.0,1.7,0.7,False,2.0,11.0,37.0,4.0,1021.2,2.0,109.0,22.0,0.0,1.0,17.5
 Fabrice Ondoa,J6,FK Rīgas FS,UEFA Europa League,cm CMR,28-354,90,5.0,2.0,3.0,0.9,-1.1,False,1.0,9.0,30.0,3.0,945.0,0.0,0.0,9.0,1.0,0.0,0.0
 Fernando Muslera,J7,Galatasaray,UEFA Europa League,uy URU,38-219,90,3.0,3.0,0.0,2.5,-0.5,False,0.0,4.0,20.0,1.0,552.0,0.0,0.0,11.0,0.0,0.0,0.0
@@ -2369,8 +2234,6 @@ Elia Caprile,J21,Cagliari,Italian Serie A,it ITA,23-147,90,2.0,1.0,1.0,1.0,0.0,F
 Wladimiro Falcone,J21,Lecce,Italian Serie A,it ITA,29-282,90,6.0,4.0,2.0,3.0,-1.0,False,5.0,16.0,24.0,1.0,948.0,2.0,120.0,17.0,0.0,1.0,12.0
 Diogo Costa,J7,Porto,UEFA Europa League,pt POR,25-126,90,2.0,1.0,1.0,0.6,-0.4,False,6.0,20.0,45.0,6.0,1597.5,1.0,25.0,12.0,1.0,1.0,11.4
 Kostas Tzolakis,J7,Olympiacos,UEFA Europa League,gr GRE,22-076,90,2.0,0.0,2.0,0.2,0.2,True,6.0,19.0,20.0,2.0,862.0,8.0,446.4,13.0,2.0,5.0,115.0
-Nikita Haikin,J7,Bodø/Glimt,UEFA Europa League,ru RUS,29-196,90,3.0,1.0,2.0,1.2,0.2,False,1.0,3.0,33.0,3.0,679.8,0.0,0.0,4.0,0.0,2.0,42.0
-Roei Mashpati,J7,Maccabi Tel Aviv,UEFA Europa League,il ISR,32-061,90,5.0,3.0,2.0,2.2,-0.8,False,5.0,15.0,27.0,3.0,966.6,6.0,241.8,17.0,0.0,1.0,20.3
 Ricardo,J7,Malmö,UEFA Europa League,br BRA,31-340,90,4.0,3.0,1.0,2.0,-1.0,False,2.0,11.0,34.0,2.0,999.6,1.0,56.0,16.0,1.0,1.0,15.3
 Lars Unnerstall,J7,Twente,UEFA Europa League,de GER,34-187,90,4.0,2.0,2.0,0.8,-1.2,False,4.0,9.0,16.0,2.0,598.4,2.0,97.0,18.0,1.0,0.0,0.0
 Oliver Baumann,J7,Hoffenheim,UEFA Europa League,de GER,34-235,90,5.0,3.0,2.0,3.0,0.0,False,1.0,12.0,31.0,3.0,1069.5,4.0,127.2,10.0,2.0,0.0,0.0
@@ -2430,8 +2293,6 @@ Lucas Perri,J8,Lyon,UEFA Europa League,br BRA,27-051,90,6.0,1.0,5.0,2.2,1.2,Fals
 Sergio Padt,J8,Ludogorets,UEFA Europa League,nl NED,34-238,90,8.0,1.0,7.0,2.5,1.5,False,5.0,18.0,33.0,4.0,1102.2,7.0,326.2,13.0,0.0,0.0,0.0
 Julen Agirrezabala,J8,Athletic Club,UEFA Europa League,es ESP,24-035,90,2.0,1.0,1.0,0.9,-0.1,False,0.0,6.0,21.0,5.0,661.5,1.0,60.0,5.0,0.0,2.0,31.4
 Martin Jedlička,J8,Viktoria Plzeň,UEFA Europa League,cz CZE,27-006,90,8.0,3.0,5.0,3.2,0.2,False,4.0,15.0,30.0,1.0,1140.0,6.0,261.0,16.0,0.0,0.0,0.0
-Unai Marrero,J8,Real Sociedad,UEFA Europa League,es ESP,23-113,90,4.0,0.0,4.0,0.8,0.8,True,0.0,5.0,22.0,3.0,668.8,3.0,81.0,7.0,0.0,2.0,25.6
-Dominik Kotarski,J8,PAOK,UEFA Europa League,hr CRO,24-355,90,7.0,2.0,5.0,1.3,-0.7,False,4.0,10.0,38.0,1.0,1102.0,4.0,231.2,11.0,0.0,0.0,0.0
 Jean Butez,J21,Como,Italian Serie A,fr FRA,29-226,90,2.0,1.0,1.0,0.4,-0.6,False,7.0,14.0,52.0,8.0,1627.6,2.0,83.0,13.0,1.0,0.0,0.0
 Razvan Sava,J21,Udinese,Italian Serie A,ro ROU,22-213,90,8.0,4.0,5.0,2.1,-1.9,False,1.0,4.0,24.0,4.0,614.4,2.0,46.0,8.0,0.0,2.0,51.0
 Simon Sluga,J8,Maccabi Tel Aviv,UEFA Europa League,hr CRO,31-319,90,3.0,1.0,2.0,1.0,0.0,False,4.0,7.0,42.0,3.0,995.4,5.0,104.0,11.0,0.0,0.0,0.0
@@ -2462,8 +2323,6 @@ Dominik Kotarski,J9,PAOK,UEFA Europa League,hr CRO,25-003,90,4.0,2.0,2.0,2.5,0.5
 Stefan Târnovanu,J9,FCSB,UEFA Europa League,ro ROU,24-280,90,2.0,1.0,1.0,0.4,-0.6,False,1.0,5.0,18.0,5.0,482.4,6.0,210.0,7.0,1.0,1.0,12.8
 Nikita Haikin,J10,Bodø/Glimt,UEFA Europa League,ru RUS,29-224,90,2.0,2.0,1.0,1.3,-0.7,False,4.0,10.0,58.0,3.0,1537.0,6.0,124.8,12.0,0.0,5.0,88.5
 Lars Unnerstall,J10,Twente,UEFA Europa League,de GER,34-215,90,7.0,5.0,4.0,2.5,-2.5,False,7.0,19.0,26.0,2.0,1084.2,6.0,259.8,17.0,1.0,1.0,13.8
-Mile Svilar,J10,Roma,UEFA Europa League,rs SRB,25-177,90,1.0,2.0,0.0,0.6,-1.4,False,2.0,5.0,22.0,2.0,695.2,3.0,59.1,4.0,0.0,1.0,14.8
-Diogo Costa,J10,Porto,UEFA Europa League,pt POR,25-154,90,4.0,3.0,1.0,1.7,-1.3,False,6.0,14.0,40.0,2.0,1220.0,9.0,351.9,16.0,1.0,0.0,0.0
 Stefan Târnovanu,J10,FCSB,UEFA Europa League,ro ROU,24-287,90,4.0,0.0,4.0,1.4,1.4,True,8.0,21.0,30.0,4.0,1170.0,7.0,387.8,18.0,0.0,1.0,12.4
 Dominik Kotarski,J10,PAOK,UEFA Europa League,hr CRO,25-010,90,4.0,2.0,2.0,2.3,0.3,False,3.0,10.0,28.0,5.0,932.4,2.0,87.0,13.0,2.0,1.0,8.6
 Günay Güvenç,J10,Galatasaray,UEFA Europa League,0,33-240,90,10.0,2.0,8.0,3.8,1.8,False,2.0,5.0,19.0,3.0,524.4,6.0,127.2,13.0,1.0,1.0,13.3
@@ -2536,8 +2395,6 @@ Kauã Santos,J14,Eint Frankfurt,UEFA Europa League,br BRA,22-006,90,3.0,1.0,2.0,
 Guglielmo Vicario,J14,Tottenham,UEFA Europa League,it ITA,28-192,90,5.0,0.0,5.0,0.5,0.5,True,7.0,19.0,32.0,3.0,1209.6,6.0,334.2,27.0,1.0,0.0,0.0
 Guglielmo Vicario,J15,Tottenham,UEFA Europa League,it ITA,28-206,90,1.0,1.0,0.0,0.6,-0.4,False,0.0,3.0,20.0,3.0,556.0,1.0,52.0,4.0,2.0,0.0,0.0
 Nikita Haikin,J15,Bodø/Glimt,UEFA Europa League,ru RUS,29-294,90,7.0,3.0,4.0,2.9,-0.1,False,3.0,15.0,52.0,6.0,1580.8,6.0,262.2,21.0,2.0,1.0,14.5
-Julen Agirrezabala,J15,Athletic Club,UEFA Europa League,es ESP,24-126,90,7.0,3.0,4.0,3.4,0.4,False,10.0,18.0,19.0,1.0,860.7,5.0,331.0,13.0,2.0,0.0,0.0
-André Onana,J15,Manchester Utd,UEFA Europa League,cm CMR,29-029,90,2.0,0.0,2.0,0.6,0.6,True,8.0,13.0,22.0,5.0,770.0,5.0,315.0,13.0,0.0,0.0,0.0
 André Onana,J16,Manchester Utd,UEFA Europa League,cm CMR,29-036,90,1.0,1.0,0.0,0.1,-0.9,False,5.0,19.0,23.0,3.0,876.3,9.0,570.6,18.0,1.0,0.0,0.0
 Julen Agirrezabala,J16,Athletic Club,UEFA Europa League,es ESP,24-133,90,5.0,4.0,1.0,2.1,-1.9,False,2.0,8.0,19.0,4.0,621.3,3.0,90.9,4.0,0.0,2.0,51.6
 Nikita Haikin,J16,Bodø/Glimt,UEFA Europa League,ru RUS,29-301,90,3.0,2.0,1.0,0.9,-1.1,False,7.0,14.0,40.0,1.0,1320.0,4.0,128.0,14.0,0.0,0.0,0.0
@@ -2552,8 +2409,6 @@ Deniz Dilmen,J1,Başakşehir,UEFA Europa Conference League,0,19-119,90,5.0,2.0,3
 Niklas Hedl,J1,Rapid Wien,UEFA Europa Conference League,at AUT,23-199,90,4.0,1.0,3.0,1.1,0.1,False,2.0,12.0,27.0,2.0,864.0,4.0,213.2,17.0,1.0,4.0,95.6
 Albert Posiadala,J1,Molde,UEFA Europa Conference League,pl POL,21-221,90,1.0,0.0,1.0,0.2,0.2,True,1.0,1.0,18.0,1.0,361.8,3.0,69.0,3.0,0.0,2.0,40.8
 Rohan Ferguson,J1,Larne FC,UEFA Europa Conference League,sct SCO,26-302,90,7.0,3.0,4.0,1.8,-1.2,False,15.0,32.0,51.0,8.0,2045.1,7.0,389.9,13.0,0.0,0.0,0.0
-Kevin Müller,J1,Heidenheim,UEFA Europa Conference League,de GER,33-202,90,3.0,1.0,2.0,1.2,0.2,False,6.0,12.0,29.0,5.0,1044.0,4.0,164.0,12.0,1.0,0.0,0.0
-Matevž Vidovšek,J1,Olimpija,UEFA Europa Conference League,si SVN,24-339,90,8.0,2.0,5.0,2.0,0.0,False,5.0,12.0,17.0,4.0,678.3,6.0,292.8,19.0,1.0,0.0,0.0
 Kacper Tobiasz,J1,Legia Warsaw,UEFA Europa Conference League,pl POL,21-334,90,3.0,0.0,3.0,0.8,0.8,True,6.0,17.0,27.0,5.0,999.0,10.0,354.0,23.0,1.0,0.0,0.0
 Adrián,J1,Betis,UEFA Europa Conference League,es ESP,37-274,90,2.0,1.0,1.0,1.3,0.3,False,1.0,5.0,33.0,4.0,920.7,5.0,129.0,15.0,0.0,2.0,40.6
 Warleson,J1,Cercle Brugge,UEFA Europa Conference League,br BRA,28-033,31,0.0,0.0,0.0,0.0,0.0,False,3.0,7.0,4.0,0.0,189.2,3.0,182.1,4.0,0.0,2.0,57.0
@@ -2585,16 +2440,12 @@ Silviu Șmalenea,J1,Petrocub,UEFA Europa Conference League,md MDA,21-299,90,9.0,
 Ivica Ivušić,J1,Pafos FC,UEFA Europa Conference League,hr CRO,29-245,90,1.0,1.0,0.0,0.9,-0.1,False,3.0,11.0,38.0,2.0,1204.6,7.0,174.3,17.0,1.0,5.0,111.5
 Josip Condric,J1,Astana FK,UEFA Europa Conference League,hr CRO,31-037,90,5.0,0.0,5.0,0.3,0.3,True,9.0,24.0,29.0,6.0,1075.9,14.0,793.8,9.0,0.0,0.0,0.0
 Veljko Ilic,J1,TSC Bačka Top,UEFA Europa Conference League,rs SRB,21-074,90,4.0,1.0,3.0,0.4,-0.6,False,2.0,4.0,38.0,3.0,839.8,4.0,58.0,3.0,0.0,2.0,33.0
-Ingvar Jónsson,J2,KV,UEFA Europa Conference League,is ISL,35-006,90,3.0,1.0,2.0,1.3,0.3,False,5.0,15.0,53.0,5.0,1680.1,5.0,119.0,14.0,3.0,0.0,0.0
-Maxime Delanghe,J2,Cercle Brugge,UEFA Europa Conference League,be BEL,23-154,90,5.0,3.0,2.0,2.8,-0.2,False,5.0,26.0,25.0,2.0,1210.0,5.0,297.0,8.0,0.0,3.0,96.9
 Rohan Ferguson,J2,Larne FC,UEFA Europa Conference League,sct SCO,26-323,90,6.0,4.0,3.0,2.5,-1.5,False,0.0,2.0,21.0,6.0,659.4,4.0,92.0,16.0,1.0,2.0,36.8
 Léon-Maurice Pöhls,J2,Shamrock Rov,UEFA Europa Conference League,de GER,27-176,90,3.0,1.0,2.0,1.1,0.1,False,1.0,5.0,19.0,4.0,543.4,4.0,53.2,15.0,0.0,1.0,20.0
 Craig Gordon,J2,Hearts,UEFA Europa Conference League,sct SCO,41-298,90,1.0,0.0,1.0,0.0,0.0,True,8.0,24.0,27.0,3.0,1231.2,10.0,457.0,11.0,0.0,3.0,55.5
 Fabiano,J2,AC Omonia,UEFA Europa Conference League,br BRA,36-238,90,3.0,2.0,1.0,1.4,-0.6,False,1.0,5.0,8.0,4.0,191.2,6.0,306.0,11.0,1.0,0.0,0.0
 Wladimiro Falcone,J22,Lecce,Italian Serie A,it ITA,29-289,90,5.0,4.0,1.0,3.3,-0.7,False,3.0,7.0,29.0,4.0,771.4,0.0,0.0,3.0,0.0,0.0,0.0
 Yann Sommer,J22,Inter,Italian Serie A,ch SUI,36-040,90,4.0,0.0,4.0,1.2,1.2,True,1.0,3.0,42.0,7.0,903.0,9.0,143.1,24.0,1.0,1.0,16.8
-Davy Roef,J2,Gent,UEFA Europa Conference League,be BEL,30-261,90,3.0,1.0,2.0,1.2,0.2,False,2.0,11.0,37.0,3.0,1317.2,1.0,29.0,12.0,0.0,1.0,21.5
-Albert Posiadala,J2,Molde,UEFA Europa Conference League,pl POL,21-242,90,4.0,2.0,2.0,1.2,-0.8,False,8.0,17.0,26.0,2.0,1027.0,4.0,256.0,16.0,1.0,0.0,0.0
 Niklas Hedl,J2,Rapid Wien,UEFA Europa Conference League,at AUT,23-221,90,2.0,0.0,2.0,0.7,0.7,True,3.0,3.0,33.0,3.0,785.4,2.0,82.0,6.0,0.0,0.0,0.0
 Ognjen Čančarević,J2,FC Noah,UEFA Europa Conference League,am ARM,35-029,90,7.0,1.0,6.0,1.8,0.8,False,6.0,12.0,31.0,8.0,988.9,11.0,359.7,18.0,0.0,1.0,13.0
 Jacob Rinne,J2,Djurgården,UEFA Europa Conference League,se SWE,31-126,90,3.0,2.0,1.0,1.4,-0.6,False,1.0,7.0,18.0,3.0,563.4,5.0,191.0,10.0,1.0,1.0,14.3
@@ -2659,8 +2510,6 @@ Sławomir Abramowicz,J3,Jagiellonia,UEFA Europa Conference League,pl POL,20-151,
 Albert Posiadala,J3,Molde,UEFA Europa Conference League,pl POL,21-256,90,4.0,3.0,1.0,2.4,-0.6,False,2.0,11.0,27.0,5.0,882.9,3.0,96.0,8.0,0.0,0.0,0.0
 Nicola Leali,J22,Genoa,Italian Serie A,it ITA,31-345,90,1.0,0.0,1.0,0.0,0.0,True,4.0,14.0,22.0,3.0,847.0,3.0,192.0,10.0,1.0,0.0,0.0
 Stefano Turati,J22,Monza,Italian Serie A,it ITA,23-144,90,6.0,2.0,3.0,3.2,1.2,False,6.0,25.0,34.0,0.0,1530.0,3.0,168.0,19.0,0.0,1.0,22.0
-Nathan Trott,J3,FC Copenhagen,UEFA Europa Conference League,eng ENG,25-352,90,4.0,2.0,2.0,2.1,0.1,False,2.0,5.0,17.0,4.0,586.5,4.0,71.2,6.0,0.0,0.0,0.0
-Muhammed Şengezer,J3,Başakşehir,UEFA Europa Conference League,tr TUR,27-307,90,9.0,2.0,7.0,2.5,0.5,False,8.0,27.0,35.0,1.0,1725.5,4.0,238.0,20.0,2.0,0.0,0.0
 Adrián,J3,Betis,UEFA Europa Conference League,es ESP,37-309,90,2.0,1.0,1.0,1.1,0.1,False,0.0,1.0,17.0,2.0,423.3,7.0,191.1,5.0,1.0,1.0,13.5
 Lovro Štubljar,J3,NK Celje,UEFA Europa Conference League,si SVN,20-090,90,6.0,2.0,4.0,1.6,-0.4,False,14.0,25.0,36.0,7.0,1443.6,13.0,639.6,19.0,1.0,0.0,0.0
 Vid Belec,J3,APOEL,UEFA Europa Conference League,si SVN,34-154,90,6.0,1.0,5.0,1.8,0.8,False,4.0,17.0,24.0,3.0,933.6,7.0,392.0,16.0,1.0,0.0,0.0
@@ -2684,20 +2533,14 @@ Zion Suzuki,J23,Parma,Italian Serie A,jp JPN,22-163,90,3.0,3.0,0.0,1.3,-1.7,Fals
 Wladimiro Falcone,J23,Lecce,Italian Serie A,it ITA,29-294,90,7.0,1.0,6.0,1.5,0.5,False,4.0,16.0,31.0,3.0,1088.1,5.0,276.0,14.0,2.0,0.0,0.0
 Lawrence Ati-Zigi,J4,St. Gallen,UEFA Europa Conference League,gh GHA,27-365,90,4.0,2.0,2.0,1.9,-0.1,False,3.0,10.0,30.0,3.0,963.0,7.0,205.1,9.0,0.0,1.0,14.2
 Veljko Ilic,J4,TSC Bačka Top,UEFA Europa Conference League,rs SRB,21-130,90,7.0,2.0,5.0,1.9,-0.1,False,13.0,33.0,50.0,6.0,1860.0,8.0,438.4,18.0,0.0,2.0,45.0
-Yuri Lodygin,J4,Panathinaikos,UEFA Europa Conference League,ru RUS,34-186,90,3.0,0.0,3.0,0.6,0.6,True,5.0,11.0,26.0,1.0,813.8,3.0,116.1,5.0,1.0,3.0,60.9
-Thijmen Nijhuis,J4,HJK,UEFA Europa Conference League,nl NED,26-126,90,9.0,1.0,9.0,2.7,1.7,False,2.0,4.0,18.0,3.0,430.2,6.0,172.8,17.0,0.0,0.0,0.0
 Fyodor Lapoukhov,J4,Dinamo Minsk,UEFA Europa Conference League,by BLR,21-161,90,4.0,2.0,2.0,1.7,-0.3,False,5.0,16.0,23.0,5.0,880.9,8.0,464.8,15.0,1.0,1.0,18.0
 Theo Sander,J4,FC Copenhagen,UEFA Europa Conference League,dk DEN,19-325,90,4.0,1.0,3.0,1.3,0.3,False,3.0,9.0,35.0,4.0,1060.5,4.0,78.0,12.0,1.0,1.0,15.8
 Amir Saipi,J4,Lugano,UEFA Europa Conference League,xk KVX,24-143,90,6.0,0.0,6.0,2.1,2.1,True,15.0,29.0,37.0,1.0,1687.2,7.0,359.8,30.0,2.0,0.0,0.0
 Daniel Schmidt,J4,Gent,UEFA Europa Conference League,jp JPN,32-299,90,3.0,2.0,1.0,1.8,-0.2,False,4.0,9.0,17.0,5.0,581.4,3.0,108.0,7.0,1.0,1.0,15.0
 Matouš Trmal,J4,Mladá Boleslav,UEFA Europa Conference League,cz CZE,26-057,90,4.0,1.0,3.0,0.8,-0.2,False,3.0,13.0,28.0,1.0,901.6,7.0,396.2,10.0,0.0,1.0,15.5
 Adrián,J4,Betis,UEFA Europa Conference League,es ESP,37-330,90,9.0,2.0,7.0,3.3,1.3,False,3.0,13.0,27.0,4.0,934.2,10.0,269.0,10.0,0.0,0.0,0.0
-Matevž Vidovšek,J4,Olimpija,UEFA Europa Conference League,si SVN,25-029,90,1.0,0.0,1.0,0.2,0.2,True,0.0,0.0,18.0,3.0,385.2,3.0,72.0,3.0,0.0,1.0,19.0
-Rohan Ferguson,J4,Larne FC,UEFA Europa Conference League,sct SCO,26-358,90,5.0,1.0,4.0,1.6,0.6,False,11.0,27.0,20.0,0.0,988.0,13.0,685.1,25.0,2.0,0.0,0.0
 Niklas Hedl,J4,Rapid Wien,UEFA Europa Conference League,at AUT,23-256,90,3.0,1.0,2.0,1.3,0.3,False,1.0,2.0,23.0,1.0,515.2,2.0,35.0,9.0,1.0,2.0,31.6
 Léon-Maurice Pöhls,J4,Shamrock Rov,UEFA Europa Conference League,de GER,27-211,90,3.0,1.0,2.0,1.4,0.4,False,4.0,22.0,18.0,3.0,793.8,13.0,721.5,35.0,1.0,0.0,0.0
-Pietro Terracciano,J4,Fiorentina,UEFA Europa Conference League,it ITA,34-265,90,3.0,2.0,1.0,2.3,0.3,False,7.0,11.0,48.0,0.0,1296.0,5.0,154.0,12.0,0.0,0.0,0.0
-Ivica Ivušić,J4,Pafos FC,UEFA Europa Conference League,hr CRO,29-301,90,4.0,3.0,2.0,2.0,-1.0,False,1.0,2.0,18.0,4.0,433.8,5.0,94.0,9.0,0.0,0.0,0.0
 Josip Condric,J4,Astana FK,UEFA Europa Conference League,hr CRO,31-093,90,7.0,1.0,6.0,2.9,1.9,False,6.0,24.0,26.0,6.0,982.8,16.0,801.6,29.0,0.0,2.0,43.0
 Bruno Varela,J4,Vitória,UEFA Europa Conference League,cv CPV,30-024,90,4.0,1.0,3.0,0.9,-0.1,False,3.0,3.0,15.0,3.0,403.5,1.0,13.0,5.0,0.0,0.0,0.0
 Aleksei Ploshchadnyi,J4,FC Noah,UEFA Europa Conference League,ru RUS,20-221,90,2.0,0.0,2.0,0.7,0.7,True,3.0,14.0,26.0,5.0,977.6,5.0,177.0,13.0,2.0,0.0,0.0
@@ -2725,8 +2568,6 @@ Silviu Șmalenea,J5,Petrocub,UEFA Europa Conference League,md MDA,22-003,90,4.0,
 Adrián,J5,Betis,UEFA Europa Conference League,es ESP,37-344,90,1.0,0.0,1.0,0.1,0.1,True,3.0,8.0,28.0,1.0,820.4,3.0,51.9,5.0,2.0,0.0,0.0
 Connor Roberts,J5,The New Saints,UEFA Europa Conference League,wls WAL,32-004,90,7.0,2.0,5.0,2.0,0.0,False,5.0,13.0,45.0,3.0,1233.0,3.0,117.9,14.0,0.0,0.0,0.0
 Bartłomiej Drągowski,J5,Panathinaikos,UEFA Europa Conference League,pl POL,27-115,90,4.0,0.0,4.0,0.6,0.6,True,0.0,1.0,25.0,4.0,570.0,3.0,42.0,10.0,1.0,2.0,33.8
-Léon-Maurice Pöhls,J5,Shamrock Rov,UEFA Europa Conference League,de GER,27-225,90,3.0,0.0,3.0,0.3,0.3,True,6.0,10.0,24.0,4.0,835.2,6.0,171.0,11.0,1.0,0.0,0.0
-Filip Manojlović,J5,Borac Banja Luka,UEFA Europa Conference League,rs SRB,28-231,90,6.0,3.0,3.0,3.3,0.3,False,2.0,5.0,24.0,7.0,717.6,3.0,99.9,13.0,3.0,0.0,0.0
 Razvan Sava,J23,Udinese,Italian Serie A,ro ROU,22-225,90,3.0,2.0,1.0,1.0,-1.0,False,4.0,12.0,18.0,2.0,577.8,8.0,431.2,12.0,0.0,0.0,0.0
 Filip Stankovic,J23,Venezia,Italian Serie A,rs SRB,22-342,17,0.0,0.0,0.0,0.0,0.0,False,0.0,2.0,0.0,1.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0
 Jesse Joronen,J23,Venezia,Italian Serie A,fi FIN,31-317,73,5.0,3.0,2.0,2.5,-0.5,False,3.0,12.0,26.0,1.0,917.8,3.0,123.0,9.0,0.0,0.0,0.0
@@ -2748,14 +2589,10 @@ Ivica Ivušić,J5,Pafos FC,UEFA Europa Conference League,hr CRO,29-315,90,1.0,0.
 Matjaž Rozman,J5,NK Celje,UEFA Europa Conference League,si SVN,37-344,90,4.0,2.0,2.0,0.7,-1.3,False,2.0,7.0,27.0,6.0,777.6,8.0,163.2,13.0,0.0,0.0,0.0
 Francis Uzoho,J5,AC Omonia,UEFA Europa Conference League,ng NGA,26-045,90,4.0,1.0,3.0,1.5,0.5,False,15.0,29.0,19.0,1.0,896.8,16.0,809.6,18.0,1.0,0.0,0.0
 Niklas Hedl,J5,Rapid Wien,UEFA Europa Conference League,at AUT,23-270,90,7.0,3.0,4.0,2.9,-0.1,False,1.0,2.0,14.0,6.0,372.4,9.0,234.0,14.0,1.0,3.0,94.5
-Craig Gordon,J6,Hearts,UEFA Europa Conference League,sct SCO,41-354,90,3.0,2.0,1.0,1.5,-0.5,False,2.0,4.0,14.0,3.0,379.4,6.0,223.8,9.0,1.0,0.0,0.0
-Silviu Șmalenea,J6,Petrocub,UEFA Europa Conference League,md MDA,22-010,90,4.0,2.0,2.0,2.3,0.3,False,6.0,22.0,20.0,4.0,934.0,12.0,555.6,43.0,5.0,0.0,0.0
 Rui Patrício,J23,Atalanta,Italian Serie A,pt POR,36-352,90,3.0,1.0,2.0,1.4,0.4,False,1.0,3.0,22.0,3.0,528.0,3.0,75.9,3.0,0.0,5.0,135.0
 Vanja Milinković-Savić,J23,Torino,Italian Serie A,rs SRB,27-347,90,10.0,1.0,8.0,3.0,2.0,False,5.0,28.0,46.0,5.0,2097.6,7.0,275.8,25.0,0.0,1.0,15.0
 Rohan Ferguson,J6,Larne FC,UEFA Europa Conference League,sct SCO,27-013,90,6.0,0.0,6.0,1.9,1.9,True,9.0,28.0,22.0,1.0,1038.4,13.0,594.1,32.0,1.0,1.0,13.0
 Davy Roef,J6,Gent,UEFA Europa Conference League,be BEL,30-317,90,2.0,1.0,1.0,0.6,-0.4,False,1.0,2.0,12.0,2.0,271.2,4.0,136.0,4.0,0.0,1.0,22.0
-Bruno Varela,J6,Vitória,UEFA Europa Conference League,cv CPV,30-045,90,2.0,1.0,1.0,1.2,0.2,False,4.0,10.0,25.0,1.0,887.5,4.0,158.0,11.0,0.0,0.0,0.0
-Pietro Terracciano,J6,Fiorentina,UEFA Europa Conference League,it ITA,34-286,90,5.0,1.0,4.0,1.3,0.3,False,5.0,9.0,29.0,5.0,846.8,10.0,315.0,10.0,0.0,1.0,13.7
 Filip Jørgensen,J6,Chelsea,UEFA Europa Conference League,dk DEN,22-247,90,4.0,1.0,3.0,1.0,0.0,False,0.0,0.0,37.0,7.0,680.8,1.0,13.0,9.0,3.0,0.0,0.0
 Léon-Maurice Pöhls,J6,Shamrock Rov,UEFA Europa Conference League,de GER,27-232,90,9.0,5.0,4.0,3.4,-1.6,False,1.0,9.0,12.0,4.0,391.2,8.0,346.4,16.0,0.0,0.0,0.0
 Veljko Ilic,J6,TSC Bačka Top,UEFA Europa Conference League,rs SRB,21-151,90,7.0,3.0,4.0,4.2,1.2,False,2.0,10.0,30.0,6.0,921.0,2.0,78.0,10.0,1.0,2.0,34.0
@@ -2764,8 +2601,6 @@ Adrián,J6,Betis,UEFA Europa Conference League,es ESP,37-351,90,2.0,0.0,2.0,0.1,
 Thijmen Nijhuis,J6,HJK,UEFA Europa Conference League,nl NED,26-147,90,8.0,1.0,7.0,2.6,1.6,False,1.0,9.0,36.0,5.0,1065.6,9.0,239.4,15.0,0.0,0.0,0.0
 Niklas Hedl,J6,Rapid Wien,UEFA Europa Conference League,at AUT,23-277,90,2.0,0.0,2.0,0.3,0.3,True,3.0,11.0,31.0,2.0,976.5,4.0,182.0,12.0,1.0,0.0,0.0
 Nathan Trott,J6,FC Copenhagen,UEFA Europa Conference League,eng ENG,26-028,90,9.0,3.0,6.0,3.7,0.7,False,2.0,4.0,35.0,1.0,647.5,5.0,66.0,11.0,1.0,1.0,9.3
-Amir Saipi,J6,Lugano,UEFA Europa Conference League,xk KVX,24-164,90,3.0,2.0,2.0,1.3,-0.7,False,3.0,18.0,35.0,2.0,1130.5,11.0,447.7,17.0,0.0,0.0,0.0
-Neofytos Michael,J6,Pafos FC,UEFA Europa Conference League,cy CYP,31-003,90,5.0,2.0,3.0,1.9,-0.1,False,1.0,2.0,21.0,5.0,441.0,6.0,109.2,4.0,0.0,0.0,0.0
 Maxime Delanghe,J6,Cercle Brugge,UEFA Europa Conference League,be BEL,23-210,90,4.0,1.0,3.0,1.7,0.7,False,8.0,23.0,27.0,0.0,1344.6,4.0,273.2,14.0,1.0,2.0,32.0
 Muhammed Şengezer,J6,Başakşehir,UEFA Europa Conference League,tr TUR,27-349,90,8.0,1.0,7.0,2.1,1.1,False,7.0,26.0,39.0,4.0,1665.3,9.0,397.8,11.0,0.0,1.0,28.0
 Kevin Müller,J6,Heidenheim,UEFA Europa Conference League,de GER,33-279,90,2.0,1.0,1.0,0.4,-0.6,False,3.0,4.0,40.0,6.0,976.0,6.0,180.0,16.0,2.0,2.0,27.6
@@ -2778,14 +2613,8 @@ Sławomir Abramowicz,J6,Jagiellonia,UEFA Europa Conference League,pl POL,20-193,
 Matevž Vidovšek,J6,Olimpija,UEFA Europa Conference League,si SVN,25-050,90,2.0,0.0,2.0,1.0,1.0,True,1.0,3.0,30.0,4.0,768.0,4.0,113.2,8.0,1.0,1.0,9.8
 Jacob Rinne,J6,Djurgården,UEFA Europa Conference League,se SWE,31-182,90,3.0,1.0,2.0,1.1,0.1,False,3.0,22.0,22.0,3.0,1001.0,10.0,576.0,15.0,2.0,2.0,30.0
 Gabriel Kobylak,J6,Legia Warsaw,UEFA Europa Conference League,pl POL,22-303,90,6.0,3.0,3.0,0.7,-2.3,False,0.0,1.0,13.0,4.0,230.1,6.0,165.0,9.0,0.0,0.0,0.0
-Filip Manojlović,J6,Borac Banja Luka,UEFA Europa Conference League,rs SRB,28-238,90,2.0,0.0,2.0,0.2,0.2,True,3.0,4.0,13.0,6.0,390.0,9.0,233.1,9.0,0.0,0.0,0.0
-Fabiano,J6,AC Omonia,UEFA Europa Conference League,br BRA,36-294,90,2.0,0.0,2.0,0.3,0.3,True,3.0,7.0,12.0,4.0,303.6,8.0,398.4,17.0,2.0,1.0,12.8
 Lukas Jungwirth,J6,LASK,UEFA Europa Conference League,at AUT,20-233,90,2.0,1.0,1.0,0.9,-0.1,False,2.0,5.0,24.0,5.0,616.8,3.0,108.0,10.0,2.0,1.0,15.7
 Ingvar Jónsson,J6,KV,UEFA Europa Conference League,is ISL,35-062,90,5.0,1.0,4.0,1.6,0.6,False,4.0,20.0,37.0,1.0,1468.9,3.0,141.9,14.0,0.0,6.0,121.8
-Matjaž Rozman,J6,NK Celje,UEFA Europa Conference League,si SVN,37-351,90,2.0,2.0,0.0,0.8,-1.2,False,1.0,2.0,19.0,2.0,480.7,5.0,84.0,9.0,0.0,0.0,0.0
-Connor Roberts,J6,The New Saints,UEFA Europa Conference League,wls WAL,32-011,90,10.0,3.0,7.0,3.7,0.7,False,5.0,14.0,29.0,1.0,991.8,11.0,441.1,13.0,0.0,1.0,10.0
-Yuri Lodygin,J6,Panathinaikos,UEFA Europa Conference League,ru RUS,34-207,90,1.0,0.0,1.0,0.1,0.1,True,0.0,2.0,25.0,5.0,560.0,5.0,73.0,15.0,0.0,0.0,0.0
-Fyodor Lapoukhov,J6,Dinamo Minsk,UEFA Europa Conference League,by BLR,21-182,90,8.0,4.0,3.0,3.4,-0.6,False,9.0,18.0,29.0,8.0,971.5,7.0,478.8,14.0,2.0,2.0,32.0
 Vid Belec,J6,APOEL,UEFA Europa Conference League,si SVN,34-196,90,3.0,1.0,2.0,1.6,0.6,False,2.0,9.0,16.0,1.0,548.8,5.0,179.0,9.0,0.0,0.0,0.0
 Josip Condric,J6,Astana FK,UEFA Europa Conference League,hr CRO,31-114,90,4.0,1.0,3.0,1.0,0.0,False,2.0,19.0,36.0,6.0,1144.8,13.0,599.3,15.0,0.0,1.0,21.7
 Ingvar Jónsson,J9,KV,UEFA Europa Conference League,is ISL,35-118,90,6.0,1.0,5.0,1.9,0.9,False,7.0,23.0,31.0,5.0,1249.3,4.0,216.0,24.0,0.0,0.0,0.0
@@ -2808,8 +2637,6 @@ Fabiano,J9,AC Omonia,UEFA Europa Conference League,br BRA,36-350,90,5.0,1.0,3.0,
 Ivica Ivušić,J9,Pafos FC,UEFA Europa Conference League,hr CRO,30-012,90,2.0,1.0,1.0,0.8,-0.2,False,3.0,7.0,23.0,9.0,685.4,2.0,83.0,11.0,0.0,0.0,0.0
 Frank Feller,J10,Heidenheim,UEFA Europa Conference League,de GER,21-044,90,6.0,3.0,3.0,3.0,0.0,False,8.0,27.0,63.0,3.0,2148.3,9.0,340.2,14.0,0.0,5.0,82.0
 Diant Ramaj,J10,FC Copenhagen,UEFA Europa Conference League,de GER,23-154,90,6.0,1.0,5.0,1.4,0.4,False,4.0,27.0,45.0,5.0,1831.5,7.0,464.1,21.0,3.0,0.0,0.0
-Matevž Vidovšek,J10,Olimpija,UEFA Europa Conference League,si SVN,25-113,90,4.0,0.0,4.0,1.9,1.9,True,6.0,13.0,35.0,8.0,1225.0,8.0,219.2,23.0,0.0,2.0,67.0
-Filip Manojlović,J10,Borac Banja Luka,UEFA Europa Conference League,rs SRB,28-301,90,2.0,0.0,1.0,0.9,0.9,True,8.0,11.0,12.0,6.0,428.4,9.0,447.3,21.0,0.0,2.0,42.0
 Fran Vieites,J10,Betis,UEFA Europa Conference League,es ESP,25-289,90,1.0,1.0,0.0,0.2,-0.8,False,4.0,14.0,33.0,3.0,1174.8,7.0,284.9,9.0,1.0,0.0,0.0
 Davy Roef,J10,Gent,UEFA Europa Conference League,be BEL,31-014,90,7.0,0.0,7.0,1.4,1.4,True,3.0,10.0,30.0,8.0,939.0,4.0,78.0,11.0,0.0,0.0,0.0
 Ivica Ivušić,J10,Pafos FC,UEFA Europa Conference League,hr CRO,30-019,90,2.0,1.0,1.0,1.4,0.4,False,3.0,11.0,23.0,4.0,811.9,3.0,98.1,11.0,2.0,2.0,26.8
@@ -2881,8 +2708,6 @@ Jacob Rinne,J15,Djurgården,UEFA Europa Conference League,se SWE,31-315,90,7.0,4
 Filip Jørgensen,J15,Chelsea,UEFA Europa Conference League,dk DEN,23-015,90,5.0,1.0,4.0,1.8,0.8,False,0.0,2.0,28.0,7.0,560.0,9.0,160.2,10.0,1.0,1.0,17.0
 Fran Vieites,J15,Betis,UEFA Europa Conference League,es ESP,25-359,90,2.0,1.0,1.0,0.4,-0.6,False,3.0,14.0,29.0,4.0,1055.6,2.0,91.0,13.0,0.0,0.0,0.0
 David de Gea,J15,Fiorentina,UEFA Europa Conference League,es ESP,34-175,90,5.0,2.0,3.0,2.5,0.5,False,3.0,9.0,21.0,2.0,676.2,6.0,243.0,11.0,0.0,1.0,15.5
-Filip Jørgensen,J16,Chelsea,UEFA Europa Conference League,dk DEN,23-022,90,3.0,0.0,3.0,0.2,0.2,True,1.0,1.0,30.0,5.0,690.0,0.0,0.0,4.0,2.0,1.0,16.8
-Jacob Rinne,J16,Djurgården,UEFA Europa Conference League,se SWE,31-322,90,5.0,1.0,4.0,1.1,0.1,False,3.0,6.0,36.0,5.0,914.4,6.0,157.8,16.0,2.0,0.0,0.0
 Elia Caprile,J23,Cagliari,Italian Serie A,it ITA,23-162,90,6.0,2.0,4.0,2.8,0.8,False,4.0,10.0,23.0,6.0,814.2,4.0,67.2,18.0,0.0,0.0,0.0
 Ivan Provedel,J23,Lazio,Italian Serie A,it ITA,30-323,90,5.0,1.0,4.0,1.6,0.6,False,3.0,8.0,39.0,2.0,1107.6,2.0,88.0,18.0,0.0,0.0,0.0
 David de Gea,J16,Fiorentina,UEFA Europa Conference League,es ESP,34-182,90,10.0,2.0,8.0,2.6,0.6,False,4.0,13.0,30.0,8.0,960.0,12.0,291.6,15.0,0.0,1.0,13.0
@@ -2899,8 +2724,6 @@ Lorenzo Montipò,J24,Hellas Verona,Italian Serie A,it ITA,28-354,90,7.0,5.0,2.0,
 Rui Patrício,J24,Atalanta,Italian Serie A,pt POR,36-359,90,6.0,0.0,6.0,1.4,1.4,True,3.0,4.0,29.0,6.0,707.6,8.0,279.2,9.0,0.0,4.0,84.0
 Devis Vásquez,J24,Empoli,Italian Serie A,co COL,26-272,90,5.0,2.0,3.0,1.3,-0.7,False,5.0,11.0,17.0,1.0,702.1,6.0,240.0,9.0,0.0,0.0,0.0
 Mike Maignan,J24,Milan,Italian Serie A,fr FRA,29-220,90,0.0,0.0,0.0,0.0,0.0,True,5.0,15.0,39.0,3.0,1248.0,9.0,443.7,12.0,1.0,5.0,139.0
-Vanja Milinković-Savić,J24,Torino,Italian Serie A,rs SRB,27-354,90,2.0,1.0,1.0,0.4,-0.6,False,6.0,25.0,60.0,3.0,2046.0,5.0,239.0,7.0,1.0,4.0,80.4
-Nicola Leali,J24,Genoa,Italian Serie A,it ITA,31-357,90,3.0,1.0,3.0,0.5,-0.5,False,6.0,15.0,22.0,1.0,829.4,5.0,302.0,16.0,0.0,0.0,0.0
 Ionuț Radu,J24,Venezia,Italian Serie A,ro ROU,27-257,90,4.0,1.0,3.0,1.2,0.2,False,0.0,10.0,32.0,3.0,1065.6,3.0,81.9,12.0,0.0,0.0,0.0
 Mile Svilar,J24,Roma,Italian Serie A,rs SRB,25-166,90,3.0,0.0,3.0,0.4,0.4,True,5.0,22.0,30.0,5.0,1221.0,6.0,379.8,17.0,1.0,3.0,45.6
 Elia Caprile,J24,Cagliari,Italian Serie A,it ITA,23-168,90,1.0,1.0,0.0,0.8,-0.2,False,9.0,17.0,23.0,2.0,903.9,12.0,516.0,15.0,0.0,1.0,18.5
@@ -2917,8 +2740,6 @@ David de Gea,J24,Fiorentina,Italian Serie A,es ESP,34-095,90,8.0,2.0,7.0,2.2,0.2
 Devis Vásquez,J3,Empoli,Italian Serie A,co COL,26-111,90,3.0,1.0,2.0,0.3,-0.7,False,9.0,25.0,36.0,4.0,1468.8,5.0,286.0,21.0,1.0,2.0,32.8
 Łukasz Skorupski,J25,Bologna,Italian Serie A,pl POL,33-285,90,5.0,2.0,3.0,2.0,0.0,False,4.0,10.0,39.0,3.0,1173.9,2.0,53.0,4.0,0.0,0.0,0.0
 Vanja Milinković-Savić,J25,Torino,Italian Serie A,rs SRB,27-360,90,6.0,3.0,4.0,1.3,-1.7,False,15.0,34.0,33.0,2.0,1815.0,9.0,545.4,28.0,2.0,3.0,44.7
-Marco Carnesecchi,J25,Atalanta,Italian Serie A,it ITA,24-229,90,0.0,0.0,0.0,0.0,0.0,True,2.0,2.0,9.0,1.0,210.6,5.0,130.0,10.0,0.0,1.0,16.5
-Elia Caprile,J25,Cagliari,Italian Serie A,it ITA,23-174,90,2.0,0.0,2.0,0.7,0.7,True,9.0,20.0,43.0,5.0,1384.6,9.0,491.4,20.0,1.0,1.0,20.0
 Ivan Provedel,J25,Lazio,Italian Serie A,it ITA,30-335,90,2.0,2.0,1.0,0.1,-1.9,False,4.0,18.0,40.0,3.0,1468.0,5.0,212.0,7.0,0.0,0.0,0.0
 Alex Meret,J25,Napoli,Italian Serie A,it ITA,27-330,90,5.0,2.0,3.0,1.4,-0.6,False,7.0,10.0,37.0,1.0,1091.5,3.0,114.9,19.0,0.0,0.0,0.0
 Mike Maignan,J25,Milan,Italian Serie A,fr FRA,29-227,90,2.0,0.0,2.0,0.7,0.7,True,5.0,8.0,22.0,6.0,679.8,4.0,84.0,10.0,2.0,1.0,12.5
@@ -2935,8 +2756,6 @@ Michele Di Gregorio,J25,Juventus,Italian Serie A,it ITA,27-204,90,2.0,0.0,2.0,1.
 Yann Sommer,J25,Inter,Italian Serie A,ch SUI,36-061,90,7.0,1.0,6.0,1.1,0.1,False,7.0,13.0,43.0,6.0,1165.3,2.0,38.0,14.0,0.0,1.0,15.3
 Nicola Leali,J25,Genoa,Italian Serie A,it ITA,32-000,90,3.0,0.0,3.0,0.3,0.3,True,11.0,23.0,34.0,3.0,1312.4,9.0,291.6,9.0,3.0,0.0,0.0
 Ionuț Radu,J25,Venezia,Italian Serie A,ro ROU,27-265,90,5.0,2.0,3.0,1.9,-0.1,False,3.0,14.0,33.0,3.0,1184.7,1.0,59.0,10.0,1.0,0.0,0.0
-Ivan Provedel,J3,Lazio,Italian Serie A,it ITA,30-167,90,4.0,2.0,2.0,1.9,-0.1,False,1.0,6.0,19.0,4.0,634.6,1.0,24.0,8.0,0.0,1.0,12.7
-Mike Maignan,J3,Milan,Italian Serie A,fr FRA,29-059,90,4.0,2.0,2.0,1.9,-0.1,False,1.0,7.0,53.0,4.0,1303.8,2.0,108.0,17.0,0.0,6.0,171.0
 Wladimiro Falcone,J26,Lecce,Italian Serie A,it ITA,29-315,90,5.0,1.0,4.0,2.0,1.0,False,3.0,9.0,23.0,2.0,765.9,1.0,13.0,16.0,1.0,0.0,0.0
 Razvan Sava,J26,Udinese,Italian Serie A,ro ROU,22-245,90,1.0,0.0,1.0,0.5,0.5,True,2.0,9.0,39.0,2.0,1201.2,0.0,0.0,19.0,1.0,1.0,22.5
 Ionuț Radu,J26,Venezia,Italian Serie A,ro ROU,27-270,90,3.0,0.0,3.0,0.4,0.4,True,2.0,13.0,35.0,3.0,1169.0,1.0,65.0,11.0,0.0,0.0,0.0
@@ -2947,10 +2766,6 @@ Vanja Milinković-Savić,J26,Torino,Italian Serie A,rs SRB,28-002,90,8.0,1.0,6.0
 Mike Maignan,J26,Milan,Italian Serie A,fr FRA,29-234,90,3.0,2.0,2.0,1.1,-0.9,False,0.0,3.0,27.0,3.0,658.8,3.0,92.1,11.0,1.0,4.0,78.0
 Josep Martinez,J26,Inter,Italian Serie A,es ESP,26-271,90,2.0,0.0,2.0,1.1,1.1,True,6.0,12.0,48.0,3.0,1310.4,6.0,157.8,20.0,1.0,1.0,23.5
 Nicola Leali,J26,Genoa,Italian Serie A,it ITA,32-005,90,4.0,1.0,3.0,1.8,0.8,False,2.0,18.0,24.0,2.0,1015.2,7.0,310.8,17.0,2.0,0.0,0.0
-Jean Butez,J26,Como,Italian Serie A,fr FRA,29-260,90,4.0,1.0,3.0,0.6,-0.4,False,5.0,18.0,30.0,2.0,1245.0,4.0,193.2,14.0,1.0,6.0,105.6
-Alex Meret,J26,Napoli,Italian Serie A,it ITA,27-338,90,3.0,2.0,2.0,1.4,-0.6,False,3.0,9.0,42.0,1.0,1184.4,4.0,81.2,7.0,0.0,3.0,61.5
-Lorenzo Montipò,J26,Hellas Verona,Italian Serie A,it ITA,29-003,90,3.0,0.0,3.0,1.4,1.4,True,3.0,19.0,25.0,5.0,957.5,9.0,474.3,11.0,1.0,1.0,12.0
-David de Gea,J26,Fiorentina,Italian Serie A,es ESP,34-108,90,3.0,1.0,2.0,1.0,0.0,False,1.0,5.0,19.0,6.0,486.4,6.0,202.8,13.0,0.0,0.0,0.0
 Marco Silvestri,J26,Empoli,Italian Serie A,it ITA,33-358,90,8.0,5.0,4.0,3.1,-1.9,False,6.0,20.0,30.0,2.0,1278.0,1.0,13.0,14.0,0.0,0.0,0.0
 Marco Carnesecchi,J26,Atalanta,Italian Serie A,it ITA,24-237,90,1.0,0.0,1.0,0.1,0.1,True,9.0,22.0,21.0,4.0,777.0,12.0,784.8,13.0,0.0,2.0,29.0
 Elia Caprile,J26,Cagliari,Italian Serie A,it ITA,23-182,90,7.0,1.0,6.0,2.9,1.9,False,7.0,15.0,26.0,4.0,1003.6,11.0,336.6,15.0,1.0,0.0,0.0
@@ -2978,8 +2793,6 @@ Marco Silvestri,J27,Empoli,Italian Serie A,it ITA,34-000,90,1.0,1.0,0.0,0.4,-0.6
 Elia Caprile,J27,Cagliari,Italian Serie A,it ITA,23-189,90,5.0,2.0,3.0,2.2,0.2,False,10.0,33.0,35.0,4.0,1666.0,6.0,366.0,15.0,1.0,0.0,0.0
 Mile Svilar,J27,Roma,Italian Serie A,rs SRB,25-187,90,3.0,1.0,2.0,1.2,0.2,False,2.0,10.0,43.0,2.0,1195.4,1.0,31.0,8.0,2.0,1.0,13.0
 Jean Butez,J27,Como,Italian Serie A,fr FRA,29-267,90,4.0,2.0,2.0,1.5,-0.5,False,2.0,11.0,42.0,5.0,1167.6,6.0,208.2,4.0,0.0,3.0,78.0
-Mike Maignan,J27,Milan,Italian Serie A,fr FRA,29-242,90,8.0,2.0,6.0,2.7,0.7,False,2.0,4.0,34.0,7.0,833.0,8.0,188.8,10.0,1.0,0.0,0.0
-Ivan Provedel,J27,Lazio,Italian Serie A,it ITA,30-350,90,4.0,1.0,3.0,0.8,-0.2,False,8.0,16.0,30.0,3.0,1104.0,3.0,186.0,14.0,1.0,1.0,9.5
 Pierluigi Gollini,J3,Genoa,Italian Serie A,it ITA,29-167,90,3.0,2.0,1.0,1.3,-0.7,False,4.0,8.0,27.0,4.0,766.8,7.0,172.2,12.0,1.0,0.0,0.0
 Lorenzo Montipò,J3,Hellas Verona,Italian Serie A,it ITA,28-194,90,1.0,0.0,1.0,0.0,0.0,True,8.0,27.0,25.0,3.0,1120.0,12.0,703.2,17.0,2.0,0.0,0.0
 Michele Di Gregorio,J27,Juventus,Italian Serie A,it ITA,27-219,90,2.0,0.0,2.0,0.1,0.1,True,2.0,3.0,21.0,6.0,634.2,8.0,168.0,5.0,0.0,3.0,96.0
@@ -2998,8 +2811,6 @@ Lorenzo Montipò,J28,Hellas Verona,Italian Serie A,it ITA,29-017,90,6.0,2.0,4.0,
 Łukasz Skorupski,J28,Bologna,Italian Serie A,pl POL,33-308,90,2.0,1.0,1.0,1.0,0.0,False,3.0,12.0,23.0,3.0,821.1,8.0,360.0,2.0,0.0,0.0,0.0
 Alex Meret,J28,Napoli,Italian Serie A,it ITA,27-352,90,2.0,1.0,1.0,0.6,-0.4,False,0.0,3.0,25.0,5.0,687.5,5.0,171.0,9.0,0.0,4.0,109.2
 David de Gea,J28,Fiorentina,Italian Serie A,es ESP,34-122,90,11.0,2.0,9.0,3.5,1.5,False,7.0,15.0,39.0,6.0,1228.5,8.0,320.0,16.0,4.0,2.0,20.0
-Marco Silvestri,J28,Empoli,Italian Serie A,it ITA,34-007,90,7.0,1.0,6.0,1.2,0.2,False,4.0,10.0,24.0,5.0,801.6,6.0,123.0,16.0,0.0,1.0,10.5
-Mile Svilar,J28,Roma,Italian Serie A,rs SRB,25-194,90,1.0,0.0,1.0,0.1,0.1,True,4.0,13.0,45.0,0.0,1570.5,1.0,15.0,9.0,0.0,0.0,0.0
 Michele Di Gregorio,J28,Juventus,Italian Serie A,it ITA,27-225,90,9.0,4.0,5.0,3.8,-0.2,False,7.0,11.0,43.0,4.0,1130.9,4.0,78.0,10.0,0.0,1.0,15.5
 Marco Carnesecchi,J28,Atalanta,Italian Serie A,it ITA,24-251,90,2.0,0.0,2.0,0.9,0.9,True,6.0,16.0,24.0,6.0,900.0,8.0,514.4,11.0,0.0,1.0,19.0
 Pietro Terracciano,J3,Fiorentina,Italian Serie A,it ITA,34-177,90,3.0,2.0,1.0,0.8,-1.2,False,1.0,3.0,23.0,4.0,476.1,0.0,0.0,2.0,1.0,1.0,11.3
@@ -3016,10 +2827,6 @@ Mike Maignan,J29,Milan,Italian Serie A,fr FRA,29-255,90,6.0,1.0,5.0,1.2,0.2,Fals
 Jean Butez,J29,Como,Italian Serie A,fr FRA,29-280,90,3.0,2.0,1.0,1.0,-1.0,False,1.0,3.0,25.0,6.0,627.5,3.0,57.9,1.0,0.0,1.0,22.0
 Vanja Milinković-Savić,J29,Torino,Italian Serie A,rs SRB,28-023,90,2.0,0.0,2.0,0.1,0.1,True,8.0,30.0,46.0,9.0,1798.6,11.0,757.9,24.0,3.0,2.0,22.8
 Marco Silvestri,J29,Empoli,Italian Serie A,it ITA,34-013,90,3.0,1.0,2.0,0.8,-0.2,False,14.0,25.0,34.0,4.0,1659.2,0.0,0.0,8.0,0.0,0.0,0.0
-Ionuț Radu,J29,Venezia,Italian Serie A,ro ROU,27-292,90,7.0,0.0,7.0,2.5,2.5,True,2.0,29.0,32.0,2.0,1785.6,4.0,289.2,24.0,1.0,0.0,0.0
-Alex Meret,J29,Napoli,Italian Serie A,it ITA,27-359,90,3.0,0.0,3.0,0.3,0.3,True,5.0,9.0,32.0,6.0,950.4,1.0,19.0,12.0,1.0,3.0,55.2
-Łukasz Skorupski,J29,Bologna,Italian Serie A,pl POL,33-315,90,2.0,0.0,2.0,0.6,0.6,True,4.0,14.0,56.0,3.0,1568.0,3.0,153.9,6.0,0.0,5.0,103.0
-Ivan Provedel,J29,Lazio,Italian Serie A,it ITA,30-364,90,7.0,5.0,2.0,3.6,-1.4,False,6.0,15.0,57.0,6.0,1795.5,2.0,23.0,15.0,1.0,4.0,92.8
 Mile Svilar,J29,Roma,Italian Serie A,rs SRB,25-201,90,5.0,0.0,5.0,1.1,1.1,True,4.0,9.0,39.0,4.0,1193.4,4.0,123.2,12.0,1.0,3.0,53.1
 Elia Caprile,J29,Cagliari,Italian Serie A,it ITA,23-203,90,1.0,1.0,0.0,0.8,-0.2,False,5.0,22.0,43.0,4.0,1423.3,12.0,504.0,18.0,1.0,0.0,0.0
 David de Gea,J29,Fiorentina,Italian Serie A,es ESP,34-129,90,2.0,0.0,2.0,0.2,0.2,True,7.0,14.0,17.0,3.0,758.2,5.0,281.0,16.0,0.0,0.0,0.0
@@ -3028,16 +2835,10 @@ Maduka Okoye,J3,Udinese,Italian Serie A,ng NGA,25-004,90,4.0,0.0,4.0,0.3,0.3,Tru
 Pepe Reina,J3,Como,Italian Serie A,es ESP,42-001,90,2.0,1.0,1.0,0.6,-0.4,False,1.0,5.0,23.0,2.0,648.6,2.0,78.0,11.0,0.0,0.0,0.0
 Marco Carnesecchi,J29,Atalanta,Italian Serie A,it ITA,24-258,90,4.0,2.0,2.0,1.8,-0.2,False,6.0,16.0,31.0,8.0,976.5,6.0,349.8,13.0,1.0,0.0,0.0
 Yann Sommer,J29,Inter,Italian Serie A,ch SUI,36-089,90,3.0,0.0,3.0,0.2,0.2,True,5.0,16.0,36.0,1.0,1134.0,6.0,268.2,9.0,0.0,0.0,0.0
-Jean Butez,J30,Como,Italian Serie A,fr FRA,29-294,90,4.0,1.0,3.0,1.2,0.2,False,2.0,10.0,48.0,6.0,1420.8,2.0,60.0,8.0,1.0,12.0,279.6
-Devis Vásquez,J30,Empoli,Italian Serie A,co COL,26-321,90,5.0,1.0,4.0,1.9,0.9,False,3.0,13.0,29.0,8.0,1038.2,3.0,156.9,18.0,1.0,0.0,0.0
 Ionuț Radu,J30,Venezia,Italian Serie A,ro ROU,27-305,90,4.0,1.0,3.0,1.1,0.1,False,8.0,31.0,39.0,4.0,1946.1,4.0,286.0,11.0,0.0,0.0,0.0
 Łukasz Skorupski,J30,Bologna,Italian Serie A,pl POL,33-328,90,3.0,0.0,3.0,0.5,0.5,True,8.0,13.0,53.0,3.0,1489.3,4.0,259.2,10.0,1.0,0.0,0.0
 Michele Di Gregorio,J30,Juventus,Italian Serie A,it ITA,27-245,90,3.0,0.0,3.0,0.2,0.2,True,9.0,13.0,31.0,6.0,954.8,4.0,247.2,11.0,0.0,0.0,0.0
 Nicola Leali,J30,Genoa,Italian Serie A,it ITA,32-040,90,6.0,1.0,5.0,1.6,0.6,False,8.0,21.0,36.0,6.0,1306.8,5.0,270.0,11.0,1.0,1.0,12.0
-Wladimiro Falcone,J30,Lecce,Italian Serie A,it ITA,29-351,90,6.0,1.0,5.0,1.9,0.9,False,4.0,16.0,34.0,6.0,1159.4,5.0,219.0,11.0,0.0,0.0,0.0
-Mile Svilar,J30,Roma,Italian Serie A,rs SRB,25-214,90,4.0,0.0,4.0,0.3,0.3,True,6.0,16.0,22.0,4.0,649.0,11.0,599.5,17.0,2.0,1.0,11.5
-Elia Caprile,J30,Cagliari,Italian Serie A,it ITA,23-217,90,3.0,0.0,3.0,0.4,0.4,True,11.0,15.0,21.0,5.0,846.3,7.0,291.9,19.0,1.0,5.0,102.5
-Stefano Turati,J30,Monza,Italian Serie A,it ITA,23-206,90,4.0,3.0,1.0,1.4,-1.6,False,3.0,11.0,26.0,1.0,761.8,6.0,202.8,13.0,0.0,0.0,0.0
 David de Gea,J30,Fiorentina,Italian Serie A,es ESP,34-143,90,0.0,0.0,0.0,0.0,0.0,True,10.0,19.0,30.0,3.0,1083.0,7.0,343.7,14.0,0.0,1.0,14.0
 Marco Carnesecchi,J30,Atalanta,Italian Serie A,it ITA,24-272,90,4.0,1.0,3.0,1.5,0.5,False,6.0,17.0,31.0,6.0,930.0,10.0,567.0,7.0,1.0,1.0,11.9
 Yann Sommer,J30,Inter,Italian Serie A,ch SUI,36-103,90,4.0,1.0,3.0,1.7,0.7,False,0.0,14.0,53.0,3.0,1669.5,2.0,30.0,15.0,0.0,2.0,34.0
@@ -3090,16 +2891,10 @@ Lorenzo Montipò,J32,Hellas Verona,Italian Serie A,it ITA,29-052,90,1.0,0.0,1.0,
 Nicola Leali,J32,Genoa,Italian Serie A,it ITA,32-055,90,2.0,0.0,2.0,0.5,0.5,True,4.0,15.0,16.0,2.0,508.8,14.0,684.6,18.0,0.0,0.0,0.0
 David de Gea,J32,Fiorentina,Italian Serie A,es ESP,34-157,90,3.0,0.0,3.0,0.5,0.5,True,2.0,6.0,30.0,8.0,852.0,1.0,11.0,10.0,1.0,4.0,76.0
 Zion Suzuki,J32,Parma,Italian Serie A,jp JPN,22-235,90,3.0,0.0,3.0,0.4,0.4,True,10.0,28.0,44.0,7.0,1808.4,10.0,584.0,21.0,3.0,1.0,10.3
-Jean Butez,J32,Como,Italian Serie A,fr FRA,29-309,90,3.0,0.0,3.0,0.9,0.9,True,5.0,14.0,39.0,2.0,1251.9,1.0,14.0,10.0,2.0,2.0,35.4
-Vanja Milinković-Savić,J32,Torino,Italian Serie A,rs SRB,28-052,90,7.0,1.0,6.0,2.3,1.3,False,7.0,20.0,29.0,3.0,1377.5,6.0,193.2,10.0,0.0,1.0,21.0
-Christos Mandas,J32,Lazio,Italian Serie A,gr GRE,23-208,90,4.0,1.0,3.0,0.7,-0.3,False,7.0,20.0,34.0,1.0,1448.4,3.0,123.0,17.0,2.0,0.0,0.0
-Mile Svilar,J32,Roma,Italian Serie A,rs SRB,25-229,90,7.0,1.0,6.0,3.4,2.4,False,5.0,7.0,14.0,4.0,483.0,4.0,167.2,18.0,2.0,0.0,0.0
 Devis Vásquez,J4,Empoli,Italian Serie A,co COL,26-125,90,3.0,0.0,3.0,0.9,0.9,True,2.0,16.0,26.0,2.0,1073.8,3.0,204.0,17.0,2.0,0.0,0.0
 Mattia Perin,J4,Juventus,Italian Serie A,it ITA,31-309,90,3.0,0.0,3.0,0.8,0.8,True,1.0,9.0,37.0,6.0,1161.8,3.0,59.1,5.0,0.0,0.0,0.0
 Alex Meret,J32,Napoli,Italian Serie A,it ITA,28-023,90,1.0,0.0,1.0,0.0,0.0,True,7.0,12.0,47.0,4.0,1348.9,10.0,418.0,15.0,1.0,0.0,0.0
 Devis Vásquez,J32,Empoli,Italian Serie A,co COL,26-337,90,6.0,3.0,3.0,1.5,-1.5,False,7.0,25.0,31.0,1.0,1509.7,4.0,228.0,15.0,2.0,0.0,0.0
-Wladimiro Falcone,J33,Lecce,Italian Serie A,it ITA,30-007,90,5.0,3.0,2.0,2.2,-0.8,False,3.0,12.0,23.0,2.0,837.2,4.0,138.0,7.0,0.0,1.0,22.3
-Jean Butez,J33,Como,Italian Serie A,fr FRA,29-315,90,7.0,0.0,7.0,1.0,1.0,True,13.0,24.0,39.0,3.0,1669.2,2.0,132.0,27.0,2.0,0.0,0.0
 Stefano Turati,J33,Monza,Italian Serie A,it ITA,23-226,90,5.0,1.0,4.0,1.1,0.1,False,7.0,19.0,32.0,7.0,1145.6,7.0,478.8,14.0,2.0,0.0,0.0
 Alex Meret,J33,Napoli,Italian Serie A,it ITA,28-028,90,0.0,0.0,0.0,0.0,0.0,True,1.0,3.0,21.0,1.0,627.9,7.0,231.0,12.0,0.0,3.0,74.1
 Mile Svilar,J33,Roma,Italian Serie A,rs SRB,25-235,90,2.0,0.0,2.0,0.1,0.1,True,0.0,4.0,26.0,7.0,689.0,5.0,149.0,17.0,2.0,0.0,0.0
@@ -3124,8 +2919,6 @@ Jean Butez,J34,Como,Italian Serie A,fr FRA,29-323,90,1.0,0.0,1.0,0.4,0.4,True,2.
 Nicola Leali,J34,Genoa,Italian Serie A,it ITA,32-069,90,3.0,1.0,2.0,0.9,-0.1,False,2.0,8.0,20.0,7.0,658.0,10.0,283.0,9.0,1.0,2.0,39.6
 Ionuț Radu,J34,Venezia,Italian Serie A,ro ROU,27-334,90,2.0,2.0,0.0,1.4,-0.6,False,1.0,3.0,18.0,3.0,417.6,3.0,54.9,4.0,0.0,1.0,13.8
 Mike Maignan,J34,Milan,Italian Serie A,fr FRA,29-298,90,2.0,0.0,2.0,0.4,0.4,True,5.0,11.0,38.0,4.0,1250.2,4.0,259.2,16.0,0.0,0.0,0.0
-Yann Sommer,J34,Inter,Italian Serie A,ch SUI,36-131,90,6.0,1.0,5.0,1.3,0.3,False,2.0,3.0,36.0,9.0,813.6,8.0,200.8,9.0,0.0,0.0,0.0
-Mile Svilar,J34,Roma,Italian Serie A,rs SRB,25-243,90,2.0,0.0,2.0,0.1,0.1,True,5.0,19.0,23.0,3.0,963.7,9.0,558.0,26.0,2.0,2.0,26.0
 David de Gea,J34,Fiorentina,Italian Serie A,es ESP,34-171,90,5.0,1.0,4.0,0.7,-0.3,False,8.0,23.0,30.0,3.0,1161.0,12.0,682.8,17.0,1.0,1.0,14.5
 Devis Vásquez,J34,Empoli,Italian Serie A,co COL,26-350,90,3.0,2.0,1.0,1.6,-0.4,False,5.0,21.0,35.0,1.0,1508.5,1.0,13.0,4.0,0.0,2.0,54.0
 Michele Di Gregorio,J34,Juventus,Italian Serie A,it ITA,27-274,90,3.0,0.0,3.0,0.2,0.2,True,7.0,17.0,21.0,4.0,745.5,10.0,574.0,30.0,2.0,1.0,11.0
@@ -3166,10 +2959,6 @@ Nicola Leali,J35,Genoa,Italian Serie A,it ITA,32-077,90,5.0,2.0,4.0,1.9,-0.1,Fal
 Mike Maignan,J35,Milan,Italian Serie A,fr FRA,29-306,90,4.0,1.0,3.0,0.9,-0.1,False,3.0,7.0,52.0,7.0,1341.6,5.0,223.0,15.0,1.0,1.0,19.5
 Mike Maignan,J36,Milan,Italian Serie A,fr FRA,29-310,90,4.0,1.0,3.0,1.1,0.1,False,7.0,15.0,47.0,3.0,1410.0,8.0,307.2,13.0,1.0,0.0,0.0
 Łukasz Skorupski,J36,Bologna,Italian Serie A,pl POL,34-004,90,5.0,3.0,2.0,2.2,-0.8,False,7.0,12.0,37.0,4.0,1213.6,2.0,98.0,5.0,1.0,0.0,0.0
-Pepe Reina,J36,Como,Italian Serie A,es ESP,42-252,90,3.0,1.0,2.0,1.1,0.1,False,3.0,8.0,33.0,4.0,900.9,6.0,171.0,13.0,0.0,1.0,15.0
-Elia Caprile,J36,Cagliari,Italian Serie A,it ITA,23-258,90,5.0,3.0,2.0,1.7,-1.3,False,10.0,15.0,23.0,3.0,805.0,8.0,435.2,10.0,0.0,3.0,64.5
-Christos Mandas,J36,Lazio,Italian Serie A,gr GRE,23-235,90,2.0,1.0,1.0,1.4,0.4,False,5.0,15.0,32.0,5.0,1257.6,2.0,44.0,7.0,2.0,1.0,19.3
-Michele Di Gregorio,J36,Juventus,Italian Serie A,it ITA,27-287,90,6.0,1.0,5.0,1.9,0.9,False,5.0,13.0,17.0,3.0,542.3,9.0,576.9,25.0,1.0,2.0,30.6
 Devis Vásquez,J36,Empoli,Italian Serie A,co COL,26-363,90,1.0,1.0,0.0,0.1,-0.9,False,8.0,23.0,32.0,5.0,1446.4,3.0,179.1,6.0,2.0,0.0,0.0
 Zion Suzuki,J36,Parma,Italian Serie A,jp JPN,22-262,90,4.0,2.0,2.0,1.1,-0.9,False,10.0,32.0,44.0,3.0,1817.2,8.0,584.8,13.0,1.0,2.0,39.4
 Maduka Okoye,J36,Udinese,Italian Serie A,ng NGA,25-256,90,2.0,2.0,0.0,1.2,-0.8,False,0.0,0.0,30.0,1.0,627.0,3.0,50.1,2.0,0.0,4.0,89.2
@@ -3254,8 +3043,6 @@ Steve Mandanda,J1,Rennes,French Ligue 1,fr FRA,39-143,90,2.0,0.0,1.0,0.7,0.7,Tru
 Lucas Perri,J1,Lyon,French Ligue 1,br BRA,26-252,90,8.0,3.0,5.0,2.6,-0.4,False,2.0,8.0,17.0,3.0,615.4,9.0,291.6,9.0,0.0,4.0,88.8
 Leandro Chichizola,J4,Parma,Italian Serie A,ar ARG,34-173,90,6.0,3.0,3.0,2.5,-0.5,False,3.0,16.0,41.0,5.0,1389.9,8.0,275.2,21.0,2.0,2.0,32.6
 Maduka Okoye,J4,Udinese,Italian Serie A,ng NGA,25-019,90,3.0,2.0,1.0,1.1,-0.9,False,2.0,7.0,35.0,2.0,861.0,3.0,147.0,3.0,0.0,0.0,0.0
-Gianluigi Donnarumma,J2,Paris S-G,French Ligue 1,it ITA,25-180,90,3.0,0.0,3.0,0.3,0.3,True,1.0,6.0,23.0,2.0,538.2,7.0,196.7,9.0,0.0,1.0,12.7
-Benjamin Lecomte,J2,Montpellier,French Ligue 1,fr FRA,33-119,90,11.0,6.0,5.0,3.8,-2.2,False,9.0,17.0,30.0,3.0,1062.0,12.0,423.6,11.0,1.0,0.0,0.0
 Lucas Perri,J2,Lyon,French Ligue 1,br BRA,26-258,90,6.0,2.0,4.0,2.5,0.5,False,5.0,12.0,26.0,8.0,949.0,8.0,255.2,22.0,2.0,0.0,0.0
 Philipp Köhn,J2,Monaco,French Ligue 1,ch SUI,26-144,90,0.0,0.0,0.0,0.0,0.0,True,4.0,8.0,25.0,3.0,702.5,6.0,193.2,5.0,1.0,2.0,34.0
 Lucas Chevalier,J2,Lille,French Ligue 1,fr FRA,22-292,90,2.0,0.0,2.0,0.5,0.5,True,2.0,9.0,24.0,0.0,825.6,4.0,137.2,8.0,0.0,1.0,24.0
@@ -3298,8 +3085,6 @@ Gautier Larsonneur,J4,Saint-Étienne,French Ligue 1,fr FRA,27-203,90,4.0,0.0,4.0
 Lucas Chevalier,J4,Lille,French Ligue 1,fr FRA,22-312,90,5.0,1.0,4.0,1.1,0.1,False,2.0,4.0,29.0,5.0,707.6,7.0,191.1,5.0,2.0,1.0,19.0
 Gerónimo Rulli,J4,Marseille,French Ligue 1,ar ARG,32-117,90,4.0,0.0,4.0,1.3,1.3,True,6.0,21.0,41.0,7.0,1508.8,5.0,206.0,9.0,0.0,0.0,0.0
 Marcin Bułka,J4,Nice,French Ligue 1,pl POL,24-346,90,5.0,2.0,3.0,1.8,-0.2,False,4.0,7.0,25.0,4.0,705.0,3.0,72.9,3.0,0.0,3.0,63.0
-Simone Scuffet,J5,Cagliari,Italian Serie A,it ITA,28-112,90,4.0,2.0,2.0,0.5,-1.5,False,12.0,22.0,31.0,0.0,1246.2,8.0,300.0,13.0,0.0,0.0,0.0
-Devis Vásquez,J5,Empoli,Italian Serie A,co COL,26-131,90,2.0,0.0,2.0,0.2,0.2,True,5.0,17.0,28.0,2.0,1078.0,3.0,171.0,27.0,2.0,0.0,0.0
 Donovan Léon,J4,Auxerre,French Ligue 1,gf GUF,31-316,90,9.0,3.0,6.0,2.6,-0.4,False,5.0,19.0,30.0,2.0,1221.0,5.0,252.0,11.0,0.0,0.0,0.0
 Philipp Köhn,J4,Monaco,French Ligue 1,ch SUI,26-165,90,3.0,0.0,3.0,0.2,0.2,True,2.0,6.0,19.0,3.0,596.6,9.0,207.9,16.0,1.0,0.0,0.0
 Gianluigi Donnarumma,J4,Paris S-G,French Ligue 1,it ITA,25-202,90,3.0,1.0,2.0,1.1,0.1,False,0.0,1.0,18.0,4.0,424.8,2.0,31.0,9.0,0.0,0.0,0.0
@@ -3320,14 +3105,10 @@ Lucas Chevalier,J5,Lille,French Ligue 1,fr FRA,22-320,90,9.0,3.0,6.0,3.0,0.0,Fal
 Đorđe Petrović,J5,Strasbourg,French Ligue 1,rs SRB,24-349,90,7.0,3.0,4.0,2.3,-0.7,False,3.0,16.0,48.0,3.0,1555.2,3.0,230.1,22.0,3.0,0.0,0.0
 Steve Mandanda,J5,Rennes,French Ligue 1,fr FRA,39-177,90,2.0,1.0,1.0,0.7,-0.3,False,4.0,19.0,32.0,0.0,1264.0,3.0,201.0,16.0,2.0,2.0,24.4
 Brice Samba,J5,Lens,French Ligue 1,fr FRA,30-149,90,6.0,1.0,5.0,1.4,0.4,False,5.0,15.0,43.0,6.0,1380.3,1.0,22.0,8.0,2.0,1.0,9.2
-Lorenzo Montipò,J5,Hellas Verona,Italian Serie A,it ITA,28-213,90,3.0,3.0,0.0,1.3,-1.7,False,4.0,19.0,22.0,2.0,814.0,9.0,567.0,17.0,2.0,0.0,0.0
-Vanja Milinković-Savić,J5,Torino,Italian Serie A,rs SRB,27-213,90,2.0,2.0,0.0,1.5,-0.5,False,2.0,6.0,26.0,5.0,780.0,7.0,137.9,13.0,0.0,0.0,0.0
 Yehvann Diouf,J5,Reims,French Ligue 1,sn SEN,24-310,90,4.0,1.0,3.0,0.9,-0.1,False,3.0,17.0,19.0,2.0,834.1,9.0,469.8,17.0,1.0,0.0,0.0
 Matvei Safonov,J5,Paris S-G,French Ligue 1,ru RUS,25-209,90,1.0,1.0,0.0,0.1,-0.9,False,0.0,1.0,15.0,3.0,364.5,6.0,168.0,10.0,1.0,5.0,127.0
 Philipp Köhn,J5,Monaco,French Ligue 1,ch SUI,26-173,90,1.0,1.0,0.0,0.9,-0.1,False,3.0,8.0,26.0,4.0,800.8,4.0,139.2,11.0,0.0,3.0,86.1
 Arthur Desmas,J5,Le Havre,French Ligue 1,fr FRA,30-168,90,4.0,3.0,1.0,2.3,-0.7,False,3.0,10.0,19.0,4.0,714.4,5.0,201.0,15.0,1.0,0.0,0.0
-Yahia Fofana,J5,Angers,French Ligue 1,ci CIV,24-032,90,3.0,1.0,2.0,1.3,0.3,False,4.0,15.0,28.0,4.0,982.8,6.0,204.0,12.0,2.0,0.0,0.0
-Alban Lafont,J5,Nantes,French Ligue 1,fr FRA,25-243,90,1.0,1.0,0.0,0.6,-0.4,False,5.0,10.0,23.0,6.0,731.4,6.0,342.0,12.0,2.0,0.0,0.0
 Marco Bizot,J5,Brest,French Ligue 1,nl NED,33-196,90,1.0,0.0,1.0,0.1,0.1,True,7.0,32.0,21.0,1.0,1050.0,15.0,1012.5,20.0,0.0,0.0,0.0
 Guillaume Restes,J5,Toulouse,French Ligue 1,fr FRA,19-195,90,5.0,2.0,3.0,0.6,-1.4,False,0.0,4.0,32.0,3.0,748.8,3.0,59.1,15.0,0.0,1.0,18.5
 Dimitry Bertaud,J5,Montpellier,French Ligue 1,cd COD,26-108,90,5.0,2.0,3.0,1.3,-0.7,False,8.0,14.0,23.0,5.0,754.4,9.0,468.0,16.0,1.0,0.0,0.0
@@ -3364,21 +3145,12 @@ Steve Mandanda,J7,Rennes,French Ligue 1,fr FRA,39-191,90,2.0,2.0,0.0,0.8,-1.2,Fa
 Philipp Köhn,J7,Monaco,French Ligue 1,ch SUI,26-186,90,3.0,1.0,2.0,0.5,-0.5,False,6.0,17.0,21.0,2.0,798.0,8.0,476.8,19.0,1.0,0.0,0.0
 Lucas Perri,J7,Lyon,French Ligue 1,br BRA,26-301,90,6.0,0.0,6.0,1.0,1.0,True,2.0,9.0,29.0,5.0,701.8,4.0,148.0,16.0,0.0,3.0,57.0
 Alban Lafont,J7,Nantes,French Ligue 1,fr FRA,25-257,90,6.0,2.0,5.0,1.3,-0.7,False,2.0,8.0,19.0,6.0,556.7,7.0,305.2,19.0,0.0,0.0,0.0
-Michele Di Gregorio,J5,Juventus,Italian Serie A,it ITA,27-056,90,1.0,0.0,1.0,0.1,0.1,True,0.0,4.0,21.0,2.0,606.9,5.0,137.0,7.0,0.0,1.0,20.0
-Alex Meret,J5,Napoli,Italian Serie A,it ITA,27-183,35,0.0,0.0,0.0,0.0,0.0,False,0.0,2.0,16.0,2.0,444.8,2.0,52.0,6.0,2.0,0.0,0.0
-Elia Caprile,J5,Napoli,Italian Serie A,it ITA,23-027,55,1.0,0.0,1.0,0.0,0.0,True,3.0,5.0,12.0,2.0,390.0,3.0,147.0,7.0,0.0,0.0,0.0
 Marco Bizot,J7,Brest,French Ligue 1,nl NED,33-210,90,0.0,0.0,0.0,0.0,0.0,True,3.0,12.0,24.0,4.0,801.6,8.0,348.8,25.0,2.0,0.0,0.0
 Arthur Desmas,J7,Le Havre,French Ligue 1,fr FRA,30-182,90,3.0,2.0,1.0,1.2,-0.8,False,9.0,10.0,23.0,5.0,749.8,8.0,176.0,11.0,1.0,0.0,0.0
 Yehvann Diouf,J7,Reims,French Ligue 1,sn SEN,24-325,90,3.0,2.0,1.0,0.9,-1.1,False,8.0,20.0,34.0,5.0,1298.8,4.0,271.2,15.0,0.0,0.0,0.0
 Dimitry Bertaud,J7,Montpellier,French Ligue 1,cd COD,26-122,90,5.0,4.0,1.0,2.8,-1.2,False,1.0,3.0,14.0,3.0,397.6,7.0,130.9,13.0,1.0,2.0,34.4
-Đorđe Petrović,J7,Strasbourg,French Ligue 1,rs SRB,24-364,90,5.0,2.0,3.0,1.3,-0.7,False,10.0,29.0,50.0,2.0,2000.0,4.0,231.2,21.0,1.0,0.0,0.0
-Brice Samba,J7,Lens,French Ligue 1,fr FRA,30-164,90,5.0,2.0,3.0,2.5,0.5,False,5.0,7.0,41.0,6.0,1041.4,4.0,96.0,8.0,2.0,2.0,41.6
 Marcin Bułka,J7,Nice,French Ligue 1,pl POL,25-002,90,7.0,1.0,7.0,0.7,-0.3,False,4.0,15.0,33.0,5.0,1125.3,3.0,74.1,25.0,0.0,0.0,0.0
 Gianluigi Donnarumma,J7,Paris S-G,French Ligue 1,it ITA,25-224,90,3.0,1.0,2.0,1.1,0.1,False,1.0,1.0,21.0,6.0,386.4,4.0,93.2,9.0,0.0,1.0,19.5
-Radosław Majecki,J8,Monaco,French Ligue 1,pl POL,24-337,90,1.0,0.0,1.0,0.5,0.5,True,1.0,8.0,18.0,3.0,590.4,7.0,203.7,3.0,1.0,0.0,0.0
-Lucas Chevalier,J8,Lille,French Ligue 1,fr FRA,22-347,90,4.0,0.0,4.0,0.9,0.9,True,7.0,18.0,33.0,3.0,1023.0,7.0,342.3,13.0,0.0,1.0,14.6
-Marco Bizot,J8,Brest,French Ligue 1,nl NED,33-223,90,4.0,1.0,3.0,1.7,0.7,False,11.0,24.0,30.0,3.0,1374.0,5.0,286.0,8.0,0.0,5.0,145.0
-Steve Mandanda,J8,Rennes,French Ligue 1,fr FRA,39-205,90,2.0,1.0,1.0,1.1,0.1,False,7.0,13.0,25.0,5.0,960.0,6.0,181.8,13.0,0.0,0.0,0.0
 Gautier Larsonneur,J8,Saint-Étienne,French Ligue 1,fr FRA,27-239,90,5.0,2.0,3.0,1.2,-0.8,False,9.0,26.0,40.0,3.0,1728.0,5.0,216.0,16.0,1.0,2.0,28.8
 Brice Samba,J8,Lens,French Ligue 1,fr FRA,30-177,90,1.0,0.0,1.0,0.4,0.4,True,6.0,11.0,43.0,4.0,1212.6,8.0,160.0,3.0,0.0,1.0,27.7
 Gianluigi Donnarumma,J8,Paris S-G,French Ligue 1,it ITA,25-237,90,7.0,2.0,5.0,2.5,0.5,False,4.0,10.0,37.0,6.0,958.3,3.0,146.1,14.0,1.0,2.0,43.2
@@ -3393,18 +3165,10 @@ Alban Lafont,J8,Nantes,French Ligue 1,fr FRA,25-271,90,7.0,1.0,6.0,2.1,1.1,False
 Marcin Bułka,J8,Nice,French Ligue 1,pl POL,25-016,90,7.0,1.0,6.0,1.9,0.9,False,1.0,3.0,24.0,6.0,520.8,4.0,107.2,13.0,0.0,0.0,0.0
 Guillaume Restes,J8,Toulouse,French Ligue 1,fr FRA,19-223,90,4.0,1.0,2.0,1.2,0.2,False,2.0,4.0,15.0,3.0,430.5,2.0,47.0,10.0,0.0,2.0,44.6
 Yahia Fofana,J8,Angers,French Ligue 1,ci CIV,24-060,90,5.0,1.0,4.0,1.8,0.8,False,2.0,21.0,18.0,5.0,853.2,13.0,778.7,19.0,4.0,2.0,27.0
-Benjamin Lecomte,J8,Montpellier,French Ligue 1,fr FRA,33-177,90,10.0,5.0,5.0,4.7,-0.3,False,4.0,12.0,24.0,7.0,871.2,7.0,224.0,9.0,0.0,0.0,0.0
-Gerónimo Rulli,J8,Marseille,French Ligue 1,ar ARG,32-153,90,5.0,0.0,5.0,0.4,0.4,True,2.0,3.0,18.0,5.0,484.2,1.0,31.0,8.0,0.0,2.0,46.0
-Steve Mandanda,J9,Rennes,French Ligue 1,fr FRA,39-211,90,1.0,0.0,1.0,0.3,0.3,True,3.0,6.0,22.0,3.0,598.4,4.0,136.0,9.0,0.0,2.0,36.6
-Arthur Desmas,J9,Le Havre,French Ligue 1,fr FRA,30-201,90,4.0,1.0,3.0,2.0,1.0,False,4.0,16.0,28.0,1.0,1044.4,3.0,159.0,26.0,1.0,3.0,69.0
 Yahia Fofana,J9,Angers,French Ligue 1,ci CIV,24-066,90,7.0,2.0,5.0,1.9,-0.1,False,6.0,12.0,19.0,8.0,655.5,10.0,377.0,10.0,0.0,2.0,44.0
 Gautier Larsonneur,J9,Saint-Étienne,French Ligue 1,fr FRA,27-246,90,8.0,4.0,4.0,3.2,-0.8,False,1.0,6.0,33.0,6.0,957.0,5.0,89.0,11.0,1.0,1.0,15.7
 Yehvann Diouf,J9,Reims,French Ligue 1,sn SEN,24-345,90,4.0,2.0,2.0,1.6,-0.4,False,2.0,4.0,19.0,3.0,469.3,5.0,146.0,7.0,0.0,0.0,0.0
 Marco Bizot,J9,Brest,French Ligue 1,nl NED,33-230,90,3.0,1.0,2.0,0.3,-0.7,False,13.0,28.0,38.0,5.0,1489.6,9.0,513.0,26.0,1.0,1.0,11.5
-Brice Samba,J9,Lens,French Ligue 1,fr FRA,30-184,90,3.0,2.0,1.0,2.0,0.0,False,4.0,13.0,27.0,1.0,1007.1,4.0,155.2,5.0,0.0,1.0,29.0
-Lucas Chevalier,J9,Lille,French Ligue 1,fr FRA,22-355,90,4.0,0.0,4.0,0.5,0.5,True,5.0,25.0,39.0,3.0,1571.7,1.0,72.0,21.0,3.0,1.0,14.7
-Lucas Perri,J9,Lyon,French Ligue 1,br BRA,26-322,90,5.0,2.0,3.0,1.9,-0.1,False,3.0,7.0,21.0,3.0,585.9,6.0,244.8,19.0,0.0,2.0,35.6
-Donovan Léon,J9,Auxerre,French Ligue 1,gf GUF,31-359,90,8.0,2.0,6.0,2.4,0.4,False,10.0,21.0,27.0,5.0,1231.2,7.0,364.0,18.0,0.0,0.0,0.0
 Marcin Bułka,J9,Nice,French Ligue 1,pl POL,25-023,90,5.0,1.0,4.0,0.6,-0.4,False,3.0,10.0,19.0,6.0,689.7,2.0,85.0,13.0,0.0,0.0,0.0
 Radosław Majecki,J9,Monaco,French Ligue 1,pl POL,24-346,90,9.0,2.0,7.0,3.7,1.7,False,4.0,9.0,22.0,4.0,741.4,8.0,243.2,15.0,2.0,0.0,0.0
 Đorđe Petrović,J9,Strasbourg,French Ligue 1,rs SRB,25-019,90,6.0,1.0,5.0,1.4,0.4,False,8.0,21.0,61.0,5.0,1836.1,0.0,0.0,11.0,1.0,1.0,13.0
@@ -3462,16 +3226,12 @@ Matvei Safonov,J12,Paris S-G,French Ligue 1,ru RUS,25-271,90,2.0,0.0,2.0,0.3,0.3
 Guillaume Restes,J12,Toulouse,French Ligue 1,fr FRA,19-256,90,8.0,3.0,5.0,3.0,0.0,False,2.0,10.0,18.0,3.0,676.8,5.0,150.0,13.0,0.0,0.0,0.0
 Brice Samba,J12,Lens,French Ligue 1,fr FRA,30-212,90,4.0,3.0,1.0,1.6,-1.4,False,6.0,11.0,29.0,6.0,823.6,2.0,117.0,4.0,0.0,4.0,91.6
 Gerónimo Rulli,J12,Marseille,French Ligue 1,ar ARG,32-187,90,7.0,1.0,6.0,1.9,0.9,False,2.0,10.0,49.0,2.0,1362.2,3.0,147.0,13.0,0.0,7.0,170.1
-Gautier Larsonneur,J12,Saint-Étienne,French Ligue 1,fr FRA,27-274,90,3.0,0.0,3.0,0.4,0.4,True,1.0,12.0,21.0,5.0,720.3,4.0,149.2,20.0,2.0,3.0,46.2
-Benjamin Lecomte,J12,Montpellier,French Ligue 1,fr FRA,33-211,90,4.0,1.0,3.0,1.0,0.0,False,2.0,5.0,36.0,4.0,788.4,6.0,202.8,8.0,2.0,0.0,0.0
 Yehvann Diouf,J12,Reims,French Ligue 1,sn SEN,25-007,90,7.0,1.0,6.0,2.6,1.6,False,11.0,25.0,33.0,1.0,1280.4,9.0,486.0,5.0,0.0,1.0,14.7
 Lucas Perri,J12,Lyon,French Ligue 1,br BRA,26-349,90,6.0,1.0,5.0,1.7,0.7,False,3.0,7.0,26.0,3.0,761.8,7.0,123.2,12.0,1.0,0.0,0.0
 Lucas Chevalier,J12,Lille,French Ligue 1,fr FRA,23-018,90,1.0,0.0,1.0,0.0,0.0,True,6.0,13.0,28.0,2.0,1097.6,0.0,0.0,11.0,0.0,0.0,0.0
 Steve Mandanda,J12,Rennes,French Ligue 1,fr FRA,39-241,90,2.0,1.0,1.0,1.1,0.1,False,6.0,25.0,36.0,2.0,1555.2,4.0,274.0,9.0,0.0,0.0,0.0
 Alban Lafont,J12,Nantes,French Ligue 1,fr FRA,25-306,90,3.0,2.0,2.0,1.2,-0.8,False,1.0,3.0,18.0,2.0,453.6,1.0,8.0,12.0,1.0,1.0,15.0
 Arthur Desmas,J12,Le Havre,French Ligue 1,fr FRA,30-231,90,4.0,0.0,4.0,0.2,0.2,True,1.0,12.0,19.0,2.0,687.8,12.0,405.6,29.0,0.0,0.0,0.0
-Donovan Léon,J12,Auxerre,French Ligue 1,gf GUF,32-021,90,5.0,0.0,5.0,1.4,1.4,True,5.0,11.0,29.0,10.0,861.3,6.0,253.8,11.0,1.0,0.0,0.0
-Yahia Fofana,J12,Angers,French Ligue 1,ci CIV,24-095,90,6.0,1.0,5.0,1.4,0.4,False,4.0,11.0,23.0,8.0,811.9,9.0,309.6,12.0,1.0,2.0,29.2
 Marcin Bułka,J12,Nice,French Ligue 1,pl POL,25-051,90,3.0,1.0,2.0,0.9,-0.1,False,3.0,5.0,38.0,5.0,980.4,2.0,101.0,9.0,2.0,0.0,0.0
 Đorđe Petrović,J12,Strasbourg,French Ligue 1,rs SRB,25-047,90,5.0,2.0,4.0,1.2,-0.8,False,7.0,17.0,40.0,3.0,1348.0,3.0,162.9,15.0,1.0,0.0,0.0
 Yehvann Diouf,J13,Reims,French Ligue 1,sn SEN,25-013,90,6.0,2.0,4.0,2.3,0.3,False,7.0,12.0,35.0,2.0,1053.5,5.0,88.0,6.0,0.0,4.0,104.0
@@ -3480,8 +3240,6 @@ Yann Sommer,J5,Inter,Italian Serie A,ch SUI,35-280,90,8.0,2.0,6.0,2.4,0.4,False,
 Mike Maignan,J5,Milan,Italian Serie A,fr FRA,29-081,90,4.0,1.0,3.0,1.0,0.0,False,3.0,10.0,33.0,4.0,973.5,3.0,210.0,18.0,1.0,0.0,0.0
 Steve Mandanda,J13,Rennes,French Ligue 1,fr FRA,39-247,90,0.0,0.0,0.0,0.0,0.0,True,1.0,2.0,34.0,7.0,632.4,2.0,38.0,5.0,1.0,5.0,93.0
 Gautier Larsonneur,J13,Saint-Étienne,French Ligue 1,fr FRA,27-281,90,9.0,5.0,4.0,4.6,-0.4,False,5.0,20.0,36.0,3.0,1256.4,5.0,267.0,13.0,1.0,0.0,0.0
-Marco Bizot,J13,Brest,French Ligue 1,nl NED,33-265,90,4.0,1.0,3.0,0.7,-0.3,False,7.0,12.0,24.0,7.0,775.2,8.0,355.2,14.0,0.0,0.0,0.0
-Đorđe Petrović,J13,Strasbourg,French Ligue 1,rs SRB,25-053,90,8.0,3.0,4.0,3.7,0.7,False,2.0,5.0,61.0,4.0,1360.3,2.0,49.0,11.0,1.0,3.0,51.0
 Gianluigi Donnarumma,J13,Paris S-G,French Ligue 1,it ITA,25-279,90,2.0,1.0,1.0,0.7,-0.3,False,1.0,1.0,24.0,3.0,537.6,4.0,93.2,5.0,0.0,1.0,13.5
 Patrik Carlgren,J13,Nantes,French Ligue 1,se SWE,32-327,90,10.0,1.0,9.0,3.0,2.0,False,6.0,17.0,17.0,8.0,610.3,10.0,584.0,32.0,0.0,0.0,0.0
 Benjamin Lecomte,J13,Montpellier,French Ligue 1,fr FRA,33-219,90,4.0,2.0,2.0,2.1,0.1,False,7.0,24.0,44.0,2.0,1610.4,6.0,271.8,8.0,1.0,0.0,0.0
@@ -3546,8 +3304,6 @@ Gautier Larsonneur,J16,Saint-Étienne,French Ligue 1,fr FRA,27-316,90,1.0,1.0,0.
 Yehvann Diouf,J16,Reims,French Ligue 1,sn SEN,25-049,90,4.0,3.0,1.0,2.6,-0.4,False,3.0,12.0,26.0,5.0,871.0,4.0,145.2,7.0,0.0,0.0,0.0
 Lucas Chevalier,J16,Lille,French Ligue 1,fr FRA,23-059,90,2.0,1.0,1.0,1.1,0.1,False,2.0,4.0,18.0,1.0,361.8,3.0,150.0,4.0,0.0,1.0,16.0
 Anthony Lopes,J16,Nantes,French Ligue 1,pt POR,34-095,90,3.0,1.0,2.0,1.3,0.3,False,3.0,25.0,34.0,1.0,1264.8,10.0,547.0,19.0,2.0,0.0,0.0
-Maduka Okoye,J6,Udinese,Italian Serie A,ng NGA,25-031,90,7.0,3.0,4.0,2.2,-0.8,False,4.0,11.0,25.0,4.0,747.5,6.0,268.8,16.0,0.0,0.0,0.0
-Yann Sommer,J6,Inter,Italian Serie A,ch SUI,35-286,90,3.0,2.0,1.0,1.2,-0.8,False,1.0,5.0,42.0,3.0,1079.4,5.0,167.0,20.0,0.0,1.0,15.0
 Lucas Perri,J16,Lyon,French Ligue 1,br BRA,27-025,90,6.0,0.0,6.0,0.6,0.6,True,1.0,5.0,24.0,9.0,631.2,7.0,102.2,18.0,1.0,0.0,0.0
 Benjamin Lecomte,J16,Montpellier,French Ligue 1,fr FRA,33-253,90,1.0,1.0,1.0,0.5,-0.5,False,10.0,28.0,40.0,5.0,1676.0,7.0,389.9,15.0,0.0,2.0,40.6
 Hervé Koffi,J16,Lens,French Ligue 1,bf BFA,28-081,90,4.0,1.0,3.0,2.6,1.6,False,1.0,5.0,19.0,3.0,537.7,4.0,144.0,4.0,0.0,0.0,0.0
@@ -3556,10 +3312,6 @@ Guillaume Restes,J16,Toulouse,French Ligue 1,fr FRA,19-300,90,1.0,0.0,1.0,0.2,0.
 Théo De Percin,J16,Auxerre,French Ligue 1,mq MTQ,23-338,90,4.0,3.0,1.0,2.6,-0.4,False,3.0,9.0,21.0,4.0,657.3,6.0,300.0,14.0,1.0,3.0,45.0
 Yahia Fofana,J16,Angers,French Ligue 1,ci CIV,24-137,90,4.0,0.0,4.0,1.8,1.8,True,8.0,24.0,31.0,7.0,1274.1,12.0,616.8,26.0,1.0,0.0,0.0
 Marco Bizot,J16,Brest,French Ligue 1,nl NED,33-301,90,2.0,2.0,0.0,1.9,-0.1,False,1.0,3.0,17.0,4.0,402.9,6.0,163.2,11.0,1.0,0.0,0.0
-Gerónimo Rulli,J16,Marseille,French Ligue 1,ar ARG,32-230,90,1.0,1.0,0.0,0.9,-0.1,False,0.0,0.0,16.0,2.0,294.4,2.0,54.0,2.0,0.0,5.0,131.0
-Arthur Desmas,J16,Le Havre,French Ligue 1,fr FRA,30-273,90,8.0,5.0,3.0,4.5,-0.5,False,1.0,4.0,29.0,6.0,713.4,8.0,122.4,14.0,0.0,0.0,0.0
-Anthony Lopes,J17,Nantes,French Ligue 1,pt POR,34-101,90,6.0,2.0,4.0,2.1,0.1,False,7.0,22.0,25.0,6.0,1117.5,6.0,340.8,24.0,1.0,0.0,0.0
-Philipp Köhn,J17,Monaco,French Ligue 1,ch SUI,26-283,90,4.0,2.0,2.0,0.8,-1.2,False,0.0,3.0,23.0,4.0,549.7,1.0,64.0,11.0,0.0,0.0,0.0
 Théo De Percin,J17,Auxerre,French Ligue 1,mq MTQ,23-343,90,5.0,0.0,4.0,0.9,0.9,True,5.0,22.0,25.0,1.0,1197.5,6.0,364.2,24.0,2.0,0.0,0.0
 Lucas Chevalier,J17,Lille,French Ligue 1,fr FRA,23-065,90,3.0,0.0,3.0,0.9,0.9,True,0.0,0.0,13.0,4.0,249.6,4.0,91.2,13.0,0.0,2.0,37.4
 Marco Bizot,J17,Brest,French Ligue 1,nl NED,33-307,90,3.0,1.0,2.0,1.3,0.3,False,7.0,16.0,23.0,4.0,860.2,7.0,441.0,13.0,3.0,0.0,0.0
@@ -3590,14 +3342,10 @@ Lucas Perri,J18,Lyon,French Ligue 1,br BRA,27-039,90,4.0,0.0,4.0,0.2,0.2,True,2.
 Guillaume Restes,J18,Toulouse,French Ligue 1,fr FRA,19-313,90,3.0,0.0,3.0,0.2,0.2,True,2.0,11.0,22.0,7.0,677.6,6.0,201.0,21.0,1.0,0.0,0.0
 Gautier Larsonneur,J18,Saint-Étienne,French Ligue 1,fr FRA,27-331,90,4.0,1.0,3.0,0.8,-0.2,False,1.0,2.0,22.0,9.0,534.6,6.0,138.0,14.0,0.0,4.0,98.4
 Anthony Lopes,J18,Nantes,French Ligue 1,pt POR,34-110,90,2.0,1.0,1.0,0.3,-0.7,False,7.0,23.0,21.0,1.0,1010.1,9.0,504.9,15.0,1.0,2.0,31.0
-Łukasz Skorupski,J6,Bologna,Italian Serie A,pl POL,33-146,90,4.0,1.0,3.0,1.2,0.2,False,9.0,23.0,35.0,1.0,1456.0,8.0,444.0,21.0,2.0,0.0,0.0
-Marco Carnesecchi,J6,Atalanta,Italian Serie A,it ITA,24-089,90,1.0,1.0,0.0,0.2,-0.8,False,2.0,7.0,18.0,1.0,529.2,5.0,252.0,5.0,0.0,6.0,168.0
 Yahia Fofana,J18,Angers,French Ligue 1,ci CIV,24-151,90,4.0,0.0,4.0,0.9,0.9,True,5.0,10.0,22.0,3.0,723.8,9.0,228.6,7.0,2.0,0.0,0.0
 Donovan Léon,J18,Auxerre,French Ligue 1,gf GUF,32-077,90,4.0,2.0,3.0,1.1,-0.9,False,4.0,13.0,36.0,7.0,1036.8,6.0,246.0,19.0,1.0,3.0,54.3
 Yehvann Diouf,J18,Reims,French Ligue 1,sn SEN,25-064,90,2.0,1.0,1.0,0.8,-0.2,False,4.0,6.0,27.0,3.0,804.6,2.0,62.0,19.0,3.0,1.0,13.7
 Mathieu Gorgelin,J18,Le Havre,French Ligue 1,fr FRA,34-167,90,3.0,1.0,2.0,0.9,-0.1,False,5.0,11.0,28.0,5.0,865.2,6.0,223.8,25.0,3.0,0.0,0.0
-Gerónimo Rulli,J18,Marseille,French Ligue 1,ar ARG,32-244,90,3.0,1.0,2.0,1.0,0.0,False,2.0,4.0,34.0,4.0,771.8,1.0,12.0,5.0,1.0,1.0,11.5
-Đorđe Petrović,J18,Strasbourg,French Ligue 1,rs SRB,25-103,90,3.0,1.0,2.0,1.3,0.3,False,2.0,14.0,44.0,7.0,1460.8,6.0,121.2,28.0,4.0,6.0,113.4
 Donovan Léon,J19,Auxerre,French Ligue 1,gf GUF,32-082,90,3.0,1.0,2.0,1.0,0.0,False,5.0,17.0,26.0,4.0,1081.6,4.0,257.2,7.0,2.0,4.0,81.6
 Gautier Larsonneur,J19,Saint-Étienne,French Ligue 1,fr FRA,27-336,90,5.0,1.0,4.0,1.4,0.4,False,1.0,5.0,21.0,3.0,606.9,8.0,200.0,8.0,0.0,0.0,0.0
 Radosław Majecki,J19,Monaco,French Ligue 1,pl POL,25-070,90,5.0,2.0,3.0,1.5,-0.5,False,2.0,8.0,19.0,4.0,636.5,9.0,349.2,11.0,0.0,0.0,0.0
@@ -3612,8 +3360,6 @@ Mathew Ryan,J19,Lens,French Ligue 1,au AUS,32-293,90,0.0,0.0,0.0,0.0,0.0,True,3.
 Yahia Fofana,J19,Angers,French Ligue 1,ci CIV,24-158,90,4.0,1.0,3.0,0.8,-0.2,False,2.0,14.0,19.0,2.0,678.3,10.0,479.0,20.0,2.0,0.0,0.0
 Guillaume Restes,J19,Toulouse,French Ligue 1,fr FRA,19-321,90,4.0,2.0,2.0,2.2,0.2,False,0.0,2.0,16.0,2.0,412.8,2.0,15.0,5.0,0.0,2.0,41.4
 Benjamin Lecomte,J19,Montpellier,French Ligue 1,fr FRA,33-275,90,5.0,1.0,4.0,0.8,-0.2,False,9.0,29.0,28.0,3.0,1355.2,8.0,488.0,18.0,1.0,1.0,12.2
-Alberto Paleari,J6,Torino,Italian Serie A,it ITA,32-031,90,7.0,3.0,4.0,2.2,-0.8,False,8.0,12.0,26.0,5.0,806.0,6.0,252.0,12.0,0.0,5.0,136.5
-Ivan Provedel,J6,Lazio,Italian Serie A,it ITA,30-196,90,7.0,2.0,5.0,1.7,-0.3,False,2.0,18.0,27.0,4.0,1179.9,3.0,153.9,18.0,1.0,0.0,0.0
 Anthony Lopes,J19,Nantes,French Ligue 1,pt POR,34-117,90,4.0,1.0,3.0,1.0,0.0,False,5.0,9.0,25.0,2.0,820.0,1.0,59.0,13.0,0.0,1.0,15.5
 Lucas Perri,J19,Lyon,French Ligue 1,br BRA,27-047,90,5.0,1.0,4.0,1.4,0.4,False,1.0,7.0,30.0,7.0,804.0,4.0,133.2,21.0,2.0,0.0,0.0
 Marcin Bułka,J19,Nice,French Ligue 1,pl POL,25-114,90,6.0,0.0,6.0,0.5,0.5,True,9.0,16.0,33.0,8.0,1217.7,6.0,130.2,23.0,2.0,1.0,15.2
@@ -3634,8 +3380,6 @@ Brice Samba,J20,Rennes,French Ligue 1,fr FRA,30-283,90,3.0,0.0,3.0,0.7,0.7,True,
 Đorđe Petrović,J20,Strasbourg,French Ligue 1,rs SRB,25-117,90,3.0,1.0,2.0,1.2,0.2,False,1.0,5.0,75.0,4.0,1777.5,1.0,16.0,17.0,1.0,0.0,0.0
 Yahia Fofana,J20,Angers,French Ligue 1,ci CIV,24-165,90,5.0,1.0,4.0,1.9,0.9,False,1.0,4.0,16.0,3.0,417.6,5.0,133.0,16.0,1.0,1.0,12.5
 Mathieu Gorgelin,J20,Le Havre,French Ligue 1,fr FRA,34-181,90,3.0,1.0,2.0,1.2,0.2,False,3.0,9.0,21.0,5.0,720.3,8.0,183.2,20.0,2.0,2.0,38.6
-Emil Audero,J6,Como,Italian Serie A,id IDN,27-255,90,3.0,2.0,1.0,1.3,-0.7,False,3.0,8.0,36.0,3.0,1029.6,0.0,0.0,4.0,1.0,1.0,14.3
-Lorenzo Montipò,J6,Hellas Verona,Italian Serie A,it ITA,28-222,90,11.0,3.0,8.0,1.7,-1.3,False,2.0,18.0,19.0,2.0,870.2,8.0,439.2,14.0,0.0,0.0,0.0
 Gerónimo Rulli,J20,Marseille,French Ligue 1,ar ARG,32-258,90,4.0,2.0,2.0,2.1,0.1,False,3.0,4.0,28.0,2.0,655.2,2.0,16.0,8.0,4.0,2.0,27.6
 Lucas Perri,J20,Lyon,French Ligue 1,br BRA,27-054,90,11.0,3.0,8.0,4.2,1.2,False,5.0,17.0,40.0,7.0,1360.0,2.0,131.0,13.0,0.0,2.0,48.0
 Anthony Lopes,J21,Nantes,French Ligue 1,pt POR,34-129,90,6.0,2.0,4.0,1.9,-0.1,False,4.0,7.0,23.0,3.0,680.8,7.0,217.7,18.0,1.0,0.0,0.0
@@ -3656,8 +3400,6 @@ Kjetil Haug,J21,Toulouse,French Ligue 1,no NOR,26-242,90,3.0,2.0,1.0,0.8,-1.2,Fa
 Benjamin Lecomte,J21,Montpellier,French Ligue 1,fr FRA,33-289,90,5.0,2.0,3.0,1.7,-0.3,False,12.0,23.0,34.0,5.0,1336.2,8.0,439.2,23.0,1.0,1.0,9.7
 Yahia Fofana,J21,Angers,French Ligue 1,ci CIV,24-172,90,8.0,2.0,6.0,2.6,0.6,False,2.0,12.0,22.0,5.0,869.0,7.0,280.0,20.0,0.0,2.0,30.0
 Gerónimo Rulli,J21,Marseille,French Ligue 1,ar ARG,32-265,90,0.0,0.0,0.0,0.0,0.0,True,1.0,1.0,24.0,2.0,427.2,4.0,51.2,7.0,0.0,0.0,0.0
-Mile Svilar,J6,Roma,Italian Serie A,rs SRB,25-033,90,6.0,1.0,5.0,2.1,1.1,False,1.0,9.0,12.0,4.0,324.0,7.0,462.7,13.0,0.0,1.0,28.0
-Jesse Joronen,J6,Venezia,Italian Serie A,fi FIN,31-192,90,5.0,2.0,3.0,1.0,-1.0,False,4.0,14.0,30.0,3.0,1029.0,7.0,298.2,21.0,1.0,1.0,9.3
 Marco Bizot,J22,Brest,French Ligue 1,nl NED,33-341,90,6.0,2.0,4.0,1.4,-0.6,False,2.0,4.0,33.0,6.0,798.6,5.0,96.0,6.0,0.0,3.0,60.3
 Donovan Léon,J22,Auxerre,French Ligue 1,gf GUF,32-103,90,6.0,2.0,4.0,2.0,0.0,False,9.0,24.0,28.0,5.0,1212.4,10.0,653.0,25.0,0.0,2.0,37.0
 Gerónimo Rulli,J22,Marseille,French Ligue 1,ar ARG,32-271,90,2.0,1.0,1.0,1.4,0.4,False,1.0,1.0,27.0,0.0,542.7,0.0,0.0,2.0,0.0,0.0,0.0
@@ -3683,10 +3425,6 @@ Devis Vásquez,J6,Empoli,Italian Serie A,co COL,26-140,90,0.0,0.0,0.0,0.0,0.0,Tr
 David de Gea,J6,Fiorentina,Italian Serie A,es ESP,33-327,90,1.0,0.0,1.0,0.0,0.0,True,8.0,10.0,30.0,5.0,909.0,6.0,276.0,8.0,1.0,1.0,13.7
 Lucas Chevalier,J23,Lille,French Ligue 1,fr FRA,23-108,90,3.0,1.0,2.0,1.5,0.5,False,3.0,14.0,35.0,3.0,1316.0,2.0,101.0,14.0,0.0,0.0,0.0
 Radosław Majecki,J23,Monaco,French Ligue 1,pl POL,25-098,90,6.0,2.0,4.0,2.0,0.0,False,0.0,2.0,22.0,7.0,528.0,1.0,4.0,6.0,1.0,2.0,27.2
-Gautier Larsonneur,J23,Saint-Étienne,French Ligue 1,fr FRA,27-365,90,4.0,3.0,1.0,2.5,-0.5,False,6.0,10.0,24.0,3.0,739.2,6.0,202.8,10.0,1.0,2.0,28.0
-Yahia Fofana,J23,Angers,French Ligue 1,ci CIV,24-185,90,8.0,3.0,5.0,1.9,-1.1,False,4.0,15.0,16.0,5.0,723.2,11.0,523.6,20.0,2.0,0.0,0.0
-Donovan Léon,J23,Auxerre,French Ligue 1,gf GUF,32-111,90,2.0,0.0,2.0,0.2,0.2,True,4.0,26.0,25.0,4.0,1290.0,8.0,564.0,12.0,2.0,2.0,31.6
-Gerónimo Rulli,J23,Marseille,French Ligue 1,ar ARG,32-278,90,5.0,3.0,2.0,2.7,-0.3,False,0.0,1.0,22.0,2.0,429.0,4.0,67.2,11.0,0.0,3.0,70.2
 Anthony Lopes,J23,Nantes,French Ligue 1,pt POR,34-145,90,4.0,1.0,3.0,1.4,0.4,False,6.0,14.0,22.0,2.0,924.0,0.0,0.0,19.0,0.0,0.0,0.0
 Mathew Ryan,J23,Lens,French Ligue 1,au AUS,32-321,90,8.0,3.0,5.0,3.1,0.1,False,1.0,1.0,22.0,5.0,528.0,6.0,118.8,9.0,1.0,5.0,104.5
 Đorđe Petrović,J23,Strasbourg,French Ligue 1,rs SRB,25-138,90,2.0,0.0,2.0,0.1,0.1,True,4.0,6.0,55.0,6.0,1177.0,5.0,81.0,16.0,1.0,1.0,15.0
@@ -3713,8 +3451,6 @@ Donovan Léon,J24,Auxerre,French Ligue 1,gf GUF,32-119,90,3.0,1.0,2.0,1.4,0.4,Fa
 Đorđe Petrović,J24,Strasbourg,French Ligue 1,rs SRB,25-145,90,5.0,0.0,5.0,1.7,1.7,True,2.0,14.0,58.0,7.0,1299.2,5.0,287.0,16.0,2.0,3.0,38.4
 Benjamin Lecomte,J24,Montpellier,French Ligue 1,fr FRA,33-310,90,8.0,4.0,3.0,2.1,-1.9,False,8.0,14.0,24.0,7.0,984.0,3.0,156.0,15.0,2.0,1.0,12.2
 Brice Samba,J24,Rennes,French Ligue 1,fr FRA,30-311,90,5.0,0.0,5.0,1.3,1.3,True,6.0,13.0,44.0,5.0,1192.4,10.0,284.0,25.0,1.0,0.0,0.0
-Yahia Fofana,J24,Angers,French Ligue 1,ci CIV,24-193,90,13.0,4.0,9.0,5.6,1.6,False,5.0,17.0,34.0,5.0,1305.6,6.0,280.2,19.0,3.0,1.0,10.1
-Kjetil Haug,J24,Toulouse,French Ligue 1,no NOR,26-263,90,1.0,0.0,1.0,0.2,0.2,True,0.0,4.0,23.0,1.0,565.8,0.0,0.0,14.0,2.0,0.0,0.0
 Gerónimo Rulli,J24,Marseille,French Ligue 1,ar ARG,32-286,90,2.0,0.0,2.0,0.3,0.3,True,5.0,7.0,44.0,3.0,1060.4,4.0,124.0,8.0,2.0,1.0,11.7
 Anthony Lopes,J24,Nantes,French Ligue 1,pt POR,34-152,90,5.0,2.0,3.0,2.2,0.2,False,6.0,18.0,27.0,3.0,1136.7,4.0,216.0,9.0,1.0,1.0,10.5
 Kjetil Haug,J25,Toulouse,French Ligue 1,no NOR,26-268,90,3.0,1.0,2.0,2.2,1.2,False,2.0,11.0,18.0,4.0,628.2,7.0,364.0,9.0,1.0,0.0,0.0
@@ -3745,8 +3481,6 @@ Anthony Lopes,J26,Nantes,French Ligue 1,pt POR,34-165,90,3.0,0.0,3.0,1.0,1.0,Tru
 Lucas Chevalier,J26,Lille,French Ligue 1,fr FRA,23-129,90,2.0,1.0,1.0,1.0,0.0,False,1.0,1.0,25.0,6.0,465.0,4.0,48.0,12.0,0.0,0.0,0.0
 Yahia Fofana,J26,Angers,French Ligue 1,ci CIV,24-206,90,5.0,2.0,3.0,2.1,0.1,False,5.0,15.0,23.0,9.0,811.9,7.0,408.1,27.0,4.0,0.0,0.0
 Philipp Köhn,J26,Monaco,French Ligue 1,ch SUI,26-347,90,2.0,0.0,2.0,0.1,0.1,True,1.0,4.0,19.0,7.0,501.6,5.0,174.0,13.0,1.0,0.0,0.0
-Mathew Ryan,J26,Lens,French Ligue 1,au AUS,32-341,90,5.0,0.0,5.0,0.5,0.5,True,3.0,16.0,32.0,4.0,1212.8,3.0,138.0,17.0,2.0,1.0,15.7
-Brice Samba,J26,Rennes,French Ligue 1,fr FRA,30-324,90,4.0,1.0,3.0,0.6,-0.4,False,5.0,11.0,27.0,1.0,926.1,2.0,44.0,12.0,0.0,0.0,0.0
 Elia Caprile,J7,Napoli,Italian Serie A,it ITA,23-040,90,2.0,1.0,1.0,0.4,-0.6,False,2.0,6.0,25.0,4.0,732.5,10.0,211.0,4.0,1.0,0.0,0.0
 Emil Audero,J7,Como,Italian Serie A,id IDN,27-260,90,6.0,3.0,3.0,2.6,-0.4,False,1.0,3.0,22.0,3.0,616.0,0.0,0.0,7.0,0.0,3.0,45.6
 Lucas Perri,J26,Lyon,French Ligue 1,br BRA,27-096,90,5.0,2.0,3.0,1.6,-0.4,False,2.0,5.0,31.0,7.0,778.1,1.0,64.0,6.0,0.0,0.0,0.0
@@ -3773,12 +3507,8 @@ Lorenzo Montipò,J7,Hellas Verona,Italian Serie A,it ITA,28-227,90,2.0,1.0,1.0,0
 Jesse Joronen,J7,Venezia,Italian Serie A,fi FIN,31-197,90,3.0,2.0,2.0,1.3,-0.7,False,1.0,7.0,21.0,4.0,667.8,12.0,402.0,25.0,0.0,1.0,11.2
 Donovan Léon,J27,Auxerre,French Ligue 1,gf GUF,32-147,90,1.0,0.0,1.0,0.0,0.0,True,8.0,20.0,31.0,6.0,1286.5,6.0,280.2,18.0,1.0,0.0,0.0
 Benjamin Lecomte,J27,Montpellier,French Ligue 1,fr FRA,33-338,90,6.0,1.0,5.0,1.4,0.4,False,8.0,21.0,35.0,6.0,1333.5,7.0,308.7,13.0,0.0,2.0,39.6
-Yahia Fofana,J27,Angers,French Ligue 1,ci CIV,24-221,90,6.0,3.0,3.0,2.2,-0.8,False,4.0,12.0,23.0,4.0,880.9,4.0,194.0,12.0,1.0,1.0,21.5
-Brice Samba,J27,Rennes,French Ligue 1,fr FRA,30-339,90,4.0,0.0,4.0,1.2,1.2,True,2.0,6.0,28.0,9.0,705.6,4.0,123.2,20.0,3.0,0.0,0.0
 Lucas Chevalier,J27,Lille,French Ligue 1,fr FRA,23-144,90,1.0,0.0,1.0,0.6,0.6,True,5.0,15.0,29.0,4.0,1075.9,3.0,192.9,8.0,0.0,0.0,0.0
 Mathew Ryan,J27,Lens,French Ligue 1,au AUS,32-356,90,5.0,1.0,4.0,2.2,1.2,False,3.0,9.0,30.0,8.0,993.0,1.0,28.0,9.0,1.0,1.0,14.7
-Marcin Bułka,J28,Nice,French Ligue 1,pl POL,25-182,90,4.0,2.0,2.0,0.5,-1.5,False,4.0,5.0,32.0,2.0,742.4,3.0,95.1,2.0,0.0,3.0,63.9
-Anthony Lopes,J28,Nantes,French Ligue 1,pt POR,34-185,90,9.0,1.0,8.0,2.5,1.5,False,9.0,35.0,26.0,2.0,1235.0,14.0,733.6,37.0,1.0,0.0,0.0
 Gianluigi Donnarumma,J28,Paris S-G,French Ligue 1,it ITA,26-039,90,0.0,0.0,0.0,0.0,0.0,True,1.0,1.0,16.0,2.0,369.6,3.0,69.0,3.0,0.0,0.0,0.0
 Yahia Fofana,J28,Angers,French Ligue 1,ci CIV,24-227,90,6.0,1.0,5.0,2.6,1.6,False,8.0,17.0,20.0,6.0,838.0,10.0,479.0,13.0,1.0,0.0,0.0
 Marco Bizot,J28,Brest,French Ligue 1,nl NED,34-026,90,2.0,1.0,1.0,1.1,0.1,False,9.0,18.0,17.0,3.0,695.3,10.0,565.0,16.0,0.0,2.0,38.0
@@ -3803,12 +3533,6 @@ Philipp Köhn,J29,Monaco,French Ligue 1,ch SUI,27-010,90,4.0,0.0,4.0,1.6,1.6,Tru
 Gerónimo Rulli,J29,Marseille,French Ligue 1,ar ARG,32-327,90,10.0,3.0,7.0,4.1,1.1,False,6.0,8.0,40.0,9.0,1104.0,2.0,32.0,12.0,3.0,5.0,119.5
 Guillaume Restes,J29,Toulouse,French Ligue 1,fr FRA,20-032,90,3.0,2.0,1.0,0.6,-1.4,False,1.0,6.0,24.0,4.0,724.8,2.0,98.0,6.0,0.0,1.0,18.5
 Lucas Chevalier,J29,Lille,French Ligue 1,fr FRA,23-157,90,5.0,1.0,4.0,1.8,0.8,False,4.0,13.0,43.0,9.0,1221.2,4.0,164.0,13.0,1.0,2.0,36.2
-Đorđe Petrović,J29,Strasbourg,French Ligue 1,rs SRB,25-186,90,6.0,2.0,4.0,1.9,-0.1,False,5.0,20.0,53.0,6.0,1542.3,6.0,409.8,28.0,3.0,2.0,31.8
-Marcin Bułka,J29,Nice,French Ligue 1,pl POL,25-190,90,4.0,2.0,2.0,0.6,-1.4,False,4.0,4.0,23.0,3.0,540.5,3.0,42.9,12.0,0.0,2.0,33.6
-Gautier Larsonneur,J29,Saint-Étienne,French Ligue 1,fr FRA,28-049,90,5.0,3.0,2.0,2.7,-0.3,False,5.0,7.0,26.0,7.0,754.0,5.0,150.0,20.0,2.0,3.0,51.3
-Marco Bizot,J29,Brest,French Ligue 1,nl NED,34-034,90,4.0,3.0,1.0,0.8,-2.2,False,9.0,20.0,21.0,4.0,972.3,5.0,323.0,15.0,1.0,0.0,0.0
-Yahia Fofana,J29,Angers,French Ligue 1,ci CIV,24-235,90,2.0,0.0,2.0,0.8,0.8,True,3.0,5.0,18.0,4.0,374.4,9.0,324.9,16.0,0.0,0.0,0.0
-Benjamin Lecomte,J29,Montpellier,French Ligue 1,fr FRA,33-352,90,4.0,2.0,2.0,1.3,-0.7,False,2.0,4.0,22.0,5.0,569.8,6.0,103.8,13.0,2.0,0.0,0.0
 Mathieu Gorgelin,J29,Le Havre,French Ligue 1,fr FRA,34-251,90,6.0,5.0,1.0,3.9,-1.1,False,3.0,7.0,20.0,1.0,654.0,2.0,41.0,7.0,0.0,0.0,0.0
 Brice Samba,J29,Rennes,French Ligue 1,fr FRA,30-353,90,2.0,1.0,1.0,0.1,-0.9,False,5.0,17.0,46.0,2.0,1504.2,7.0,228.2,26.0,0.0,0.0,0.0
 Donovan Léon,J29,Auxerre,French Ligue 1,gf GUF,32-161,90,7.0,3.0,4.0,3.9,0.9,False,6.0,13.0,30.0,6.0,1053.0,2.0,83.0,11.0,0.0,0.0,0.0
@@ -3820,8 +3544,6 @@ Anthony Lopes,J30,Nantes,French Ligue 1,pt POR,34-199,33,3.0,1.0,2.0,1.1,0.1,Fal
 Patrik Carlgren,J30,Nantes,French Ligue 1,se SWE,33-100,57,2.0,1.0,1.0,0.7,-0.3,False,2.0,14.0,13.0,2.0,646.1,6.0,325.2,15.0,0.0,0.0,0.0
 Matvei Safonov,J30,Paris S-G,French Ligue 1,ru RUS,26-053,90,1.0,1.0,0.0,0.4,-0.6,False,5.0,11.0,27.0,2.0,837.0,9.0,242.1,15.0,0.0,0.0,0.0
 Mathieu Gorgelin,J30,Le Havre,French Ligue 1,fr FRA,34-257,90,11.0,2.0,9.0,3.6,1.6,False,2.0,6.0,26.0,6.0,772.2,5.0,146.0,14.0,0.0,1.0,11.8
-Philipp Köhn,J30,Monaco,French Ligue 1,ch SUI,27-017,90,2.0,0.0,2.0,0.1,0.1,True,2.0,11.0,34.0,2.0,1050.6,5.0,158.0,8.0,0.0,2.0,33.4
-Đorđe Petrović,J30,Strasbourg,French Ligue 1,rs SRB,25-193,90,4.0,0.0,4.0,0.4,0.4,True,2.0,9.0,45.0,9.0,1179.0,2.0,107.0,14.0,2.0,2.0,28.0
 Gerónimo Rulli,J30,Marseille,French Ligue 1,ar ARG,32-334,90,1.0,1.0,0.0,0.8,-0.2,False,0.0,0.0,16.0,1.0,214.4,3.0,60.0,5.0,0.0,3.0,57.0
 Benjamin Lecomte,J30,Montpellier,French Ligue 1,fr FRA,33-358,90,7.0,5.0,3.0,3.3,-1.7,False,2.0,7.0,17.0,3.0,552.5,7.0,268.8,19.0,0.0,0.0,0.0
 Lucas Chevalier,J30,Lille,French Ligue 1,fr FRA,23-165,90,2.0,1.0,2.0,0.1,-0.9,False,0.0,4.0,29.0,3.0,754.0,0.0,0.0,16.0,0.0,0.0,0.0
@@ -3840,12 +3562,8 @@ Yann Sommer,J7,Inter,Italian Serie A,ch SUI,35-293,90,5.0,2.0,3.0,1.9,-0.1,False
 Vanja Milinković-Savić,J7,Torino,Italian Serie A,rs SRB,27-228,90,8.0,3.0,5.0,3.2,0.2,False,7.0,20.0,23.0,3.0,890.1,12.0,866.4,34.0,1.0,0.0,0.0
 Gianluigi Donnarumma,J31,Paris S-G,French Ligue 1,it ITA,26-059,90,3.0,3.0,0.0,0.9,-2.1,False,0.0,2.0,16.0,2.0,368.0,2.0,31.0,4.0,0.0,1.0,19.5
 Marcin Bułka,J31,Nice,French Ligue 1,pl POL,25-203,90,13.0,1.0,12.0,3.1,2.1,False,7.0,12.0,20.0,3.0,792.0,6.0,159.0,24.0,1.0,2.0,32.4
-Đorđe Petrović,J31,Strasbourg,French Ligue 1,rs SRB,25-200,90,6.0,1.0,5.0,1.6,0.6,False,3.0,6.0,55.0,6.0,1331.0,3.0,89.1,12.0,2.0,0.0,0.0
-Gautier Larsonneur,J31,Saint-Étienne,French Ligue 1,fr FRA,28-062,90,7.0,3.0,4.0,3.5,0.5,False,6.0,9.0,28.0,2.0,736.4,5.0,134.0,13.0,0.0,1.0,16.3
 Mathieu Gorgelin,J31,Le Havre,French Ligue 1,fr FRA,34-264,90,7.0,1.0,6.0,1.6,0.6,False,12.0,24.0,18.0,2.0,840.6,14.0,736.4,26.0,1.0,0.0,0.0
 Philipp Köhn,J31,Monaco,French Ligue 1,ch SUI,27-024,90,3.0,1.0,2.0,0.9,-0.1,False,3.0,5.0,17.0,5.0,508.3,2.0,45.0,13.0,3.0,0.0,0.0
-Lucas Perri,J31,Lyon,French Ligue 1,br BRA,27-137,90,4.0,1.0,3.0,0.9,-0.1,False,2.0,7.0,36.0,5.0,1058.4,3.0,138.9,10.0,0.0,2.0,43.0
-Brice Samba,J31,Rennes,French Ligue 1,fr FRA,31-001,90,8.0,4.0,4.0,2.5,-1.5,False,3.0,3.0,21.0,2.0,539.7,3.0,60.9,6.0,0.0,0.0,0.0
 Yahia Fofana,J31,Angers,French Ligue 1,ci CIV,24-249,90,5.0,2.0,3.0,1.4,-0.6,False,2.0,14.0,20.0,3.0,868.0,6.0,325.8,9.0,1.0,2.0,26.6
 Lucas Chevalier,J31,Lille,French Ligue 1,fr FRA,23-172,90,3.0,0.0,3.0,0.5,0.5,True,5.0,11.0,31.0,6.0,899.0,5.0,268.0,18.0,2.0,0.0,0.0
 Benjamin Lecomte,J31,Montpellier,French Ligue 1,fr FRA,34-001,90,3.0,0.0,3.0,0.2,0.2,True,6.0,17.0,33.0,5.0,1257.3,2.0,80.0,12.0,2.0,1.0,11.5
@@ -3898,27 +3616,18 @@ Guillaume Restes,J33,Toulouse,French Ligue 1,fr FRA,20-060,90,2.0,1.0,1.0,0.6,-0
 Mathew Ryan,J33,Lens,French Ligue 1,au AUS,33-032,90,6.0,1.0,5.0,1.3,0.3,False,5.0,12.0,29.0,7.0,922.2,6.0,118.8,10.0,0.0,0.0,0.0
 Gautier Larsonneur,J34,Saint-Étienne,French Ligue 1,fr FRA,28-083,90,8.0,3.0,5.0,3.0,0.0,False,0.0,1.0,22.0,5.0,473.0,8.0,176.8,11.0,1.0,4.0,89.2
 Guillaume Restes,J34,Toulouse,French Ligue 1,fr FRA,20-067,90,6.0,2.0,4.0,1.7,-0.3,False,8.0,21.0,34.0,6.0,1268.2,7.0,336.7,24.0,0.0,4.0,88.0
-Gianluigi Donnarumma,J34,Paris S-G,French Ligue 1,it ITA,26-081,90,2.0,1.0,1.0,0.5,-0.5,False,2.0,2.0,19.0,1.0,395.2,3.0,68.1,8.0,0.0,5.0,116.5
-Donovan Léon,J34,Auxerre,French Ligue 1,gf GUF,32-195,90,9.0,3.0,5.0,4.3,1.3,False,10.0,23.0,26.0,8.0,1190.8,9.0,471.6,15.0,0.0,0.0,0.0
 Lucas Perri,J34,Lyon,French Ligue 1,br BRA,27-158,90,3.0,0.0,3.0,0.3,0.3,True,1.0,1.0,12.0,6.0,273.6,3.0,77.1,19.0,2.0,0.0,0.0
 Melvin Zinga,J34,Angers,French Ligue 1,fr FRA,23-062,90,4.0,2.0,2.0,2.4,0.4,False,2.0,11.0,22.0,4.0,858.0,11.0,281.6,20.0,1.0,2.0,33.6
 Federico Ravaglia,J7,Bologna,Italian Serie A,it ITA,24-330,90,2.0,0.0,2.0,0.2,0.2,True,1.0,4.0,26.0,4.0,639.6,4.0,138.0,7.0,1.0,0.0,0.0
 Zion Suzuki,J7,Parma,Italian Serie A,jp JPN,22-046,90,3.0,0.0,3.0,0.3,0.3,True,8.0,35.0,39.0,4.0,1731.6,11.0,822.8,21.0,3.0,0.0,0.0
-Đorđe Petrović,J34,Strasbourg,French Ligue 1,rs SRB,25-221,90,5.0,3.0,2.0,3.1,0.1,False,2.0,6.0,48.0,3.0,1108.8,2.0,91.0,14.0,3.0,0.0,0.0
-Mathieu Gorgelin,J34,Le Havre,French Ligue 1,fr FRA,34-285,90,4.0,2.0,2.0,1.9,-0.1,False,4.0,5.0,29.0,3.0,826.5,1.0,54.0,13.0,0.0,0.0,0.0
 Mathew Ryan,J34,Lens,French Ligue 1,au AUS,33-039,90,4.0,0.0,4.0,0.4,0.4,True,3.0,7.0,20.0,5.0,628.0,3.0,32.1,8.0,2.0,1.0,15.7
 Philipp Köhn,J34,Monaco,French Ligue 1,ch SUI,27-045,90,5.0,4.0,1.0,3.1,-0.9,False,3.0,9.0,23.0,1.0,701.5,0.0,0.0,14.0,1.0,1.0,19.0
-Gerónimo Rulli,J34,Marseille,French Ligue 1,ar ARG,32-362,90,3.0,2.0,1.0,1.5,-0.5,False,5.0,5.0,34.0,4.0,948.6,2.0,18.0,9.0,2.0,0.0,0.0
-Brice Samba,J34,Rennes,French Ligue 1,fr FRA,31-022,89,10.0,4.0,5.0,4.7,0.7,False,0.0,5.0,30.0,4.0,708.0,5.0,93.0,8.0,1.0,1.0,14.0
-Steve Mandanda,J34,Rennes,French Ligue 1,fr FRA,40-050,1,0.0,0.0,0.0,0.0,0.0,True,0.0,0.0,1.0,0.0,25.0,0.0,0.0,0.0,0.0,0.0,0.0
 Anthony Lopes,J34,Nantes,French Ligue 1,pt POR,34-228,90,0.0,0.0,0.0,0.0,0.0,True,1.0,4.0,20.0,5.0,580.0,2.0,118.0,11.0,1.0,0.0,0.0
 Dimitry Bertaud,J34,Montpellier,French Ligue 1,cd COD,26-345,90,5.0,3.0,2.0,2.5,-0.5,False,2.0,5.0,20.0,5.0,560.0,2.0,56.0,12.0,0.0,1.0,16.5
 Marcin Bułka,J34,Nice,French Ligue 1,pl POL,25-225,90,1.0,0.0,1.0,0.0,0.0,True,1.0,1.0,18.0,2.0,432.0,11.0,231.0,11.0,2.0,1.0,13.0
 Marco Bizot,J34,Brest,French Ligue 1,nl NED,34-068,90,9.0,6.0,3.0,5.6,-0.4,False,3.0,10.0,37.0,9.0,1091.5,4.0,122.0,5.0,0.0,6.0,138.6
 Lucas Chevalier,J34,Lille,French Ligue 1,fr FRA,23-192,90,2.0,1.0,1.0,0.1,-0.9,False,2.0,7.0,24.0,2.0,715.2,2.0,129.0,5.0,0.0,0.0,0.0
 Yehvann Diouf,J34,Reims,French Ligue 1,sn SEN,25-182,90,5.0,2.0,3.0,1.8,-0.2,False,6.0,21.0,16.0,1.0,822.4,7.0,431.9,22.0,1.0,3.0,66.9
-Jonas Omlin,J1,Gladbach,German Bundesliga,ch SUI,30-226,90,10.0,3.0,6.0,2.3,-0.7,False,6.0,16.0,49.0,5.0,1445.5,5.0,194.0,16.0,0.0,0.0,0.0
-Lukáš Hrádecký,J1,Leverkusen,German Bundesliga,fi FIN,34-273,90,7.0,2.0,5.0,2.3,0.3,False,2.0,8.0,22.0,4.0,679.8,2.0,107.0,12.0,1.0,0.0,0.0
 Oliver Baumann,J1,Hoffenheim,German Bundesliga,de GER,34-083,90,6.0,2.0,4.0,1.8,-0.2,False,7.0,17.0,30.0,4.0,1137.0,9.0,416.7,19.0,0.0,2.0,25.4
 Timon Weiner,J1,Holstein Kiel,German Bundesliga,de GER,25-219,90,8.0,3.0,5.0,3.8,0.8,False,8.0,17.0,37.0,4.0,1250.6,3.0,102.9,17.0,2.0,0.0,0.0
 Robin Zentner,J1,Mainz 05,German Bundesliga,de GER,29-301,90,5.0,1.0,4.0,0.9,-0.1,False,8.0,15.0,26.0,8.0,915.2,9.0,467.1,21.0,2.0,3.0,42.6
@@ -3929,12 +3638,6 @@ Semuel Pizzignacco,J7,Monza,Italian Serie A,it ITA,23-035,90,4.0,1.0,3.0,1.1,0.1
 Mile Svilar,J7,Roma,Italian Serie A,rs SRB,25-040,90,3.0,1.0,2.0,1.2,0.2,False,0.0,10.0,35.0,5.0,1162.0,1.0,23.0,9.0,1.0,1.0,13.0
 Florian Müller,J1,Freiburg,German Bundesliga,de GER,26-285,90,2.0,1.0,1.0,0.9,-0.1,False,4.0,18.0,24.0,1.0,940.8,6.0,349.2,17.0,0.0,1.0,21.0
 Alexander Nübel,J1,Stuttgart,German Bundesliga,de GER,27-329,90,5.0,3.0,2.0,2.0,-1.0,False,1.0,4.0,30.0,6.0,624.0,5.0,144.0,9.0,0.0,1.0,20.0
-Péter Gulácsi,J1,RB Leipzig,German Bundesliga,hu HUN,34-110,90,3.0,0.0,3.0,0.9,0.9,True,2.0,5.0,29.0,3.0,826.5,3.0,101.1,7.0,1.0,0.0,0.0
-Patrick Drewes,J1,Bochum,German Bundesliga,de GER,31-202,90,3.0,1.0,2.0,0.5,-0.5,False,12.0,27.0,27.0,2.0,1171.8,11.0,610.5,19.0,1.0,0.0,0.0
-Gregor Kobel,J1,Dortmund,German Bundesliga,ch SUI,26-262,90,2.0,0.0,2.0,0.3,0.3,True,2.0,4.0,36.0,6.0,795.6,3.0,63.9,15.0,1.0,1.0,9.3
-Kevin Trapp,J1,Eint Frankfurt,German Bundesliga,de GER,34-047,90,5.0,2.0,3.0,1.3,-0.7,False,1.0,5.0,21.0,5.0,518.7,6.0,138.0,20.0,1.0,0.0,0.0
-Kamil Grabara,J1,Wolfsburg,German Bundesliga,pl POL,25-230,90,8.0,3.0,6.0,2.9,-0.1,False,13.0,32.0,41.0,1.0,1898.3,1.0,65.0,13.0,0.0,0.0,0.0
-Manuel Neuer,J1,Bayern Munich,German Bundesliga,de GER,38-151,90,2.0,2.0,0.0,1.8,-0.2,False,4.0,10.0,66.0,8.0,1630.2,1.0,40.0,10.0,1.0,2.0,53.4
 Nikola Vasilj,J1,St. Pauli,German Bundesliga,ba BIH,28-267,90,3.0,2.0,1.0,1.8,-0.2,False,5.0,10.0,48.0,4.0,1305.6,1.0,27.0,10.0,0.0,2.0,45.0
 Kevin Müller,J1,Heidenheim,German Bundesliga,de GER,33-163,90,3.0,0.0,3.0,0.7,0.7,True,8.0,22.0,28.0,2.0,1145.2,12.0,561.6,18.0,1.0,0.0,0.0
 Frederik Rønnow,J2,Union Berlin,German Bundesliga,dk DEN,32-026,90,1.0,0.0,1.0,0.0,0.0,True,7.0,15.0,33.0,7.0,1052.7,5.0,282.0,13.0,1.0,2.0,35.6
@@ -3990,10 +3693,6 @@ Kevin Müller,J4,Heidenheim,German Bundesliga,de GER,33-190,90,5.0,3.0,2.0,2.5,-
 Noah Atubolu,J4,Freiburg,German Bundesliga,de GER,22-119,90,1.0,0.0,1.0,0.1,0.1,True,6.0,18.0,52.0,5.0,1778.4,4.0,119.2,14.0,0.0,1.0,11.8
 Michael Zetterer,J4,Werder Bremen,German Bundesliga,de GER,29-071,90,7.0,5.0,2.0,4.6,-0.4,False,4.0,12.0,40.0,4.0,1344.0,2.0,100.0,11.0,1.0,0.0,0.0
 Sven Ulreich,J4,Bayern Munich,German Bundesliga,de GER,36-049,90,0.0,0.0,0.0,0.0,0.0,True,3.0,8.0,29.0,4.0,817.8,1.0,9.0,7.0,1.0,1.0,12.3
-Kauã Santos,J4,Eint Frankfurt,German Bundesliga,br BRA,21-163,90,7.0,0.0,7.0,1.8,1.8,True,3.0,10.0,37.0,7.0,1191.4,3.0,90.0,13.0,1.0,0.0,0.0
-Moritz Nicolas,J4,Gladbach,German Bundesliga,de GER,26-336,90,4.0,2.0,2.0,1.9,-0.1,False,3.0,7.0,39.0,5.0,932.1,2.0,49.0,11.0,2.0,0.0,0.0
-Lukáš Hrádecký,J4,Leverkusen,German Bundesliga,fi FIN,34-303,90,4.0,3.0,2.0,0.8,-2.2,False,1.0,3.0,20.0,4.0,462.0,3.0,117.9,6.0,0.0,4.0,111.2
-Kamil Grabara,J4,Wolfsburg,German Bundesliga,pl POL,25-258,90,7.0,4.0,3.0,3.1,-0.9,False,5.0,31.0,26.0,3.0,1305.2,10.0,728.0,20.0,0.0,0.0,0.0
 Emil Audero,J8,Como,Italian Serie A,id IDN,27-275,90,3.0,1.0,2.0,1.0,0.0,False,2.0,4.0,30.0,6.0,678.0,7.0,165.2,10.0,0.0,1.0,16.5
 Zion Suzuki,J8,Parma,Italian Serie A,jp JPN,22-059,90,3.0,1.0,2.0,1.0,0.0,False,2.0,10.0,34.0,11.0,986.0,8.0,303.2,14.0,1.0,1.0,20.5
 Alexander Nübel,J4,Stuttgart,German Bundesliga,de GER,27-358,90,3.0,1.0,2.0,0.4,-0.6,False,4.0,10.0,36.0,5.0,1130.4,0.0,0.0,10.0,1.0,0.0,0.0
@@ -4004,36 +3703,22 @@ Gregor Kobel,J5,Dortmund,German Bundesliga,ch SUI,26-296,90,5.0,2.0,3.0,2.0,0.0,
 Patrick Drewes,J5,Bochum,German Bundesliga,de GER,31-236,90,8.0,4.0,4.0,1.9,-2.1,False,17.0,37.0,36.0,3.0,1461.6,14.0,778.4,23.0,3.0,0.0,0.0
 Robin Zentner,J5,Mainz 05,German Bundesliga,de GER,29-336,90,6.0,2.0,4.0,1.7,-0.3,False,5.0,16.0,30.0,4.0,1017.0,8.0,426.4,19.0,2.0,2.0,26.0
 Kevin Müller,J5,Heidenheim,German Bundesliga,de GER,33-197,90,1.0,0.0,1.0,0.3,0.3,True,4.0,13.0,26.0,1.0,910.0,5.0,227.0,21.0,1.0,0.0,0.0
-Noah Atubolu,J5,Freiburg,German Bundesliga,de GER,22-126,90,4.0,3.0,1.0,1.5,-1.5,False,3.0,4.0,23.0,5.0,529.0,3.0,74.1,7.0,0.0,3.0,69.0
-Nikola Vasilj,J5,St. Pauli,German Bundesliga,ba BIH,28-301,90,2.0,0.0,1.0,1.2,1.2,True,10.0,31.0,38.0,0.0,1919.0,7.0,438.9,23.0,1.0,0.0,0.0
 Péter Gulácsi,J5,RB Leipzig,German Bundesliga,hu HUN,34-145,90,1.0,0.0,0.0,0.9,0.9,True,1.0,4.0,19.0,2.0,530.1,5.0,153.0,8.0,1.0,0.0,0.0
 Nediljko Labrović,J5,Augsburg,German Bundesliga,hr CRO,24-354,90,6.0,4.0,2.0,3.6,-0.4,False,4.0,14.0,22.0,4.0,814.0,6.0,279.0,18.0,1.0,2.0,30.8
 Moritz Nicolas,J5,Gladbach,German Bundesliga,de GER,26-343,90,2.0,0.0,2.0,0.9,0.9,True,3.0,6.0,43.0,8.0,1049.2,6.0,163.8,15.0,0.0,4.0,132.0
 Frederik Rønnow,J5,Union Berlin,German Bundesliga,dk DEN,32-055,90,2.0,1.0,1.0,0.3,-0.7,False,1.0,18.0,32.0,4.0,1187.2,3.0,152.1,10.0,0.0,0.0,0.0
-Kamil Grabara,J5,Wolfsburg,German Bundesliga,pl POL,25-264,90,4.0,2.0,1.0,1.9,-0.1,False,8.0,20.0,26.0,0.0,1144.0,7.0,371.7,9.0,0.0,0.0,0.0
-Alexander Nübel,J5,Stuttgart,German Bundesliga,de GER,27-364,90,2.0,2.0,0.0,1.5,-0.5,False,7.0,16.0,41.0,2.0,1398.1,2.0,64.0,3.0,0.0,0.0,0.0
 Manuel Neuer,J5,Bayern Munich,German Bundesliga,de GER,38-185,90,2.0,1.0,1.0,0.5,-0.5,False,6.0,11.0,47.0,6.0,1311.3,1.0,16.0,3.0,0.0,3.0,89.1
 Lukáš Hrádecký,J5,Leverkusen,German Bundesliga,fi FIN,34-309,90,3.0,1.0,2.0,0.5,-0.5,False,10.0,21.0,33.0,4.0,1204.5,12.0,464.4,13.0,1.0,0.0,0.0
 Timon Weiner,J5,Holstein Kiel,German Bundesliga,de GER,25-255,90,10.0,4.0,6.0,1.8,-2.2,False,5.0,13.0,33.0,5.0,1065.9,10.0,246.0,23.0,0.0,0.0,0.0
 Kauã Santos,J5,Eint Frankfurt,German Bundesliga,br BRA,21-171,90,5.0,2.0,3.0,1.2,-0.8,False,2.0,11.0,33.0,6.0,1016.4,2.0,131.0,21.0,2.0,5.0,86.5
 Mike Maignan,J8,Milan,Italian Serie A,fr FRA,29-108,90,1.0,0.0,1.0,0.1,0.1,True,5.0,21.0,35.0,3.0,1344.0,10.0,634.0,27.0,2.0,0.0,0.0
 Maduka Okoye,J8,Udinese,Italian Serie A,ng NGA,25-052,90,5.0,1.0,4.0,1.3,0.3,False,2.0,4.0,32.0,5.0,732.8,2.0,99.0,12.0,0.0,3.0,55.2
-Oliver Baumann,J5,Hoffenheim,German Bundesliga,de GER,34-119,90,10.0,4.0,6.0,4.3,0.3,False,5.0,15.0,31.0,5.0,1140.8,4.0,86.0,18.0,1.0,0.0,0.0
-Michael Zetterer,J5,Werder Bremen,German Bundesliga,de GER,29-079,90,4.0,3.0,1.0,1.9,-1.1,False,2.0,5.0,19.0,4.0,621.3,0.0,0.0,9.0,2.0,1.0,12.5
 Nediljko Labrović,J6,Augsburg,German Bundesliga,hr CRO,24-360,90,4.0,1.0,3.0,0.8,-0.2,False,10.0,20.0,19.0,0.0,923.4,7.0,363.3,16.0,0.0,0.0,0.0
 Moritz Nicolas,J6,Gladbach,German Bundesliga,de GER,26-349,90,5.0,2.0,3.0,0.8,-1.2,False,4.0,5.0,39.0,11.0,1002.3,7.0,247.8,19.0,1.0,0.0,0.0
-Patrick Drewes,J6,Bochum,German Bundesliga,de GER,31-244,90,5.0,3.0,1.0,3.0,0.0,False,15.0,29.0,38.0,3.0,1550.4,4.0,260.0,10.0,0.0,2.0,49.4
-Kamil Grabara,J6,Wolfsburg,German Bundesliga,pl POL,25-271,90,5.0,1.0,4.0,1.8,0.8,False,9.0,28.0,38.0,3.0,1789.8,2.0,136.0,21.0,1.0,2.0,26.8
-Frederik Rønnow,J6,Union Berlin,German Bundesliga,dk DEN,32-062,90,4.0,1.0,3.0,1.6,0.6,False,8.0,20.0,30.0,4.0,1392.0,5.0,195.0,14.0,5.0,0.0,0.0
-Gregor Kobel,J6,Dortmund,German Bundesliga,ch SUI,26-304,90,5.0,2.0,3.0,1.3,-0.7,False,5.0,11.0,51.0,5.0,1341.3,4.0,156.0,14.0,2.0,6.0,133.8
-Michael Zetterer,J6,Werder Bremen,German Bundesliga,de GER,29-085,90,3.0,1.0,2.0,0.3,-0.7,False,6.0,11.0,37.0,9.0,1128.5,13.0,305.5,13.0,1.0,1.0,14.0
-Noah Atubolu,J6,Freiburg,German Bundesliga,de GER,22-133,90,3.0,0.0,3.0,0.7,0.7,True,8.0,19.0,39.0,5.0,1501.5,3.0,122.1,16.0,1.0,2.0,32.8
 Lukáš Hrádecký,J6,Leverkusen,German Bundesliga,fi FIN,34-316,90,4.0,2.0,2.0,1.9,-0.1,False,1.0,2.0,11.0,3.0,302.5,4.0,83.2,4.0,0.0,0.0,0.0
 Timon Weiner,J6,Holstein Kiel,German Bundesliga,de GER,25-261,90,7.0,2.0,5.0,1.3,-0.7,False,13.0,31.0,23.0,1.0,1097.1,16.0,1027.2,34.0,0.0,0.0,0.0
 Nikola Vasilj,J6,St. Pauli,German Bundesliga,ba BIH,28-308,90,4.0,3.0,1.0,0.9,-2.1,False,4.0,20.0,37.0,4.0,1409.7,2.0,84.0,4.0,0.0,1.0,20.0
 Robin Zentner,J6,Mainz 05,German Bundesliga,de GER,29-343,90,4.0,0.0,4.0,1.0,1.0,True,6.0,21.0,40.0,8.0,1520.0,6.0,339.0,22.0,0.0,0.0,0.0
-Kevin Müller,J6,Heidenheim,German Bundesliga,de GER,33-205,90,2.0,1.0,1.0,0.5,-0.5,False,3.0,16.0,32.0,6.0,1308.8,9.0,386.1,16.0,1.0,0.0,0.0
-Péter Gulácsi,J6,RB Leipzig,German Bundesliga,hu HUN,34-153,90,4.0,0.0,4.0,0.7,0.7,True,5.0,11.0,14.0,3.0,477.4,13.0,517.4,14.0,2.0,1.0,18.0
 Kauã Santos,J6,Eint Frankfurt,German Bundesliga,br BRA,21-178,90,13.0,3.0,10.0,3.8,0.8,False,3.0,13.0,38.0,5.0,1086.8,5.0,124.0,25.0,3.0,0.0,0.0
 Manuel Neuer,J6,Bayern Munich,German Bundesliga,de GER,38-193,90,4.0,3.0,1.0,1.6,-1.4,False,1.0,9.0,32.0,4.0,857.6,0.0,0.0,0.0,0.0,5.0,228.0
 Alexander Nübel,J6,Stuttgart,German Bundesliga,de GER,28-006,90,4.0,1.0,3.0,0.4,-0.6,False,3.0,4.0,38.0,6.0,881.6,1.0,30.0,8.0,0.0,3.0,95.1
@@ -4071,12 +3756,8 @@ Gregor Kobel,J8,Dortmund,German Bundesliga,ch SUI,26-325,90,4.0,2.0,2.0,0.7,-1.3
 Péter Gulácsi,J8,RB Leipzig,German Bundesliga,hu HUN,34-173,45,2.0,1.0,1.0,1.3,0.3,False,0.0,2.0,11.0,1.0,234.3,5.0,131.0,6.0,0.0,0.0,0.0
 Maarten Vandevoordt,J8,RB Leipzig,German Bundesliga,be BEL,22-243,45,3.0,0.0,3.0,0.4,0.4,True,2.0,4.0,12.0,6.0,282.0,5.0,181.0,9.0,2.0,0.0,0.0
 Noah Atubolu,J8,Freiburg,German Bundesliga,de GER,22-154,90,9.0,3.0,6.0,4.2,1.2,False,1.0,14.0,51.0,10.0,1626.9,2.0,122.0,13.0,2.0,1.0,12.0
-Michael Zetterer,J8,Werder Bremen,German Bundesliga,de GER,29-106,90,5.0,2.0,4.0,1.6,-0.4,False,4.0,10.0,39.0,4.0,1127.1,0.0,0.0,15.0,0.0,1.0,13.3
-Lukáš Hrádecký,J8,Leverkusen,German Bundesliga,fi FIN,34-337,90,8.0,2.0,6.0,2.4,0.4,False,4.0,10.0,25.0,4.0,842.5,4.0,202.0,9.0,0.0,2.0,38.6
 Patrick Drewes,J8,Bochum,German Bundesliga,de GER,31-266,90,10.0,5.0,5.0,3.9,-1.1,False,9.0,22.0,28.0,4.0,1066.8,9.0,482.4,12.0,0.0,0.0,0.0
 Manuel Neuer,J8,Bayern Munich,German Bundesliga,de GER,38-214,90,1.0,0.0,1.0,0.1,0.1,True,1.0,7.0,42.0,2.0,1138.2,1.0,25.0,10.0,0.0,2.0,47.0
-Frederik Rønnow,J8,Union Berlin,German Bundesliga,dk DEN,32-084,90,5.0,1.0,4.0,1.7,0.7,False,1.0,6.0,36.0,8.0,943.2,2.0,67.0,8.0,0.0,1.0,16.7
-Kevin Trapp,J8,Eint Frankfurt,German Bundesliga,de GER,34-111,90,4.0,1.0,3.0,1.4,0.4,False,4.0,21.0,37.0,1.0,1350.5,11.0,437.8,17.0,1.0,0.0,0.0
 Kevin Müller,J8,Heidenheim,German Bundesliga,de GER,33-226,90,4.0,0.0,4.0,0.8,0.8,True,5.0,9.0,34.0,10.0,1033.6,7.0,139.3,9.0,1.0,1.0,14.5
 Oliver Baumann,J8,Hoffenheim,German Bundesliga,de GER,34-147,90,3.0,0.0,3.0,1.1,1.1,True,9.0,21.0,35.0,4.0,1270.5,10.0,552.0,14.0,0.0,2.0,36.6
 Lukáš Hrádecký,J9,Leverkusen,German Bundesliga,fi FIN,34-343,90,1.0,0.0,1.0,0.1,0.1,True,2.0,6.0,26.0,3.0,761.8,4.0,96.0,5.0,0.0,3.0,61.2
@@ -4129,14 +3810,10 @@ Oliver Baumann,J11,Hoffenheim,German Bundesliga,de GER,34-174,90,6.0,3.0,4.0,2.6
 Péter Gulácsi,J11,RB Leipzig,German Bundesliga,hu HUN,34-201,90,7.0,4.0,3.0,2.6,-1.4,False,3.0,6.0,19.0,5.0,558.6,9.0,380.7,17.0,0.0,0.0,0.0
 Simone Scuffet,J8,Cagliari,Italian Serie A,it ITA,28-142,90,5.0,2.0,3.0,1.7,-0.3,False,5.0,9.0,18.0,2.0,640.8,6.0,199.2,23.0,0.0,1.0,11.7
 Vanja Milinković-Savić,J8,Torino,Italian Serie A,rs SRB,27-243,90,4.0,3.0,2.0,1.3,-1.7,False,3.0,11.0,25.0,3.0,930.0,8.0,284.8,17.0,0.0,1.0,13.6
-Alexander Nübel,J11,Stuttgart,German Bundesliga,de GER,28-054,90,2.0,0.0,2.0,0.1,0.1,True,4.0,6.0,22.0,1.0,649.0,4.0,70.0,14.0,0.0,1.0,16.0
-Patrick Drewes,J11,Bochum,German Bundesliga,de GER,31-293,90,4.0,2.0,2.0,1.5,-0.5,False,16.0,29.0,50.0,3.0,1660.0,13.0,689.0,13.0,0.0,1.0,22.7
 Gregor Kobel,J11,Dortmund,German Bundesliga,ch SUI,26-353,90,2.0,0.0,2.0,1.0,1.0,True,1.0,3.0,44.0,5.0,862.4,1.0,48.0,5.0,1.0,0.0,0.0
 Noah Atubolu,J11,Freiburg,German Bundesliga,de GER,22-182,90,7.0,4.0,3.0,1.3,-2.7,False,5.0,10.0,46.0,7.0,1265.0,4.0,78.0,12.0,0.0,0.0,0.0
 Kevin Trapp,J11,Eint Frankfurt,German Bundesliga,de GER,34-138,90,1.0,0.0,1.0,0.1,0.1,True,5.0,13.0,30.0,5.0,936.0,7.0,235.2,17.0,2.0,1.0,17.7
 Michael Zetterer,J11,Werder Bremen,German Bundesliga,de GER,29-134,90,5.0,1.0,4.0,1.5,0.5,False,5.0,15.0,49.0,7.0,1528.8,2.0,109.0,11.0,1.0,0.0,0.0
-Timon Weiner,J11,Holstein Kiel,German Bundesliga,de GER,25-311,90,7.0,3.0,4.0,2.5,-0.5,False,10.0,24.0,47.0,2.0,1771.9,8.0,336.0,22.0,1.0,0.0,0.0
-Robin Zentner,J11,Mainz 05,German Bundesliga,de GER,30-027,90,2.0,0.0,2.0,0.7,0.7,True,2.0,6.0,28.0,5.0,786.8,0.0,0.0,8.0,3.0,2.0,29.6
 Moritz Nicolas,J11,Gladbach,German Bundesliga,de GER,27-034,90,3.0,0.0,3.0,0.4,0.4,True,5.0,7.0,46.0,4.0,1058.0,5.0,184.0,26.0,1.0,0.0,0.0
 Nikola Vasilj,J11,St. Pauli,German Bundesliga,ba BIH,28-358,90,3.0,2.0,1.0,2.1,0.1,False,2.0,4.0,24.0,4.0,528.0,5.0,100.0,13.0,1.0,0.0,0.0
 Nikola Vasilj,J12,St. Pauli,German Bundesliga,ba BIH,28-363,90,3.0,1.0,1.0,1.7,0.7,False,2.0,8.0,30.0,7.0,924.0,5.0,148.0,15.0,1.0,1.0,11.0
@@ -4161,8 +3838,6 @@ Kevin Müller,J12,Heidenheim,German Bundesliga,de GER,33-261,90,8.0,4.0,4.0,3.6,
 Kevin Trapp,J12,Eint Frankfurt,German Bundesliga,de GER,34-146,90,1.0,0.0,1.0,0.4,0.4,True,3.0,12.0,23.0,3.0,795.8,2.0,148.0,15.0,1.0,1.0,12.2
 Alexander Nübel,J13,Stuttgart,German Bundesliga,de GER,28-067,90,3.0,2.0,1.0,0.5,-1.5,False,7.0,20.0,40.0,3.0,1540.0,4.0,111.2,12.0,0.0,4.0,70.8
 Frederik Rønnow,J13,Union Berlin,German Bundesliga,dk DEN,32-124,90,5.0,3.0,2.0,3.0,0.0,False,8.0,20.0,48.0,6.0,1521.6,3.0,105.0,9.0,2.0,5.0,98.5
-Patrick Drewes,J13,Bochum,German Bundesliga,de GER,31-307,90,1.0,1.0,0.0,0.2,-0.8,False,7.0,18.0,36.0,4.0,1231.2,6.0,181.8,9.0,1.0,4.0,88.4
-Michael Zetterer,J13,Werder Bremen,German Bundesliga,de GER,29-148,90,2.0,0.0,2.0,0.5,0.5,True,4.0,20.0,63.0,7.0,1896.3,3.0,159.9,30.0,1.0,0.0,0.0
 Timon Weiner,J13,Holstein Kiel,German Bundesliga,de GER,25-324,90,5.0,2.0,3.0,1.6,-0.4,False,1.0,7.0,21.0,1.0,644.7,1.0,23.0,4.0,0.0,1.0,15.2
 Péter Gulácsi,J13,RB Leipzig,German Bundesliga,hu HUN,34-215,90,5.0,0.0,5.0,1.1,1.1,True,4.0,14.0,23.0,4.0,708.4,12.0,505.2,19.0,0.0,0.0,0.0
 Lukáš Hrádecký,J13,Leverkusen,German Bundesliga,fi FIN,35-013,90,4.0,1.0,3.0,1.3,0.3,False,7.0,16.0,34.0,5.0,955.4,8.0,383.2,12.0,1.0,0.0,0.0
@@ -4171,8 +3846,6 @@ Kevin Trapp,J13,Eint Frankfurt,German Bundesliga,de GER,34-152,90,3.0,2.0,1.0,0.
 Nediljko Labrović,J13,Augsburg,German Bundesliga,hr CRO,25-058,90,4.0,2.0,2.0,1.9,-0.1,False,8.0,23.0,27.0,3.0,1088.1,14.0,630.0,21.0,0.0,0.0,0.0
 Daniel Peretz,J13,Bayern Munich,German Bundesliga,il ISR,24-150,90,2.0,2.0,0.0,1.9,-0.1,False,1.0,5.0,24.0,1.0,597.6,1.0,27.0,4.0,0.0,3.0,57.6
 Kevin Müller,J13,Heidenheim,German Bundesliga,de GER,33-267,90,10.0,4.0,6.0,2.8,-1.2,False,5.0,12.0,23.0,6.0,814.2,11.0,310.2,20.0,1.0,0.0,0.0
-Ivan Provedel,J1,Lazio,Italian Serie A,it ITA,30-154,90,2.0,1.0,1.0,0.2,-0.8,False,12.0,16.0,43.0,3.0,1492.1,0.0,0.0,8.0,1.0,1.0,13.3
-Jesse Joronen,J1,Venezia,Italian Serie A,fi FIN,31-150,90,6.0,3.0,4.0,1.5,-1.5,False,1.0,6.0,23.0,4.0,602.6,7.0,191.8,21.0,0.0,1.0,16.5
 Lorenzo Montipò,J8,Hellas Verona,Italian Serie A,it ITA,28-244,90,4.0,3.0,1.0,1.7,-1.3,False,4.0,15.0,18.0,4.0,723.6,6.0,348.0,12.0,3.0,0.0,0.0
 Stefano Turati,J8,Monza,Italian Serie A,it ITA,23-046,90,4.0,0.0,4.0,0.7,0.7,True,14.0,20.0,26.0,1.0,964.6,8.0,520.8,24.0,1.0,0.0,0.0
 Moritz Nicolas,J13,Gladbach,German Bundesliga,de GER,27-047,90,3.0,1.0,2.0,0.9,-0.1,False,7.0,14.0,39.0,2.0,1209.0,4.0,206.0,20.0,1.0,0.0,0.0
@@ -4187,25 +3860,18 @@ Nediljko Labrović,J14,Augsburg,German Bundesliga,hr CRO,25-065,90,3.0,2.0,1.0,0
 Lukáš Hrádecký,J14,Leverkusen,German Bundesliga,fi FIN,35-020,90,4.0,0.0,4.0,0.5,0.5,True,2.0,9.0,27.0,2.0,820.8,3.0,213.9,10.0,0.0,0.0,0.0
 Robin Zentner,J14,Mainz 05,German Bundesliga,de GER,30-047,90,1.0,1.0,0.0,1.0,0.0,False,4.0,13.0,20.0,2.0,898.0,2.0,23.0,17.0,2.0,0.0,0.0
 Daniel Peretz,J14,Bayern Munich,German Bundesliga,il ISR,24-157,90,4.0,2.0,2.0,1.3,-0.7,False,2.0,15.0,46.0,3.0,1453.6,5.0,166.0,10.0,0.0,3.0,72.9
-Frederik Rønnow,J14,Union Berlin,German Bundesliga,dk DEN,32-132,90,3.0,1.0,2.0,1.3,0.3,False,0.0,2.0,13.0,5.0,347.1,5.0,100.0,12.0,2.0,2.0,33.6
-Patrick Drewes,J14,Bochum,German Bundesliga,de GER,31-314,89,4.0,1.0,3.0,1.0,0.0,False,8.0,34.0,28.0,2.0,1195.6,17.0,1003.0,25.0,0.0,0.0,0.0
-Philipp Hofmann,J14,Bochum,German Bundesliga,de GER,31-259,1,0.0,0.0,0.0,0.0,0.0,True,0.0,0.0,3.0,0.0,36.0,1.0,10.0,0.0,0.0,0.0,0.0
 Moritz Nicolas,J14,Gladbach,German Bundesliga,de GER,27-054,90,3.0,1.0,2.0,0.4,-0.6,False,1.0,6.0,30.0,4.0,792.0,0.0,0.0,8.0,0.0,3.0,60.6
 Timon Weiner,J14,Holstein Kiel,German Bundesliga,de GER,25-331,90,6.0,4.0,2.0,3.2,-0.8,False,4.0,18.0,32.0,1.0,966.4,9.0,482.4,20.0,1.0,1.0,12.0
 Nikola Vasilj,J14,St. Pauli,German Bundesliga,ba BIH,29-012,90,4.0,2.0,2.0,1.7,-0.3,False,5.0,10.0,46.0,4.0,1301.8,3.0,101.1,9.0,1.0,3.0,47.4
 Michael Zetterer,J14,Werder Bremen,German Bundesliga,de GER,29-155,90,4.0,0.0,4.0,0.2,0.2,True,7.0,10.0,42.0,3.0,1386.0,3.0,156.0,15.0,0.0,0.0,0.0
 Kevin Müller,J14,Heidenheim,German Bundesliga,de GER,33-275,90,7.0,3.0,4.0,2.9,-0.1,False,6.0,15.0,24.0,4.0,914.4,6.0,352.2,11.0,0.0,1.0,16.0
 Alexander Nübel,J14,Stuttgart,German Bundesliga,de GER,28-076,90,2.0,1.0,1.0,0.6,-0.4,False,7.0,15.0,37.0,3.0,1084.1,7.0,294.0,18.0,1.0,0.0,0.0
-Maduka Okoye,J9,Udinese,Italian Serie A,ng NGA,25-058,90,0.0,0.0,0.0,0.0,0.0,True,6.0,9.0,29.0,1.0,907.7,5.0,137.0,10.0,1.0,0.0,0.0
-Simone Scuffet,J9,Cagliari,Italian Serie A,it ITA,28-147,90,4.0,2.0,2.0,1.7,-0.3,False,2.0,12.0,16.0,2.0,556.8,10.0,485.0,12.0,0.0,0.0,0.0
 Gregor Kobel,J14,Dortmund,German Bundesliga,ch SUI,27-009,90,1.0,1.0,0.0,0.8,-0.2,False,6.0,10.0,33.0,5.0,970.2,6.0,207.0,21.0,1.0,1.0,14.0
 Oliver Baumann,J14,Hoffenheim,German Bundesliga,de GER,34-196,90,2.0,1.0,1.0,0.5,-0.5,False,10.0,19.0,37.0,5.0,1369.0,4.0,205.2,11.0,2.0,1.0,13.3
 Maarten Vandevoordt,J14,RB Leipzig,German Bundesliga,be BEL,22-293,90,3.0,1.0,2.0,0.6,-0.4,False,2.0,12.0,22.0,5.0,635.8,10.0,524.0,20.0,1.0,2.0,29.4
 Kevin Trapp,J14,Eint Frankfurt,German Bundesliga,de GER,34-160,90,9.0,2.0,7.0,2.4,0.4,False,0.0,2.0,24.0,7.0,475.2,4.0,129.2,9.0,0.0,0.0,0.0
 Daniel Peretz,J15,Bayern Munich,German Bundesliga,il ISR,24-163,90,1.0,1.0,0.0,0.9,-0.1,False,2.0,5.0,26.0,1.0,780.0,1.0,14.0,3.0,0.0,2.0,41.6
 Péter Gulácsi,J15,RB Leipzig,German Bundesliga,hu HUN,34-228,90,9.0,5.0,4.0,3.6,-1.4,False,1.0,9.0,29.0,3.0,928.0,4.0,61.2,16.0,1.0,0.0,0.0
-Michael Zetterer,J15,Werder Bremen,German Bundesliga,de GER,29-162,90,4.0,1.0,3.0,1.6,0.6,False,7.0,17.0,58.0,9.0,1827.0,0.0,0.0,15.0,4.0,0.0,0.0
-Alexander Schwolow,J15,Union Berlin,German Bundesliga,de GER,32-202,90,5.0,4.0,1.0,2.9,-1.1,False,4.0,11.0,24.0,6.0,741.6,5.0,239.0,10.0,0.0,0.0,0.0
 Kauã Santos,J15,Eint Frankfurt,German Bundesliga,br BRA,21-254,90,3.0,3.0,1.0,1.0,-2.0,False,2.0,7.0,24.0,3.0,760.8,3.0,72.0,3.0,0.0,1.0,13.3
 Robin Zentner,J15,Mainz 05,German Bundesliga,de GER,30-054,90,8.0,1.0,7.0,1.9,0.9,False,9.0,37.0,31.0,4.0,1571.7,17.0,1164.5,48.0,4.0,2.0,22.4
 Alexander Nübel,J15,Stuttgart,German Bundesliga,de GER,28-082,90,5.0,1.0,3.0,2.8,1.8,False,1.0,3.0,41.0,9.0,660.1,6.0,193.2,5.0,0.0,5.0,99.5
@@ -4258,8 +3924,6 @@ Alexander Nübel,J17,Stuttgart,German Bundesliga,de GER,28-107,90,3.0,1.0,2.0,0.
 Péter Gulácsi,J17,RB Leipzig,German Bundesliga,hu HUN,34-254,90,6.0,2.0,4.0,2.2,0.2,False,1.0,4.0,21.0,6.0,619.5,6.0,111.0,13.0,0.0,2.0,57.0
 Michael Zetterer,J17,Werder Bremen,German Bundesliga,de GER,29-187,90,5.0,3.0,2.0,2.0,-1.0,False,3.0,11.0,33.0,5.0,1052.7,4.0,101.2,16.0,2.0,0.0,0.0
 Kevin Müller,J17,Heidenheim,German Bundesliga,de GER,33-306,90,5.0,3.0,2.0,1.8,-1.2,False,8.0,17.0,33.0,3.0,1287.0,6.0,244.8,10.0,1.0,0.0,0.0
-Manuel Neuer,J17,Bayern Munich,German Bundesliga,de GER,38-294,90,2.0,0.0,2.0,0.5,0.5,True,8.0,8.0,36.0,3.0,982.8,5.0,167.0,6.0,0.0,1.0,17.5
-Oliver Baumann,J17,Hoffenheim,German Bundesliga,de GER,34-227,90,10.0,5.0,5.0,5.6,0.6,False,5.0,17.0,34.0,8.0,1237.6,2.0,104.0,23.0,0.0,0.0,0.0
 Kevin Trapp,J18,Eint Frankfurt,German Bundesliga,de GER,34-193,90,3.0,0.0,3.0,0.2,0.2,True,1.0,20.0,37.0,6.0,1409.7,4.0,123.2,30.0,5.0,0.0,0.0
 Gregor Kobel,J18,Dortmund,German Bundesliga,ch SUI,27-042,90,5.0,2.0,3.0,2.3,0.3,False,2.0,10.0,29.0,6.0,846.8,2.0,98.0,6.0,1.0,1.0,12.3
 Marco Carnesecchi,J9,Atalanta,Italian Serie A,it ITA,24-117,90,2.0,1.0,1.0,0.7,-0.3,False,0.0,6.0,27.0,5.0,766.8,5.0,132.0,6.0,1.0,2.0,23.8
@@ -4280,8 +3944,6 @@ Alexander Schwolow,J18,Union Berlin,German Bundesliga,de GER,32-231,90,1.0,1.0,0
 Robin Zentner,J18,Mainz 05,German Bundesliga,de GER,30-083,90,4.0,2.0,2.0,1.7,-0.3,False,1.0,13.0,46.0,6.0,1416.8,3.0,98.1,12.0,1.0,6.0,133.2
 Michael Zetterer,J18,Werder Bremen,German Bundesliga,de GER,29-191,90,4.0,2.0,2.0,0.8,-1.2,False,2.0,3.0,22.0,4.0,506.0,3.0,29.1,7.0,0.0,1.0,24.0
 Finn Dahmen,J18,Augsburg,German Bundesliga,de GER,26-298,90,2.0,0.0,2.0,0.2,0.2,True,7.0,25.0,21.0,1.0,913.5,13.0,842.4,37.0,0.0,2.0,31.2
-Kamil Grabara,J19,Wolfsburg,German Bundesliga,pl POL,26-016,90,2.0,2.0,0.0,1.1,-0.9,False,0.0,3.0,30.0,1.0,702.0,1.0,25.0,9.0,0.0,2.0,45.4
-Timon Weiner,J19,Holstein Kiel,German Bundesliga,de GER,26-006,90,5.0,2.0,3.0,1.2,-0.8,False,2.0,8.0,20.0,3.0,614.0,9.0,353.7,34.0,1.0,1.0,10.3
 Robin Zentner,J19,Mainz 05,German Bundesliga,de GER,30-089,90,4.0,0.0,4.0,0.5,0.5,True,10.0,30.0,39.0,2.0,1817.4,4.0,298.0,11.0,1.0,6.0,106.8
 Alexander Nübel,J19,Stuttgart,German Bundesliga,de GER,28-117,90,4.0,2.0,2.0,1.4,-0.6,False,6.0,20.0,34.0,2.0,1258.0,5.0,76.0,14.0,2.0,3.0,40.5
 Zion Suzuki,J9,Parma,Italian Serie A,jp JPN,22-067,90,1.0,1.0,1.0,0.0,-1.0,False,0.0,6.0,37.0,9.0,1010.1,4.0,130.0,8.0,1.0,2.0,28.8
@@ -4310,8 +3972,6 @@ Ivan Provedel,J9,Lazio,Italian Serie A,it ITA,30-224,90,2.0,0.0,2.0,0.1,0.1,True
 Nicola Leali,J9,Genoa,Italian Serie A,it ITA,31-253,90,4.0,3.0,1.0,2.8,-0.2,False,7.0,11.0,34.0,4.0,860.2,9.0,361.8,20.0,0.0,0.0,0.0
 Kevin Müller,J20,Heidenheim,German Bundesliga,de GER,33-323,90,5.0,2.0,3.0,2.6,0.6,False,5.0,10.0,25.0,2.0,880.0,7.0,174.3,13.0,1.0,0.0,0.0
 Gregor Kobel,J20,Dortmund,German Bundesliga,ch SUI,27-057,90,5.0,1.0,4.0,1.6,0.6,False,8.0,18.0,39.0,4.0,1349.4,5.0,239.0,14.0,2.0,2.0,30.4
-Alexander Nübel,J20,Stuttgart,German Bundesliga,de GER,28-124,90,6.0,2.0,4.0,2.0,0.0,False,2.0,4.0,25.0,6.0,630.0,2.0,15.0,6.0,1.0,2.0,35.6
-Moritz Nicolas,J20,Gladbach,German Bundesliga,de GER,27-103,90,3.0,1.0,3.0,0.5,-0.5,False,9.0,17.0,46.0,4.0,1600.8,1.0,59.0,18.0,2.0,0.0,0.0
 Manuel Neuer,J20,Bayern Munich,German Bundesliga,de GER,38-311,90,5.0,3.0,2.0,2.3,-0.7,False,4.0,8.0,30.0,3.0,951.0,3.0,153.9,3.0,1.0,2.0,41.4
 Timon Weiner,J20,Holstein Kiel,German Bundesliga,de GER,26-014,90,11.0,4.0,7.0,5.5,1.5,False,14.0,26.0,35.0,7.0,1242.5,10.0,580.0,16.0,2.0,0.0,0.0
 Frederik Rønnow,J20,Union Berlin,German Bundesliga,dk DEN,32-181,90,2.0,0.0,2.0,0.2,0.2,True,6.0,12.0,27.0,9.0,907.2,3.0,180.0,17.0,0.0,0.0,0.0
@@ -4321,16 +3981,12 @@ Kamil Grabara,J20,Wolfsburg,German Bundesliga,pl POL,26-025,65,2.0,0.0,2.0,1.0,0
 Marius Müller,J20,Wolfsburg,German Bundesliga,de GER,31-205,25,2.0,1.0,1.0,0.9,-0.1,False,8.0,14.0,6.0,0.0,331.8,9.0,525.6,11.0,1.0,0.0,0.0
 Lukáš Hrádecký,J20,Leverkusen,German Bundesliga,fi FIN,35-070,90,7.0,1.0,6.0,2.0,1.0,False,8.0,17.0,24.0,3.0,880.8,12.0,627.6,14.0,0.0,0.0,0.0
 Luca Philipp,J20,Hoffenheim,German Bundesliga,de GER,24-066,90,5.0,3.0,2.0,2.1,-0.9,False,2.0,12.0,22.0,5.0,858.0,5.0,158.0,10.0,0.0,0.0,0.0
-Manuel Neuer,J21,Bayern Munich,German Bundesliga,de GER,38-317,90,0.0,0.0,0.0,0.0,0.0,True,6.0,9.0,38.0,1.0,1010.8,0.0,0.0,3.0,0.0,4.0,90.0
-Michael Zetterer,J21,Werder Bremen,German Bundesliga,de GER,29-210,90,12.0,3.0,9.0,4.6,1.6,False,7.0,13.0,43.0,5.0,1281.4,5.0,218.0,14.0,0.0,0.0,0.0
 Marius Müller,J21,Wolfsburg,German Bundesliga,de GER,31-211,90,1.0,0.0,1.0,0.5,0.5,True,5.0,13.0,35.0,4.0,1211.0,3.0,171.0,27.0,2.0,1.0,12.0
 Lukáš Hrádecký,J21,Leverkusen,German Bundesliga,fi FIN,35-076,90,8.0,0.0,8.0,1.0,1.0,True,5.0,9.0,29.0,6.0,864.2,2.0,90.0,11.0,0.0,2.0,30.2
 Luca Philipp,J21,Hoffenheim,German Bundesliga,de GER,24-072,90,7.0,4.0,3.0,2.2,-1.8,False,7.0,17.0,30.0,5.0,1023.0,6.0,189.0,7.0,1.0,0.0,0.0
 Frederik Rønnow,J21,Union Berlin,German Bundesliga,dk DEN,32-188,90,4.0,0.0,4.0,0.5,0.5,True,8.0,18.0,28.0,3.0,991.2,6.0,396.0,28.0,2.0,0.0,0.0
 Gregor Kobel,J21,Dortmund,German Bundesliga,ch SUI,27-064,90,2.0,2.0,1.0,0.3,-1.7,False,2.0,6.0,27.0,1.0,818.1,1.0,11.0,8.0,0.0,2.0,40.6
 Alexander Nübel,J21,Stuttgart,German Bundesliga,de GER,28-131,90,5.0,1.0,4.0,1.2,0.2,False,5.0,21.0,22.0,2.0,972.4,10.0,512.0,19.0,0.0,0.0,0.0
-Stefano Turati,J9,Monza,Italian Serie A,it ITA,23-052,90,2.0,2.0,0.0,1.0,-1.0,False,10.0,21.0,27.0,0.0,1212.3,3.0,218.1,13.0,0.0,1.0,22.5
-Filip Stankovic,J9,Venezia,Italian Serie A,rs SRB,22-245,90,2.0,2.0,0.0,0.5,-1.5,False,5.0,13.0,34.0,3.0,1060.8,6.0,243.0,17.0,2.0,1.0,11.5
 Noah Atubolu,J21,Freiburg,German Bundesliga,de GER,22-259,90,5.0,0.0,5.0,0.8,0.8,True,8.0,17.0,43.0,0.0,1505.0,4.0,248.0,16.0,0.0,0.0,0.0
 Kevin Müller,J21,Heidenheim,German Bundesliga,de GER,33-330,90,3.0,1.0,2.0,1.4,0.4,False,2.0,12.0,38.0,6.0,1185.6,3.0,93.0,13.0,2.0,0.0,0.0
 Robin Zentner,J21,Mainz 05,German Bundesliga,de GER,30-103,90,2.0,0.0,2.0,0.6,0.6,True,6.0,27.0,41.0,6.0,1619.5,9.0,380.7,9.0,1.0,1.0,13.6
@@ -4341,11 +3997,6 @@ Timon Weiner,J21,Holstein Kiel,German Bundesliga,de GER,26-022,90,4.0,2.0,2.0,1.
 Patrick Drewes,J21,Bochum,German Bundesliga,de GER,32-005,90,3.0,2.0,1.0,2.0,0.0,False,5.0,16.0,28.0,3.0,949.2,7.0,396.9,11.0,1.0,2.0,29.0
 Péter Gulácsi,J21,RB Leipzig,German Bundesliga,hu HUN,34-279,90,3.0,0.0,3.0,0.5,0.5,True,1.0,9.0,20.0,5.0,602.0,3.0,158.1,16.0,2.0,1.0,11.8
 Nikola Vasilj,J21,St. Pauli,German Bundesliga,ba BIH,29-069,90,5.0,2.0,3.0,2.2,0.2,False,3.0,7.0,37.0,5.0,1021.2,3.0,93.0,8.0,1.0,2.0,37.0
-Finn Dahmen,J22,Augsburg,German Bundesliga,de GER,26-324,90,4.0,0.0,4.0,0.8,0.8,True,11.0,18.0,32.0,2.0,1200.0,3.0,201.0,22.0,0.0,0.0,0.0
-Péter Gulácsi,J22,RB Leipzig,German Bundesliga,hu HUN,34-284,90,2.0,0.0,2.0,0.4,0.4,True,3.0,5.0,31.0,4.0,765.7,9.0,210.6,18.0,0.0,1.0,13.7
-Frederik Rønnow,J22,Union Berlin,German Bundesliga,dk DEN,32-195,90,5.0,2.0,3.0,2.4,0.4,False,0.0,3.0,23.0,2.0,512.9,4.0,106.0,11.0,1.0,4.0,82.4
-Moritz Nicolas,J22,Gladbach,German Bundesliga,de GER,27-117,19,1.0,0.0,1.0,0.2,0.0,False,0.0,0.0,7.0,1.0,144.2,1.0,24.0,2.0,0.0,0.0,0.0
-Jonas Omlin,J22,Gladbach,German Bundesliga,ch SUI,31-036,71,2.0,1.0,1.0,1.6,0.6,False,5.0,20.0,32.0,2.0,1094.4,9.0,555.3,19.0,0.0,1.0,24.0
 Alexander Nübel,J22,Stuttgart,German Bundesliga,de GER,28-138,90,3.0,2.0,1.0,1.8,-0.2,False,5.0,9.0,26.0,1.0,894.4,0.0,0.0,12.0,0.0,3.0,78.9
 Marius Müller,J22,Wolfsburg,German Bundesliga,de GER,31-218,90,4.0,1.0,3.0,1.3,0.3,False,6.0,22.0,43.0,5.0,1573.8,5.0,299.0,12.0,1.0,0.0,0.0
 Timo Horn,J22,Bochum,German Bundesliga,de GER,31-279,90,2.0,0.0,2.0,0.7,0.7,True,13.0,33.0,27.0,2.0,1320.3,14.0,854.0,29.0,2.0,2.0,26.4
@@ -4399,8 +4050,6 @@ Kevin Trapp,J24,Eint Frankfurt,German Bundesliga,de GER,34-236,90,9.0,4.0,5.0,3.
 Lukáš Hrádecký,J24,Leverkusen,German Bundesliga,fi FIN,35-097,90,3.0,1.0,2.0,1.2,0.2,False,12.0,20.0,38.0,3.0,1390.8,3.0,189.0,2.0,0.0,1.0,40.5
 Wladimiro Falcone,J1,Lecce,Italian Serie A,it ITA,29-129,90,6.0,4.0,2.0,2.4,-1.6,False,4.0,10.0,24.0,4.0,828.0,2.0,63.0,9.0,0.0,1.0,16.0
 Juan Musso,J1,Atalanta,Italian Serie A,ar ARG,30-105,90,4.0,0.0,4.0,0.7,0.7,True,4.0,20.0,19.0,4.0,628.9,14.0,796.6,15.0,0.0,1.0,17.5
-Wladimiro Falcone,J10,Lecce,Italian Serie A,it ITA,29-200,90,1.0,0.0,1.0,0.0,0.0,True,2.0,5.0,24.0,4.0,573.6,7.0,156.1,6.0,0.0,0.0,0.0
-Simone Perilli,J10,Hellas Verona,Italian Serie A,it ITA,29-296,90,6.0,1.0,5.0,2.0,1.0,False,3.0,16.0,17.0,2.0,829.6,6.0,373.2,18.0,1.0,3.0,66.9
 Frederik Rønnow,J24,Union Berlin,German Bundesliga,dk DEN,32-210,90,3.0,1.0,2.0,0.6,-0.4,False,5.0,15.0,24.0,5.0,928.8,7.0,303.1,10.0,0.0,1.0,27.0
 Timon Weiner,J24,Holstein Kiel,German Bundesliga,de GER,26-043,90,3.0,0.0,3.0,0.8,0.8,True,7.0,29.0,41.0,6.0,1652.3,12.0,564.0,35.0,1.0,0.0,0.0
 Finn Dahmen,J24,Augsburg,German Bundesliga,de GER,26-340,90,3.0,0.0,3.0,0.7,0.7,True,9.0,15.0,55.0,7.0,1628.0,3.0,36.0,9.0,0.0,0.0,0.0
@@ -4425,15 +4074,9 @@ Simone Scuffet,J10,Cagliari,Italian Serie A,it ITA,28-151,90,4.0,2.0,2.0,1.2,-0.
 Łukasz Skorupski,J10,Bologna,Italian Serie A,pl POL,33-177,90,2.0,0.0,2.0,0.4,0.4,True,7.0,17.0,38.0,3.0,1200.8,3.0,213.9,13.0,1.0,0.0,0.0
 Oliver Baumann,J25,Hoffenheim,German Bundesliga,de GER,34-280,90,5.0,1.0,4.0,1.6,0.6,False,9.0,18.0,25.0,6.0,865.0,9.0,514.8,12.0,0.0,0.0,0.0
 Kevin Müller,J25,Heidenheim,German Bundesliga,de GER,33-359,90,3.0,1.0,2.0,0.1,-0.9,False,4.0,14.0,26.0,4.0,899.6,11.0,497.2,22.0,0.0,0.0,0.0
-Nikola Vasilj,J26,St. Pauli,German Bundesliga,ba BIH,29-102,90,0.0,0.0,0.0,0.0,0.0,True,9.0,22.0,45.0,1.0,1597.5,1.0,54.0,16.0,1.0,0.0,0.0
-Oliver Baumann,J26,Hoffenheim,German Bundesliga,de GER,34-285,90,5.0,1.0,4.0,1.4,0.4,False,6.0,17.0,36.0,2.0,1144.8,4.0,235.2,16.0,1.0,0.0,0.0
-Finn Dahmen,J26,Augsburg,German Bundesliga,de GER,26-353,90,2.0,0.0,2.0,0.2,0.2,True,11.0,22.0,32.0,2.0,1225.6,10.0,586.0,16.0,0.0,2.0,36.6
-Kamil Grabara,J26,Wolfsburg,German Bundesliga,pl POL,26-066,90,2.0,1.0,1.0,0.4,-0.6,False,4.0,12.0,40.0,8.0,1128.0,2.0,90.0,9.0,1.0,0.0,0.0
 Michael Zetterer,J26,Werder Bremen,German Bundesliga,de GER,29-246,90,7.0,4.0,3.0,2.6,-1.4,False,2.0,12.0,29.0,7.0,928.0,3.0,156.9,11.0,1.0,1.0,12.7
 Jonas Omlin,J26,Gladbach,German Bundesliga,ch SUI,31-064,71,2.0,2.0,0.0,1.2,-0.8,False,2.0,11.0,31.0,2.0,976.5,6.0,214.2,16.0,0.0,2.0,53.4
 Tiago Cardoso,J26,Gladbach,German Bundesliga,lu LUX,18-342,19,0.0,0.0,0.0,0.0,0.0,True,4.0,9.0,6.0,0.0,244.8,6.0,379.2,7.0,0.0,0.0,0.0
-Frederik Rønnow,J26,Union Berlin,German Bundesliga,dk DEN,32-223,90,4.0,1.0,3.0,1.5,0.5,False,12.0,26.0,19.0,1.0,927.2,13.0,819.0,35.0,3.0,0.0,0.0
-Jonas Urbig,J26,Bayern Munich,German Bundesliga,de GER,21-219,90,3.0,1.0,2.0,1.1,0.1,False,1.0,5.0,38.0,5.0,999.4,3.0,78.9,9.0,0.0,1.0,13.4
 Robin Zentner,J26,Mainz 05,German Bundesliga,de GER,30-138,90,8.0,2.0,6.0,3.0,1.0,False,12.0,29.0,34.0,3.0,1635.4,9.0,470.7,31.0,1.0,0.0,0.0
 Noah Atubolu,J26,Freiburg,German Bundesliga,de GER,22-294,90,4.0,2.0,2.0,1.8,-0.2,False,4.0,13.0,29.0,3.0,957.0,7.0,282.1,9.0,3.0,0.0,0.0
 Péter Gulácsi,J26,RB Leipzig,German Bundesliga,hu HUN,34-313,90,9.0,0.0,9.0,2.6,2.6,True,6.0,19.0,25.0,6.0,1075.0,11.0,468.6,26.0,1.0,2.0,23.2
@@ -4465,8 +4108,6 @@ Florian Müller,J27,Freiburg,German Bundesliga,de GER,27-137,33,1.0,0.0,1.0,0.0,
 Frederik Rønnow,J27,Union Berlin,German Bundesliga,dk DEN,32-238,90,3.0,1.0,2.0,1.4,0.4,False,11.0,29.0,24.0,2.0,837.6,18.0,1114.2,28.0,1.0,0.0,0.0
 Gregor Kobel,J27,Dortmund,German Bundesliga,ch SUI,27-114,90,2.0,1.0,1.0,0.4,-0.6,False,7.0,27.0,37.0,7.0,1528.1,6.0,379.8,17.0,2.0,2.0,25.4
 Robin Zentner,J27,Mainz 05,German Bundesliga,de GER,30-153,90,7.0,3.0,4.0,3.0,0.0,False,5.0,14.0,32.0,6.0,1107.2,4.0,291.2,13.0,0.0,4.0,66.4
-Finn Dahmen,J28,Augsburg,German Bundesliga,de GER,27-008,90,7.0,3.0,5.0,1.8,-1.2,False,9.0,23.0,41.0,3.0,1594.9,7.0,370.3,14.0,1.0,0.0,0.0
-Jonas Urbig,J28,Bayern Munich,German Bundesliga,de GER,21-239,90,3.0,1.0,2.0,0.4,-0.6,False,4.0,11.0,39.0,5.0,1150.5,4.0,135.2,6.0,0.0,3.0,53.4
 Filip Stankovic,J10,Venezia,Italian Serie A,rs SRB,22-248,90,5.0,2.0,3.0,1.1,-0.9,False,1.0,7.0,20.0,3.0,580.0,8.0,227.2,13.0,0.0,0.0,0.0
 Maduka Okoye,J10,Udinese,Italian Serie A,ng NGA,25-063,90,7.0,3.0,4.0,3.6,0.6,False,7.0,23.0,32.0,1.0,1276.8,5.0,332.0,10.0,0.0,1.0,17.0
 Florian Müller,J28,Freiburg,German Bundesliga,de GER,27-143,90,7.0,4.0,3.0,3.7,-0.3,False,9.0,16.0,36.0,4.0,1101.6,9.0,482.4,9.0,3.0,1.0,10.9
@@ -4487,10 +4128,6 @@ Frederik Rønnow,J28,Union Berlin,German Bundesliga,dk DEN,32-245,90,3.0,0.0,3.0
 Kamil Grabara,J28,Wolfsburg,German Bundesliga,pl POL,26-088,90,3.0,1.0,2.0,0.9,-0.1,False,9.0,14.0,37.0,12.0,1128.5,10.0,484.0,20.0,2.0,1.0,13.4
 Kamil Grabara,J29,Wolfsburg,German Bundesliga,pl POL,26-093,90,5.0,3.0,2.0,1.8,-1.2,False,6.0,17.0,38.0,2.0,1390.8,6.0,276.0,9.0,0.0,1.0,13.8
 Péter Gulácsi,J29,RB Leipzig,German Bundesliga,hu HUN,34-340,90,6.0,2.0,4.0,1.6,-0.4,False,7.0,18.0,33.0,5.0,1207.8,9.0,378.0,24.0,2.0,0.0,0.0
-Tiago Cardoso,J29,Gladbach,German Bundesliga,lu LUX,19-005,90,7.0,2.0,5.0,2.1,0.1,False,1.0,6.0,42.0,4.0,1113.0,1.0,64.0,16.0,2.0,0.0,0.0
-Florian Müller,J29,Freiburg,German Bundesliga,de GER,27-150,90,1.0,1.0,1.0,0.1,-0.9,False,7.0,19.0,40.0,5.0,1228.0,7.0,473.9,13.0,2.0,2.0,26.8
-Devis Vásquez,J10,Empoli,Italian Serie A,co COL,26-171,90,5.0,3.0,2.0,2.1,-0.9,False,2.0,18.0,26.0,3.0,1084.2,7.0,305.2,19.0,0.0,0.0,0.0
-Yann Sommer,J10,Inter,Italian Serie A,ch SUI,35-318,90,1.0,0.0,1.0,0.1,0.1,True,0.0,0.0,22.0,2.0,488.4,2.0,43.0,4.0,0.0,1.0,20.0
 Timo Horn,J29,Bochum,German Bundesliga,de GER,31-335,90,4.0,2.0,2.0,1.0,-1.0,False,6.0,15.0,22.0,0.0,891.0,4.0,225.2,14.0,1.0,0.0,0.0
 Finn Dahmen,J29,Augsburg,German Bundesliga,de GER,27-016,90,9.0,1.0,8.0,1.7,0.7,False,7.0,19.0,25.0,1.0,822.5,12.0,616.8,20.0,0.0,2.0,40.0
 Lukáš Hrádecký,J29,Leverkusen,German Bundesliga,fi FIN,35-139,90,3.0,0.0,3.0,0.7,0.7,True,0.0,1.0,22.0,8.0,547.8,3.0,96.0,7.0,0.0,3.0,68.1
@@ -4512,8 +4149,6 @@ Kamil Grabara,J30,Wolfsburg,German Bundesliga,pl POL,26-101,90,7.0,2.0,5.0,2.5,0
 Péter Gulácsi,J30,RB Leipzig,German Bundesliga,hu HUN,34-348,66,2.0,1.0,1.0,0.7,-0.3,False,0.0,5.0,15.0,4.0,355.5,8.0,343.2,8.0,2.0,2.0,29.8
 Maarten Vandevoordt,J30,RB Leipzig,German Bundesliga,be BEL,23-052,24,1.0,0.0,1.0,0.1,0.1,True,1.0,3.0,11.0,3.0,338.8,0.0,0.0,6.0,1.0,0.0,0.0
 Thomas Dähne,J30,Holstein Kiel,German Bundesliga,de GER,31-105,90,4.0,1.0,3.0,1.6,0.6,False,5.0,21.0,33.0,10.0,1207.8,10.0,579.0,15.0,5.0,1.0,10.4
-Marco Carnesecchi,J10,Atalanta,Italian Serie A,it ITA,24-121,90,3.0,0.0,3.0,0.1,0.1,True,6.0,13.0,25.0,2.0,930.0,3.0,161.1,5.0,0.0,2.0,31.6
-Stefano Turati,J10,Monza,Italian Serie A,it ITA,23-055,90,5.0,2.0,3.0,1.3,-0.7,False,7.0,21.0,41.0,1.0,1627.7,4.0,131.2,14.0,0.0,1.0,15.3
 Florian Müller,J30,Freiburg,German Bundesliga,de GER,27-157,90,6.0,2.0,4.0,1.5,-0.5,False,8.0,22.0,21.0,0.0,961.8,9.0,657.0,14.0,0.0,1.0,10.3
 Oliver Baumann,J30,Hoffenheim,German Bundesliga,de GER,34-321,90,6.0,3.0,3.0,2.0,-1.0,False,4.0,13.0,33.0,4.0,1105.5,3.0,135.0,9.0,0.0,0.0,0.0
 Michael Zetterer,J30,Werder Bremen,German Bundesliga,de GER,29-281,90,1.0,0.0,1.0,0.2,0.2,True,4.0,16.0,37.0,7.0,1309.8,3.0,144.9,17.0,1.0,3.0,56.4
@@ -4563,12 +4198,8 @@ Nicola Leali,J10,Genoa,Italian Serie A,it ITA,31-257,90,4.0,1.0,3.0,0.9,-0.1,Fal
 David de Gea,J10,Fiorentina,Italian Serie A,es ESP,33-359,90,4.0,0.0,4.0,1.7,1.7,True,6.0,14.0,26.0,5.0,933.4,9.0,344.7,18.0,0.0,1.0,17.0
 Gregor Kobel,J32,Dortmund,German Bundesliga,ch SUI,27-148,90,2.0,0.0,2.0,0.2,0.2,True,5.0,7.0,19.0,1.0,590.9,7.0,258.3,14.0,0.0,4.0,98.8
 Kamil Grabara,J32,Wolfsburg,German Bundesliga,pl POL,26-115,90,5.0,4.0,1.0,2.5,-1.5,False,4.0,12.0,30.0,3.0,975.0,5.0,254.0,12.0,0.0,0.0,0.0
-Finn Dahmen,J32,Augsburg,German Bundesliga,de GER,27-038,90,4.0,3.0,1.0,1.9,-1.1,False,3.0,7.0,29.0,4.0,899.0,3.0,74.1,3.0,0.0,1.0,15.7
-Thomas Dähne,J32,Holstein Kiel,German Bundesliga,de GER,31-120,90,10.0,1.0,9.0,3.0,2.0,False,4.0,11.0,22.0,6.0,664.4,12.0,525.6,34.0,1.0,0.0,0.0
 Florian Müller,J32,Freiburg,German Bundesliga,de GER,27-172,90,2.0,2.0,0.0,0.3,-1.7,False,7.0,31.0,29.0,1.0,1481.9,7.0,380.1,12.0,0.0,2.0,42.6
 Matej Kovar,J32,Leverkusen,German Bundesliga,cz CZE,24-352,90,3.0,2.0,2.0,0.3,-1.7,False,0.0,1.0,21.0,4.0,428.4,2.0,20.0,9.0,0.0,0.0,0.0
-Lasse Rieß,J32,Mainz 05,German Bundesliga,de GER,23-281,90,2.0,1.0,1.0,0.6,-0.4,False,7.0,22.0,38.0,1.0,1493.4,6.0,319.2,6.0,0.0,4.0,84.0
-Kevin Trapp,J32,Eint Frankfurt,German Bundesliga,de GER,34-300,90,3.0,1.0,2.0,1.2,0.2,False,9.0,26.0,38.0,2.0,1725.2,2.0,120.0,24.0,1.0,2.0,23.6
 Kamil Grabara,J33,Wolfsburg,German Bundesliga,pl POL,26-121,90,7.0,2.0,5.0,1.2,-0.8,False,4.0,16.0,41.0,10.0,1467.8,6.0,247.8,18.0,0.0,5.0,84.0
 Oliver Baumann,J33,Hoffenheim,German Bundesliga,de GER,34-341,90,5.0,2.0,4.0,1.6,-0.4,False,8.0,20.0,27.0,3.0,1233.9,3.0,186.0,16.0,0.0,1.0,14.5
 Timo Horn,J33,Bochum,German Bundesliga,de GER,31-363,90,7.0,4.0,3.0,3.3,-0.7,False,11.0,28.0,23.0,2.0,1076.4,11.0,723.8,13.0,0.0,2.0,28.6

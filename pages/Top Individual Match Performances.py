@@ -50,9 +50,8 @@ def get_opponent_score(row):
 
 # ------------------------- Streamlit App -------------------------
 st.set_page_config(page_title="Top Individual Match Performances")
-st.title("📈 Top Individual Match Performances")
-st.markdown("""
-Explore the **top Individual Match Performances** across all leagues and positions.
+st.title("Top Individual Match Performances")
+st.markdown("""Explore the **top Individual Match Performances** across all leagues and positions.
 
 - Start by selecting a **season** and one or several **positions**.
 - Then choose a **statistic** (e.g. assists, interceptions, saves) to rank players by.

@@ -97,7 +97,7 @@ def plot_radar(players_data, features, players):
 st.set_page_config(page_title="Individual Player Performances")
 st.sidebar.title("Select Parameters")
 
-st.title("⚽ Individual Player Performances")
+st.title("Individual Player Performances")
 st.markdown("""This page allows you to explore individual player performances from various leagues.  
 
 - Select one or more players from the **Big 5 Leagues, UCL, UEL, or UECL** to view detailed stats, including a **percentile radar chart** based on their position and **average match rating**.  

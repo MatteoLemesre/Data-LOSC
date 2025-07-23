@@ -85,9 +85,7 @@ df_avg = df_filtered.groupby(["Player", "Position"], as_index=False)["Rating"].m
 
 df_avg = enrich_with_team_and_league(df_avg, df_all, selected_leagues, all_leagues)
 
-df_minutes = pd.read_csv(agg_players_path)
-df_minutes_gk = pd.read_csv(agg_goalkeepers_path)
-df_minutes_total = pd.concat([df_minutes, df_minutes_gk], ignore_index=True)
+df_minutes_total = pd.read_csv(agg_players_path)
 
 if not all_leagues:
     df_minutes_total = df_minutes_total[df_minutes_total["League"].isin(selected_leagues)]
@@ -104,7 +102,7 @@ df_avg["Average Rating"] = df_avg["Average Rating"].round(2)
 df_top = df_avg.sort_values(by="Average Rating", ascending=False).head(top_n)
 df_top.set_index("Player", inplace=True)
 
-st.title("📊 Top-Performing Players")
+st.title("Top-Performing Players")
 st.markdown("""
 This page displays the **top-performing players** based on their average match ratings.
 

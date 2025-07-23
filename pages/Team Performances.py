@@ -42,7 +42,7 @@ def plot_team_radar(df, features, selected_teams):
 
 # ------------------------- Streamlit App -------------------------
 st.set_page_config(page_title="Team Performances")
-st.title("🏟️ Team Performances")
+st.title("Team Performances")
 st.markdown("""This page allows you to explore **team-level performances** from various leagues.  
 
 - Select one or more teams from the **Big 5 Leagues, UCL, UEL, or UECL** to view detailed stats, including a **percentile radar chart**.  

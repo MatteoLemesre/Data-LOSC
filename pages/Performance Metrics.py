@@ -24,16 +24,15 @@ st.markdown("""This page lets you explore **performance indices** across various
 # ---------------- Sidebar progressive filters ----------------
 st.sidebar.title("Select Parameters")
 
-selected_season = st.sidebar.selectbox("Season", ["2025 2026", "2024 2025", "2023 2024"], index=1)
+selected_season = st.sidebar.selectbox("Season", ["2025-2026", "2024-2025", "2023-2024"], index=1)
 
-if not selected_season:
-    st.stop()
-
-season_code = {
-    "2023 2024": "23_24",
-    "2024 2025": "24_25",
-    "2025 2026": "25_26"
-}[selected_season]
+season = None
+if selected_season == "2023-2024":
+    season_code = "23_24"
+elif selected_season == "2024-2025":
+    season_code = "24_25"
+elif selected_season == "2025-2026":
+    season_code = "25_26"
 
 league_group = st.sidebar.multiselect("League Group", ["Big 5 + UCL + UEL + UECL", "Others Leagues"])
 if not league_group:
@@ -81,11 +80,14 @@ if not stat:
 
 n = st.sidebar.slider("Number of top players to display", 5, 100, 30)
 min_minutes = st.sidebar.slider("Minimum minutes played", 0, 4000, 2000)
+age_max = st.sidebar.slider("Maximum age", 0, 50, 50)
 
 df_filtered = df_all[(df_all["Position"].isin(positions)) & (df_all[stat].notna())].copy()
 df_filtered = df_filtered[df_filtered["Minutes Played"] >= min_minutes]
+df_filtered["Age"] = df_filtered["Age"].astype(str).str.split("-").str[0].astype(int)
+df_filtered = df_filtered[df_filtered["Age"] <= age_max]
 
-df_grouped = df_filtered[["Player", stat, "Minutes Played"]].copy()
+df_grouped = df_filtered[["Player", stat, "Minutes Played", "Age"]].copy()
 
 if not df_notes.empty:
     df_rating = df_notes.groupby("Player", as_index=False)["Rating"].mean().rename(columns={"Rating": "Average Rating"})
@@ -110,7 +112,7 @@ else:
 
 df_final = df_final.sort_values(by=stat, ascending=False).head(n)
 
-columns_to_display = ["Player", stat, "Minutes Played"]
+columns_to_display = ["Player", "Age", stat, "Minutes Played"]
 if "Average Rating" in df_final.columns:
     columns_to_display.append("Average Rating")
 if "Team" in df_final.columns:

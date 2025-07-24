@@ -5,29 +5,35 @@ import os
 # ------------------------- Functions -------------------------
 def get_player_stats():
     return [
-        "Goals", "Assists", "Shots Total", "Shots on Target",
-        "Expected Goals (xG)",
-        "Shot-Creating Actions (SCA)", "Goal-Creating Actions (GCA)",
-        "Key Passes", "Passes into Final Third", "Passes into Penalty Area",
-        "Crosses into Penalty Area", "Crosses", "Expected Assists (xA)",
-        "Passes Completed", 
-        "Progressive Passes", "Through Balls", "Switches", 
-        "Passes Completed (Short)", 
-        "Passes Completed (Medium)", "Passes Completed (Long)",
-        "Carries", "Progressive Carries", "Carries into Final Third",
-        "Carries into Penalty Area", "Successful Take-Ons", 
-        "Tackles Won", "Dribblers Tackled", "Interceptions", 
-        "Clearances",
-        "Touches", "Touches in Defensive Penalty Area", "Touches in Defensive Third",
-        "Touches in Middle Third", "Touches in Attacking Third",
-        "Touches in Attacking Penalty Area",
-        "Fouls Drawn", "Offsides", "Aerials Won"
+        "Goals", "Shots on Target", 
+        "Penalties Scored",
+        "Key Passes", "Actions created", "Actions in the Penalty Area",
+        "Expected Assisted Goals (xA)", 
+        "Passes Completed (Total)", 
+        "Passes Completed (Short)",  
+        "Passes Completed (Medium)", 
+        "Passes Completed (Long)",
+        "Passes into Final Third", "Passes into Penalty Area", 
+        "Crosses into Penalty Area", "Progressive Passes", 
+        "Progressive Passes Received",
+        "Progressive Carries", "Progressive Runs",
+        "Carries into Final Third", "Carries into Penalty Area",
+        "Successful Take-Ons", "Tackles Won", "Tackles Defensive Third", 
+        "Challenges Tackled", 
+        "Interceptions", "Clearances", "Blocks", 
+        "Errors", "Touches", "Touches Attacking Third", 
+        "Touches Attacking Penalty Area",
+        "Fouls Committed", "Fouls Drawn", "Penalties Won", 
+        "Penalties Conceded", "Own Goals", 
+        "Aerial Duels Won"
     ]
 
 def get_goalkeeper_stats():
     return [
-        "Goals Against", "Saves", "Save Efficiency", "Completed Long Passes",
-        "Crosses Stopped", "Defensive Actions Outside Penalty Area"
+        "Goals Against", "Saves", "Penalties Winner",
+        "Launched Passes Completed", "Completed Long Passes", 
+        "Through Balls", "Crosses Stopped", 
+        "Sweeper Actions", "Defensive Actions Outside Penalty Area",
     ]
 
 def get_opponent_score(row):
@@ -61,14 +67,14 @@ st.markdown("""Explore the **top Individual Match Performances** across all leag
 
 st.sidebar.title("Select Parameters")
 
-selected_season = st.sidebar.selectbox("Season", ["2025 2026", "2024 2025", "2023 2024"], index=1)
+selected_season = st.sidebar.selectbox("Season", ["2025-2026", "2024-2025", "2023-2024"], index=1)
 
 season = None
-if selected_season == "2023 2024":
+if selected_season == "2023-2024":
     season_code = "23_24"
-elif selected_season == "2024 2025":
+elif selected_season == "2024-2025":
     season_code = "24_25"
-elif selected_season == "2025 2026":
+elif selected_season == "2025-2026":
     season_code = "25_26"
 
 path_folder = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "csv", f"csv{season_code}"))
@@ -106,13 +112,14 @@ if set(positions) == {"GK"}:
 else:
     stats_list = get_player_stats()
     df = df[df["Position"].isin(positions)]
-
-stat = st.sidebar.selectbox("Statistic to display", sorted(stats_list))
-top_n = st.sidebar.slider("Number of top performances to display", 5, 100, 30)
-
+    
 leagues = sorted(df["League"].dropna().unique())
 all_leagues = st.sidebar.checkbox("All leagues", value=True)
 selected_leagues = leagues if all_leagues else [st.sidebar.selectbox("Choose a league", leagues)]
+
+stat = st.sidebar.selectbox("Statistic to display", sorted(stats_list))
+top_n = st.sidebar.slider("Number of top performances to display", 5, 100, 30)
+age_max = st.sidebar.slider("Maximum age", 0, 50, 50)
 
 df = df[df["League"].isin(selected_leagues)]
 if stat and stat in df.columns:
@@ -129,11 +136,16 @@ if positions and stat and selected_leagues:
     df[["Opponent", "Score"]] = df.apply(get_opponent_score, axis=1)
 
     df = df[df[stat].notna() & df["Score"].notna()]
-
-    df_top = df.sort_values(by=stat, ascending=False).head(top_n)
-
+    
+    df_top = df.copy()
+    
+    df_top["Age"] = df_top["Age"].astype(str).str.split("-").str[0].astype(int)
+    df_top = df_top[df_top["Age"] <= age_max]
+    
+    df_top = df_top.sort_values(by=stat, ascending=False).head(top_n)
+    
     df_display = df_top[[
-        "Player", stat, "Rating", "Minutes", "Score", "Team", "Opponent",
+        "Player", "Age", stat, "Rating", "Minutes", "Score", "Team", "Opponent",
         "League", "Game Week"
     ]].rename(columns={
         stat: stat,

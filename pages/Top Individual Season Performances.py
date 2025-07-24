@@ -5,31 +5,28 @@ import os
 # ----------------------- Stats ------------------------
 def get_player_stats():
     return [
-        "Goals", "Expected Goals (xG)", "Shots", "Shots on Target", 
-        "Penalties Scored", "Penalties Attempted",
+        "Goals", "Shots on Target", 
+        "Penalties Scored",
         "Key Passes", "Actions created", "Actions in the Penalty Area",
         "Expected Assisted Goals (xA)", 
-        "Passes Completed (Total)", "Passes Attempted (Total)",
-        "Passes Completed (Short)", "Passes Attempted (Short)", 
-        "Passes Completed (Medium)", "Passes Attempted (Medium)",
-        "Passes Completed (Long)", "Passes Attempted (Long)", 
+        "Passes Completed (Total)", 
+        "Passes Completed (Short)",  
+        "Passes Completed (Medium)", 
+        "Passes Completed (Long)",
         "Passes into Final Third", "Passes into Penalty Area", 
         "Crosses into Penalty Area", "Progressive Passes", 
-        "Progressive Passes Received", "Passes Received",
-        "Carries", "Progressive Carries", "Progressive Runs",
+        "Progressive Passes Received",
+        "Progressive Carries", "Progressive Runs",
         "Carries into Final Third", "Carries into Penalty Area",
-        "Successful Take-Ons", "Take-Ons Attempted",
-        "Tackles", "Tackles Won", "Tackles Defensive Third", 
-        "Tackles Middle Third", "Tackles Attacking Third", 
-        "Challenges Tackled", "Challenges Attempted", "Challenges Lost", 
+        "Successful Take-Ons", "Tackles Won", "Tackles Defensive Third", 
+        "Challenges Tackled", 
         "Interceptions", "Clearances", "Blocks", 
-        "Errors", "Touches", "Touches Defensive Penalty Area", "Touches Defensive Third", 
-        "Touches Middle Third", "Touches Attacking Third", 
-        "Touches Attacking Penalty Area", "Live-Ball Touches",
+        "Errors", "Touches", "Touches Attacking Third", 
+        "Touches Attacking Penalty Area",
         "Yellow Cards", "Red Cards", "Second Yellow Cards",
         "Fouls Committed", "Fouls Drawn", "Penalties Won", 
         "Penalties Conceded", "Own Goals", 
-        "Aerial Duels Won", "Aerial Duels Lost", "Total Aerial Duels", 
+        "Aerial Duels Won", "Total Aerial Duels", 
         "Total Duels won", "Ball Recoveries", "Ball Losses", 
         "Efficiency", "Progressive Actions (Total)",
         "% Aerial Duels", "% Passes (Total)", "% Passes (Short)",
@@ -39,9 +36,7 @@ def get_player_stats():
 
 def get_goalkeeper_stats():
     return [
-        "Goals Against", "Saves", 
-        "Post-Shot Expected Goals (PSxG)", "Clean Sheets", "Penalties Winner",
-        "Passes Attempted (GK)", "Launched Passes Attempted", 
+        "Goals Against", "Saves", "Clean Sheets", "Penalties Winner" 
         "Launched Passes Completed", "Completed Long Passes", 
         "Through Balls", "Crosses Stopped", 
         "Sweeper Actions", "Defensive Actions Outside Penalty Area",
@@ -66,14 +61,14 @@ st.markdown("""Explore the **top Individual Season Performances** across all lea
 
 st.sidebar.title("Select Parameters")
 
-selected_season = st.sidebar.selectbox("Season", ["2025 2026", "2024 2025", "2023 2024"], index=1)
+selected_season = st.sidebar.selectbox("Season", ["2025-2026", "2024-2025", "2023-2024"], index=1)
 
 season = None
-if selected_season == "2023 2024":
+if selected_season == "2023-2024":
     season_code = "23_24"
-elif selected_season == "2024 2025":
+elif selected_season == "2024-2025":
     season_code = "24_25"
-elif selected_season == "2025 2026":
+elif selected_season == "2025-2026":
     season_code = "25_26"
 
 league_group = st.sidebar.multiselect("League Group", ["Big 5 + UCL + UEL + UECL", "Others Leagues"])
@@ -128,19 +123,22 @@ if not positions:
 is_only_gk = set(positions) == {"GK"}
 stats_list = get_goalkeeper_stats() if is_only_gk else get_player_stats()
 stat = st.sidebar.selectbox("Statistic to display", sorted(stats_list))
-
 n = st.sidebar.slider("Number of top players to display", 5, 100, 30)
 min_minutes = st.sidebar.slider("Minimum minutes played", 0, 4000, 2000)
+age_max = st.sidebar.slider("Maximum age", 0, 50, 50)  
 
 df_filtered = df_all[(df_all["Position"].isin(positions)) & (df_all[stat].notna())].copy()
+df_top = df_filtered.copy()
+df_top["Age"] = df_top["Age"].astype(str).str.split("-").str[0].astype(int)
+df_top = df_top[df_top["Age"] <= age_max]
 
 if not per_90:
-    df_filtered = df_filtered[df_filtered["Minutes Played"] >= min_minutes]
-    df_grouped = df_filtered.groupby("Player", as_index=False).agg({stat: "sum", "Minutes Played": "sum"})
+    df_top = df_top[df_top["Minutes Played"] >= min_minutes]
+    df_grouped = df_top.groupby("Player", as_index=False).agg({stat: "sum", "Minutes Played": "sum", "Age": "first"})
     df_grouped[stat] = round(df_grouped[stat], 2)
 else:
-    df_filtered["RawStat"] = df_filtered[stat] * df_filtered["Minutes Played"] / 90
-    df_grouped = df_filtered.groupby("Player", as_index=False).agg({
+    df_top["RawStat"] = df_top[stat]
+    df_grouped = df_top.groupby("Player", as_index=False).agg({
         "RawStat": "sum", "Minutes Played": "sum"
     })
     df_grouped[stat] = round((df_grouped["RawStat"] / df_grouped["Minutes Played"]) * 90, 2)
@@ -155,9 +153,10 @@ if not df_notes.empty:
     df_rating["Average Rating"] = df_rating["Average Rating"].round(2)
     df_club = df_notes.groupby("Player")["Team"].agg(lambda x: ", ".join(sorted(set(x)))).reset_index()
     df_league = df_notes.groupby("Player")["League"].agg(lambda x: ", ".join(sorted(set(x)))).reset_index()
-    df_final = df_grouped.merge(df_rating, on="Player", how="left") \
-                     .merge(df_club, on="Player", how="left") \
-                     .merge(df_league, on="Player", how="left")
+    df_total = df_grouped.merge(df_rating, on="Player", how="left") \
+                            .merge(df_club, on="Player", how="left") \
+                            .merge(df_all, on="Player", how="left") \
+                            .merge(df_league, on="Player", how="left")
 else:
     df_rating = pd.DataFrame(columns=["Player", "Average Rating"])
     df_aggregated_players = pd.read_csv(paths["aggregated_players"])
@@ -165,20 +164,25 @@ else:
     df_aggregated_gk["Position"] = "GK"
     df_aggregated_all = pd.concat([df_aggregated_players, df_aggregated_gk], ignore_index=True)
     df_club = df_aggregated_all[["Player", "Team"]].drop_duplicates()
-    df_final = df_grouped.merge(df_rating, on="Player", how="left") \
-                     .merge(df_club, on="Player", how="left")
-
-df_final = df_final.sort_values(by=stat, ascending=False).head(n)
+    df_total = df_grouped.merge(df_rating, on="Player", how="left") \
+                            .merge(df_club, on="Player", how="left") \
+                            .merge(df_all, on="Player", how="left")
+                        
+cols_x = [col for col in df_total.columns if col.endswith('_x')]
+rename_dict = {col: col.replace('_x', '') for col in cols_x}
+df_total = df_total.rename(columns=rename_dict)
+df_total = df_total.drop(columns=[col for col in df_total.columns if '_y' in col or '_x' in col], errors='ignore')
+df_total = df_total.sort_values(by=stat, ascending=False).head(n)
 
 # ----------------------- Display ------------------------
 
 if leagues_name == "TopLeagues":
-    df_display = df_final.rename(columns={
+    df_display = df_total.rename(columns={
         "Team": "Team(s)", "League": "League(s)", "Minutes": "Minutes Played"
-    })[["Player", stat, "Average Rating", "Minutes Played", "Team(s)", "League(s)"]]
+    })[["Player", "Age", stat, "Average Rating", "Minutes Played", "Team(s)", "League(s)"]]
 else:
-    df_display = df_final.rename(columns={
+    df_display = df_total.rename(columns={
         "Team": "Team(s)", "Minutes": "Minutes Played"
-    })[["Player", stat, "Minutes Played", "Team(s)"]]
+    })[["Player", "Age", stat, "Minutes Played", "Team(s)"]]
 
 st.dataframe(df_display.set_index("Player"), use_container_width=True)

@@ -50,14 +50,14 @@ st.markdown("""This page allows you to explore **team-level performances** from 
 """)
 
 st.sidebar.title("Select Parameters")
-selected_season = st.sidebar.selectbox("Season", ["2025 2026", "2024 2025", "2023 2024"], index=1)
+selected_season = st.sidebar.selectbox("Season", ["2025-2026", "2024-2025", "2023-2024"], index=1)
 
 season = None
-if selected_season == "2023 2024":
+if selected_season == "2023-2024":
     season_code = "23_24"
-elif selected_season == "2024 2025":
+elif selected_season == "2024-2025":
     season_code = "24_25"
-elif selected_season == "2025 2026":
+elif selected_season == "2025-2026":
     season_code = "25_26"
     
 path_folder = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "csv", f"csv{season_code}"))
@@ -85,7 +85,7 @@ if leagues_name:
 
     if selected_teams:
         st.subheader("📋 Global Team Stats")
-        basic_cols = ['Team', 'Matches Played', 'Goals', 'Goals Against', 'Clean Sheets', 'Yellow Cards', 'Red Cards']
+        basic_cols = ['Team', 'Average Age', 'Matches Played', 'Goals', 'Goals Against', 'Clean Sheets', 'Yellow Cards', 'Red Cards']
         df_global = df_agg[df_agg['Team'].isin(selected_teams)].copy()
         st.dataframe(df_global[basic_cols].set_index("Team").round(2), use_container_width=True)
 

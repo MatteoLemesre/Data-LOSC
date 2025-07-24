@@ -117,14 +117,14 @@ st.markdown("""This page allows you to explore individual player performances fr
 - You can also choose players from **Other Leagues** such as the Argentine Primera, Brazilian Série A, Dutch Eredivisie, MLS, Portuguese Primeira Liga, Copa Libertadores, English Championship, Italian Serie B, Liga MX, and Belgian Pro League. For players from these other leagues, only the performance stats will be shown — **no match rating is available**.
 """)
 
-selected_season = st.sidebar.selectbox("Season", ["2025 2026", "2024 2025", "2023 2024"], index=1)
+selected_season = st.sidebar.selectbox("Season", ["2025-2026", "2024-2025", "2023-2024"], index=1)
 
 season = None
-if selected_season == "2023 2024":
+if selected_season == "2023-2024":
     season_code = "23_24"
-elif selected_season == "2024 2025":
+elif selected_season == "2024-2025":
     season_code = "24_25"
-elif selected_season == "2025 2026":
+elif selected_season == "2025-2026":
     season_code = "25_26"
 
 if season_code:
@@ -174,9 +174,9 @@ if season_code:
                     df_global = df_global.merge(df_averages, on='Player', how='left')
 
                     if 'GK' in positions:
-                        columns = ['Player', 'Average Rating', 'Matches Played', 'Minutes Played', 'Goals Against', 'Clean Sheets', 'Team(s)', 'League(s)']
+                        columns = ['Player', 'Age', 'Average Rating', 'Matches Played', 'Minutes Played', 'Goals Against', 'Clean Sheets', 'Team(s)', 'League(s)']
                     else:
-                        columns = ['Player', 'Average Rating', 'Matches Played', 'Minutes Played', 'Goals', 'Assists', 'Yellow Cards', 'Red Cards', 'Team(s)', 'League(s)']
+                        columns = ['Player', 'Age', 'Average Rating', 'Matches Played', 'Minutes Played', 'Goals', 'Assists', 'Yellow Cards', 'Red Cards', 'Team(s)', 'League(s)']
 
                     st.subheader("📋 Global Player Statistics")
                     df_display = df_global[columns].set_index('Player').sort_values('Average Rating', ascending=False).round(2)
@@ -185,10 +185,11 @@ if season_code:
                     df_global_agg = df_global.groupby('Player', as_index=False).sum()
 
                     if 'GK' in positions:
-                        columns = ['Player', 'Matches Played', 'Minutes Played', 'Goals Against', 'Clean Sheets', 'Team']
+                        columns = ['Player', 'Age', 'Matches Played', 'Minutes Played', 'Goals Against', 'Clean Sheets', 'Team']
                     else:
-                        columns = ['Player', 'Matches Played', 'Minutes Played', 'Goals', 'Assists', 'Yellow Cards', 'Red Cards', 'Team']
+                        columns = ['Player', 'Age', 'Matches Played', 'Minutes Played', 'Goals', 'Assists', 'Yellow Cards', 'Red Cards', 'Team']
 
+                    df_global_agg["Age"] = df_global_agg["Age"].astype(str).str.split("-").str[0].astype(int)
                     df_display = df_global_agg[columns].set_index('Player').round(2)
                     df_display = df_display.rename(columns={"Team": "Team(s)"})
                     st.dataframe(df_display, use_container_width=True)

@@ -75,6 +75,7 @@ top_n = st.sidebar.slider("Number of players to display", 5, 100, 30)
 min_matches = st.sidebar.slider("Minimum matches played", 1, 50, 25)
 
 df_all = new_poste(df_all)
+
 df_filtered = df_all[
     (df_all["League"].isin(selected_leagues)) &
     (df_all["Game Week"].isin(selected_matchdays)) &
@@ -85,19 +86,20 @@ df_avg = df_filtered.groupby(["Player", "Position"], as_index=False)["Rating"].m
 
 df_avg = enrich_with_team_and_league(df_avg, df_all, selected_leagues, all_leagues)
 
-df_minutes_total = pd.read_csv(agg_players_path)
-
-if not all_leagues:
-    df_minutes_total = df_minutes_total[df_minutes_total["League"].isin(selected_leagues)]
-
-df_minutes_total = df_minutes_total.groupby("Player", as_index=False)[["Minutes Played", "Matches Played"]].sum()
+df_minutes_total = (
+    df_filtered
+    .groupby("Player", as_index=False)
+    .agg(
+        **{
+            "Minutes Played": ("Minutes", "sum"),
+            "Matches Played": ("Minutes", "count")
+        }
+    )
+)
 
 df_avg = df_avg.merge(df_minutes_total, on="Player", how="left")
 
-df_avg = df_avg[
-    (df_avg["Matches Played"] >= min_matches) 
-]
-
+df_avg = df_avg[df_avg["Matches Played"] >= min_matches]
 df_avg["Average Rating"] = df_avg["Average Rating"].round(2)
 df_top = df_avg.sort_values(by="Average Rating", ascending=False).head(top_n)
 df_top.set_index("Player", inplace=True)

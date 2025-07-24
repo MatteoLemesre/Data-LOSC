@@ -62,7 +62,7 @@ elif selected_season == "2025 2026":
     
 path_folder = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "csv", f"csv{season_code}"))
 
-selected_leagues = st.sidebar.multiselect("Which Leagues", ["Big 5 + UCL + UEL + UECL", "Others Leagues"])
+selected_leagues = st.sidebar.multiselect("League Group", ["Big 5 + UCL + UEL + UECL", "Others Leagues"])
 leagues_name = "TopLeagues" if "Big 5 + UCL + UEL + UECL" in selected_leagues else "OthersLeagues" if "Others Leagues" in selected_leagues else None
 
 if leagues_name:

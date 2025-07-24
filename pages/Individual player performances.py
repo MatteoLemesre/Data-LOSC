@@ -31,7 +31,7 @@ def get_features_for_players(positions):
 def get_features_for_goalkeepers():
     return [
         'Clean Sheets', 'Crosses Stopped', 'Sweeper Actions', 'Saves',
-        'Goals Against', 'Efficiency', 'Penaltys Winner', '% Saves', '% Long Passes', 
+        'Goals Against', 'Efficiency', 'Penalties Winner', '% Saves', '% Long Passes', 
         '% Crosses Stopped'
     ]
 
@@ -52,6 +52,9 @@ def get_df(leagues_name, path_folder, positions):
         st.error(f"Data file for league '{leagues_name}' not found in folder '{path_folder}'. Please check your selections and data.")
         return pd.DataFrame()
     
+import os
+import pandas as pd
+
 def get_average_scores(positions, path_folder):
     if 'GK' in positions:
         path = os.path.join(path_folder, "ratings/data_goals.csv")
@@ -59,14 +62,24 @@ def get_average_scores(positions, path_folder):
         path = os.path.join(path_folder, "ratings/data_players.csv")
 
     df = pd.read_csv(path)
+    
     df = df.dropna(subset=['Rating', 'Minutes'])
     df['Rating'] = pd.to_numeric(df['Rating'], errors='coerce')
     df['Minutes'] = pd.to_numeric(df['Minutes'], errors='coerce')
     df = df[df['Minutes'] > 0]
 
-    avg = df.groupby('Player')['Rating'].mean().reset_index()
-    avg.rename(columns={'Rating': 'Average Rating'}, inplace=True)
-    return avg
+    df['WeightedRating'] = df['Rating'] * df['Minutes']
+    grouped = df.groupby('Player').agg({
+        'WeightedRating': 'sum',
+        'Minutes': 'sum',
+        'Team': lambda x: ', '.join(sorted(set(x))),
+        'League': lambda x: ', '.join(sorted(set(x)))
+    }).reset_index()
+
+    grouped['Average Rating'] = grouped['WeightedRating'] / grouped['Minutes']
+    grouped.rename(columns={'Team': 'Team(s)', 'League': 'League(s)'}, inplace=True)
+    return grouped[['Player', 'Average Rating', 'Team(s)', 'League(s)']]
+
 
 def plot_radar(players_data, features, players):
     if len(features) < 3:
@@ -121,7 +134,7 @@ if season_code:
     df_scores_goalkeepers = pd.read_csv(os.path.join(path_folder, "ratings/data_goals.csv"))
     df_scores = pd.concat([df_scores_players, df_scores_goalkeepers], ignore_index=True)
 
-    selected_leagues = st.sidebar.multiselect("Which Leagues", ["Big 5 + UCL + UEL + UECL", "Others Leagues"])
+    selected_leagues = st.sidebar.multiselect("League Group", ["Big 5 + UCL + UEL + UECL", "Others Leagues"])
     leagues_name = ""
 
     if selected_leagues:
@@ -161,9 +174,9 @@ if season_code:
                     df_global = df_global.merge(df_averages, on='Player', how='left')
 
                     if 'GK' in positions:
-                        columns = ['Player', 'Average Rating', 'Matches Played', 'Minutes Played', 'Goals Against', 'Clean Sheets']
+                        columns = ['Player', 'Average Rating', 'Matches Played', 'Minutes Played', 'Goals Against', 'Clean Sheets', 'Team(s)', 'League(s)']
                     else:
-                        columns = ['Player', 'Average Rating', 'Matches Played', 'Minutes Played', 'Goals', 'Assists', 'Yellow Cards', 'Red Cards']
+                        columns = ['Player', 'Average Rating', 'Matches Played', 'Minutes Played', 'Goals', 'Assists', 'Yellow Cards', 'Red Cards', 'Team(s)', 'League(s)']
 
                     st.subheader("📋 Global Player Statistics")
                     df_display = df_global[columns].set_index('Player').sort_values('Average Rating', ascending=False).round(2)
@@ -172,11 +185,12 @@ if season_code:
                     df_global_agg = df_global.groupby('Player', as_index=False).sum()
 
                     if 'GK' in positions:
-                        columns = ['Player', 'Matches Played', 'Minutes Played', 'Goals Against', 'Clean Sheets']
+                        columns = ['Player', 'Matches Played', 'Minutes Played', 'Goals Against', 'Clean Sheets', 'Team']
                     else:
-                        columns = ['Player', 'Matches Played', 'Minutes Played', 'Goals', 'Assists', 'Yellow Cards', 'Red Cards']
+                        columns = ['Player', 'Matches Played', 'Minutes Played', 'Goals', 'Assists', 'Yellow Cards', 'Red Cards', 'Team']
 
                     df_display = df_global_agg[columns].set_index('Player').round(2)
+                    df_display = df_display.rename(columns={"Team": "Team(s)"})
                     st.dataframe(df_display, use_container_width=True)
 
                 st.subheader("📌 Player Radar Statistics")
@@ -195,7 +209,7 @@ if season_code:
                         stats_percentiles = df_radar[df_radar["Player"] == player].copy()
 
                         common_stats = [col for col in stats_percentiles.columns if col in stats_absolute.columns and col not in ['Player', 'Position']]
-                        deleted_stats = ['Matches Played', 'Minutes Played', 'Age', 'Nation', 'Born', 'Squad', 'Team', 'Starts']
+                        deleted_stats = ['Matches Played', 'Minutes Played', 'Age', 'Nation', 'Born', 'Squad', 'Team(s)', 'Starts']
 
                         valid_stats = []
                         for stat in common_stats:

@@ -1,0 +1,334 @@
+Nation,Position,Team,Age,Born,Matches Played,Starts,Minutes Played,Line Index,Passes Index
+eng ENG,GK,Southampton,26,1998,30,30,2700,59,74
+es ESP,GK,Alavés,23,2000,2,1,122,49,69
+es ESP,GK,Betis,37,1987,26,26,2340,38,30
+es ESP,GK,Osasuna,33,1991,1,1,90,75,90
+fr FRA,GK,Nantes,25,1999,12,12,1080,44,44
+pl POL,GK,no Molde,21,2003,6,6,540,19,7
+it ITA,GK,Torino,31,1992,1,1,90,39,73
+kz KAZ,GK,kz Astana FK,30,1993,1,1,90,44,7
+ru RUS,GK,am FC Noah,20,2004,3,3,270,48,7
+al ALB,GK,Cagliari,26,1997,7,7,621,40,52
+eng ENG,GK,Southampton,34,1989,5,5,450,54,62
+it ITA,GK,Napoli,27,1997,34,34,3005,57,48
+es ESP,GK,Athletic Club,20,2003,5,3,321,46,72
+eng ENG,GK,Ipswich Town,27,1996,13,13,1170,44,66
+de GER,GK,Dortmund,33,1991,3,3,270,49,48
+de GER,GK,Stuttgart,27,1996,41,41,3690,41,59
+at AUT,GK,at RB Salzburg,28,1996,4,4,335,51,46
+de GER,GK,Union Berlin,32,1992,6,6,540,30,63
+cz CZE,GK,cz Slavia Prague,32,1992,2,2,180,65,58
+br BRA,GK,eng Liverpool,31,1992,34,34,3078,57,47
+fr FRA,GK,West Ham,31,1993,26,25,2260,43,72
+tr TUR,GK,eng Manchester Utd,26,1998,6,6,540,46,37
+xk KVX,GK,ch Lugano,24,2000,8,8,750,55,7
+ua UKR,GK,pt Benfica,22,2001,12,12,1080,53,35
+it ITA,GK,Monza,20,2004,1,0,8,24,97
+ua UKR,GK,Real Madrid,25,1999,9,9,810,50,46
+pt POR,GK,Valladolid,28,1996,6,6,540,40,63
+cm CMR,GK,Manchester Utd,28,1996,47,47,4260,49,48
+pt POR,GK,Nantes,33,1990,18,18,1563,47,56
+lu LUX,GK,be Union SG,34,1990,10,10,930,51,67
+es ESP,GK,Alavés,27,1996,32,32,2810,49,72
+cz CZE,GK,Tottenham,21,2003,12,12,1080,44,59
+xk KVX,GK,Ipswich Town,25,1998,18,18,1620,56,59
+es ESP,GK,Valladolid,21,2003,1,1,90,21,81
+es ESP,GK,Paris S-G,23,2001,1,1,90,54,47
+fr FRA,GK,Le Havre,30,1994,18,18,1620,49,45
+ar ARG,GK,Rayo Vallecano,28,1996,32,32,2880,64,65
+nl NED,GK,Brighton,21,2002,36,36,3240,41,44
+pl POL,GK,gr Panathinaikos,26,1997,7,7,630,49,7
+de GER,GK,St. Pauli,23,2000,2,1,91,35,78
+fr FRA,GK,Montpellier,33,1991,30,30,2700,53,67
+ch SUI,GK,Genoa,32,1992,2,2,152,62,62
+de GER,GK,Fulham,32,1992,38,38,3420,48,56
+eng ENG,GK,eng Tottenham,25,1999,3,3,270,44,46
+fr FRA,GK,Rennes,30,1994,32,32,2879,69,60
+cv CPV,GK,pt Vitória,29,1994,8,8,720,26,7
+ie IRL,GK,Liverpool,25,1998,14,14,1260,61,44
+eng ENG,GK,Ipswich Town,28,1995,7,7,630,44,74
+gr GRE,GK,Lazio,22,2001,18,18,1650,58,62
+be BEL,GK,be Anderlecht,31,1992,9,9,810,49,65
+wls WAL,GK,wls The New Saints,31,1992,6,6,540,53,7
+sct SCO,GK,sct Hearts,41,1982,6,6,540,32,7
+mk MKD,GK,ba Borac Banja Luka,29,1995,1,1,90,24,7
+es ESP,GK,Rayo Vallecano,27,1997,6,6,540,43,51
+eng ENG,GK,Wolves,31,1993,2,2,180,54,45
+il ISR,GK,Bayern Munich,24,2000,4,4,360,23,31
+jp JPN,GK,be Gent,32,1992,1,1,90,15,7
+it ITA,GK,Udinese,38,1985,1,1,90,62,35
+it ITA,GK,Genoa,27,1997,1,0,28,42,51
+ru RUS,GK,at Sturm Graz,20,2004,2,2,180,58,60
+hr CRO,GK,hr Dinamo Zagreb,37,1987,3,3,270,47,63
+wls WAL,GK,Leicester City,31,1993,2,1,135,29,76
+es ESP,GK,Arsenal,28,1995,51,51,4590,63,56
+es ESP,GK,Getafe,31,1993,38,38,3420,55,67
+es ESP,GK,Fiorentina,33,1990,39,39,3540,53,60
+ch SUI,GK,ch Young Boys,29,1994,4,4,360,44,64
+be BEL,GK,be Gent,30,1994,7,7,630,54,7
+eng ENG,GK,Crystal Palace,27,1997,38,38,3420,53,49
+0,GK,tr Başakşehir,19,2005,2,2,180,28,7
+co COL,GK,Empoli,26,1998,32,32,2880,47,55
+de GER,GK,dk FC Copenhagen,22,2001,4,4,390,38,7
+es ESP,GK,Villarreal,25,1998,22,22,1962,46,46
+cd COD,GK,Montpellier,26,1998,4,4,360,38,62
+hr CRO,GK,Las Palmas,25,1999,13,11,1085,53,72
+pt POR,GK,pt Porto,24,1999,10,10,900,38,66
+ua UKR,GK,ua Shakhtar,25,1999,8,8,720,70,75
+sk SVK,GK,Mallorca,27,1997,31,31,2790,47,70
+hr CRO,GK,gr PAOK,24,2000,10,10,900,52,49
+hr CRO,GK,tr Fenerbahçe,29,1995,6,6,540,61,72
+sk SVK,GK,sk Slovan Bratislava,25,1999,8,8,720,55,57
+gf GUF,GK,Auxerre,31,1992,32,32,2880,68,74
+hu HUN,GK,hu Ferencváros,35,1989,2,2,180,49,47
+hu HUN,GK,hu Ferencváros,33,1990,7,7,572,56,53
+ie IRL,GK,ie Shamrock Rov,24,1999,2,2,210,41,7
+br BRA,GK,Manchester City,30,1993,34,34,3040,46,48
+it ITA,GK,Napoli,22,2001,22,21,1945,52,78
+is ISL,GK,dk Midtjylland,24,2000,6,6,520,71,61
+id IDN,GK,Como,27,1997,8,8,720,30,34
+ar ARG,GK,Aston Villa,31,1992,49,49,4274,63,60
+tr TUR,GK,tr Beşiktaş,23,2001,3,3,270,63,48
+de GER,GK,de Stuttgart,29,1995,1,1,90,26,52
+br BRA,GK,cy AC Omonia,36,1988,7,7,630,54,7
+hr CRO,GK,az Qarabağ,27,1997,2,2,180,30,19
+cm CMR,GK,lv FK Rīgas FS,28,1995,8,8,720,45,46
+it ITA,GK,Bologna,24,1999,13,12,1146,39,57
+uy URU,GK,tr Galatasaray,38,1986,6,6,540,38,54
+dk DEN,GK,Chelsea,22,2002,18,18,1620,56,16
+rs SRB,GK,ba Borac Banja Luka,28,1996,9,9,840,58,7
+rs SRB,GK,Venezia,22,2002,16,16,1367,64,40
+de GER,GK,Augsburg,26,1998,19,19,1710,66,74
+de GER,GK,Freiburg,26,1997,9,8,753,32,69
+es ESP,GK,Real Madrid,19,2005,1,1,90,22,34
+es ESP,GK,Betis,25,1999,12,12,1110,35,17
+ng NGA,GK,cy AC Omonia,25,1998,1,1,90,39,7
+uy URU,GK,pt Sporting CP,24,2000,8,8,720,59,40
+de GER,GK,Heidenheim,20,2004,4,3,331,51,26
+eng ENG,GK,Tottenham,36,1988,11,11,990,58,41
+dk DEN,GK,Union Berlin,31,1992,28,28,2520,58,63
+by BLR,GK,by Dinamo Minsk,21,2003,6,6,540,43,7
+pl POL,GK,pl Legia Warsaw,22,2002,4,4,360,57,7
+fr FRA,GK,Rennes,31,1993,1,0,45,27,35
+fr FRA,GK,Saint-Étienne,27,1997,34,34,3060,59,53
+ar ARG,GK,Marseille,32,1992,34,34,3060,53,47
+it ITA,GK,Paris S-G,25,1999,39,39,3471,45,32
+ge GEO,GK,Valencia,23,2000,34,34,3060,54,51
+it ITA,GK,Cagliari,22,2002,1,0,9,27,8
+ch SUI,GK,Dortmund,26,1997,45,45,4050,46,49
+fr FRA,GK,Brest,25,1999,3,3,270,42,59
+it ITA,GK,Tottenham,27,1996,33,33,2970,55,38
+fr FRA,GK,Toulouse,19,2005,29,29,2543,43,33
+0,GK,tr Galatasaray,33,1991,4,4,360,56,52
+de GER,GK,bg Ludogorets,30,1994,4,4,360,75,83
+ua UKR,GK,ua Dynamo Kyiv,30,1994,5,5,450,56,65
+bf BFA,GK,Lens,27,1996,5,5,450,56,39
+is ISL,GK,Brentford,22,2001,2,1,145,44,86
+is ISL,GK,is KV,34,1989,8,8,720,48,7
+ro ROU,GK,Venezia,27,1997,15,15,1350,59,57
+se SWE,GK,se Elfsborg,27,1997,8,8,720,62,61
+rs SRB,GK,rs Red Star,22,2002,3,3,270,64,70
+hr CRO,GK,hr Dinamo Zagreb,26,1998,5,5,450,48,58
+it ITA,GK,Lazio,30,1994,32,32,2880,38,62
+hr CRO,GK,cy Pafos FC,29,1995,9,9,810,44,7
+es ESP,GK,Celta Vigo,27,1997,4,4,360,38,29
+es ESP,GK,Barcelona,25,1999,21,20,1846,42,40
+eng ENG,GK,sct Rangers,31,1993,10,10,930,38,67
+no NOR,GK,no Molde,27,1997,4,4,420,34,7
+se SWE,GK,se Djurgården,31,1993,9,8,765,32,7
+it ITA,GK,Empoli,19,2005,1,1,90,31,42
+pl POL,GK,Leicester City,23,2000,10,10,900,42,65
+si SVN,GK,Atlético Madrid,31,1993,46,46,4170,59,49
+de GER,GK,at RB Salzburg,33,1991,5,4,382,29,41
+eng ENG,GK,Brighton,33,1990,2,2,180,49,53
+nl NED,GK,Las Palmas,35,1989,27,27,2335,57,66
+nl NED,GK,nl Ajax,24,2000,1,0,67,16,58
+fr FRA,GK,Como,29,1995,19,18,1666,54,65
+nl NED,GK,nl AZ Alkmaar,33,1991,1,1,90,61,64
+fi FIN,GK,Venezia,31,1993,8,7,703,53,48
+gq EQG,GK,Alavés,23,2001,6,5,487,33,70
+se SWE,GK,se Malmö,17,2007,1,1,90,36,51
+es ESP,GK,Espanyol,23,2001,38,38,3420,69,66
+eng ENG,GK,Southampton,29,1995,3,3,270,48,67
+nl NED,GK,nl PSV Eindhoven,27,1996,1,1,90,33,77
+se SWE,GK,se Malmö,37,1986,3,3,225,39,30
+dk DEN,GK,dk Midtjylland,35,1989,5,4,380,53,81
+ch SUI,GK,Gladbach,30,1994,12,11,978,57,75
+de GER,GK,Bayern Munich,20,2003,12,11,1023,37,45
+eng ENG,GK,Everton,30,1994,38,38,3420,64,81
+es ESP,GK,Inter,26,1998,6,6,540,56,62
+hr CRO,GK,kz Astana FK,30,1993,3,3,270,59,7
+pt POR,GK,Wolves,31,1993,29,29,2609,50,44
+ar ARG,GK,Atalanta,30,1994,3,3,270,53,39
+es ESP,GK,Leganés,26,1997,6,6,540,54,61
+es ESP,GK,es Athletic Club,23,2000,27,27,2376,59,45
+nl NED,GK,nl Feyenoord,26,1998,2,2,125,75,66
+at AUT,GK,at LASK,34,1990,4,4,276,33,7
+pl POL,GK,pl Legia Warsaw,21,2002,4,4,390,62,7
+pl POL,GK,Wolfsburg,25,1999,29,29,2585,50,73
+ee EST,GK,Valladolid,22,2002,31,31,2790,46,69
+se SWE,GK,Strasbourg,34,1990,3,3,270,58,44
+dk DEN,GK,sct Celtic,37,1986,10,10,900,60,54
+br BRA,GK,Eint Frankfurt,21,2003,14,13,1215,76,58
+es ESP,GK,Bournemouth,29,1994,31,31,2790,57,55
+de GER,GK,Heidenheim,33,1991,38,38,3389,48,56
+de GER,GK,Eint Frankfurt,34,1990,33,33,2925,58,49
+nl NED,GK,at Sturm Graz,24,2000,6,6,540,55,54
+no NOR,GK,Toulouse,26,1998,6,5,498,34,34
+gr GRE,GK,gr Olympiacos,21,2002,10,10,897,70,58
+ua UKR,GK,Girona,19,2005,2,2,180,48,66
+de GER,GK,nl Twente,34,1990,9,9,760,61,52
+de GER,GK,Mainz 05,23,2001,2,2,180,53,70
+gh GHA,GK,ch St. Gallen,27,1996,6,6,540,43,7
+ar ARG,GK,Parma,34,1990,1,1,90,40,61
+es ESP,GK,Mallorca,24,2000,7,7,630,71,68
+sct SCO,GK,sct Rangers,28,1996,2,2,180,64,64
+it ITA,GK,Hellas Verona,28,1996,36,36,3240,46,58
+it ITA,GK,it Milan,19,2005,1,0,40,50,26
+si SVN,GK,si NK Celje,19,2004,2,2,180,38,7
+de GER,GK,Hoffenheim,23,2000,7,7,630,40,58
+fr FRA,GK,Lille,22,2001,44,44,3960,53,48
+br BRA,GK,Lyon,26,1997,44,44,3990,60,46
+br BRA,GK,Villarreal,23,2001,17,16,1458,60,54
+at AUT,GK,at LASK,20,2004,3,2,262,38,7
+cz CZE,GK,pt Braga,22,2002,4,3,291,62,47
+fi FIN,GK,Leverkusen,34,1989,33,33,2970,50,52
+cz CZE,GK,ro FCSB,30,1994,1,1,90,23,39
+de GER,GK,ie Shamrock Rov,27,1997,6,6,540,27,7
+be BEL,GK,RB Leipzig,22,2002,8,6,609,35,55
+dk DEN,GK,Leicester City,24,2000,27,27,2385,56,63
+dk DEN,GK,be Anderlecht,24,1999,1,1,90,22,55
+ng NGA,GK,Udinese,24,1999,25,25,2250,47,57
+se SWE,GK,se Djurgården,30,1993,2,2,165,43,7
+de GER,GK,Bayern Munich,38,1986,32,32,2802,46,61
+de GER,GK,Barcelona,32,1992,9,9,764,41,52
+pl POL,GK,Nice,24,1999,40,40,3600,65,53
+nl NED,GK,Brest,33,1991,41,41,3690,53,75
+it ITA,GK,Atalanta,24,2000,43,43,3870,54,50
+it ITA,GK,Empoli,33,1991,5,5,450,36,64
+it ITA,GK,Milan,32,1992,2,1,126,53,65
+de GER,GK,Wolfsburg,31,1993,6,5,475,62,83
+nl NED,GK,Brentford,31,1993,37,37,3275,59,76
+ie IRL,GK,Bournemouth,25,1999,5,5,450,62,74
+rs SRB,GK,Leganés,32,1992,32,32,2880,62,62
+rs SRB,GK,rs Red Star,26,1998,2,2,180,39,59
+sk SVK,GK,Newcastle Utd,35,1989,10,10,900,57,39
+cz CZE,GK,cz Viktoria Plzeň,26,1998,12,12,1080,66,59
+ch SUI,GK,ch Young Boys,22,2002,4,4,360,50,50
+cz CZE,GK,Leverkusen,24,2000,11,11,990,45,49
+pl POL,GK,az Qarabağ,24,2000,6,6,540,52,48
+si SVN,GK,si Olimpija,24,1999,8,8,720,60,7
+br BRA,GK,pt Braga,32,1992,6,6,517,49,49
+au AUS,GK,Lens,32,1992,14,14,1260,72,47
+fr FRA,GK,Le Havre,33,1990,16,16,1440,48,65
+si SVN,GK,si NK Celje,37,1987,4,4,360,30,7
+cz CZE,GK,cz Mladá Boleslav,25,1998,6,6,540,52,7
+it ITA,GK,Juventus,31,1992,8,7,661,80,46
+ru RUS,GK,Paris S-G,25,1999,12,11,1059,52,48
+be BEL,GK,Nott'ham Forest,32,1992,38,38,3420,56,61
+be BEL,GK,be Cercle Brugge,23,2001,7,6,599,46,7
+fr FRA,GK,fr Nice,31,1993,2,2,180,48,53
+fr FRA,GK,Angers,22,2002,1,1,90,37,38
+tr TUR,GK,tr Beşiktaş,35,1989,5,5,450,50,53
+de GER,GK,Werder Bremen,29,1995,34,34,3060,50,59
+it ITA,GK,Juventus,27,1997,41,41,3688,51,49
+fr FRA,GK,Milan,29,1995,47,47,4154,58,56
+rs SRB,GK,Roma,24,1999,50,50,4500,61,54
+de GER,GK,Gladbach,26,1997,19,19,1639,64,69
+tr TUR,GK,tr Başakşehir,27,1997,4,4,360,49,7
+kz KAZ,GK,kz Astana FK,25,1999,2,2,180,46,7
+eng ENG,GK,dk FC Copenhagen,25,1998,5,5,450,30,7
+hr CRO,GK,Augsburg,24,1999,15,15,1350,41,69
+cy CYP,GK,cy Pafos FC,30,1993,1,1,90,30,7
+br BRA,GK,Bournemouth,35,1989,3,3,270,66,57
+eng ENG,GK,Newcastle Utd,32,1992,28,28,2520,65,42
+it ITA,GK,Genoa,31,1993,29,29,2610,61,63
+ru RUS,GK,no Bodø/Glimt,29,1995,16,16,1500,66,67
+at AUT,GK,at Rapid Wien,23,2001,10,10,960,51,7
+ba BIH,GK,St. Pauli,28,1995,33,33,2969,61,60
+de GER,GK,Freiburg,22,2002,26,26,2307,64,75
+am ARM,GK,am FC Noah,34,1989,3,3,270,53,7
+de GER,GK,Hoffenheim,34,1990,35,35,3150,50,67
+il ISR,GK,rs Red Star,28,1996,3,3,270,27,49
+se SWE,GK,se Djurgården,33,1990,2,2,180,17,7
+de GER,GK,Bochum,31,1993,21,21,1890,44,83
+se SWE,GK,Nantes,32,1992,5,4,417,57,62
+es ESP,GK,Girona,29,1994,2,1,135,51,62
+ar ARG,GK,Girona,32,1992,43,43,3825,55,41
+es ESP,GK,Como,41,1982,12,12,1034,38,46
+dk DEN,GK,cz Sparta Prague,26,1998,8,8,720,52,66
+ch SUI,GK,Monaco,26,1998,21,21,1890,47,34
+it ITA,GK,Genoa,29,1995,7,7,630,42,60
+it ITA,GK,Fiorentina,34,1990,9,9,810,32,21
+pl POL,GK,nl Twente,37,1987,2,1,167,35,85
+hu HUN,GK,RB Leipzig,34,1990,36,36,3171,63,48
+pl POL,GK,Monaco,24,1999,23,23,2070,55,37
+ro ROU,GK,Udinese,22,2002,12,12,1080,55,41
+nl NED,GK,nl Ajax,40,1983,11,11,953,70,65
+br BRA,GK,se Malmö,31,1993,5,4,405,32,31
+pt POR,GK,si NK Celje,25,1999,6,6,570,35,7
+es ESP,GK,Chelsea,26,1997,33,33,2970,65,49
+se SWE,GK,Aston Villa,34,1990,4,1,226,54,73
+de GER,GK,Mainz 05,29,1994,32,32,2880,67,64
+il ISR,GK,il Maccabi Tel Aviv,31,1992,7,7,630,55,60
+sct SCO,GK,nir Larne FC,26,1997,6,6,540,45,7
+nl NED,GK,nl AZ Alkmaar,20,2004,11,11,990,49,46
+pt POR,GK,Atalanta,36,1988,4,4,360,58,58
+pt POR,GK,Betis,30,1994,17,17,1530,61,46
+ua UKR,GK,ua Dynamo Kyiv,22,2002,3,3,270,60,48
+fr FRA,GK,Lyon,28,1996,2,2,180,50,36
+eng ENG,GK,Wolves,31,1993,7,7,630,46,76
+it ITA,GK,Monza,22,2001,9,8,736,32,62
+es ESP,GK,Osasuna,31,1993,37,37,3330,61,74
+nl NED,GK,bg Ludogorets,34,1990,4,4,360,54,63
+md MDA,GK,md Petrocub,21,2002,6,6,540,38,7
+be BEL,GK,be Club Brugge,36,1988,12,12,1080,58,60
+hr CRO,GK,il Maccabi Tel Aviv,31,1993,1,1,90,32,58
+it ITA,GK,Hellas Verona,29,1995,2,2,180,64,43
+it ITA,GK,Napoli,28,1996,14,14,1260,38,64
+de GER,GK,Manchester City,31,1992,15,14,1280,46,46
+ro ROU,GK,ro FCSB,24,2000,11,11,990,54,61
+it ITA,GK,Monza,22,2001,30,30,2676,51,70
+fr FRA,GK,Rennes,39,1985,18,17,1486,44,46
+mk MKD,GK,Valencia,30,1993,4,4,360,37,56
+de GER,GK,Bayern Munich,35,1988,2,1,135,37,36
+pl POL,GK,pl Jagiellonia,20,2004,12,12,1080,45,7
+dk DEN,GK,dk FC Copenhagen,19,2005,1,1,90,39,7
+be BEL,GK,Real Madrid,32,1992,42,42,3810,62,39
+nl NED,GK,fi HJK,26,1998,6,6,540,47,7
+de GER,GK,Holstein Kiel,30,1994,9,9,810,61,77
+mq MTQ,GK,Auxerre,23,2001,2,2,180,65,44
+lu LUX,GK,Gladbach,18,2006,5,4,380,75,76
+de GER,GK,Bochum,31,1993,13,13,1170,38,77
+de GER,GK,Holstein Kiel,25,1999,25,25,2250,43,79
+de GER,GK,nl Feyenoord,28,1995,11,10,955,59,51
+de GER,GK,Gladbach,36,1988,1,0,59,21,84
+wls WAL,GK,Wolves,29,1995,1,0,1,24,34
+it ITA,GK,it Fiorentina,18,2006,1,1,90,49,7
+es ESP,GK,Real Sociedad,22,2001,5,5,450,65,35
+es ESP,GK,Athletic Club,27,1997,22,22,1980,63,58
+rs SRB,GK,Torino,27,1997,37,37,3330,73,78
+rs SRB,GK,rs TSC,21,2003,8,8,720,34,7
+es ESP,GK,Celta Vigo,37,1987,34,34,3060,40,39
+si SVN,GK,cy APOEL,34,1990,8,8,720,55,7
+cz CZE,GK,Liverpool,23,2001,1,0,12,66,98
+de GER,GK,de Heidenheim,33,1990,1,1,90,28,7
+ba BIH,GK,pl Legia Warsaw,26,1998,2,2,180,43,7
+ar ARG,GK,nl PSV Eindhoven,31,1993,11,11,1020,49,73
+br BRA,GK,be Cercle Brugge,27,1996,2,2,121,41,7
+it ITA,GK,Lecce,29,1995,38,38,3420,59,58
+pl POL,GK,Barcelona,34,1990,23,23,2100,49,35
+ci CIV,GK,Angers,23,2000,33,33,2970,65,59
+ch SUI,GK,Inter,35,1988,46,46,4170,62,56
+sn SEN,GK,Reims,24,1999,34,34,3060,69,61
+ru RUS,GK,gr Panathinaikos,34,1990,3,3,270,41,7
+jp JPN,GK,Parma,21,2002,36,36,3240,49,73
+hu HUN,GK,hu Ferencváros,25,1999,2,1,148,27,77
+es ESP,GK,Toulouse,26,1998,1,0,19,33,90
+es ESP,GK,Real Sociedad,29,1995,45,45,4050,54,60
+es ESP,GK,Sevilla,26,1998,9,8,747,43,58
+no NOR,GK,Sevilla,33,1990,30,30,2673,49,50
+rs SRB,GK,Strasbourg,24,1999,31,31,2790,75,54
+tr TUR,GK,tr Fenerbahçe,26,1998,6,6,570,74,64
+pl POL,GK,West Ham,39,1985,14,13,1160,57,72
+pl POL,GK,Bologna,33,1991,34,34,2994,51,59

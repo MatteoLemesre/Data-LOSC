@@ -40,7 +40,7 @@ def get_player_stats():
 def get_goalkeeper_stats():
     return [
         "Goals Against", "Saves", 
-        "Post-Shot Expected Goals (PSxG)", "Clean Sheets", "Penaltys Winner",
+        "Post-Shot Expected Goals (PSxG)", "Clean Sheets", "Penalties Winner",
         "Passes Attempted (GK)", "Launched Passes Attempted", 
         "Launched Passes Completed", "Completed Long Passes", 
         "Through Balls", "Crosses Stopped", 
@@ -76,8 +76,16 @@ elif selected_season == "2024 2025":
 elif selected_season == "2025 2026":
     season_code = "25_26"
 
-league_group = st.sidebar.selectbox("League Group", ["Big 5 + UCL + UEL + UECL", "Others Leagues"])
-leagues_name = "TopLeagues" if league_group == "Big 5 + UCL + UEL + UECL" else "OthersLeagues"
+league_group = st.sidebar.multiselect("League Group", ["Big 5 + UCL + UEL + UECL", "Others Leagues"])
+if not league_group:
+    st.stop()
+else:
+    if "Big 5 + UCL + UEL + UECL" in league_group:
+        leagues_name = "TopLeagues"
+    elif "Others Leagues" in league_group:
+        leagues_name = "OthersLeagues"
+    else:
+        st.stop()
 
 base_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "csv", f"csv{season_code}"))
 paths = {

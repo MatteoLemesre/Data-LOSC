@@ -80,7 +80,7 @@ if not stat:
 
 n = st.sidebar.slider("Number of top players to display", 5, 100, 30)
 min_minutes = st.sidebar.slider("Minimum minutes played", 0, 4000, 2000)
-age_max = st.sidebar.slider("Maximum age", 0, 50, 50)
+age_max = st.sidebar.slider("Maximum age", 15, 50, 50)
 
 df_filtered = df_all[(df_all["Position"].isin(positions)) & (df_all[stat].notna())].copy()
 df_filtered = df_filtered[df_filtered["Minutes Played"] >= min_minutes]

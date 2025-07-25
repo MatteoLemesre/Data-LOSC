@@ -122,7 +122,7 @@ selected_leagues = leagues if all_leagues else [st.sidebar.selectbox("Choose a l
 
 stat = st.sidebar.selectbox("Statistic to display", sorted(stats_list))
 top_n = st.sidebar.slider("Number of top performances to display", 5, 100, 30)
-age_max = st.sidebar.slider("Maximum age", 0, 50, 50)
+age_max = st.sidebar.slider("Maximum age", 15, 50, 50)
 
 df = df[df["League"].isin(selected_leagues)]
 if stat and stat in df.columns:

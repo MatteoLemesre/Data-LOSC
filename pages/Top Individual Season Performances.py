@@ -126,7 +126,7 @@ stats_list = get_goalkeeper_stats() if is_only_gk else get_player_stats()
 stat = st.sidebar.selectbox("Statistic to display", sorted(stats_list))
 n = st.sidebar.slider("Number of top players to display", 5, 100, 30)
 min_minutes = st.sidebar.slider("Minimum minutes played", 0, 4000, 2000)
-age_max = st.sidebar.slider("Maximum age", 0, 50, 50)  
+age_max = st.sidebar.slider("Maximum age", 15, 50, 50)  
 
 df_filtered = df_all[(df_all["Position"].isin(positions)) & (df_all[stat].notna())].copy()
 df_top = df_filtered.copy()

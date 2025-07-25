@@ -68,6 +68,7 @@ df_centiles_players = pd.read_csv(agg_players_path)
 df_centiles_gk = pd.read_csv(agg_goalkeepers_path)
 df_centiles_gk["Position"] = "GK"
 df_centiles = pd.concat([df_centiles_players, df_centiles_gk], ignore_index=True)
+df_centiles["Nation"] = df_centiles["Nation"].astype(str).str.split(" ").str[1]
 
 positions = sorted(df_all["Position"].unique())
 all_positions = st.sidebar.checkbox("All positions", value=True)
@@ -107,7 +108,22 @@ df_minutes_total = (
         }
     )
 )
-df_avg = df_avg.merge(df_minutes_total, on="Player", how="left")
+df_avg = df_avg.merge(
+    df_minutes_total.drop_duplicates(subset="Player"),
+    on="Player",
+    how="left"
+)
+
+df_avg = df_avg.merge(
+    df_centiles.drop_duplicates(subset="Player"),
+    on="Player",
+    how="left"
+)
+
+cols_x = [col for col in df_avg.columns if col.endswith('_x')]
+rename_dict = {col: col.replace('_x', '') for col in cols_x}
+df_avg = df_avg.rename(columns=rename_dict)
+df_avg = df_avg.drop(columns=[col for col in df_avg.columns if '_y' in col or '_x' in col], errors='ignore')
 
 df_avg = df_avg[(df_avg["Matches Played"] >= min_matches) & (df_avg["Age"] <= age_max)]
 df_avg["Average Rating"] = df_avg["Average Rating"].round(2)
@@ -125,10 +141,10 @@ This page displays the **top-performing players** based on their average match r
 """)
 
 if all_leagues or len(selected_leagues) > 1:
-    cols_to_display = ["Average Rating", "Age", "Matches Played", "Minutes Played", "Team", "League"]
+    cols_to_display = ["Average Rating", "Age", "Nation", "Matches Played", "Minutes Played", "Team", "League"]
     rename_cols = {"Team": "Team(s)", "League": "League(s)"}
 else:
-    cols_to_display = ["Average Rating", "Age", "Matches Played", "Minutes Played", "Team"]
+    cols_to_display = ["Average Rating", "Age", "Nation", "Matches Played", "Minutes Played", "Team"]
     rename_cols = {"Team": "Team(s)"}
 
 st.dataframe(

@@ -50,9 +50,9 @@ st.set_page_config(page_title="Top Individual Season Performances")
 st.title("Top Individual Season Performances")
 st.markdown("""Explore the **top Individual Season Performances** across all leagues and positions.
 
-- Start by selecting a **season** and one or several **positions**.
+- Start by selecting a **season** and one **position**.
 - Then choose a **statistic** (e.g. assists, interceptions, saves) to rank players by.
-- You can filter results by **minimum minutes played** and adjust whether stats are shown as **totals** or **per 90 minutes**.
+- You can filter results by **minimum minutes played** and by **age** and adjust whether stats are shown as **totals** or **per 90 minutes**.
 - You can also choose players from Other Leagues such as the Argentine Primera, Brazilian Série A, Dutch Eredivisie, MLS, Portuguese Primeira Liga, Copa Libertadores, English Championship, Italian Serie B, Liga MX, and Belgian Pro League.
 - **Note:** Percentage-based statistics are **only available on a per-90-minute basis**, which may lead to missing or inconsistent values when another option is selected.
 """)
@@ -106,6 +106,7 @@ else:
 df_gk["Position"] = "GK"
 df_all = pd.concat([df_players, df_gk], ignore_index=True)
 
+
 if leagues_name == "TopLeagues":
     df_notes = pd.concat([
         pd.read_csv(paths["ratings_players"]),
@@ -132,17 +133,16 @@ df_top = df_filtered.copy()
 df_top["Age"] = df_top["Age"].astype(str).str.split("-").str[0].astype(int)
 df_top = df_top[df_top["Age"] <= age_max]
 
-if not per_90:
-    df_top = df_top[df_top["Minutes Played"] >= min_minutes]
-    df_grouped = df_top.groupby("Player", as_index=False).agg({stat: "sum", "Minutes Played": "sum", "Age": "first"})
-    df_grouped[stat] = round(df_grouped[stat], 2)
-else:
-    df_top["RawStat"] = df_top[stat]
-    df_grouped = df_top.groupby("Player", as_index=False).agg({
-        "RawStat": "sum", "Minutes Played": "sum"
-    })
-    df_grouped[stat] = round((df_grouped["RawStat"] / df_grouped["Minutes Played"]) * 90, 2)
-    df_grouped.drop(columns=["RawStat"], inplace=True)
+df_top = df_top[df_top["Minutes Played"] >= min_minutes]
+df_grouped = df_top.groupby("Player", as_index=False).agg({stat: "sum", "Minutes Played": "sum", "Age": "first"})
+df_grouped[stat] = round(df_grouped[stat], 2)
+#else:
+#    df_top["RawStat"] = df_top[stat]
+#    df_grouped = df_top.groupby("Player", as_index=False).agg({
+#        "RawStat": "sum", "Minutes Played": "sum", "Age": "first"
+#    })
+#    df_grouped[stat] = round((df_grouped["RawStat"], 2)
+#    df_grouped.drop(columns=["RawStat"], inplace=True)
 
 df_grouped = df_grouped[df_grouped["Minutes Played"] >= min_minutes]
 
@@ -175,14 +175,23 @@ df_total = df_total.drop(columns=[col for col in df_total.columns if '_y' in col
 df_total = df_total.sort_values(by=stat, ascending=False).head(n)
 
 # ----------------------- Display ------------------------
+df_total = df_total.rename(columns={
+    "Team": "Team(s)",
+    "Minutes": "Minutes Played",
+    "League": "League(s)"
+})
 
 if leagues_name == "TopLeagues":
-    df_display = df_total.rename(columns={
-        "Team": "Team(s)", "League": "League(s)", "Minutes": "Minutes Played"
-    })[["Player", "Age", stat, "Average Rating", "Minutes Played", "Team(s)", "League(s)"]]
+    selected_columns = ["Player", stat, "Average Rating", "Age", "Nation", "Minutes Played", "Team(s)", "League(s)"]
 else:
-    df_display = df_total.rename(columns={
-        "Team": "Team(s)", "Minutes": "Minutes Played"
-    })[["Player", "Age", stat, "Minutes Played", "Team(s)"]]
+    selected_columns = ["Player", stat, "Age", "Nation", "Minutes Played", "Team(s)"]
+
+df_display = df_total[selected_columns].drop_duplicates()
+
+if ["GK"] in positions:
+     df_display["Minutes Played"] = df_display["Minutes Played"].astype(int)
+     
+df_display["Nation"] = df_display["Nation"].astype(str).str.split(" ").str[1]
 
 st.dataframe(df_display.set_index("Player"), use_container_width=True)
+

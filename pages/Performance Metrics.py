@@ -13,7 +13,7 @@ st.set_page_config(page_title="Performance Metrics")
 st.title("Performance Metrics")
 st.markdown("""This page lets you explore **performance indices** across various leagues, positions, and metrics.
 
-- You can filter by **league category**, **player position**, and **performance metric** to highlight the profiles you’re interested in.
+- You can filter by **league category**, **player position**, **age**, and **performance metric** to highlight the profiles you’re interested in.
 - The index values are shown on a **percentile scale** to allow fair comparisons across players.
 - The **indices are computed using a custom algorithm** that is regularly improved and updated based on new data.
 - These metrics aim to offer a consistent view of player performance, tailored to their role and playing time.
@@ -87,7 +87,7 @@ df_filtered = df_filtered[df_filtered["Minutes Played"] >= min_minutes]
 df_filtered["Age"] = df_filtered["Age"].astype(str).str.split("-").str[0].astype(int)
 df_filtered = df_filtered[df_filtered["Age"] <= age_max]
 
-df_grouped = df_filtered[["Player", stat, "Minutes Played", "Age"]].copy()
+df_grouped = df_filtered[["Player", stat, "Minutes Played", "Age", "Nation"]].copy()
 
 if not df_notes.empty:
     df_rating = df_notes.groupby("Player", as_index=False)["Rating"].mean().rename(columns={"Rating": "Average Rating"})
@@ -112,9 +112,9 @@ else:
 
 df_final = df_final.sort_values(by=stat, ascending=False).head(n)
 
-columns_to_display = ["Player", "Age", stat, "Minutes Played"]
+columns_to_display = ["Player", stat, "Age", "Nation", "Minutes Played"]
 if "Average Rating" in df_final.columns:
-    columns_to_display.append("Average Rating")
+    columns_to_display = ["Player", stat, "Average Rating", "Age", "Nation", "Minutes Played"]
 if "Team" in df_final.columns:
     df_final.rename(columns={"Team": "Team(s)"}, inplace=True)
     columns_to_display.append("Team(s)")
@@ -123,5 +123,6 @@ if "League" in df_final.columns:
     columns_to_display.append("League(s)")
 
 df_display = df_final[columns_to_display]
+df_display["Nation"] = df_display["Nation"].astype(str).str.split(" ").str[1]
 st.dataframe(df_display.set_index("Player"), use_container_width=True)
 

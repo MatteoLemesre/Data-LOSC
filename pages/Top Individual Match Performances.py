@@ -7,7 +7,7 @@ def get_player_stats():
     return [
         "Goals", "Shots on Target", 
         "Penalties Scored",
-        "Key Passes", "Actions created", "Actions in the Penalty Area",
+        "Key Passes", 
         "Expected Assisted Goals (xA)", 
         "Passes Completed (Total)", 
         "Passes Completed (Short)",  
@@ -25,7 +25,7 @@ def get_player_stats():
         "Touches Attacking Penalty Area",
         "Fouls Committed", "Fouls Drawn", "Penalties Won", 
         "Penalties Conceded", "Own Goals", 
-        "Aerial Duels Won"
+        "Aerials Won"
     ]
 
 def get_goalkeeper_stats():
@@ -59,9 +59,9 @@ st.set_page_config(page_title="Top Individual Match Performances")
 st.title("Top Individual Match Performances")
 st.markdown("""Explore the **top Individual Match Performances** across all leagues and positions.
 
-- Start by selecting a **season** and one or several **positions**.
+- Start by selecting a **season** and a **position**.
 - Then choose a **statistic** (e.g. assists, interceptions, saves) to rank players by.
-- You can filter by **league** and display the **top N performances** based on that stat.
+- You can filter by **league** and **age**. Then you can display the **top N performances** based on that stat.
 - The table shows each player's value for the selected stat, their **rating**, **minutes played**, **opponent**, and **match score**.
 """)
 
@@ -101,6 +101,9 @@ df = df_all.merge(
     on=["Player", "Game Week", "Team", "League", "Minutes", "Position"],
     how="left"
 )
+nationality_map = df_all[["Player", "Nationality"]].drop_duplicates(subset="Player").set_index("Player")["Nationality"]
+df["Nation"] = df["Player"].map(nationality_map)
+
 
 positions = st.sidebar.multiselect("Position", df_all["Position"].unique())
 if not positions:
@@ -145,7 +148,7 @@ if positions and stat and selected_leagues:
     df_top = df_top.sort_values(by=stat, ascending=False).head(top_n)
     
     df_display = df_top[[
-        "Player", "Age", stat, "Rating", "Minutes", "Score", "Team", "Opponent",
+        "Player", stat, "Rating", "Age", "Nation", "Minutes", "Score", "Team", "Opponent",
         "League", "Game Week"
     ]].rename(columns={
         stat: stat,
@@ -154,4 +157,6 @@ if positions and stat and selected_leagues:
         "Minutes": "Minutes Played"
     })
 
+    df_display["Nation"] = df_display["Nation"].astype(str).str.split(" ").str[1]
+    
     st.dataframe(df_display.set_index("Player"), use_container_width=True)

@@ -144,7 +144,7 @@ if season_code:
             leagues_name = "OthersLeagues"
 
     if leagues_name:
-        positions = st.sidebar.multiselect("Positions", df_scores['Position'].unique())
+        positions = st.sidebar.multiselect("Position", df_scores['Position'].unique())
 
         if positions:
             df_radar = get_df(leagues_name, path_folder, positions)
@@ -167,16 +167,28 @@ if season_code:
                 df_global = df_global[df_global['Player'].isin(selected_players)]
                 
                 show_ratings = leagues_name == "TopLeagues"
+                
+                nationality_map = (
+                        df_radar[["Player", "Nation"]]
+                        .drop_duplicates("Player")
+                        .set_index("Player")["Nation"]
+                    )               
 
+                if leagues_name == "TopLeagues":
+                    df_global["Nation"] = df_global["Player"].map(nationality_map)
+                else:
+                    df_global["Nation"] = df_global["Player"].map(nationality_map)
+                df_global["Nation"] = df_global["Nation"].astype(str).str.split(" ").str[1]
+                
                 if show_ratings:
                     df_global_agg = df_global.groupby('Player', as_index=False).sum()
                     df_averages = get_average_scores(positions, path_folder)
                     df_global = df_global.merge(df_averages, on='Player', how='left')
 
                     if 'GK' in positions:
-                        columns = ['Player', 'Age', 'Average Rating', 'Matches Played', 'Minutes Played', 'Goals Against', 'Clean Sheets', 'Team(s)', 'League(s)']
+                        columns = ['Player', 'Average Rating', 'Age', 'Nation', 'Matches Played', 'Minutes Played', 'Goals Against', 'Clean Sheets', 'Team(s)', 'League(s)']
                     else:
-                        columns = ['Player', 'Age', 'Average Rating', 'Matches Played', 'Minutes Played', 'Goals', 'Assists', 'Yellow Cards', 'Red Cards', 'Team(s)', 'League(s)']
+                        columns = ['Player', 'Average Rating', 'Age', 'Nation', 'Matches Played', 'Minutes Played', 'Goals', 'Assists', 'Yellow Cards', 'Red Cards', 'Team(s)', 'League(s)']
 
                     st.subheader("📋 Global Player Statistics")
                     df_display = df_global[columns].set_index('Player').sort_values('Average Rating', ascending=False).round(2)
@@ -185,9 +197,9 @@ if season_code:
                     df_global_agg = df_global.groupby('Player', as_index=False).sum()
 
                     if 'GK' in positions:
-                        columns = ['Player', 'Age', 'Matches Played', 'Minutes Played', 'Goals Against', 'Clean Sheets', 'Team']
+                        columns = ['Player', 'Age', 'Nation', 'Matches Played', 'Minutes Played', 'Goals Against', 'Clean Sheets', 'Team']
                     else:
-                        columns = ['Player', 'Age', 'Matches Played', 'Minutes Played', 'Goals', 'Assists', 'Yellow Cards', 'Red Cards', 'Team']
+                        columns = ['Player', 'Age', 'Nation', 'Matches Played', 'Minutes Played', 'Goals', 'Assists', 'Yellow Cards', 'Red Cards', 'Team']
 
                     df_global_agg["Age"] = df_global_agg["Age"].astype(str).str.split("-").str[0].astype(int)
                     df_display = df_global_agg[columns].set_index('Player').round(2)

@@ -8,7 +8,7 @@ import os
 def get_features():
     return [
         'Goals', 'Efficiency', 'Actions created', 'Actions in the Penalty Area', '% Aerial Duels',
-        'Aerial Duels Won', 'Fouls Committed', 'Clean Sheets', 'Goals Against', 'Efficiency GK'
+        'Aerial Duels Won', 'Possession', 'Clean Sheets', 'Goals Against', 'Efficiency GK'
     ]
 
 def load_centile_data(leagues_name, path_folder):

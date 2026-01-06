@@ -125,15 +125,15 @@ J14,Leverkusen,Köln,2–0,"30,210",BayArena,Harm Osmers,2025-12-13,https://fbre
 J14,Freiburg,Dortmund,1–1,"34,700",Europa-Park Stadion,Felix Zwayer,2025-12-14,https://fbref.com/en/matches/575f0812/Freiburg-Dortmund-December-14-2025-Bundesliga
 J14,Bayern Munich,Mainz 05,2–2,"75,000",Allianz Arena,Robin Braun,2025-12-14,https://fbref.com/en/matches/26af6e0a/Bayern-Munich-Mainz-05-December-14-2025-Bundesliga
 J14,Werder Bremen,Stuttgart,0–4,"42,100",Weserstadion,Robert Hartmann,2025-12-14,https://fbref.com/en/matches/ed906624/Werder-Bremen-Stuttgart-December-14-2025-Bundesliga
-J15,Dortmund,Gladbach,,,Signal Iduna Park,,2025-12-19,https://fbref.com/en/stathead/matchup/teams/add600ae/32f3ee20/Dortmund-vs-Monchengladbach-History
-J15,Hamburger SV,Eint Frankfurt,,,Volksparkstadion,,2025-12-20,https://fbref.com/en/stathead/matchup/teams/f0ac8ee6/26790c6a/Eintracht-Frankfurt-vs-Hamburger-SV-History
-J15,Köln,Union Berlin,,,RheinEnergieSTADION,,2025-12-20,https://fbref.com/en/stathead/matchup/teams/bc357bf7/7a41008f/Koln-vs-Union-Berlin-History
-J15,Wolfsburg,Freiburg,,,Volkswagen Arena,,2025-12-20,https://fbref.com/en/stathead/matchup/teams/a486e511/4eaa11d7/Freiburg-vs-Wolfsburg-History
-J15,Augsburg,Werder Bremen,,,WWK Arena,,2025-12-20,https://fbref.com/en/stathead/matchup/teams/62add3bf/0cdc4311/Werder-Bremen-vs-Augsburg-History
-J15,Stuttgart,Hoffenheim,,,MHPArena,,2025-12-20,https://fbref.com/en/stathead/matchup/teams/598bc722/033ea6b8/Stuttgart-vs-Hoffenheim-History
-J15,RB Leipzig,Leverkusen,,,Red Bull Arena,,2025-12-20,https://fbref.com/en/stathead/matchup/teams/c7a9f859/acbb6a5b/Leverkusen-vs-RB-Leipzig-History
-J15,Mainz 05,St. Pauli,,,Mewa Arena,,2025-12-21,https://fbref.com/en/stathead/matchup/teams/a224b06a/54864664/Mainz-05-vs-St-Pauli-History
-J15,Heidenheim,Bayern Munich,,,Voith-Arena,,2025-12-21,https://fbref.com/en/stathead/matchup/teams/18d9d2a7/054efa67/Heidenheim-vs-Bayern-Munich-History
+J15,Dortmund,Gladbach,2–0,"81,365",Signal Iduna Park,Sven Jablonski,2025-12-19,https://fbref.com/en/matches/11bea5d1/Dortmund-Monchengladbach-December-19-2025-Bundesliga
+J15,Hamburger SV,Eint Frankfurt,1–1,"57,000",Volksparkstadion,Tobias Stieler,2025-12-20,https://fbref.com/en/matches/c89b2306/Hamburger-SV-Eintracht-Frankfurt-December-20-2025-Bundesliga
+J15,Köln,Union Berlin,0–1,"50,000",RheinEnergieSTADION,Christian Dingert,2025-12-20,https://fbref.com/en/matches/2c1539b2/Koln-Union-Berlin-December-20-2025-Bundesliga
+J15,Wolfsburg,Freiburg,3–4,"22,045",Volkswagen Arena,Sascha Stegemann,2025-12-20,https://fbref.com/en/matches/10d7ed3d/Wolfsburg-Freiburg-December-20-2025-Bundesliga
+J15,Augsburg,Werder Bremen,0–0,"30,000",WWK Arena,Tobias Welz,2025-12-20,https://fbref.com/en/matches/3c8722f1/Augsburg-Werder-Bremen-December-20-2025-Bundesliga
+J15,Stuttgart,Hoffenheim,0–0,"59,000",MHPArena,Daniel Siebert,2025-12-20,https://fbref.com/en/matches/67fbedfd/Stuttgart-Hoffenheim-December-20-2025-Bundesliga
+J15,RB Leipzig,Leverkusen,1–3,"46,053",Red Bull Arena,Benjamin Brand,2025-12-20,https://fbref.com/en/matches/10ba5054/RB-Leipzig-Bayer-Leverkusen-December-20-2025-Bundesliga
+J15,Mainz 05,St. Pauli,0–0,"33,000",Mewa Arena,Matthias Jöllenbeck,2025-12-21,https://fbref.com/en/matches/fb85cefc/Mainz-05-St-Pauli-December-21-2025-Bundesliga
+J15,Heidenheim,Bayern Munich,0–4,"15,000",Voith-Arena,Florian Badstübner,2025-12-21,https://fbref.com/en/matches/b79b9c38/Heidenheim-Bayern-Munich-December-21-2025-Bundesliga
 J16,Eint Frankfurt,Dortmund,,,Deutsche Bank Park,,2026-01-09,https://fbref.com/en/stathead/matchup/teams/f0ac8ee6/add600ae/Eintracht-Frankfurt-vs-Dortmund-History
 J16,Union Berlin,Mainz 05,,,Stadion An der Alten Försterei,,2026-01-10,https://fbref.com/en/stathead/matchup/teams/a224b06a/7a41008f/Mainz-05-vs-Union-Berlin-History
 J16,St. Pauli,RB Leipzig,,,Millerntor-Stadion,,2026-01-10,https://fbref.com/en/stathead/matchup/teams/acbb6a5b/54864664/RB-Leipzig-vs-St-Pauli-History
@@ -164,99 +164,99 @@ J18,Augsburg,Freiburg,,,WWK Arena,,2026-01-18,https://fbref.com/en/stathead/matc
 J19,St. Pauli,Hamburger SV,,,Millerntor-Stadion,,2026-01-23,https://fbref.com/en/stathead/matchup/teams/54864664/26790c6a/St-Pauli-vs-Hamburger-SV-History
 J19,Leverkusen,Werder Bremen,,,BayArena,,2026-01-24,https://fbref.com/en/stathead/matchup/teams/c7a9f859/62add3bf/Leverkusen-vs-Werder-Bremen-History
 J19,Heidenheim,RB Leipzig,,,Voith-Arena,,2026-01-24,https://fbref.com/en/stathead/matchup/teams/acbb6a5b/18d9d2a7/RB-Leipzig-vs-Heidenheim-History
+J19,Mainz 05,Wolfsburg,,,Mewa Arena,,2026-01-24,https://fbref.com/en/stathead/matchup/teams/a224b06a/4eaa11d7/Mainz-05-vs-Wolfsburg-History
 J19,Eint Frankfurt,Hoffenheim,,,Deutsche Bank Park,,2026-01-24,https://fbref.com/en/stathead/matchup/teams/f0ac8ee6/033ea6b8/Eintracht-Frankfurt-vs-Hoffenheim-History
 J19,Bayern Munich,Augsburg,,,Allianz Arena,,2026-01-24,https://fbref.com/en/stathead/matchup/teams/0cdc4311/054efa67/Augsburg-vs-Bayern-Munich-History
-J19,Mainz 05,Wolfsburg,,,Mewa Arena,,2026-01-24,https://fbref.com/en/stathead/matchup/teams/a224b06a/4eaa11d7/Mainz-05-vs-Wolfsburg-History
 J19,Union Berlin,Dortmund,,,Stadion An der Alten Försterei,,2026-01-24,https://fbref.com/en/stathead/matchup/teams/add600ae/7a41008f/Dortmund-vs-Union-Berlin-History
 J19,Gladbach,Stuttgart,,,Stadion im Borussia-Park,,2026-01-25,https://fbref.com/en/stathead/matchup/teams/598bc722/32f3ee20/Stuttgart-vs-Monchengladbach-History
 J19,Freiburg,Köln,,,Europa-Park Stadion,,2026-01-25,https://fbref.com/en/stathead/matchup/teams/bc357bf7/a486e511/Koln-vs-Freiburg-History
-J20,Hamburger SV,Bayern Munich,,,Volksparkstadion,,2026-01-31,https://fbref.com/en/stathead/matchup/teams/26790c6a/054efa67/Hamburger-SV-vs-Bayern-Munich-History
-J20,Augsburg,St. Pauli,,,WWK Arena,,2026-01-31,https://fbref.com/en/stathead/matchup/teams/54864664/0cdc4311/St-Pauli-vs-Augsburg-History
+J20,Köln,Wolfsburg,,,RheinEnergieSTADION,,2026-01-30,https://fbref.com/en/stathead/matchup/teams/bc357bf7/4eaa11d7/Koln-vs-Wolfsburg-History
 J20,RB Leipzig,Mainz 05,,,Red Bull Arena,,2026-01-31,https://fbref.com/en/stathead/matchup/teams/acbb6a5b/a224b06a/RB-Leipzig-vs-Mainz-05-History
-J20,Köln,Wolfsburg,,,RheinEnergieSTADION,,2026-01-31,https://fbref.com/en/stathead/matchup/teams/bc357bf7/4eaa11d7/Koln-vs-Wolfsburg-History
 J20,Werder Bremen,Gladbach,,,Weserstadion,,2026-01-31,https://fbref.com/en/stathead/matchup/teams/62add3bf/32f3ee20/Werder-Bremen-vs-Monchengladbach-History
-J20,Eint Frankfurt,Leverkusen,,,Deutsche Bank Park,,2026-01-31,https://fbref.com/en/stathead/matchup/teams/f0ac8ee6/c7a9f859/Eintracht-Frankfurt-vs-Leverkusen-History
-J20,Dortmund,Heidenheim,,,Signal Iduna Park,,2026-01-31,https://fbref.com/en/stathead/matchup/teams/add600ae/18d9d2a7/Dortmund-vs-Heidenheim-History
-J20,Stuttgart,Freiburg,,,MHPArena,,2026-01-31,https://fbref.com/en/stathead/matchup/teams/a486e511/598bc722/Freiburg-vs-Stuttgart-History
 J20,Hoffenheim,Union Berlin,,,PreZero Arena,,2026-01-31,https://fbref.com/en/stathead/matchup/teams/7a41008f/033ea6b8/Union-Berlin-vs-Hoffenheim-History
-J21,Bayern Munich,Hoffenheim,,,Allianz Arena,,2026-02-07,https://fbref.com/en/stathead/matchup/teams/054efa67/033ea6b8/Bayern-Munich-vs-Hoffenheim-History
-J21,Union Berlin,Eint Frankfurt,,,Stadion An der Alten Försterei,,2026-02-07,https://fbref.com/en/stathead/matchup/teams/f0ac8ee6/7a41008f/Eintracht-Frankfurt-vs-Union-Berlin-History
-J21,Gladbach,Leverkusen,,,Stadion im Borussia-Park,,2026-02-07,https://fbref.com/en/stathead/matchup/teams/c7a9f859/32f3ee20/Leverkusen-vs-Monchengladbach-History
-J21,Wolfsburg,Dortmund,,,Volkswagen Arena,,2026-02-07,https://fbref.com/en/stathead/matchup/teams/add600ae/4eaa11d7/Dortmund-vs-Wolfsburg-History
+J20,Augsburg,St. Pauli,,,WWK Arena,,2026-01-31,https://fbref.com/en/stathead/matchup/teams/54864664/0cdc4311/St-Pauli-vs-Augsburg-History
+J20,Eint Frankfurt,Leverkusen,,,Deutsche Bank Park,,2026-01-31,https://fbref.com/en/stathead/matchup/teams/f0ac8ee6/c7a9f859/Eintracht-Frankfurt-vs-Leverkusen-History
+J20,Hamburger SV,Bayern Munich,,,Volksparkstadion,,2026-01-31,https://fbref.com/en/stathead/matchup/teams/26790c6a/054efa67/Hamburger-SV-vs-Bayern-Munich-History
+J20,Stuttgart,Freiburg,,,MHPArena,,2026-02-01,https://fbref.com/en/stathead/matchup/teams/a486e511/598bc722/Freiburg-vs-Stuttgart-History
+J20,Dortmund,Heidenheim,,,Signal Iduna Park,,2026-02-01,https://fbref.com/en/stathead/matchup/teams/add600ae/18d9d2a7/Dortmund-vs-Heidenheim-History
+J21,Union Berlin,Eint Frankfurt,,,Stadion An der Alten Försterei,,2026-02-06,https://fbref.com/en/stathead/matchup/teams/f0ac8ee6/7a41008f/Eintracht-Frankfurt-vs-Union-Berlin-History
 J21,Freiburg,Werder Bremen,,,Europa-Park Stadion,,2026-02-07,https://fbref.com/en/stathead/matchup/teams/a486e511/62add3bf/Freiburg-vs-Werder-Bremen-History
+J21,Wolfsburg,Dortmund,,,Volkswagen Arena,,2026-02-07,https://fbref.com/en/stathead/matchup/teams/add600ae/4eaa11d7/Dortmund-vs-Wolfsburg-History
 J21,Mainz 05,Augsburg,,,Mewa Arena,,2026-02-07,https://fbref.com/en/stathead/matchup/teams/a224b06a/0cdc4311/Mainz-05-vs-Augsburg-History
 J21,Heidenheim,Hamburger SV,,,Voith-Arena,,2026-02-07,https://fbref.com/en/stathead/matchup/teams/26790c6a/18d9d2a7/Hamburger-SV-vs-Heidenheim-History
-J21,Köln,RB Leipzig,,,RheinEnergieSTADION,,2026-02-07,https://fbref.com/en/stathead/matchup/teams/bc357bf7/acbb6a5b/Koln-vs-RB-Leipzig-History
 J21,St. Pauli,Stuttgart,,,Millerntor-Stadion,,2026-02-07,https://fbref.com/en/stathead/matchup/teams/598bc722/54864664/Stuttgart-vs-St-Pauli-History
+J21,Gladbach,Leverkusen,,,Stadion im Borussia-Park,,2026-02-07,https://fbref.com/en/stathead/matchup/teams/c7a9f859/32f3ee20/Leverkusen-vs-Monchengladbach-History
+J21,Köln,RB Leipzig,,,RheinEnergieSTADION,,2026-02-08,https://fbref.com/en/stathead/matchup/teams/bc357bf7/acbb6a5b/Koln-vs-RB-Leipzig-History
+J21,Bayern Munich,Hoffenheim,,,Allianz Arena,,2026-02-08,https://fbref.com/en/stathead/matchup/teams/054efa67/033ea6b8/Bayern-Munich-vs-Hoffenheim-History
+J22,Dortmund,Mainz 05,,,Signal Iduna Park,,2026-02-13,https://fbref.com/en/stathead/matchup/teams/add600ae/a224b06a/Dortmund-vs-Mainz-05-History
+J22,Werder Bremen,Bayern Munich,,,Weserstadion,,2026-02-14,https://fbref.com/en/stathead/matchup/teams/62add3bf/054efa67/Werder-Bremen-vs-Bayern-Munich-History
+J22,Eint Frankfurt,Gladbach,,,Deutsche Bank Park,,2026-02-14,https://fbref.com/en/stathead/matchup/teams/f0ac8ee6/32f3ee20/Eintracht-Frankfurt-vs-Monchengladbach-History
+J22,Hoffenheim,Freiburg,,,PreZero Arena,,2026-02-14,https://fbref.com/en/stathead/matchup/teams/a486e511/033ea6b8/Freiburg-vs-Hoffenheim-History
 J22,Hamburger SV,Union Berlin,,,Volksparkstadion,,2026-02-14,https://fbref.com/en/stathead/matchup/teams/7a41008f/26790c6a/Union-Berlin-vs-Hamburger-SV-History
 J22,Leverkusen,St. Pauli,,,BayArena,,2026-02-14,https://fbref.com/en/stathead/matchup/teams/c7a9f859/54864664/Leverkusen-vs-St-Pauli-History
-J22,Hoffenheim,Freiburg,,,PreZero Arena,,2026-02-14,https://fbref.com/en/stathead/matchup/teams/a486e511/033ea6b8/Freiburg-vs-Hoffenheim-History
-J22,RB Leipzig,Wolfsburg,,,Red Bull Arena,,2026-02-14,https://fbref.com/en/stathead/matchup/teams/acbb6a5b/4eaa11d7/RB-Leipzig-vs-Wolfsburg-History
 J22,Stuttgart,Köln,,,MHPArena,,2026-02-14,https://fbref.com/en/stathead/matchup/teams/bc357bf7/598bc722/Koln-vs-Stuttgart-History
-J22,Eint Frankfurt,Gladbach,,,Deutsche Bank Park,,2026-02-14,https://fbref.com/en/stathead/matchup/teams/f0ac8ee6/32f3ee20/Eintracht-Frankfurt-vs-Monchengladbach-History
-J22,Dortmund,Mainz 05,,,Signal Iduna Park,,2026-02-14,https://fbref.com/en/stathead/matchup/teams/add600ae/a224b06a/Dortmund-vs-Mainz-05-History
-J22,Augsburg,Heidenheim,,,WWK Arena,,2026-02-14,https://fbref.com/en/stathead/matchup/teams/18d9d2a7/0cdc4311/Heidenheim-vs-Augsburg-History
-J22,Werder Bremen,Bayern Munich,,,Weserstadion,,2026-02-14,https://fbref.com/en/stathead/matchup/teams/62add3bf/054efa67/Werder-Bremen-vs-Bayern-Munich-History
-J23,Bayern Munich,Eint Frankfurt,,,Allianz Arena,,2026-02-21,https://fbref.com/en/stathead/matchup/teams/f0ac8ee6/054efa67/Eintracht-Frankfurt-vs-Bayern-Munich-History
-J23,Mainz 05,Hamburger SV,,,Mewa Arena,,2026-02-21,https://fbref.com/en/stathead/matchup/teams/a224b06a/26790c6a/Mainz-05-vs-Hamburger-SV-History
-J23,Heidenheim,Stuttgart,,,Voith-Arena,,2026-02-21,https://fbref.com/en/stathead/matchup/teams/598bc722/18d9d2a7/Stuttgart-vs-Heidenheim-History
-J23,RB Leipzig,Dortmund,,,Red Bull Arena,,2026-02-21,https://fbref.com/en/stathead/matchup/teams/add600ae/acbb6a5b/Dortmund-vs-RB-Leipzig-History
-J23,Wolfsburg,Augsburg,,,Volkswagen Arena,,2026-02-21,https://fbref.com/en/stathead/matchup/teams/4eaa11d7/0cdc4311/Wolfsburg-vs-Augsburg-History
-J23,Freiburg,Gladbach,,,Europa-Park Stadion,,2026-02-21,https://fbref.com/en/stathead/matchup/teams/a486e511/32f3ee20/Freiburg-vs-Monchengladbach-History
-J23,Union Berlin,Leverkusen,,,Stadion An der Alten Försterei,,2026-02-21,https://fbref.com/en/stathead/matchup/teams/c7a9f859/7a41008f/Leverkusen-vs-Union-Berlin-History
-J23,St. Pauli,Werder Bremen,,,Millerntor-Stadion,,2026-02-21,https://fbref.com/en/stathead/matchup/teams/62add3bf/54864664/Werder-Bremen-vs-St-Pauli-History
+J22,Augsburg,Heidenheim,,,WWK Arena,,2026-02-15,https://fbref.com/en/stathead/matchup/teams/18d9d2a7/0cdc4311/Heidenheim-vs-Augsburg-History
+J22,RB Leipzig,Wolfsburg,,,Red Bull Arena,,2026-02-15,https://fbref.com/en/stathead/matchup/teams/acbb6a5b/4eaa11d7/RB-Leipzig-vs-Wolfsburg-History
+J23,Mainz 05,Hamburger SV,,,Mewa Arena,,2026-02-20,https://fbref.com/en/stathead/matchup/teams/a224b06a/26790c6a/Mainz-05-vs-Hamburger-SV-History
 J23,Köln,Hoffenheim,,,RheinEnergieSTADION,,2026-02-21,https://fbref.com/en/stathead/matchup/teams/bc357bf7/033ea6b8/Koln-vs-Hoffenheim-History
-J24,Dortmund,Bayern Munich,,,Signal Iduna Park,,2026-02-28,https://fbref.com/en/stathead/matchup/teams/add600ae/054efa67/Der-Klassiker-Dortmund-vs-Bayern-Munich-History
-J24,Leverkusen,Mainz 05,,,BayArena,,2026-02-28,https://fbref.com/en/stathead/matchup/teams/c7a9f859/a224b06a/Leverkusen-vs-Mainz-05-History
-J24,Eint Frankfurt,Freiburg,,,Deutsche Bank Park,,2026-02-28,https://fbref.com/en/stathead/matchup/teams/f0ac8ee6/a486e511/Eintracht-Frankfurt-vs-Freiburg-History
-J24,Hamburger SV,RB Leipzig,,,Volksparkstadion,,2026-02-28,https://fbref.com/en/stathead/matchup/teams/acbb6a5b/26790c6a/RB-Leipzig-vs-Hamburger-SV-History
-J24,Stuttgart,Wolfsburg,,,MHPArena,,2026-02-28,https://fbref.com/en/stathead/matchup/teams/598bc722/4eaa11d7/Stuttgart-vs-Wolfsburg-History
-J24,Gladbach,Union Berlin,,,Stadion im Borussia-Park,,2026-02-28,https://fbref.com/en/stathead/matchup/teams/7a41008f/32f3ee20/Union-Berlin-vs-Monchengladbach-History
+J23,Bayern Munich,Eint Frankfurt,,,Allianz Arena,,2026-02-21,https://fbref.com/en/stathead/matchup/teams/f0ac8ee6/054efa67/Eintracht-Frankfurt-vs-Bayern-Munich-History
+J23,Wolfsburg,Augsburg,,,Volkswagen Arena,,2026-02-21,https://fbref.com/en/stathead/matchup/teams/4eaa11d7/0cdc4311/Wolfsburg-vs-Augsburg-History
+J23,Union Berlin,Leverkusen,,,Stadion An der Alten Försterei,,2026-02-21,https://fbref.com/en/stathead/matchup/teams/c7a9f859/7a41008f/Leverkusen-vs-Union-Berlin-History
+J23,RB Leipzig,Dortmund,,,Red Bull Arena,,2026-02-21,https://fbref.com/en/stathead/matchup/teams/add600ae/acbb6a5b/Dortmund-vs-RB-Leipzig-History
+J23,Freiburg,Gladbach,,,Europa-Park Stadion,,2026-02-22,https://fbref.com/en/stathead/matchup/teams/a486e511/32f3ee20/Freiburg-vs-Monchengladbach-History
+J23,St. Pauli,Werder Bremen,,,Millerntor-Stadion,,2026-02-22,https://fbref.com/en/stathead/matchup/teams/62add3bf/54864664/Werder-Bremen-vs-St-Pauli-History
+J23,Heidenheim,Stuttgart,,,Voith-Arena,,2026-02-22,https://fbref.com/en/stathead/matchup/teams/598bc722/18d9d2a7/Stuttgart-vs-Heidenheim-History
+J24,Augsburg,Köln,,,WWK Arena,,2026-02-27,https://fbref.com/en/stathead/matchup/teams/bc357bf7/0cdc4311/Koln-vs-Augsburg-History
 J24,Hoffenheim,St. Pauli,,,PreZero Arena,,2026-02-28,https://fbref.com/en/stathead/matchup/teams/54864664/033ea6b8/St-Pauli-vs-Hoffenheim-History
+J24,Gladbach,Union Berlin,,,Stadion im Borussia-Park,,2026-02-28,https://fbref.com/en/stathead/matchup/teams/7a41008f/32f3ee20/Union-Berlin-vs-Monchengladbach-History
 J24,Werder Bremen,Heidenheim,,,Weserstadion,,2026-02-28,https://fbref.com/en/stathead/matchup/teams/62add3bf/18d9d2a7/Werder-Bremen-vs-Heidenheim-History
-J24,Augsburg,Köln,,,WWK Arena,,2026-02-28,https://fbref.com/en/stathead/matchup/teams/bc357bf7/0cdc4311/Koln-vs-Augsburg-History
-J25,Union Berlin,Werder Bremen,,,Stadion An der Alten Försterei,,2026-03-07,https://fbref.com/en/stathead/matchup/teams/7a41008f/62add3bf/Union-Berlin-vs-Werder-Bremen-History
-J25,Mainz 05,Stuttgart,,,Mewa Arena,,2026-03-07,https://fbref.com/en/stathead/matchup/teams/a224b06a/598bc722/Mainz-05-vs-Stuttgart-History
+J24,Leverkusen,Mainz 05,,,BayArena,,2026-02-28,https://fbref.com/en/stathead/matchup/teams/c7a9f859/a224b06a/Leverkusen-vs-Mainz-05-History
+J24,Dortmund,Bayern Munich,,,Signal Iduna Park,,2026-02-28,https://fbref.com/en/stathead/matchup/teams/add600ae/054efa67/Der-Klassiker-Dortmund-vs-Bayern-Munich-History
+J24,Stuttgart,Wolfsburg,,,MHPArena,,2026-03-01,https://fbref.com/en/stathead/matchup/teams/598bc722/4eaa11d7/Stuttgart-vs-Wolfsburg-History
+J24,Eint Frankfurt,Freiburg,,,Deutsche Bank Park,,2026-03-01,https://fbref.com/en/stathead/matchup/teams/f0ac8ee6/a486e511/Eintracht-Frankfurt-vs-Freiburg-History
+J24,Hamburger SV,RB Leipzig,,,Volksparkstadion,,2026-03-01,https://fbref.com/en/stathead/matchup/teams/acbb6a5b/26790c6a/RB-Leipzig-vs-Hamburger-SV-History
 J25,Wolfsburg,Hamburger SV,,,Volkswagen Arena,,2026-03-07,https://fbref.com/en/stathead/matchup/teams/4eaa11d7/26790c6a/Wolfsburg-vs-Hamburger-SV-History
-J25,Köln,Dortmund,,,RheinEnergieSTADION,,2026-03-07,https://fbref.com/en/stathead/matchup/teams/bc357bf7/add600ae/Koln-vs-Dortmund-History
-J25,Heidenheim,Hoffenheim,,,Voith-Arena,,2026-03-07,https://fbref.com/en/stathead/matchup/teams/18d9d2a7/033ea6b8/Heidenheim-vs-Hoffenheim-History
-J25,Bayern Munich,Gladbach,,,Allianz Arena,,2026-03-07,https://fbref.com/en/stathead/matchup/teams/32f3ee20/054efa67/Monchengladbach-vs-Bayern-Munich-History
-J25,RB Leipzig,Augsburg,,,Red Bull Arena,,2026-03-07,https://fbref.com/en/stathead/matchup/teams/acbb6a5b/0cdc4311/RB-Leipzig-vs-Augsburg-History
-J25,St. Pauli,Eint Frankfurt,,,Millerntor-Stadion,,2026-03-07,https://fbref.com/en/stathead/matchup/teams/f0ac8ee6/54864664/Eintracht-Frankfurt-vs-St-Pauli-History
+J25,Union Berlin,Werder Bremen,,,Stadion An der Alten Försterei,,2026-03-07,https://fbref.com/en/stathead/matchup/teams/7a41008f/62add3bf/Union-Berlin-vs-Werder-Bremen-History
 J25,Freiburg,Leverkusen,,,Europa-Park Stadion,,2026-03-07,https://fbref.com/en/stathead/matchup/teams/c7a9f859/a486e511/Leverkusen-vs-Freiburg-History
+J25,Köln,Dortmund,,,RheinEnergieSTADION,,2026-03-07,https://fbref.com/en/stathead/matchup/teams/bc357bf7/add600ae/Koln-vs-Dortmund-History
+J25,RB Leipzig,Augsburg,,,Red Bull Arena,,2026-03-07,https://fbref.com/en/stathead/matchup/teams/acbb6a5b/0cdc4311/RB-Leipzig-vs-Augsburg-History
+J25,Heidenheim,Hoffenheim,,,Voith-Arena,,2026-03-07,https://fbref.com/en/stathead/matchup/teams/18d9d2a7/033ea6b8/Heidenheim-vs-Hoffenheim-History
+J25,St. Pauli,Eint Frankfurt,,,Millerntor-Stadion,,2026-03-07,https://fbref.com/en/stathead/matchup/teams/f0ac8ee6/54864664/Eintracht-Frankfurt-vs-St-Pauli-History
+J25,Mainz 05,Stuttgart,,,Mewa Arena,,2026-03-07,https://fbref.com/en/stathead/matchup/teams/a224b06a/598bc722/Mainz-05-vs-Stuttgart-History
+J25,Bayern Munich,Gladbach,,,Allianz Arena,,2026-03-07,https://fbref.com/en/stathead/matchup/teams/32f3ee20/054efa67/Monchengladbach-vs-Bayern-Munich-History
 J26,Stuttgart,RB Leipzig,,,MHPArena,,2026-03-14,https://fbref.com/en/stathead/matchup/teams/acbb6a5b/598bc722/RB-Leipzig-vs-Stuttgart-History
-J26,Werder Bremen,Mainz 05,,,Weserstadion,,2026-03-14,https://fbref.com/en/stathead/matchup/teams/a224b06a/62add3bf/Mainz-05-vs-Werder-Bremen-History
-J26,Leverkusen,Bayern Munich,,,BayArena,,2026-03-14,https://fbref.com/en/stathead/matchup/teams/c7a9f859/054efa67/Leverkusen-vs-Bayern-Munich-History
-J26,Freiburg,Union Berlin,,,Europa-Park Stadion,,2026-03-14,https://fbref.com/en/stathead/matchup/teams/a486e511/7a41008f/Freiburg-vs-Union-Berlin-History
-J26,Hoffenheim,Wolfsburg,,,PreZero Arena,,2026-03-14,https://fbref.com/en/stathead/matchup/teams/4eaa11d7/033ea6b8/Wolfsburg-vs-Hoffenheim-History
 J26,Gladbach,St. Pauli,,,Stadion im Borussia-Park,,2026-03-14,https://fbref.com/en/stathead/matchup/teams/54864664/32f3ee20/St-Pauli-vs-Monchengladbach-History
 J26,Hamburger SV,Köln,,,Volksparkstadion,,2026-03-14,https://fbref.com/en/stathead/matchup/teams/bc357bf7/26790c6a/Koln-vs-Hamburger-SV-History
-J26,Eint Frankfurt,Heidenheim,,,Deutsche Bank Park,,2026-03-14,https://fbref.com/en/stathead/matchup/teams/f0ac8ee6/18d9d2a7/Eintracht-Frankfurt-vs-Heidenheim-History
+J26,Werder Bremen,Mainz 05,,,Weserstadion,,2026-03-14,https://fbref.com/en/stathead/matchup/teams/a224b06a/62add3bf/Mainz-05-vs-Werder-Bremen-History
+J26,Leverkusen,Bayern Munich,,,BayArena,,2026-03-14,https://fbref.com/en/stathead/matchup/teams/c7a9f859/054efa67/Leverkusen-vs-Bayern-Munich-History
 J26,Dortmund,Augsburg,,,Signal Iduna Park,,2026-03-14,https://fbref.com/en/stathead/matchup/teams/add600ae/0cdc4311/Dortmund-vs-Augsburg-History
+J26,Freiburg,Union Berlin,,,Europa-Park Stadion,,2026-03-14,https://fbref.com/en/stathead/matchup/teams/a486e511/7a41008f/Freiburg-vs-Union-Berlin-History
+J26,Eint Frankfurt,Heidenheim,,,Deutsche Bank Park,,2026-03-14,https://fbref.com/en/stathead/matchup/teams/f0ac8ee6/18d9d2a7/Eintracht-Frankfurt-vs-Heidenheim-History
+J26,Hoffenheim,Wolfsburg,,,PreZero Arena,,2026-03-14,https://fbref.com/en/stathead/matchup/teams/4eaa11d7/033ea6b8/Wolfsburg-vs-Hoffenheim-History
 J27,Bayern Munich,Union Berlin,,,Allianz Arena,,2026-03-21,https://fbref.com/en/stathead/matchup/teams/7a41008f/054efa67/Union-Berlin-vs-Bayern-Munich-History
-J27,Dortmund,Hamburger SV,,,Signal Iduna Park,,2026-03-21,https://fbref.com/en/stathead/matchup/teams/add600ae/26790c6a/Dortmund-vs-Hamburger-SV-History
-J27,St. Pauli,Freiburg,,,Millerntor-Stadion,,2026-03-21,https://fbref.com/en/stathead/matchup/teams/a486e511/54864664/Freiburg-vs-St-Pauli-History
-J27,Köln,Gladbach,,,RheinEnergieSTADION,,2026-03-21,https://fbref.com/en/stathead/matchup/teams/bc357bf7/32f3ee20/Koln-vs-Monchengladbach-History
 J27,Wolfsburg,Werder Bremen,,,Volkswagen Arena,,2026-03-21,https://fbref.com/en/stathead/matchup/teams/62add3bf/4eaa11d7/Werder-Bremen-vs-Wolfsburg-History
-J27,Augsburg,Stuttgart,,,WWK Arena,,2026-03-21,https://fbref.com/en/stathead/matchup/teams/598bc722/0cdc4311/Stuttgart-vs-Augsburg-History
-J27,Heidenheim,Leverkusen,,,Voith-Arena,,2026-03-21,https://fbref.com/en/stathead/matchup/teams/c7a9f859/18d9d2a7/Leverkusen-vs-Heidenheim-History
-J27,Mainz 05,Eint Frankfurt,,,Mewa Arena,,2026-03-21,https://fbref.com/en/stathead/matchup/teams/f0ac8ee6/a224b06a/Eintracht-Frankfurt-vs-Mainz-05-History
 J27,RB Leipzig,Hoffenheim,,,Red Bull Arena,,2026-03-21,https://fbref.com/en/stathead/matchup/teams/acbb6a5b/033ea6b8/RB-Leipzig-vs-Hoffenheim-History
-J28,Eint Frankfurt,Köln,,,Deutsche Bank Park,,2026-04-04,https://fbref.com/en/stathead/matchup/teams/f0ac8ee6/bc357bf7/Eintracht-Frankfurt-vs-Koln-History
-J28,Gladbach,Heidenheim,,,Stadion im Borussia-Park,,2026-04-04,https://fbref.com/en/stathead/matchup/teams/32f3ee20/18d9d2a7/Monchengladbach-vs-Heidenheim-History
-J28,Stuttgart,Dortmund,,,MHPArena,,2026-04-04,https://fbref.com/en/stathead/matchup/teams/add600ae/598bc722/Dortmund-vs-Stuttgart-History
+J27,Augsburg,Stuttgart,,,WWK Arena,,2026-03-21,https://fbref.com/en/stathead/matchup/teams/598bc722/0cdc4311/Stuttgart-vs-Augsburg-History
+J27,Dortmund,Hamburger SV,,,Signal Iduna Park,,2026-03-21,https://fbref.com/en/stathead/matchup/teams/add600ae/26790c6a/Dortmund-vs-Hamburger-SV-History
+J27,Mainz 05,Eint Frankfurt,,,Mewa Arena,,2026-03-21,https://fbref.com/en/stathead/matchup/teams/f0ac8ee6/a224b06a/Eintracht-Frankfurt-vs-Mainz-05-History
+J27,Heidenheim,Leverkusen,,,Voith-Arena,,2026-03-21,https://fbref.com/en/stathead/matchup/teams/c7a9f859/18d9d2a7/Leverkusen-vs-Heidenheim-History
+J27,Köln,Gladbach,,,RheinEnergieSTADION,,2026-03-21,https://fbref.com/en/stathead/matchup/teams/bc357bf7/32f3ee20/Koln-vs-Monchengladbach-History
+J27,St. Pauli,Freiburg,,,Millerntor-Stadion,,2026-03-21,https://fbref.com/en/stathead/matchup/teams/a486e511/54864664/Freiburg-vs-St-Pauli-History
 J28,Union Berlin,St. Pauli,,,Stadion An der Alten Försterei,,2026-04-04,https://fbref.com/en/stathead/matchup/teams/7a41008f/54864664/Union-Berlin-vs-St-Pauli-History
-J28,Hoffenheim,Mainz 05,,,PreZero Arena,,2026-04-04,https://fbref.com/en/stathead/matchup/teams/a224b06a/033ea6b8/Mainz-05-vs-Hoffenheim-History
-J28,Hamburger SV,Augsburg,,,Volksparkstadion,,2026-04-04,https://fbref.com/en/stathead/matchup/teams/26790c6a/0cdc4311/Hamburger-SV-vs-Augsburg-History
-J28,Werder Bremen,RB Leipzig,,,Weserstadion,,2026-04-04,https://fbref.com/en/stathead/matchup/teams/acbb6a5b/62add3bf/RB-Leipzig-vs-Werder-Bremen-History
-J28,Leverkusen,Wolfsburg,,,BayArena,,2026-04-04,https://fbref.com/en/stathead/matchup/teams/c7a9f859/4eaa11d7/Leverkusen-vs-Wolfsburg-History
+J28,Gladbach,Heidenheim,,,Stadion im Borussia-Park,,2026-04-04,https://fbref.com/en/stathead/matchup/teams/32f3ee20/18d9d2a7/Monchengladbach-vs-Heidenheim-History
+J28,Eint Frankfurt,Köln,,,Deutsche Bank Park,,2026-04-04,https://fbref.com/en/stathead/matchup/teams/f0ac8ee6/bc357bf7/Eintracht-Frankfurt-vs-Koln-History
+J28,Stuttgart,Dortmund,,,MHPArena,,2026-04-04,https://fbref.com/en/stathead/matchup/teams/add600ae/598bc722/Dortmund-vs-Stuttgart-History
 J28,Freiburg,Bayern Munich,,,Europa-Park Stadion,,2026-04-04,https://fbref.com/en/stathead/matchup/teams/a486e511/054efa67/Freiburg-vs-Bayern-Munich-History
-J29,Köln,Werder Bremen,,,RheinEnergieSTADION,,2026-04-11,https://fbref.com/en/stathead/matchup/teams/bc357bf7/62add3bf/Koln-vs-Werder-Bremen-History
-J29,Wolfsburg,Eint Frankfurt,,,Volkswagen Arena,,2026-04-11,https://fbref.com/en/stathead/matchup/teams/f0ac8ee6/4eaa11d7/Eintracht-Frankfurt-vs-Wolfsburg-History
-J29,St. Pauli,Bayern Munich,,,Millerntor-Stadion,,2026-04-11,https://fbref.com/en/stathead/matchup/teams/54864664/054efa67/St-Pauli-vs-Bayern-Munich-History
-J29,Augsburg,Hoffenheim,,,WWK Arena,,2026-04-11,https://fbref.com/en/stathead/matchup/teams/0cdc4311/033ea6b8/Augsburg-vs-Hoffenheim-History
+J28,Werder Bremen,RB Leipzig,,,Weserstadion,,2026-04-04,https://fbref.com/en/stathead/matchup/teams/acbb6a5b/62add3bf/RB-Leipzig-vs-Werder-Bremen-History
+J28,Hamburger SV,Augsburg,,,Volksparkstadion,,2026-04-04,https://fbref.com/en/stathead/matchup/teams/26790c6a/0cdc4311/Hamburger-SV-vs-Augsburg-History
+J28,Hoffenheim,Mainz 05,,,PreZero Arena,,2026-04-04,https://fbref.com/en/stathead/matchup/teams/a224b06a/033ea6b8/Mainz-05-vs-Hoffenheim-History
+J28,Leverkusen,Wolfsburg,,,BayArena,,2026-04-04,https://fbref.com/en/stathead/matchup/teams/c7a9f859/4eaa11d7/Leverkusen-vs-Wolfsburg-History
 J29,RB Leipzig,Gladbach,,,Red Bull Arena,,2026-04-11,https://fbref.com/en/stathead/matchup/teams/acbb6a5b/32f3ee20/RB-Leipzig-vs-Monchengladbach-History
 J29,Dortmund,Leverkusen,,,Signal Iduna Park,,2026-04-11,https://fbref.com/en/stathead/matchup/teams/c7a9f859/add600ae/Leverkusen-vs-Dortmund-History
+J29,Augsburg,Hoffenheim,,,WWK Arena,,2026-04-11,https://fbref.com/en/stathead/matchup/teams/0cdc4311/033ea6b8/Augsburg-vs-Hoffenheim-History
+J29,Köln,Werder Bremen,,,RheinEnergieSTADION,,2026-04-11,https://fbref.com/en/stathead/matchup/teams/bc357bf7/62add3bf/Koln-vs-Werder-Bremen-History
+J29,St. Pauli,Bayern Munich,,,Millerntor-Stadion,,2026-04-11,https://fbref.com/en/stathead/matchup/teams/54864664/054efa67/St-Pauli-vs-Bayern-Munich-History
+J29,Wolfsburg,Eint Frankfurt,,,Volkswagen Arena,,2026-04-11,https://fbref.com/en/stathead/matchup/teams/f0ac8ee6/4eaa11d7/Eintracht-Frankfurt-vs-Wolfsburg-History
 J29,Mainz 05,Freiburg,,,Mewa Arena,,2026-04-11,https://fbref.com/en/stathead/matchup/teams/a486e511/a224b06a/Freiburg-vs-Mainz-05-History
 J29,Heidenheim,Union Berlin,,,Voith-Arena,,2026-04-11,https://fbref.com/en/stathead/matchup/teams/7a41008f/18d9d2a7/Union-Berlin-vs-Heidenheim-History
 J29,Stuttgart,Hamburger SV,,,MHPArena,,2026-04-11,https://fbref.com/en/stathead/matchup/teams/598bc722/26790c6a/Stuttgart-vs-Hamburger-SV-History
